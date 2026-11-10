@@ -1,0 +1,28 @@
+{
+ "key": "en-GB-RyanNeural|-4%|-8Hz|A cookie heist! On MY street!",
+ "engine": "edge",
+ "speaker": "King",
+ "audio_len": 4.032,
+ "words": [
+  [
+   "A",
+   0.1,
+   0.256
+  ],
+  [
+   "cookie",
+   0.269,
+   0.608
+  ],
+  [
+   "heist",
+   0.621,
+   1.194
+  ],
+  [
+   "On MY street",
+   2.094,
+   3.123
+  ]
+ ]
+}

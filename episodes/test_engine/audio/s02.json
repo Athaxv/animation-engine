@@ -1,0 +1,48 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Dad's pizza would fly right off his plate.",
+ "voice": "en-US-AndrewNeural",
+ "speaker": "narrator",
+ "audio_len": 2.328,
+ "words": [
+  [
+   "Dad's",
+   0.093,
+   0.312
+  ],
+  [
+   "pizza",
+   0.324,
+   0.625
+  ],
+  [
+   "would",
+   0.637,
+   0.764
+  ],
+  [
+   "fly",
+   0.775,
+   1.111
+  ],
+  [
+   "right",
+   1.123,
+   1.331
+  ],
+  [
+   "off",
+   1.343,
+   1.47
+  ],
+  [
+   "his",
+   1.482,
+   1.597
+  ],
+  [
+   "plate",
+   1.609,
+   1.979
+  ]
+ ]
+}

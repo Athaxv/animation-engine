@@ -1,0 +1,18 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|Everyone cheered.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 1.872,
+ "words": [
+  [
+   "Everyone",
+   0.046,
+   0.437
+  ],
+  [
+   "cheered",
+   0.448,
+   0.916
+  ]
+ ]
+}

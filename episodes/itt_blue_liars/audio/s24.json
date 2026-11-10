@@ -1,0 +1,43 @@
+{
+ "key": "en-US-AndrewNeural|+12%|+2Hz|And I went home. Fully honest. Mostly.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 2.712,
+ "words": [
+  [
+   "And",
+   0.089,
+   0.145
+  ],
+  [
+   "I",
+   0.156,
+   0.212
+  ],
+  [
+   "went",
+   0.223,
+   0.379
+  ],
+  [
+   "home",
+   0.391,
+   0.658
+  ],
+  [
+   "Fully",
+   1.083,
+   1.272
+  ],
+  [
+   "honest",
+   1.284,
+   1.663
+  ],
+  [
+   "Mostly",
+   2.031,
+   2.388
+  ]
+ ]
+}

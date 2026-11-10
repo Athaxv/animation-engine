@@ -1,0 +1,38 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|And the Captain? Still perfectly normal.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 2.784,
+ "words": [
+  [
+   "And",
+   0.056,
+   0.156
+  ],
+  [
+   "the",
+   0.167,
+   0.246
+  ],
+  [
+   "Captain",
+   0.257,
+   0.804
+  ],
+  [
+   "Still",
+   1.13,
+   1.431
+  ],
+  [
+   "perfectly",
+   1.442,
+   1.922
+  ],
+  [
+   "normal",
+   1.933,
+   2.458
+  ]
+ ]
+}

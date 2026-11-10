@@ -1,0 +1,43 @@
+{
+ "key": "en-US-AndrewNeural|+12%|+2Hz|The town's biggest liar was... the Officer.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 2.448,
+ "words": [
+  [
+   "The",
+   0.1,
+   0.145
+  ],
+  [
+   "town's",
+   0.156,
+   0.502
+  ],
+  [
+   "biggest",
+   0.513,
+   0.848
+  ],
+  [
+   "liar",
+   0.859,
+   1.138
+  ],
+  [
+   "was",
+   1.15,
+   1.384
+  ],
+  [
+   "the",
+   1.473,
+   1.585
+  ],
+  [
+   "Officer",
+   1.596,
+   2.109
+  ]
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|The king would finally feel like a giant.",
+ "voice": "en-US-AndrewNeural",
+ "speaker": "narrator",
+ "audio_len": 2.184,
+ "words": [
+  [
+   "The",
+   0.104,
+   0.15
+  ],
+  [
+   "king",
+   0.162,
+   0.359
+  ],
+  [
+   "would",
+   0.37,
+   0.498
+  ],
+  [
+   "finally",
+   0.509,
+   0.926
+  ],
+  [
+   "feel",
+   0.938,
+   1.204
+  ],
+  [
+   "like",
+   1.215,
+   1.343
+  ],
+  [
+   "a",
+   1.354,
+   1.389
+  ],
+  [
+   "giant",
+   1.4,
+   1.84
+  ]
+ ]
+}

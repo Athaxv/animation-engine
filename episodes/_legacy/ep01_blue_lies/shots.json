@@ -1,0 +1,275 @@
+{
+  "episode": "ep01_blue_lies",
+  "title": "In this town, every lie turns you blue",
+  "part": 1,
+  "fps": 30,
+  "resolution": [1080, 1920],
+  "narrator": "Hero",
+  "shots": [
+    {
+      "id": "s01", "line": 1, "set": "street", "dressing": "school_day", "duration": 2.0,
+      "speaker": "narrator", "text": "In this town, every time you lie…",
+      "camera": {"shot": "close_up", "angle": "eye", "move": "push_in", "target": "Leo"},
+      "cast": [
+        {"name": "Leo", "mark": "sidewalk_a", "facing": "Ava", "pose": "explain", "expression": "big_smile", "action": "talk"},
+        {"name": "Ava", "mark": "sidewalk_b", "facing": "Leo", "pose": "arms_crossed", "expression": "suspicious", "action": "idle"}
+      ],
+      "fx": [], "sfx": [{"name": "whoosh", "at": 0.0}], "emphasis": ["lie"], "transition": "cut"
+    },
+    {
+      "id": "s02", "line": 1, "set": "street", "dressing": "school_day", "duration": 2.5,
+      "speaker": "narrator", "text": "your skin turns a little bit blue.",
+      "camera": {"shot": "medium_close", "angle": "eye", "move": "static", "target": "Leo"},
+      "cast": [
+        {"name": "Leo", "mark": "sidewalk_a", "facing": "Ava", "pose": "explain", "expression": "big_smile", "action": "idle",
+         "changes": [{"at": 1.0, "expression": "worried"}, {"at": 1.0, "pose": "scared"}]},
+        {"name": "Ava", "mark": "sidewalk_b", "facing": "Leo", "pose": "arms_crossed", "expression": "suspicious", "action": "idle",
+         "changes": [{"at": 1.1, "expression": "surprised"}]}
+      ],
+      "fx": [{"type": "blue_skin", "target": "Leo", "from": 0.0, "to": 0.45, "at": 0.9, "over": 0.7}],
+      "sfx": [{"name": "magic_shimmer", "at": 0.9}], "emphasis": ["blue"], "transition": "cut"
+    },
+    {
+      "id": "s03", "line": 2, "set": "street", "dressing": "school_day", "duration": 3.0,
+      "speaker": "narrator", "text": "Say you did your homework when you didn't? Blue.",
+      "camera": {"shot": "two_shot", "angle": "eye", "move": "orbit_left", "target": "Leo"},
+      "cast": [
+        {"name": "Leo", "mark": "sidewalk_a", "facing": "Ava", "pose": "sad_slump", "expression": "sad", "action": "idle"},
+        {"name": "Ava", "mark": "sidewalk_b", "facing": "Leo", "pose": "hands_on_hips", "expression": "angry", "action": "shake_head"}
+      ],
+      "fx": [{"type": "blue_skin", "target": "Leo", "from": 0.45, "to": 0.7, "at": 2.3, "over": 0.3}],
+      "sfx": [{"name": "ding", "at": 2.3}], "emphasis": ["homework", "Blue"], "transition": "whip"
+    },
+    {
+      "id": "s04", "line": 3, "set": "house_interior", "dressing": "kitchen", "duration": 2.2,
+      "speaker": "narrator", "text": "Tell your mom you love her meatloaf?",
+      "camera": {"shot": "medium", "angle": "eye", "move": "push_in", "target": "Kenji"},
+      "cast": [
+        {"name": "Kenji", "mark": "table_a", "facing": "camera", "pose": "celebrate", "expression": "big_smile", "action": "talk", "props": ["plate_meatloaf"]}
+      ],
+      "fx": [], "sfx": [], "emphasis": ["meatloaf"], "transition": "cut"
+    },
+    {
+      "id": "s05", "line": 3, "set": "house_interior", "dressing": "kitchen", "duration": 1.3, "hold": 0.3,
+      "speaker": "narrator", "text": "Super blue.",
+      "camera": {"shot": "close_up", "angle": "eye", "move": "shake", "target": "Kenji"},
+      "cast": [
+        {"name": "Kenji", "mark": "table_a", "facing": "camera", "pose": "celebrate", "expression": "big_smile", "action": "idle",
+         "changes": [{"at": 0.5, "expression": "shocked"}]}
+      ],
+      "fx": [{"type": "blue_skin", "target": "Kenji", "from": 0.0, "to": 1.0, "at": 0.1, "over": 0.35}],
+      "sfx": [{"name": "boing", "at": 0.1}], "emphasis": ["SUPER", "blue"], "transition": "whip"
+    },
+    {
+      "id": "s06", "line": 4, "set": "street", "dressing": "day", "duration": 2.4,
+      "speaker": "narrator", "text": "So nobody lies here. Ever.",
+      "camera": {"shot": "wide", "angle": "eye", "move": "pan_right", "target": "sidewalk_c"},
+      "cast": [
+        {"name": "Sofia", "mark": "sidewalk_a", "facing": "right", "pose": "relaxed", "expression": "happy", "action": "walk_to"},
+        {"name": "Zoe", "mark": "sidewalk_b", "facing": "Max", "pose": "explain", "expression": "happy", "action": "talk"},
+        {"name": "Max", "mark": "sidewalk_c", "facing": "Zoe", "pose": "relaxed", "expression": "neutral", "action": "nod"}
+      ],
+      "fx": [], "sfx": [], "emphasis": ["nobody", "Ever"], "transition": "cut"
+    },
+    {
+      "id": "s07", "line": 5, "set": "street", "dressing": "day", "duration": 3.2,
+      "speaker": "narrator", "text": "My best friend Maya once said she liked my haircut…",
+      "camera": {"shot": "two_shot", "angle": "eye", "move": "push_in", "target": "Maya"},
+      "cast": [
+        {"name": "Maya", "mark": "sidewalk_a", "facing": "Hero", "pose": "explain", "expression": "big_smile", "action": "talk"},
+        {"name": "Hero", "mark": "sidewalk_b", "facing": "Maya", "pose": "relaxed", "expression": "happy", "action": "idle"}
+      ],
+      "fx": [], "sfx": [], "emphasis": ["Maya", "haircut"], "transition": "cut"
+    },
+    {
+      "id": "s08", "line": 6, "set": "street", "dressing": "day", "duration": 2.8, "hold": 0.3,
+      "speaker": "narrator", "text": "…and she stayed blue for a whole week.",
+      "camera": {"shot": "close_up", "angle": "eye", "move": "static", "target": "Maya"},
+      "cast": [
+        {"name": "Maya", "mark": "sidewalk_a", "facing": "camera", "pose": "facepalm", "expression": "shy", "action": "idle"}
+      ],
+      "fx": [{"type": "blue_skin", "target": "Maya", "from": 0.8, "to": 0.8, "at": 0.0, "over": 0.0}],
+      "sfx": [{"name": "record_scratch", "at": 0.0}], "emphasis": ["whole", "week"], "transition": "fade_black"
+    },
+    {
+      "id": "s09", "line": 7, "set": "town_square", "dressing": "day", "duration": 4.5,
+      "speaker": "narrator", "text": "But there's one person in this town who has never turned blue. Not even once.",
+      "camera": {"shot": "extreme_wide", "angle": "high", "move": "push_in", "target": "podium"},
+      "cast": [
+        {"name": "Leo", "mark": "crowd_front_l", "facing": "podium", "pose": "relaxed", "expression": "neutral", "action": "idle"},
+        {"name": "Zoe", "mark": "crowd_front_r", "facing": "podium", "pose": "relaxed", "expression": "neutral", "action": "idle"},
+        {"name": "Max", "mark": "crowd_back_l", "facing": "podium", "pose": "relaxed", "expression": "neutral", "action": "idle"},
+        {"name": "Sofia", "mark": "crowd_back_r", "facing": "podium", "pose": "relaxed", "expression": "neutral", "action": "idle"},
+        {"name": "Hero", "mark": "center", "facing": "podium", "pose": "relaxed", "expression": "neutral", "action": "idle"}
+      ],
+      "fx": [], "sfx": [{"name": "tension_drone", "at": 0.0}], "emphasis": ["never", "once"], "transition": "cut"
+    },
+    {
+      "id": "s10", "line": 8, "set": "town_square", "dressing": "day", "duration": 1.6, "hold": 0.5,
+      "speaker": "narrator", "text": "Our Captain.",
+      "camera": {"shot": "close_up", "angle": "low", "move": "whip_in", "target": "Captain"},
+      "cast": [
+        {"name": "Captain", "mark": "podium", "facing": "camera", "pose": "hands_on_hips", "expression": "smug", "action": "idle"}
+      ],
+      "fx": [], "sfx": [{"name": "dramatic_hit", "at": 0.1}], "emphasis": ["Captain"], "transition": "cut"
+    },
+    {
+      "id": "s11", "line": 9, "set": "town_square", "dressing": "day", "duration": 3.0,
+      "speaker": "narrator", "text": "Every Monday, he stands up there and makes a promise.",
+      "camera": {"shot": "wide", "angle": "eye", "move": "pull_out", "target": "podium"},
+      "cast": [
+        {"name": "Captain", "mark": "podium", "facing": "camera", "pose": "wave", "expression": "happy", "action": "idle"},
+        {"name": "Leo", "mark": "crowd_front_l", "facing": "podium", "pose": "relaxed", "expression": "neutral", "action": "idle"},
+        {"name": "Zoe", "mark": "crowd_front_r", "facing": "podium", "pose": "relaxed", "expression": "neutral", "action": "idle"},
+        {"name": "Max", "mark": "crowd_back_l", "facing": "podium", "pose": "relaxed", "expression": "neutral", "action": "idle"},
+        {"name": "Sofia", "mark": "crowd_back_r", "facing": "podium", "pose": "relaxed", "expression": "neutral", "action": "idle"}
+      ],
+      "fx": [], "sfx": [], "emphasis": ["promise"], "transition": "cut"
+    },
+    {
+      "id": "s12", "line": 10, "set": "town_square", "dressing": "day", "duration": 3.0,
+      "speaker": "Captain", "text": "This year, nobody will have to pay taxes!",
+      "camera": {"shot": "medium", "angle": "low", "move": "push_in", "target": "Captain"},
+      "cast": [
+        {"name": "Captain", "mark": "podium", "facing": "camera", "pose": "explain", "expression": "big_smile", "action": "gestures",
+         "changes": [{"at": 2.2, "pose": "celebrate"}]}
+      ],
+      "fx": [], "sfx": [{"name": "mic_feedback", "at": 0.0}], "emphasis": ["nobody", "taxes"], "transition": "cut"
+    },
+    {
+      "id": "s13", "line": 11, "set": "town_square", "dressing": "day", "duration": 1.6,
+      "speaker": "narrator", "text": "Everyone cheered.",
+      "camera": {"shot": "medium", "angle": "eye", "move": "shake", "target": "crowd_front_l"},
+      "cast": [
+        {"name": "Leo", "mark": "crowd_front_l", "facing": "podium", "pose": "celebrate", "expression": "big_smile", "action": "jump"},
+        {"name": "Zoe", "mark": "crowd_front_r", "facing": "podium", "pose": "arms_up", "expression": "big_smile", "action": "jump"},
+        {"name": "Max", "mark": "crowd_back_l", "facing": "podium", "pose": "celebrate", "expression": "big_smile", "action": "jump"}
+      ],
+      "fx": [], "sfx": [{"name": "crowd_cheer", "at": 0.0}], "emphasis": ["cheered"], "transition": "cut"
+    },
+    {
+      "id": "s14", "line": 11, "set": "town_square", "dressing": "day", "duration": 3.0, "hold": 0.3,
+      "speaker": "narrator", "text": "Because if he wasn't blue… it had to be true.",
+      "camera": {"shot": "close_up", "angle": "eye", "move": "push_in", "target": "Hero"},
+      "cast": [
+        {"name": "Hero", "mark": "center", "facing": "podium", "pose": "think", "expression": "neutral", "action": "idle",
+         "changes": [{"at": 1.6, "expression": "side_eye"}]}
+      ],
+      "fx": [], "sfx": [], "emphasis": ["true"], "transition": "fade_black"
+    },
+    {
+      "id": "s15", "line": 12, "set": "street", "dressing": "morning", "duration": 3.2,
+      "speaker": "narrator", "text": "But the next morning, the tax letters came anyway.",
+      "camera": {"shot": "medium", "angle": "eye", "move": "static", "target": "mailbox"},
+      "cast": [
+        {"name": "Hero", "mark": "mailbox", "facing": "camera", "pose": "explain", "expression": "sleepy", "action": "surprise_hop",
+         "props": ["letter"], "changes": [{"at": 2.0, "expression": "shocked"}]}
+      ],
+      "fx": [], "sfx": [{"name": "birds", "at": 0.0}, {"name": "gasp", "at": 2.0}], "emphasis": ["tax", "anyway"], "transition": "cut"
+    },
+    {
+      "id": "s16", "line": 13, "set": "town_square", "dressing": "day", "duration": 2.6,
+      "speaker": "narrator", "text": "And the Captain? Still perfectly normal.",
+      "camera": {"shot": "medium", "angle": "low", "move": "orbit_right", "target": "Captain"},
+      "cast": [
+        {"name": "Captain", "mark": "podium", "facing": "camera", "pose": "wave", "expression": "smug", "action": "idle"}
+      ],
+      "fx": [], "sfx": [{"name": "ding_sarcastic", "at": 1.2}], "emphasis": ["normal"], "transition": "cut"
+    },
+    {
+      "id": "s17", "line": 14, "set": "street", "dressing": "day", "duration": 4.2,
+      "speaker": "narrator", "text": "That made no sense. So I went to the only person older than the rule itself.",
+      "camera": {"shot": "wide", "angle": "eye", "move": "track", "target": "Hero"},
+      "cast": [
+        {"name": "Hero", "mark": "path_start", "facing": "grandpa_door", "pose": "relaxed", "expression": "determined", "action": "walk_to"}
+      ],
+      "fx": [], "sfx": [{"name": "footsteps", "at": 0.0}], "emphasis": ["older"], "transition": "cut"
+    },
+    {
+      "id": "s18", "line": 15, "set": "house_interior", "dressing": "grandpa", "duration": 2.6,
+      "speaker": "Grandpa", "text": "Kid… the blue doesn't come from lying.",
+      "camera": {"shot": "close_up", "angle": "eye", "move": "static", "target": "Grandpa"},
+      "cast": [
+        {"name": "Grandpa", "mark": "couch", "facing": "Hero", "pose": "explain", "expression": "neutral", "action": "talk"},
+        {"name": "Hero", "mark": "table_b", "facing": "Grandpa", "pose": "relaxed", "expression": "worried", "action": "idle"}
+      ],
+      "fx": [], "sfx": [{"name": "clock_tick", "at": 0.0}], "emphasis": ["lying"], "transition": "cut"
+    },
+    {
+      "id": "s19", "line": 16, "set": "house_interior", "dressing": "grandpa", "duration": 2.4, "hold": 0.4,
+      "speaker": "Grandpa", "text": "It comes from feeling guilty.",
+      "camera": {"shot": "extreme_close_up", "angle": "eye", "move": "push_in", "target": "Grandpa"},
+      "cast": [
+        {"name": "Grandpa", "mark": "couch", "facing": "camera", "pose": "think", "expression": "determined", "action": "talk"}
+      ],
+      "fx": [], "sfx": [{"name": "bass_hit", "at": 1.6}], "emphasis": ["guilty"], "transition": "cut"
+    },
+    {
+      "id": "s20", "line": 17, "set": "house_interior", "dressing": "grandpa", "duration": 3.6,
+      "speaker": "narrator", "text": "So the Captain wasn't honest. He just… didn't feel bad. At all.",
+      "camera": {"shot": "close_up", "angle": "dutch", "move": "push_in", "target": "Hero"},
+      "cast": [
+        {"name": "Hero", "mark": "table_b", "facing": "camera", "pose": "relaxed", "expression": "worried", "action": "idle",
+         "changes": [{"at": 2.4, "expression": "shocked"}, {"at": 2.4, "pose": "scared"}]}
+      ],
+      "fx": [], "sfx": [{"name": "heartbeat", "at": 1.0}], "emphasis": ["didn't", "feel", "bad"], "transition": "fade_black"
+    },
+    {
+      "id": "s21", "line": 18, "set": "hero_room", "dressing": "night", "duration": 5.0,
+      "speaker": "narrator", "text": "I had to know if that was even possible. So I looked in the mirror… and told the biggest lie I could think of.",
+      "camera": {"shot": "over_shoulder", "angle": "eye", "move": "push_in", "target": "mirror"},
+      "cast": [
+        {"name": "Hero", "mark": "mirror", "facing": "mirror", "pose": "relaxed", "expression": "worried", "action": "idle",
+         "changes": [{"at": 3.2, "expression": "determined"}, {"at": 3.2, "pose": "hands_on_hips"}]}
+      ],
+      "fx": [], "sfx": [{"name": "night_ambience", "at": 0.0}], "emphasis": ["mirror", "biggest", "lie"], "transition": "cut"
+    },
+    {
+      "id": "s22", "line": 19, "set": "hero_room", "dressing": "night", "duration": 1.6, "hold": 0.4,
+      "speaker": "Hero", "text": "I hate pizza.",
+      "camera": {"shot": "close_up", "angle": "eye", "move": "static", "target": "Hero"},
+      "cast": [
+        {"name": "Hero", "mark": "mirror", "facing": "camera", "pose": "hands_on_hips", "expression": "determined", "action": "talk"}
+      ],
+      "fx": [], "sfx": [], "emphasis": ["hate", "pizza"], "transition": "cut"
+    },
+    {
+      "id": "s23", "line": 20, "set": "hero_room", "dressing": "night", "duration": 2.4, "hold": 0.9,
+      "speaker": "narrator", "text": "I waited. And waited.",
+      "camera": {"shot": "close_up", "angle": "eye", "move": "static", "target": "Hero"},
+      "cast": [
+        {"name": "Hero", "mark": "mirror", "facing": "camera", "pose": "hands_on_hips", "expression": "neutral", "action": "blink",
+         "changes": [{"at": 1.2, "expression": "side_eye"}]}
+      ],
+      "fx": [], "sfx": [{"name": "crickets", "at": 0.3}], "emphasis": ["waited"], "transition": "cut"
+    },
+    {
+      "id": "s24", "line": 21, "set": "hero_room", "dressing": "night", "duration": 2.6, "hold": 0.4,
+      "speaker": "narrator", "text": "Nothing. Not even a little blue.",
+      "camera": {"shot": "extreme_close_up", "angle": "eye", "move": "whip_in", "target": "Hero"},
+      "cast": [
+        {"name": "Hero", "mark": "mirror", "facing": "camera", "pose": "scared", "expression": "shocked", "action": "surprise_hop"}
+      ],
+      "fx": [], "sfx": [{"name": "bass_drop", "at": 0.0}], "emphasis": ["Nothing", "blue"], "transition": "cut"
+    },
+    {
+      "id": "s25", "line": 22, "set": "hero_room", "dressing": "night", "duration": 3.0, "hold": 0.5,
+      "speaker": "narrator", "text": "And that's when someone knocked on my door.",
+      "camera": {"shot": "medium", "angle": "eye", "move": "pan_left", "target": "door"},
+      "cast": [
+        {"name": "Hero", "mark": "center", "facing": "door", "pose": "scared", "expression": "worried", "action": "idle"}
+      ],
+      "fx": [], "sfx": [{"name": "knock_knock_knock", "at": 1.6}], "emphasis": ["knocked"], "transition": "cut"
+    },
+    {
+      "id": "s26", "line": 23, "set": "hero_room", "dressing": "night", "duration": 1.8,
+      "speaker": "narrator", "text": "",
+      "camera": {"shot": "medium", "angle": "low", "move": "push_in", "target": "door"},
+      "cast": [
+        {"name": "Agent", "mark": "door", "facing": "camera", "pose": "arms_crossed", "expression": "neutral", "action": "idle"}
+      ],
+      "fx": [{"type": "silhouette", "target": "Agent", "at": 0.0}], "sfx": [{"name": "door_creak", "at": 0.0}, {"name": "sting", "at": 1.0}],
+      "emphasis": [], "card": "Part 2 soon", "transition": "fade_black"
+    }
+  ]
+}

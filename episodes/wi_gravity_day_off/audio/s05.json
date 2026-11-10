@@ -1,0 +1,53 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Even King floats by, shouting: NEW LAW! EVERYONE FLOATS!",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 3.864,
+ "words": [
+  [
+   "Even",
+   0.093,
+   0.312
+  ],
+  [
+   "King",
+   0.324,
+   0.532
+  ],
+  [
+   "floats",
+   0.544,
+   0.88
+  ],
+  [
+   "by",
+   0.891,
+   1.204
+  ],
+  [
+   "shouting",
+   1.308,
+   1.713
+  ],
+  [
+   "NEW",
+   1.736,
+   1.921
+  ],
+  [
+   "LAW",
+   1.933,
+   2.234
+  ],
+  [
+   "EVERYONE",
+   2.616,
+   2.951
+  ],
+  [
+   "FLOATS",
+   2.963,
+   3.507
+  ]
+ ]
+}

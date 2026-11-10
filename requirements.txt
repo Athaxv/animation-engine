@@ -1,0 +1,25 @@
+# Blender Roblox TikTok engine - Python requirements
+#
+# 1) PYTHON
+#    Python 3.11 or newer (tested on 3.14) runs the pipeline scripts:
+#        python pipeline/validate.py episodes/<ep>
+#        python pipeline/make.py episodes/<ep> --only voice,build,sheet
+#    Install everything with:
+#        pip install -r requirements.txt
+#
+# 2) BLENDER (NOT a pip package)
+#    Install Blender 5.1 or newer (tested with 5.1.2): https://www.blender.org/download/
+#    The pipeline auto-detects blender.exe under
+#    "C:\Program Files\Blender Foundation\Blender *\blender.exe".
+#    For another location, set the BLENDER environment variable to the
+#    full path of blender.exe, e.g.  BLENDER=D:\Apps\Blender\blender.exe
+#
+# 3) VOICES (optional)
+#    Without extra config the pipeline uses the free Microsoft Edge TTS (edge-tts).
+#    For natural voices add ELEVENLABS_API_KEY=... to your ".env" file
+#    (see .env.example; never commit .env).
+
+numpy>=1.26
+Pillow>=10.0
+edge-tts>=7.0
+google-genai>=1.0

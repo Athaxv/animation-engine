@@ -1,0 +1,38 @@
+{
+ "key": "en-US-AndrewNeural|+10%|+4Hz|Yeah! It's still totally in there.",
+ "engine": "edge",
+ "speaker": "Theo",
+ "audio_len": 2.016,
+ "words": [
+  [
+   "Yeah",
+   0.102,
+   0.307
+  ],
+  [
+   "It's",
+   0.682,
+   0.773
+  ],
+  [
+   "still",
+   0.784,
+   0.977
+  ],
+  [
+   "totally",
+   0.989,
+   1.341
+  ],
+  [
+   "in",
+   1.352,
+   1.443
+  ],
+  [
+   "there",
+   1.455,
+   1.682
+  ]
+ ]
+}

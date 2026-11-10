@@ -1,0 +1,38 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Grandma would sleep right through it.",
+ "voice": "en-US-AndrewNeural",
+ "speaker": "narrator",
+ "audio_len": 1.752,
+ "words": [
+  [
+   "Grandma",
+   0.093,
+   0.37
+  ],
+  [
+   "would",
+   0.382,
+   0.509
+  ],
+  [
+   "sleep",
+   0.521,
+   0.81
+  ],
+  [
+   "right",
+   0.822,
+   1.007
+  ],
+  [
+   "through",
+   1.018,
+   1.25
+  ],
+  [
+   "it",
+   1.262,
+   1.412
+  ]
+ ]
+}

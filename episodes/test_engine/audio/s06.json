@@ -1,0 +1,53 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|And the police would invent a brand new rule.",
+ "voice": "en-US-AndrewNeural",
+ "speaker": "narrator",
+ "audio_len": 2.328,
+ "words": [
+  [
+   "And",
+   0.093,
+   0.15
+  ],
+  [
+   "the",
+   0.162,
+   0.231
+  ],
+  [
+   "police",
+   0.243,
+   0.567
+  ],
+  [
+   "would",
+   0.579,
+   0.694
+  ],
+  [
+   "invent",
+   0.706,
+   1.099
+  ],
+  [
+   "a",
+   1.111,
+   1.157
+  ],
+  [
+   "brand",
+   1.169,
+   1.47
+  ],
+  [
+   "new",
+   1.482,
+   1.644
+  ],
+  [
+   "rule",
+   1.655,
+   1.968
+  ]
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|At five P M, gravity clocked back in. Everyone plopped down. Except one person.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 5.688,
+ "words": [
+  [
+   "At",
+   0.093,
+   0.185
+  ],
+  [
+   "five",
+   0.197,
+   0.532
+  ],
+  [
+   "P",
+   0.544,
+   0.752
+  ],
+  [
+   "M",
+   0.764,
+   1.065
+  ],
+  [
+   "gravity",
+   1.273,
+   1.736
+  ],
+  [
+   "clocked",
+   1.829,
+   2.199
+  ],
+  [
+   "back",
+   2.211,
+   2.477
+  ],
+  [
+   "in",
+   2.488,
+   2.662
+  ],
+  [
+   "Everyone",
+   3.044,
+   3.357
+  ],
+  [
+   "plopped",
+   3.368,
+   3.692
+  ],
+  [
+   "down",
+   3.704,
+   4.028
+  ],
+  [
+   "Except",
+   4.41,
+   4.734
+  ],
+  [
+   "one",
+   4.745,
+   4.919
+  ],
+  [
+   "person",
+   4.931,
+   5.336
+  ]
+ ]
+}

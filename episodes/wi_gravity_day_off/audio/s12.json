@@ -1,0 +1,48 @@
+{
+ "key": "en-US-AndrewNeural|+10%|+4Hz|Gravity! Clock back in! I have school tomorrow!",
+ "engine": "edge",
+ "speaker": "Theo",
+ "audio_len": 3.024,
+ "words": [
+  [
+   "Gravity",
+   0.091,
+   0.455
+  ],
+  [
+   "Clock",
+   0.83,
+   1.023
+  ],
+  [
+   "back",
+   1.034,
+   1.273
+  ],
+  [
+   "in",
+   1.284,
+   1.432
+  ],
+  [
+   "I",
+   1.818,
+   1.875
+  ],
+  [
+   "have",
+   1.886,
+   2.011
+  ],
+  [
+   "school",
+   2.023,
+   2.227
+  ],
+  [
+   "tomorrow",
+   2.239,
+   2.67
+  ]
+ ]
+}

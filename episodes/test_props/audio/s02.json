@@ -1,0 +1,38 @@
+{
+ "key": "en-US-EmmaNeural|+6%|+0Hz|Honey, the cake is talking again.",
+ "engine": "edge",
+ "speaker": "Mom",
+ "audio_len": 2.016,
+ "words": [
+  [
+   "Honey",
+   0.071,
+   0.33
+  ],
+  [
+   "the",
+   0.354,
+   0.448
+  ],
+  [
+   "cake",
+   0.46,
+   0.719
+  ],
+  [
+   "is",
+   0.731,
+   0.837
+  ],
+  [
+   "talking",
+   0.849,
+   1.215
+  ],
+  [
+   "again",
+   1.226,
+   1.675
+  ]
+ ]
+}

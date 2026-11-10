@@ -1,0 +1,38 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|Nothing. Not even a little blue.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 2.4,
+ "words": [
+  [
+   "Nothing",
+   0.056,
+   0.513
+  ],
+  [
+   "Not",
+   0.837,
+   1.06
+  ],
+  [
+   "even",
+   1.071,
+   1.306
+  ],
+  [
+   "a",
+   1.317,
+   1.384
+  ],
+  [
+   "little",
+   1.395,
+   1.663
+  ],
+  [
+   "blue",
+   1.674,
+   2.065
+  ]
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Max grabs a whole pizza and just flies off with it.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 3.072,
+ "words": [
+  [
+   "Max",
+   0.093,
+   0.336
+  ],
+  [
+   "grabs",
+   0.347,
+   0.648
+  ],
+  [
+   "a",
+   0.66,
+   0.706
+  ],
+  [
+   "whole",
+   0.718,
+   0.937
+  ],
+  [
+   "pizza",
+   0.949,
+   1.424
+  ],
+  [
+   "and",
+   1.69,
+   1.771
+  ],
+  [
+   "just",
+   1.782,
+   1.944
+  ],
+  [
+   "flies",
+   1.956,
+   2.211
+  ],
+  [
+   "off",
+   2.222,
+   2.407
+  ],
+  [
+   "with",
+   2.419,
+   2.558
+  ],
+  [
+   "it",
+   2.569,
+   2.72
+  ]
+ ]
+}

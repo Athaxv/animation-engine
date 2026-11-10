@@ -1,0 +1,53 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|But the next morning, the tax letters came anyway.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 2.904,
+ "words": [
+  [
+   "But",
+   0.067,
+   0.179
+  ],
+  [
+   "the",
+   0.19,
+   0.257
+  ],
+  [
+   "next",
+   0.268,
+   0.536
+  ],
+  [
+   "morning",
+   0.547,
+   0.982
+  ],
+  [
+   "the",
+   1.004,
+   1.105
+  ],
+  [
+   "tax",
+   1.116,
+   1.451
+  ],
+  [
+   "letters",
+   1.462,
+   1.786
+  ],
+  [
+   "came",
+   1.797,
+   2.042
+  ],
+  [
+   "anyway",
+   2.054,
+   2.556
+  ]
+ ]
+}

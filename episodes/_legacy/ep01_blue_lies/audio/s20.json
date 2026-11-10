@@ -1,0 +1,68 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|So the Captain wasn't honest. He just\u2026 didn't feel bad. At all.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 4.704,
+ "words": [
+  [
+   "So",
+   0.047,
+   0.192
+  ],
+  [
+   "the",
+   0.204,
+   0.282
+  ],
+  [
+   "Captain",
+   0.293,
+   0.728
+  ],
+  [
+   "wasn't",
+   0.739,
+   1.074
+  ],
+  [
+   "honest",
+   1.085,
+   1.632
+  ],
+  [
+   "He",
+   1.964,
+   2.031
+  ],
+  [
+   "just",
+   2.042,
+   2.344
+  ],
+  [
+   "didn't",
+   2.812,
+   3.069
+  ],
+  [
+   "feel",
+   3.08,
+   3.281
+  ],
+  [
+   "bad",
+   3.292,
+   3.638
+  ],
+  [
+   "At",
+   3.967,
+   4.079
+  ],
+  [
+   "all",
+   4.09,
+   4.38
+  ]
+ ]
+}

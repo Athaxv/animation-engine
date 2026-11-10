@@ -1,0 +1,38 @@
+{
+ "key": "en-US-RogerNeural|+14%|+10Hz|I'm definitely not the town liar.",
+ "engine": "edge",
+ "speaker": "Noob",
+ "audio_len": 2.592,
+ "words": [
+  [
+   "I'm",
+   0.094,
+   0.302
+  ],
+  [
+   "definitely",
+   0.313,
+   0.818
+  ],
+  [
+   "not",
+   0.829,
+   1.059
+  ],
+  [
+   "the",
+   1.07,
+   1.157
+  ],
+  [
+   "town",
+   1.168,
+   1.432
+  ],
+  [
+   "liar",
+   1.443,
+   1.815
+  ]
+ ]
+}

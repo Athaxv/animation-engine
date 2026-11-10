@@ -1,0 +1,43 @@
+{
+ "key": "en-US-EricNeural|-6%|-10Hz|Okay. It's a magnifier. From the store.",
+ "engine": "edge",
+ "speaker": "Officer",
+ "audio_len": 5.712,
+ "words": [
+  [
+   "Okay",
+   0.103,
+   0.728
+  ],
+  [
+   "It's",
+   1.649,
+   1.862
+  ],
+  [
+   "a",
+   1.875,
+   1.942
+  ],
+  [
+   "magnifier",
+   1.955,
+   2.912
+  ],
+  [
+   "From",
+   3.843,
+   4.096
+  ],
+  [
+   "the",
+   4.109,
+   4.202
+  ],
+  [
+   "store",
+   4.215,
+   4.774
+  ]
+ ]
+}

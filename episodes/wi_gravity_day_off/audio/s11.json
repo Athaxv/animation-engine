@@ -1,0 +1,53 @@
+{
+ "key": "en-US-EricNeural|-6%|-10Hz|Okay... emergency meeting. WHY is everyone past the roof?",
+ "engine": "edge",
+ "speaker": "Officer",
+ "audio_len": 5.904,
+ "words": [
+  [
+   "Okay",
+   0.103,
+   0.622
+  ],
+  [
+   "emergency",
+   0.941,
+   1.646
+  ],
+  [
+   "meeting",
+   1.659,
+   2.151
+  ],
+  [
+   "WHY",
+   3.085,
+   3.391
+  ],
+  [
+   "is",
+   3.404,
+   3.577
+  ],
+  [
+   "everyone",
+   3.59,
+   3.976
+  ],
+  [
+   "past",
+   3.989,
+   4.362
+  ],
+  [
+   "the",
+   4.375,
+   4.468
+  ],
+  [
+   "roof",
+   4.481,
+   4.973
+  ]
+ ]
+}

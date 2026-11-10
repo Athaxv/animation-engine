@@ -1,0 +1,18 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|Our Captain.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 1.872,
+ "words": [
+  [
+   "Our",
+   0.045,
+   0.145
+  ],
+  [
+   "Captain",
+   0.156,
+   0.658
+  ]
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "key": "en-US-AndrewNeural|+10%|+4Hz|Okay. I ate it. Both bites.",
+ "engine": "edge",
+ "speaker": "Theo",
+ "audio_len": 2.496,
+ "words": [
+  [
+   "Okay",
+   0.091,
+   0.386
+  ],
+  [
+   "I",
+   0.773,
+   0.886
+  ],
+  [
+   "ate",
+   0.898,
+   1.023
+  ],
+  [
+   "it",
+   1.034,
+   1.159
+  ],
+  [
+   "Both",
+   1.545,
+   1.705
+  ],
+  [
+   "bites",
+   1.716,
+   2.148
+  ]
+ ]
+}

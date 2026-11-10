@@ -1,0 +1,53 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Breakfast first: a giant donut floats right past Dad.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 3.528,
+ "words": [
+  [
+   "Breakfast",
+   0.104,
+   0.451
+  ],
+  [
+   "first",
+   0.463,
+   0.926
+  ],
+  [
+   "a",
+   1.169,
+   1.204
+  ],
+  [
+   "giant",
+   1.215,
+   1.574
+  ],
+  [
+   "donut",
+   1.586,
+   1.887
+  ],
+  [
+   "floats",
+   1.898,
+   2.292
+  ],
+  [
+   "right",
+   2.303,
+   2.512
+  ],
+  [
+   "past",
+   2.523,
+   2.836
+  ],
+  [
+   "Dad",
+   2.847,
+   3.171
+  ]
+ ]
+}

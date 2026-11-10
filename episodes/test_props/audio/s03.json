@@ -1,0 +1,38 @@
+{
+ "key": "en-US-ChristopherNeural|+4%|-4Hz|Not my problem. I am busy.",
+ "engine": "edge",
+ "speaker": "Dad",
+ "audio_len": 3.6,
+ "words": [
+  [
+   "Not",
+   0.098,
+   0.362
+  ],
+  [
+   "my",
+   0.374,
+   0.483
+  ],
+  [
+   "problem",
+   0.495,
+   1.072
+  ],
+  [
+   "I",
+   1.899,
+   2.091
+  ],
+  [
+   "am",
+   2.103,
+   2.248
+  ],
+  [
+   "busy",
+   2.26,
+   2.752
+  ]
+ ]
+}

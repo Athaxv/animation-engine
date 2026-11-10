@@ -1,0 +1,53 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Nobody tells the Officer. His coffee floats away mid-yawn.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 3.48,
+ "words": [
+  [
+   "Nobody",
+   0.093,
+   0.417
+  ],
+  [
+   "tells",
+   0.428,
+   0.66
+  ],
+  [
+   "the",
+   0.671,
+   0.764
+  ],
+  [
+   "Officer",
+   0.775,
+   1.285
+  ],
+  [
+   "His",
+   1.678,
+   1.782
+  ],
+  [
+   "coffee",
+   1.794,
+   2.141
+  ],
+  [
+   "floats",
+   2.153,
+   2.442
+  ],
+  [
+   "away",
+   2.454,
+   2.662
+  ],
+  [
+   "mid-yawn",
+   2.674,
+   3.125
+  ]
+ ]
+}

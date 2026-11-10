@@ -1,0 +1,43 @@
+{
+ "key": "en-GB-RyanNeural|-12%|-10Hz|Kid\u2026 the blue doesn't come from lying.",
+ "voice": "en-GB-RyanNeural",
+ "speaker": "Grandpa",
+ "audio_len": 3.48,
+ "words": [
+  [
+   "Kid",
+   0.1,
+   0.484
+  ],
+  [
+   "the",
+   0.697,
+   0.81
+  ],
+  [
+   "blue",
+   0.824,
+   1.137
+  ],
+  [
+   "doesn't",
+   1.151,
+   1.464
+  ],
+  [
+   "come",
+   1.478,
+   1.733
+  ],
+  [
+   "from",
+   1.748,
+   1.947
+  ],
+  [
+   "lying",
+   1.961,
+   2.486
+  ]
+ ]
+}

@@ -1,0 +1,45 @@
+{
+  "episode": "test_props",
+  "format": "in_this_town",
+  "title": "In this town, donuts grow on lawns",
+  "hook_title": "IN THIS TOWN DONUTS GROW ON LAWNS",
+  "fps": 30, "resolution": [1080, 1920],
+  "narrator": "Theo",
+  "shots": [
+    {
+      "id": "s01", "set": "street", "dressing": "day", "speaker": "narrator",
+      "text": "In this town, donuts grow on your lawn overnight.",
+      "camera": {"shot": "wide", "angle": "eye", "move": "push_in", "target": "big_donut"},
+      "place": [{"prop": "donut", "mark": "lawn", "id": "big_donut", "scale": 6, "pop_at": 1.2}],
+      "cast": [{"name": "Theo", "mark": "sidewalk_b", "facing": "lawn", "pose": "shocked", "face": "shocked",
+                "changes": [{"at": 1.3, "action": "surprise_hop"}]}],
+      "transition": "whip"
+    },
+    {
+      "id": "s02", "set": "kitchen", "speaker": "Mom",
+      "text": "Honey, the cake is talking again.",
+      "camera": {"shot": "medium", "angle": "eye", "move": "static", "target": "Mom"},
+      "place": [{"prop": "cake", "mark": "table_a", "id": "cake", "z": 2.0, "scale": 2.5}],
+      "cast": [{"name": "Mom", "mark": "table_front", "facing": "camera", "pose": "hold", "face": "worried",
+                "props": ["frying_pan"]}],
+      "sfx": [{"at": 1.5, "name": "ding"}]
+    },
+    {
+      "id": "s03", "set": "kitchen", "speaker": "Dad",
+      "text": "Not my problem. I am busy.",
+      "camera": {"shot": "medium_close", "angle": "eye", "move": "static", "target": "Dad"},
+      "cast": [{"name": "Dad", "mark": "couch", "facing": "camera", "pose": "hold", "face": "smile",
+                "props": ["remote"]}]
+    },
+    {
+      "id": "s04", "set": "street", "dressing": "sunset", "speaker": "narrator",
+      "text": "So the mayor made a new rule.",
+      "camera": {"shot": "medium", "angle": "low", "move": "push_in", "target": "King"},
+      "cast": [{"name": "King", "mark": "sidewalk_c", "facing": "camera", "pose": "hold", "face": "smile",
+                "props": ["sign:NO DONUTS"]}],
+      "place": [{"prop": "gem", "mark": "sidewalk_b", "id": "gem", "scale": 3, "poof_at": 1.5}],
+      "transition": "flash"
+    }
+  ],
+  "thumbnail": {"shot": "s01", "at": 2.0}
+}

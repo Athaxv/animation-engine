@@ -1,0 +1,18 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|Super blue.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 1.872,
+ "words": [
+  [
+   "Super",
+   0.067,
+   0.357
+  ],
+  [
+   "blue",
+   0.368,
+   0.692
+  ]
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "key": "en-GB-RyanNeural|-4%|-8Hz|No. A king never touches the ground on duty.",
+ "engine": "edge",
+ "speaker": "King",
+ "audio_len": 4.56,
+ "words": [
+  [
+   "No.",
+   0.1,
+   0.608
+  ],
+  [
+   "A",
+   1.508,
+   1.639
+  ],
+  [
+   "king",
+   1.652,
+   1.886
+  ],
+  [
+   "never",
+   1.899,
+   2.133
+  ],
+  [
+   "touches",
+   2.146,
+   2.55
+  ],
+  [
+   "the",
+   2.563,
+   2.667
+  ],
+  [
+   "ground",
+   2.68,
+   3.084
+  ],
+  [
+   "on",
+   3.097,
+   3.214
+  ],
+  [
+   "duty",
+   3.227,
+   3.657
+  ]
+ ]
+}

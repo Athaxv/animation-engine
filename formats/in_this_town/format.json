@@ -1,0 +1,23 @@
+{
+  "name": "in_this_town",
+  "description": "In this town, <absurd rule>. First-person cringe/absurd story, rule -> break -> chaos -> twist.",
+  "length_seconds": [50, 90],
+  "shots": [18, 32],
+  "narrator": "Theo",
+  "voices": {
+    "narrator": ["en-US-AndrewNeural", "+12%", "+2Hz"]
+  },
+  "edit": {
+    "music": "quirky",
+    "music_volume": 0.12,
+    "captions": {"style": "word", "case": "lower", "size": 120, "y": 0.42,
+                 "color": [1, 1, 1, 1], "highlight": [1.0, 0.86, 0.15, 1], "outline": 0.10, "pop": true},
+    "title_card": {"show": true, "y": 0.83, "size": 70, "seconds": 2.8,
+                   "box": [1, 1, 1, 1], "color": [0.05, 0.05, 0.06, 1]},
+    "end_card": {"show": true, "text": "PART 2?", "seconds": 1.3}
+  },
+  "publish": {
+    "hashtags": ["#roblox", "#inthistown", "#robloxstory", "#robloxanimation", "#fyp"],
+    "youtube_tags": ["in this town", "roblox story", "roblox animation", "roblox"]
+  }
+}

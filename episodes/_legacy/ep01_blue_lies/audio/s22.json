@@ -1,0 +1,23 @@
+{
+ "key": "en-US-BrianNeural|+8%|+2Hz|I hate pizza.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "Hero",
+ "audio_len": 1.872,
+ "words": [
+  [
+   "I",
+   0.046,
+   0.104
+  ],
+  [
+   "hate",
+   0.116,
+   0.359
+  ],
+  [
+   "pizza",
+   0.37,
+   0.845
+  ]
+ ]
+}

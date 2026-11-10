@@ -1,0 +1,430 @@
+{
+  "episode": "itt_blue_liars",
+  "format": "in_this_town",
+  "title": "In This Town, You Turn Blue If You Lie",
+  "logline": "In a Roblox town where every lie instantly turns you blue, Theo's cookie heist exposes the whole town, including the Officer whose official truth-meter is just a magnifier.",
+  "hook_title": "IN THIS TOWN, LIARS TURN BLUE",
+  "fps": 30,
+  "resolution": [1080, 1920],
+  "narrator": "Theo",
+  "music": "quirky",
+  "end_text": "PART 2?",
+  "shots": [
+    {
+      "id": "s01",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "In this town, you turn blue if you lie.",
+      "camera": {"shot": "medium", "angle": "low", "move": "push_in", "target": "Mom"},
+      "cast": [
+        {"name": "Mom", "mark": "sidewalk_a", "facing": "camera", "pose": "explain", "face": "smile", "action": "talk_still"}
+      ],
+      "fx": [
+        {"type": "tint", "target": "Mom", "color": [0.35, 0.55, 1.0], "amount": 0.8, "at": 1.6, "over": 0.5},
+        {"type": "punch", "at": 1.6}
+      ],
+      "sfx": [{"at": 1.6, "name": "pop"}],
+      "emphasis": ["blue"],
+      "transition": "cut"
+    },
+    {
+      "id": "s02",
+      "set": "street",
+      "speaker": "Mom",
+      "text": "Okay! We ate it at midnight.",
+      "hold": 0.3,
+      "camera": {"shot": "close_up", "angle": "eye", "move": "static", "target": "Mom"},
+      "cast": [
+        {"name": "Mom", "mark": "sidewalk_a", "facing": "camera", "pose": "hand_up", "face": "nervous", "action": "talk",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85},
+         "changes": [{"at": 2.0, "pose": "shrug", "face": "smirk"}]}
+      ],
+      "sfx": [{"at": 0.2, "name": "record_scratch"}],
+      "emphasis": ["midnight"],
+      "transition": "whip"
+    },
+    {
+      "id": "s03",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "Nobody hides it. Everyone's blue by lunch.",
+      "camera": {"shot": "wide", "angle": "eye", "move": "static", "target": "Mom"},
+      "cast": [
+        {"name": "Mom", "mark": "sidewalk_a", "facing": "camera", "pose": "explain", "face": "nervous", "action": "talk_still",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.8}},
+        {"name": "Lily", "mark": "sidewalk_b", "facing": "camera", "pose": "arms_up", "face": "grin", "action": "dance",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.8}},
+        {"name": "Noob", "mark": "sidewalk_c", "facing": "camera", "pose": "relaxed", "face": "sad",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85}},
+        {"name": "Dad", "mark": "lawn", "facing": "camera", "pose": "shrug", "face": "neutral", "action": "idle",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.8}}
+      ],
+      "sfx": [{"at": 1.4, "name": "ding"}],
+      "emphasis": ["lunch"],
+      "transition": "cut"
+    },
+    {
+      "id": "s04",
+      "set": "kitchen",
+      "speaker": "Dad",
+      "text": "That haircut. Totally not a bowl. Nope.",
+      "camera": {"shot": "medium", "angle": "eye", "move": "crash_zoom", "target": "Dad"},
+      "cast": [
+        {"name": "Dad", "mark": "stove", "facing": "camera", "pose": "shrug", "face": "smirk", "action": "talk",
+         "changes": [{"at": 1.9, "pose": "hands_hips", "face": "surprised"}]}
+      ],
+      "fx": [{"type": "tint", "target": "Dad", "color": [0.35, 0.55, 1.0], "amount": 0.75, "at": 1.6, "over": 0.4}],
+      "sfx": [{"at": 1.6, "name": "drum_hit"}],
+      "emphasis": ["bowl"],
+      "transition": "cut"
+    },
+    {
+      "id": "s05",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "The Officer scans every lie with his truth-meter.",
+      "camera": {"shot": "medium", "angle": "low", "move": "push_in", "target": "Officer"},
+      "cast": [
+        {"name": "Officer", "mark": "sidewalk_b", "facing": "camera", "pose": "hold", "face": "sleep",
+         "props": ["sign:TRUTH METER"]}
+      ],
+      "sfx": [{"at": 0.5, "name": "sparkle"}],
+      "emphasis": ["lie"],
+      "transition": "cut"
+    },
+    {
+      "id": "s06",
+      "set": "street",
+      "speaker": "Noob",
+      "text": "I'm definitely not the town liar.",
+      "camera": {"shot": "medium_close", "angle": "eye", "move": "static", "target": "Noob"},
+      "cast": [
+        {"name": "Noob", "mark": "sidewalk_c", "facing": "camera", "pose": "shrug", "face": "smirk", "action": "talk",
+         "changes": [{"at": 1.9, "pose": "facepalm", "face": "sad"}]}
+      ],
+      "fx": [{"type": "tint", "target": "Noob", "color": [0.35, 0.55, 1.0], "amount": 0.85, "at": 1.3, "over": 0.35}],
+      "sfx": [{"at": 1.3, "name": "buzzer"}],
+      "emphasis": ["not"],
+      "transition": "whip"
+    },
+    {
+      "id": "s07",
+      "set": "bedroom",
+      "speaker": "Mom",
+      "text": "Theo. Did you finish your homework?",
+      "camera": {"shot": "two_shot", "angle": "eye", "move": "static", "target": "Theo"},
+      "cast": [
+        {"name": "Mom", "mark": "bedside", "facing": "Theo", "pose": "hands_hips", "face": "neutral", "action": "talk",
+         "changes": [{"at": 2.3, "face": "angry"}]},
+        {"name": "Theo", "mark": "center", "facing": "Mom", "pose": "scared", "face": "nervous", "action": "idle"}
+      ],
+      "emphasis": ["homework"],
+      "transition": "cut"
+    },
+    {
+      "id": "s08",
+      "set": "bedroom",
+      "speaker": "Theo",
+      "text": "Yep! Already did the whole thing.",
+      "camera": {"shot": "close_up", "angle": "eye", "move": "push_in", "target": "Theo"},
+      "cast": [
+        {"name": "Theo", "mark": "center", "facing": "camera", "pose": "point", "face": "smirk", "action": "talk"}
+      ],
+      "fx": [{"type": "tint", "target": "Theo", "color": [0.35, 0.55, 1.0], "amount": 0.85, "at": 1.2, "over": 0.5}],
+      "sfx": [{"at": 1.2, "name": "pop"}],
+      "emphasis": ["whole"],
+      "transition": "cut"
+    },
+    {
+      "id": "s09",
+      "set": "bedroom",
+      "speaker": "Theo",
+      "text": "One page. Of the wrong book.",
+      "hold": 0.4,
+      "camera": {"shot": "medium_close", "angle": "eye", "move": "static", "target": "Theo"},
+      "cast": [
+        {"name": "Theo", "mark": "center", "facing": "camera", "pose": "sad", "face": "cry", "action": "talk_still",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85}}
+      ],
+      "sfx": [{"at": 0.1, "name": "slide_down"}],
+      "emphasis": ["wrong"],
+      "transition": "whip"
+    },
+    {
+      "id": "s10",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "Then Max asked the big question.",
+      "camera": {"shot": "two_shot", "angle": "eye", "move": "static", "target": "Max"},
+      "cast": [
+        {"name": "Max", "mark": "sidewalk_b", "facing": "Theo", "pose": "shrug", "face": "grin", "action": "idle"},
+        {"name": "Theo", "mark": "sidewalk_c", "facing": "Max", "pose": "scared", "face": "nervous", "action": "idle",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85}}
+      ],
+      "emphasis": ["big"],
+      "transition": "cut"
+    },
+    {
+      "id": "s11",
+      "set": "street",
+      "speaker": "Theo",
+      "text": "Yeah! It's still totally in there.",
+      "camera": {"shot": "close_up", "angle": "eye", "move": "push_in", "target": "Theo"},
+      "cast": [
+        {"name": "Theo", "mark": "sidewalk_c", "facing": "camera", "pose": "shrug", "face": "smirk", "action": "talk",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85},
+         "changes": [{"at": 1.6, "face": "nervous"}]}
+      ],
+      "fx": [
+        {"type": "flash", "at": 1.1},
+        {"type": "punch", "at": 1.1}
+      ],
+      "sfx": [{"at": 1.1, "name": "boing"}],
+      "emphasis": ["totally"],
+      "transition": "cut"
+    },
+    {
+      "id": "s12",
+      "set": "street",
+      "speaker": "Max",
+      "text": "I can SEE it flashing, Theo.",
+      "camera": {"shot": "medium_close", "angle": "eye", "move": "static", "target": "Max"},
+      "cast": [
+        {"name": "Max", "mark": "sidewalk_b", "facing": "Theo", "pose": "point", "face": "shocked", "action": "talk",
+         "changes": [{"at": 1.6, "pose": "hands_hips", "face": "angry"}]},
+        {"name": "Theo", "mark": "sidewalk_c", "facing": "Max", "pose": "sad", "face": "cry", "action": "idle",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85}}
+      ],
+      "sfx": [{"at": 0.5, "name": "bonk"}],
+      "emphasis": ["flashing"],
+      "transition": "cut"
+    },
+    {
+      "id": "s13",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "So I did the only smart thing.",
+      "camera": {"shot": "wide", "angle": "eye", "move": "static", "target": "Theo"},
+      "cast": [
+        {"name": "Theo", "mark": "sidewalk_c", "facing": "away", "face": "worried", "action": "run_to", "to": "far_walk",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85}},
+        {"name": "Max", "mark": "sidewalk_b", "facing": "Theo", "pose": "hands_hips", "face": "angry", "action": "idle"}
+      ],
+      "sfx": [{"at": 0.3, "name": "cartoon_run"}],
+      "emphasis": ["smart"],
+      "transition": "whip"
+    },
+    {
+      "id": "s14",
+      "set": "street",
+      "speaker": "Officer",
+      "text": "Blue check confirmed. Nice try, buddy.",
+      "camera": {"shot": "two_shot", "angle": "eye", "move": "whip_in", "target": "Officer"},
+      "cast": [
+        {"name": "Officer", "mark": "far_walk", "facing": "camera", "pose": "hold", "face": "sleep",
+         "props": ["paper:BLUE CHECK"], "action": "talk_still"},
+        {"name": "Theo", "mark": "far_walk", "dx": -4, "facing": "Officer", "pose": "stop", "face": "shocked", "action": "idle",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85},
+         "changes": [{"at": 1.9, "pose": "scared"}]}
+      ],
+      "sfx": [{"at": 0.4, "name": "ding"}],
+      "emphasis": ["confirmed"],
+      "transition": "cut"
+    },
+    {
+      "id": "s15",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "Blue people go straight to the King.",
+      "camera": {"shot": "group", "angle": "low", "move": "static", "target": "King"},
+      "cast": [
+        {"name": "King", "mark": "road", "facing": "camera", "pose": "arms_crossed", "face": "confident", "scale": 1.2},
+        {"name": "Theo", "mark": "sidewalk_b", "facing": "King", "pose": "stand", "face": "worried", "action": "idle",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85}},
+        {"name": "Max", "mark": "sidewalk_c", "facing": "King", "pose": "point", "face": "angry", "action": "idle"},
+        {"name": "Mom", "mark": "sidewalk_a", "facing": "camera", "pose": "hands_hips", "face": "neutral", "action": "idle",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.8}},
+        {"name": "Officer", "mark": "sidewalk_b", "dx": 2, "facing": "King", "pose": "hold", "face": "sleep",
+         "props": ["magnifier"]}
+      ],
+      "emphasis": ["King"],
+      "transition": "cut"
+    },
+    {
+      "id": "s16",
+      "set": "street",
+      "speaker": "King",
+      "text": "A cookie heist! On MY street!",
+      "camera": {"shot": "medium", "angle": "low", "move": "push_in", "target": "King"},
+      "cast": [
+        {"name": "King", "mark": "road", "facing": "camera", "pose": "angry", "face": "angry", "action": "talk",
+         "scale": 1.2, "changes": [{"at": 1.8, "pose": "point"}]}
+      ],
+      "sfx": [{"at": 0.3, "name": "drum_hit"}],
+      "emphasis": ["heist"],
+      "transition": "cut"
+    },
+    {
+      "id": "s17",
+      "set": "street",
+      "speaker": "Theo",
+      "text": "Okay. I ate it. Both bites.",
+      "hold": 0.2,
+      "camera": {"shot": "close_up", "angle": "eye", "move": "push_in", "target": "Theo"},
+      "cast": [
+        {"name": "Theo", "mark": "sidewalk_b", "facing": "left", "pose": "sad", "face": "cry", "action": "talk_still",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85},
+         "changes": [{"at": 2.0, "face": "cry"}]}
+      ],
+      "emphasis": ["bites"],
+      "transition": "cut"
+    },
+    {
+      "id": "s18",
+      "set": "street",
+      "speaker": "King",
+      "text": "Officer! Verify the blue citizen's word!",
+      "camera": {"shot": "medium", "angle": "eye", "move": "static", "target": "King"},
+      "cast": [
+        {"name": "King", "mark": "road", "facing": "Officer", "pose": "point", "face": "confident", "action": "talk", "scale": 1.2},
+        {"name": "Officer", "mark": "sidewalk_b", "dx": 2, "facing": "King", "pose": "hold", "face": "sleep",
+         "props": ["magnifier"], "action": "idle"}
+      ],
+      "emphasis": ["verify"],
+      "transition": "whip"
+    },
+    {
+      "id": "s19",
+      "set": "street",
+      "speaker": "Officer",
+      "text": "The meter says: one hundred percent honest.",
+      "camera": {"shot": "medium", "angle": "eye", "move": "push_in", "target": "Officer"},
+      "cast": [
+        {"name": "Officer", "mark": "sidewalk_b", "dx": 2, "facing": "camera", "pose": "hold", "face": "sleep",
+         "props": ["magnifier"], "action": "talk_still"},
+        {"name": "Theo", "mark": "sidewalk_c", "facing": "Officer", "pose": "shocked", "face": "surprised", "action": "idle",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85}}
+      ],
+      "fx": [
+        {"type": "tint", "target": "Officer", "color": [0.35, 0.55, 1.0], "amount": 0.8, "at": 1.6, "over": 0.5},
+        {"type": "punch", "at": 1.6}
+      ],
+      "sfx": [{"at": 1.6, "name": "record_scratch"}],
+      "emphasis": ["honest"],
+      "transition": "flash"
+    },
+    {
+      "id": "s20",
+      "set": "street",
+      "speaker": "Officer",
+      "text": "Okay. It's a magnifier. From the store.",
+      "hold": 0.5,
+      "camera": {"shot": "close_up", "angle": "eye", "move": "static", "target": "Officer"},
+      "cast": [
+        {"name": "Officer", "mark": "sidewalk_b", "dx": 2, "facing": "camera", "pose": "facepalm", "face": "sad",
+         "action": "talk_still",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.8}}
+      ],
+      "sfx": [{"at": 0.9, "name": "bonk"}],
+      "emphasis": ["magnifier"],
+      "transition": "cut"
+    },
+    {
+      "id": "s21",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "The town's biggest liar was... the Officer.",
+      "camera": {"shot": "group", "angle": "high", "move": "static", "target": "King"},
+      "cast": [
+        {"name": "King", "mark": "road", "facing": "camera", "pose": "facepalm", "face": "angry", "action": "idle", "scale": 1.2},
+        {"name": "Officer", "mark": "sidewalk_b", "dx": 2, "facing": "King", "pose": "sad", "face": "sad", "action": "idle",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.8}},
+        {"name": "Mom", "mark": "sidewalk_a", "facing": "Officer", "pose": "shocked", "face": "surprised", "action": "idle",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.8}},
+        {"name": "Max", "mark": "sidewalk_c", "facing": "Officer", "pose": "celebrate", "face": "laugh", "action": "idle"},
+        {"name": "Noob", "mark": "road", "dx": -3, "facing": "camera", "pose": "wave", "face": "grin", "action": "idle",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85}}
+      ],
+      "sfx": [{"at": 0.4, "name": "buzzer"}],
+      "emphasis": ["Officer"],
+      "transition": "cut"
+    },
+    {
+      "id": "s22",
+      "set": "street",
+      "speaker": "King",
+      "text": "Fine! The truth-meter is officially fired!",
+      "camera": {"shot": "medium", "angle": "low", "move": "crash_zoom", "target": "King"},
+      "cast": [
+        {"name": "King", "mark": "road", "facing": "camera", "pose": "angry", "face": "angry", "action": "talk", "scale": 1.2},
+        {"name": "Officer", "mark": "sidewalk_b", "dx": 2, "facing": "camera", "pose": "stand", "face": "sad", "action": "idle",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.8},
+         "changes": [{"at": 1.2, "action": "walk_out", "to_side": "left"}]}
+      ],
+      "fx": [{"type": "shake", "at": 0.3, "dur": 0.4}],
+      "sfx": [{"at": 0.3, "name": "drum_hit"}],
+      "emphasis": ["fired"],
+      "transition": "cut"
+    },
+    {
+      "id": "s23",
+      "set": "street",
+      "speaker": "King",
+      "text": "A pardon. And a medal. For honesty.",
+      "camera": {"shot": "medium", "angle": "eye", "move": "static", "target": "King"},
+      "cast": [
+        {"name": "King", "mark": "road", "dx": -2, "facing": "Theo", "pose": "hold", "face": "confident", "action": "talk",
+         "props": ["medal"], "scale": 1.2},
+        {"name": "Theo", "mark": "road", "dx": 2, "facing": "King", "pose": "stand", "face": "worried",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85},
+         "changes": [{"at": 1.7, "action": "celebrate", "face": "grin"}]}
+      ],
+      "sfx": [{"at": 1.7, "name": "sparkle"}],
+      "emphasis": ["medal"],
+      "transition": "whip"
+    },
+    {
+      "id": "s24",
+      "set": "street",
+      "dressing": "sunset",
+      "speaker": "narrator",
+      "text": "And I went home. Fully honest. Mostly.",
+      "camera": {"shot": "wide", "angle": "eye", "move": "static", "target": "Theo"},
+      "cast": [
+        {"name": "Theo", "mark": "road", "facing": "away", "pose": "stand", "face": "neutral", "action": "walk_to", "to": "far_walk",
+         "tint": {"color": [0.35, 0.55, 1.0], "amount": 0.85}},
+        {"name": "Max", "mark": "lawn", "facing": "Theo", "pose": "wave", "face": "grin", "action": "idle"}
+      ],
+      "emphasis": ["mostly"],
+      "transition": "cut"
+    },
+    {
+      "id": "s25",
+      "set": "bedroom",
+      "dressing": "night",
+      "speaker": "Theo",
+      "text": "And the cookie? Come on. Would I lie?",
+      "hold": 0.4,
+      "camera": {"shot": "close_up", "angle": "eye", "move": "push_in", "target": "Theo"},
+      "cast": [
+        {"name": "Theo", "mark": "center", "facing": "camera", "pose": "shrug", "face": "smirk", "action": "talk",
+         "changes": [{"at": 1.8, "face": "nervous"}]}
+      ],
+      "fx": [
+        {"type": "tint", "target": "Theo", "color": [0.35, 0.55, 1.0], "amount": 0.85, "at": 2.0, "over": 0.6},
+        {"type": "freeze", "at": 2.4, "dur": 0.8}
+      ],
+      "sfx": [{"at": 2.2, "name": "glitch"}],
+      "emphasis": ["lie"],
+      "transition": "glitch"
+    }
+  ],
+  "thumbnail": {"shot": "s19", "at": 2.2},
+  "publish": {
+    "tiktok_caption": "in this town you turn blue if you lie 🥶 (part 1)",
+    "youtube_title": "In This Town, You Turn Blue If You Lie #shorts",
+    "youtube_description": "Every lie turns you blue in Roblox. Mom confessed the cake, Noob never had a chance, and the Officer's official truth-meter turned out to be a magnifier from the store. The last cookie is still in the jar... probably.",
+    "hashtags": ["#blue", "#liar"],
+    "tags": ["blue liars", "lying town", "roblox"]
+  }
+}

@@ -1,0 +1,38 @@
+{
+ "key": "en-US-EricNeural|-6%|-10Hz|Blue check confirmed. Nice try, buddy.",
+ "engine": "edge",
+ "speaker": "Officer",
+ "audio_len": 4.896,
+ "words": [
+  [
+   "Blue",
+   0.103,
+   0.422
+  ],
+  [
+   "check",
+   0.436,
+   0.768
+  ],
+  [
+   "confirmed",
+   0.781,
+   1.553
+  ],
+  [
+   "Nice",
+   2.487,
+   2.846
+  ],
+  [
+   "try",
+   2.859,
+   3.271
+  ],
+  [
+   "buddy",
+   3.524,
+   3.963
+  ]
+ ]
+}

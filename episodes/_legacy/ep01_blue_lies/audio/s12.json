@@ -1,0 +1,48 @@
+{
+ "key": "en-US-ChristopherNeural|+4%|-6Hz|This year, nobody will have to pay taxes!",
+ "voice": "en-US-ChristopherNeural",
+ "speaker": "Captain",
+ "audio_len": 3.48,
+ "words": [
+  [
+   "This",
+   0.098,
+   0.387
+  ],
+  [
+   "year",
+   0.399,
+   0.675
+  ],
+  [
+   "nobody",
+   0.879,
+   1.264
+  ],
+  [
+   "will",
+   1.276,
+   1.396
+  ],
+  [
+   "have",
+   1.408,
+   1.588
+  ],
+  [
+   "to",
+   1.601,
+   1.685
+  ],
+  [
+   "pay",
+   1.697,
+   1.913
+  ],
+  [
+   "taxes",
+   1.925,
+   2.634
+  ]
+ ]
+}

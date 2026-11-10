@@ -1,0 +1,58 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|Every Monday, he stands up there and makes a promise.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 2.904,
+ "words": [
+  [
+   "Every",
+   0.078,
+   0.268
+  ],
+  [
+   "Monday",
+   0.279,
+   0.658
+  ],
+  [
+   "he",
+   0.681,
+   0.815
+  ],
+  [
+   "stands",
+   0.826,
+   1.183
+  ],
+  [
+   "up",
+   1.194,
+   1.328
+  ],
+  [
+   "there",
+   1.339,
+   1.629
+  ],
+  [
+   "and",
+   1.641,
+   1.752
+  ],
+  [
+   "makes",
+   1.763,
+   1.964
+  ],
+  [
+   "a",
+   1.975,
+   2.031
+  ],
+  [
+   "promise",
+   2.042,
+   2.567
+  ]
+ ]
+}

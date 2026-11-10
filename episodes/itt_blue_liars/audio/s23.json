@@ -1,0 +1,43 @@
+{
+ "key": "en-GB-RyanNeural|-4%|-8Hz|A pardon. And a medal. For honesty.",
+ "engine": "edge",
+ "speaker": "King",
+ "audio_len": 5.064,
+ "words": [
+  [
+   "A",
+   0.1,
+   0.256
+  ],
+  [
+   "pardon",
+   0.269,
+   0.868
+  ],
+  [
+   "And",
+   1.769,
+   1.99
+  ],
+  [
+   "a",
+   2.003,
+   2.055
+  ],
+  [
+   "medal",
+   2.068,
+   2.537
+  ],
+  [
+   "For",
+   3.435,
+   3.657
+  ],
+  [
+   "honesty",
+   3.67,
+   4.165
+  ]
+ ]
+}

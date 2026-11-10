@@ -1,0 +1,38 @@
+{
+ "key": "en-GB-RyanNeural|-4%|-8Hz|Fine! The truth-meter is officially fired!",
+ "engine": "edge",
+ "speaker": "King",
+ "audio_len": 4.752,
+ "words": [
+  [
+   "Fine",
+   0.1,
+   0.764
+  ],
+  [
+   "The",
+   1.665,
+   1.821
+  ],
+  [
+   "truth-meter",
+   1.834,
+   2.459
+  ],
+  [
+   "is",
+   2.472,
+   2.667
+  ],
+  [
+   "officially",
+   2.68,
+   3.214
+  ],
+  [
+   "fired",
+   3.227,
+   3.839
+  ]
+ ]
+}

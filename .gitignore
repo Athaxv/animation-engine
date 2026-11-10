@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+*.local
+__pycache__/
+publish/wi_3am_monster
+publish/wi_sounds_from_future
+episodes/wi_3am_monster
+episodes/wi_sounds_from_future
+runs/pilot/wi_sounds_from_future

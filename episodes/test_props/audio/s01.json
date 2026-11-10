@@ -1,0 +1,53 @@
+{
+ "key": "en-US-AndrewNeural|+12%|+2Hz|In this town, donuts grow on your lawn overnight.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 2.928,
+ "words": [
+  [
+   "In",
+   0.089,
+   0.167
+  ],
+  [
+   "this",
+   0.179,
+   0.335
+  ],
+  [
+   "town",
+   0.346,
+   0.703
+  ],
+  [
+   "donuts",
+   0.96,
+   1.25
+  ],
+  [
+   "grow",
+   1.261,
+   1.518
+  ],
+  [
+   "on",
+   1.529,
+   1.618
+  ],
+  [
+   "your",
+   1.629,
+   1.752
+  ],
+  [
+   "lawn",
+   1.763,
+   2.065
+  ],
+  [
+   "overnight",
+   2.076,
+   2.589
+  ]
+ ]
+}

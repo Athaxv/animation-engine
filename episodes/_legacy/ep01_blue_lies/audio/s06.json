@@ -1,0 +1,33 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|So nobody lies here. Ever.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 2.232,
+ "words": [
+  [
+   "So",
+   0.047,
+   0.17
+  ],
+  [
+   "nobody",
+   0.181,
+   0.538
+  ],
+  [
+   "lies",
+   0.55,
+   0.851
+  ],
+  [
+   "here",
+   0.862,
+   1.208
+  ],
+  [
+   "Ever",
+   1.534,
+   1.903
+  ]
+ ]
+}

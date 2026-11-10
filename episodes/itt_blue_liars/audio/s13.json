@@ -1,0 +1,43 @@
+{
+ "key": "en-US-AndrewNeural|+12%|+2Hz|So I did the only smart thing.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 1.872,
+ "words": [
+  [
+   "So",
+   0.1,
+   0.19
+  ],
+  [
+   "I",
+   0.201,
+   0.245
+  ],
+  [
+   "did",
+   0.257,
+   0.368
+  ],
+  [
+   "the",
+   0.379,
+   0.469
+  ],
+  [
+   "only",
+   0.48,
+   0.681
+  ],
+  [
+   "smart",
+   0.692,
+   0.949
+  ],
+  [
+   "thing",
+   0.96,
+   1.172
+  ]
+ ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "what_if",
+  "description": "What if <impossible premise>? Escalating consequences told by the Roblox cast. Teens/adults.",
+  "length_seconds": [45, 75],
+  "shots": [16, 28],
+  "narrator": "Theo",
+  "voices": {
+    "narrator": ["en-US-AndrewNeural", "+8%", "+0Hz"]
+  },
+  "edit": {
+    "music": "curious",
+    "music_volume": 0.11,
+    "captions": {"style": "chunk", "case": "upper", "max_words": 3, "size": 104, "y": 0.40,
+                 "color": [1, 1, 1, 1], "highlight": [1.0, 0.84, 0.1, 1], "outline": 0.12, "pop": true},
+    "title_card": {"show": true, "y": 0.83, "size": 72, "seconds": 3.2,
+                   "box": [1, 1, 1, 1], "color": [0.05, 0.05, 0.06, 1]},
+    "end_card": {"show": false}
+  },
+  "publish": {
+    "hashtags": ["#whatif", "#roblox", "#robloxanimation", "#animation", "#fyp"],
+    "youtube_tags": ["what if", "roblox", "roblox animation", "what if scenario", "animation"]
+  }
+}

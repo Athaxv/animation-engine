@@ -1,0 +1,68 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|The King stayed up there. The crown says he is still floating.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 3.096,
+ "words": [
+  [
+   "The",
+   0.104,
+   0.15
+  ],
+  [
+   "King",
+   0.162,
+   0.336
+  ],
+  [
+   "stayed",
+   0.347,
+   0.544
+  ],
+  [
+   "up",
+   0.556,
+   0.66
+  ],
+  [
+   "there",
+   0.671,
+   0.914
+  ],
+  [
+   "The",
+   1.308,
+   1.354
+  ],
+  [
+   "crown",
+   1.366,
+   1.667
+  ],
+  [
+   "says",
+   1.678,
+   1.921
+  ],
+  [
+   "he",
+   1.933,
+   2.025
+  ],
+  [
+   "is",
+   2.037,
+   2.13
+  ],
+  [
+   "still",
+   2.141,
+   2.35
+  ],
+  [
+   "floating",
+   2.361,
+   2.743
+  ]
+ ]
+}

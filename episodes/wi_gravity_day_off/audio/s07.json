@@ -1,0 +1,48 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|So he writes the town's first flying ticket.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 2.4,
+ "words": [
+  [
+   "So",
+   0.104,
+   0.22
+  ],
+  [
+   "he",
+   0.232,
+   0.324
+  ],
+  [
+   "writes",
+   0.336,
+   0.579
+  ],
+  [
+   "the",
+   0.59,
+   0.671
+  ],
+  [
+   "town's",
+   0.683,
+   1.053
+  ],
+  [
+   "first",
+   1.065,
+   1.412
+  ],
+  [
+   "flying",
+   1.424,
+   1.701
+  ],
+  [
+   "ticket",
+   1.713,
+   2.049
+  ]
+ ]
+}

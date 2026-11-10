@@ -1,0 +1,38 @@
+{
+ "key": "en-GB-RyanNeural|-4%|-8Hz|Officer! Verify the blue citizen's word!",
+ "engine": "edge",
+ "speaker": "King",
+ "audio_len": 4.608,
+ "words": [
+  [
+   "Officer",
+   0.1,
+   0.738
+  ],
+  [
+   "Verify",
+   1.639,
+   2.159
+  ],
+  [
+   "the",
+   2.172,
+   2.29
+  ],
+  [
+   "blue",
+   2.303,
+   2.563
+  ],
+  [
+   "citizen's",
+   2.576,
+   3.149
+  ],
+  [
+   "word",
+   3.162,
+   3.709
+  ]
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|My best friend Maya once said she liked my haircut\u2026",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 2.904,
+ "words": [
+  [
+   "My",
+   0.067,
+   0.19
+  ],
+  [
+   "best",
+   0.201,
+   0.48
+  ],
+  [
+   "friend",
+   0.491,
+   0.681
+  ],
+  [
+   "Maya",
+   0.692,
+   1.016
+  ],
+  [
+   "once",
+   1.027,
+   1.272
+  ],
+  [
+   "said",
+   1.284,
+   1.507
+  ],
+  [
+   "she",
+   1.518,
+   1.674
+  ],
+  [
+   "liked",
+   1.685,
+   1.942
+  ],
+  [
+   "my",
+   1.953,
+   2.076
+  ],
+  [
+   "haircut",
+   2.087,
+   2.556
+  ]
+ ]
+}

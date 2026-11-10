@@ -1,0 +1,48 @@
+{
+ "key": "en-US-AndrewNeural|+12%|+2Hz|The Officer scans every lie with his truth-meter.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 2.832,
+ "words": [
+  [
+   "The",
+   0.089,
+   0.167
+  ],
+  [
+   "Officer",
+   0.179,
+   0.592
+  ],
+  [
+   "scans",
+   0.603,
+   1.027
+  ],
+  [
+   "every",
+   1.15,
+   1.373
+  ],
+  [
+   "lie",
+   1.384,
+   1.685
+  ],
+  [
+   "with",
+   1.696,
+   1.797
+  ],
+  [
+   "his",
+   1.808,
+   1.92
+  ],
+  [
+   "truth-meter",
+   1.931,
+   2.5
+  ]
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "key": "en-US-GuyNeural|+10%|+2Hz|I can SEE it flashing, Theo.",
+ "engine": "edge",
+ "speaker": "Max",
+ "audio_len": 2.64,
+ "words": [
+  [
+   "I",
+   0.095,
+   0.277
+  ],
+  [
+   "can",
+   0.289,
+   0.436
+  ],
+  [
+   "SEE",
+   0.459,
+   0.63
+  ],
+  [
+   "it",
+   0.652,
+   0.743
+  ],
+  [
+   "flashing",
+   0.766,
+   1.198
+  ],
+  [
+   "Theo",
+   1.38,
+   1.823
+  ]
+ ]
+}

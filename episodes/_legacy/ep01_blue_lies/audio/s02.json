@@ -1,0 +1,43 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|your skin turns a little bit blue.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 2.064,
+ "words": [
+  [
+   "your",
+   0.067,
+   0.167
+  ],
+  [
+   "skin",
+   0.179,
+   0.536
+  ],
+  [
+   "turns",
+   0.547,
+   0.871
+  ],
+  [
+   "a",
+   0.882,
+   0.96
+  ],
+  [
+   "little",
+   0.971,
+   1.161
+  ],
+  [
+   "bit",
+   1.172,
+   1.328
+  ],
+  [
+   "blue",
+   1.339,
+   1.719
+  ]
+ ]
+}

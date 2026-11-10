@@ -1,0 +1,377 @@
+{
+ "sets": {
+  "bedroom": {
+   "dressings": [
+    "day",
+    "night"
+   ],
+   "marks": {
+    "bed": {
+     "pos": [
+      -7.0,
+      3.0,
+      3.0
+     ],
+     "facing": 0
+    },
+    "bed_sit": {
+     "pos": [
+      -4.6,
+      5.0,
+      0.0
+     ],
+     "facing": 270,
+     "seat": 2.6
+    },
+    "bedside": {
+     "pos": [
+      -3.0,
+      3.0,
+      0.0
+     ],
+     "facing": 0
+    },
+    "cam_default": {
+     "pos": [
+      0.0,
+      -10.0,
+      4.5
+     ],
+     "facing": 0
+    },
+    "center": {
+     "pos": [
+      1.0,
+      -1.5,
+      0.0
+     ],
+     "facing": 0
+    },
+    "desk": {
+     "pos": [
+      8.5,
+      -4.5,
+      0.0
+     ],
+     "facing": 270
+    },
+    "door": {
+     "pos": [
+      -11.0,
+      -6.5,
+      0.0
+     ],
+     "facing": 270
+    },
+    "window": {
+     "pos": [
+      6.5,
+      7.5,
+      0.0
+     ],
+     "facing": 180
+    }
+   }
+  },
+  "classroom": {
+   "dressings": [
+    "day"
+   ],
+   "marks": {
+    "board": {
+     "pos": [
+      2.0,
+      12.5,
+      0.0
+     ],
+     "facing": 0
+    },
+    "cam_default": {
+     "pos": [
+      4.0,
+      -14.0,
+      7.5
+     ],
+     "facing": 0
+    },
+    "center": {
+     "pos": [
+      0.0,
+      7.5,
+      0.0
+     ],
+     "facing": 0
+    },
+    "desk_1": {
+     "pos": [
+      -10.0,
+      -0.8,
+      0.0
+     ],
+     "facing": 180,
+     "seat": 2.0
+    },
+    "desk_2": {
+     "pos": [
+      0.0,
+      -0.8,
+      0.0
+     ],
+     "facing": 180,
+     "seat": 2.0
+    },
+    "desk_3": {
+     "pos": [
+      10.0,
+      -0.8,
+      0.0
+     ],
+     "facing": 180,
+     "seat": 2.0
+    },
+    "desk_4": {
+     "pos": [
+      -10.0,
+      -7.3,
+      0.0
+     ],
+     "facing": 180,
+     "seat": 2.0
+    },
+    "desk_5": {
+     "pos": [
+      0.0,
+      -7.3,
+      0.0
+     ],
+     "facing": 180,
+     "seat": 2.0
+    },
+    "desk_6": {
+     "pos": [
+      10.0,
+      -7.3,
+      0.0
+     ],
+     "facing": 180,
+     "seat": 2.0
+    },
+    "desk_7": {
+     "pos": [
+      -10.0,
+      -13.8,
+      0.0
+     ],
+     "facing": 180,
+     "seat": 2.0
+    },
+    "desk_8": {
+     "pos": [
+      0.0,
+      -13.8,
+      0.0
+     ],
+     "facing": 180,
+     "seat": 2.0
+    },
+    "desk_9": {
+     "pos": [
+      10.0,
+      -13.8,
+      0.0
+     ],
+     "facing": 180,
+     "seat": 2.0
+    },
+    "door": {
+     "pos": [
+      17.0,
+      -9.0,
+      0.0
+     ],
+     "facing": 90
+    },
+    "teacher": {
+     "pos": [
+      -4.0,
+      11.5,
+      0.0
+     ],
+     "facing": 0
+    }
+   }
+  },
+  "kitchen": {
+   "dressings": [
+    "day"
+   ],
+   "marks": {
+    "cam_default": {
+     "pos": [
+      0.0,
+      -11.0,
+      4.5
+     ],
+     "facing": 0
+    },
+    "center": {
+     "pos": [
+      4.0,
+      -1.0,
+      0.0
+     ],
+     "facing": 0
+    },
+    "couch": {
+     "pos": [
+      10.0,
+      -6.3,
+      0.0
+     ],
+     "facing": 180,
+     "seat": 2.4
+    },
+    "door": {
+     "pos": [
+      15.0,
+      -7.0,
+      0.0
+     ],
+     "facing": 90
+    },
+    "fridge": {
+     "pos": [
+      -11.0,
+      6.0,
+      0.0
+     ],
+     "facing": 90
+    },
+    "stove": {
+     "pos": [
+      -12.0,
+      7.0,
+      0.0
+     ],
+     "facing": 180
+    },
+    "table_a": {
+     "pos": [
+      -6.5,
+      2.6,
+      0.0
+     ],
+     "facing": 0,
+     "seat": 2.0
+    },
+    "table_b": {
+     "pos": [
+      -1.5,
+      2.6,
+      0.0
+     ],
+     "facing": 0,
+     "seat": 2.0
+    },
+    "table_front": {
+     "pos": [
+      -4.0,
+      -4.6,
+      0.0
+     ],
+     "facing": 180
+    }
+   }
+  },
+  "street": {
+   "dressings": [
+    "day",
+    "sunset"
+   ],
+   "marks": {
+    "cam_aerial": {
+     "pos": [
+      0.0,
+      -70.0,
+      55.0
+     ],
+     "facing": 0
+    },
+    "cam_default": {
+     "pos": [
+      0.0,
+      -16.0,
+      5.0
+     ],
+     "facing": 0
+    },
+    "far_walk": {
+     "pos": [
+      0.0,
+      -18.0,
+      0.25
+     ],
+     "facing": 180
+    },
+    "house_door": {
+     "pos": [
+      -18.6,
+      13.5,
+      0.4
+     ],
+     "facing": 0
+    },
+    "lawn": {
+     "pos": [
+      -10.0,
+      10.5,
+      0.0
+     ],
+     "facing": 0
+    },
+    "road": {
+     "pos": [
+      0.0,
+      -8.0,
+      0.0
+     ],
+     "facing": 0
+    },
+    "sidewalk_a": {
+     "pos": [
+      -6.0,
+      2.0,
+      0.25
+     ],
+     "facing": 0
+    },
+    "sidewalk_b": {
+     "pos": [
+      0.0,
+      2.0,
+      0.25
+     ],
+     "facing": 0
+    },
+    "sidewalk_c": {
+     "pos": [
+      6.0,
+      2.0,
+      0.25
+     ],
+     "facing": 0
+    }
+   }
+  }
+ },
+ "characters": [
+  "Dad",
+  "King",
+  "Lily",
+  "Max",
+  "Mom",
+  "Noob",
+  "Officer",
+  "Theo"
+ ]
+}

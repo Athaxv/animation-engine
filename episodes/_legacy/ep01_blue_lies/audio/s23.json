@@ -1,0 +1,28 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|I waited. And waited.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 1.872,
+ "words": [
+  [
+   "I",
+   0.056,
+   0.134
+  ],
+  [
+   "waited",
+   0.145,
+   0.591
+  ],
+  [
+   "And",
+   0.919,
+   1.064
+  ],
+  [
+   "waited",
+   1.075,
+   1.544
+  ]
+ ]
+}

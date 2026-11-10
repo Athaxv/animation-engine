@@ -1,0 +1,43 @@
+{
+ "key": "en-US-AndrewNeural|+12%|+2Hz|Blue people go straight to the King.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 1.752,
+ "words": [
+  [
+   "Blue",
+   0.1,
+   0.212
+  ],
+  [
+   "people",
+   0.223,
+   0.469
+  ],
+  [
+   "go",
+   0.48,
+   0.603
+  ],
+  [
+   "straight",
+   0.614,
+   0.926
+  ],
+  [
+   "to",
+   0.938,
+   1.004
+  ],
+  [
+   "the",
+   1.016,
+   1.094
+  ],
+  [
+   "King",
+   1.105,
+   1.406
+  ]
+ ]
+}

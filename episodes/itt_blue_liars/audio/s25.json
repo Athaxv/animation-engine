@@ -1,0 +1,48 @@
+{
+ "key": "en-US-AndrewNeural|+10%|+4Hz|And the cookie? Come on. Would I lie?",
+ "engine": "edge",
+ "speaker": "Theo",
+ "audio_len": 2.496,
+ "words": [
+  [
+   "And",
+   0.091,
+   0.148
+  ],
+  [
+   "the",
+   0.159,
+   0.239
+  ],
+  [
+   "cookie",
+   0.25,
+   0.58
+  ],
+  [
+   "Come",
+   0.955,
+   1.068
+  ],
+  [
+   "on",
+   1.08,
+   1.318
+  ],
+  [
+   "Would",
+   1.693,
+   1.784
+  ],
+  [
+   "I",
+   1.795,
+   1.886
+  ],
+  [
+   "lie",
+   1.898,
+   2.159
+  ]
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "key": "en-US-EmmaNeural|+6%|+0Hz|Okay! We ate it at midnight.",
+ "engine": "edge",
+ "speaker": "Mom",
+ "audio_len": 2.328,
+ "words": [
+  [
+   "Okay",
+   0.048,
+   0.378
+  ],
+  [
+   "We",
+   0.755,
+   0.932
+  ],
+  [
+   "ate",
+   0.943,
+   1.085
+  ],
+  [
+   "it",
+   1.097,
+   1.203
+  ],
+  [
+   "at",
+   1.215,
+   1.344
+  ],
+  [
+   "midnight",
+   1.356,
+   1.969
+  ]
+ ]
+}

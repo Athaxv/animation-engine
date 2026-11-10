@@ -1,0 +1,275 @@
+{
+  "episode": "wi_gravity_day_off",
+  "format": "what_if",
+  "title": "What If Gravity Took A Day Off?",
+  "logline": "Gravity clocks out for one whole day, so the town floats through donut breakfast, flying laws, a pizza heist and a royal save.",
+  "hook_title": "WHAT IF GRAVITY LEFT?",
+  "fps": 30,
+  "resolution": [1080, 1920],
+  "narrator": "Theo",
+  "tts": "edge",
+  "music": "curious",
+  "end_text": "WOULD YOU FLOAT?",
+  "shots": [
+    {
+      "id": "s01",
+      "set": "bedroom",
+      "dressing": "night",
+      "speaker": "narrator",
+      "text": "What if gravity took the whole day off?",
+      "camera": {"shot": "medium", "angle": "low", "move": "push_in", "target": "Theo"},
+      "cast": [
+        {"name": "Theo", "mark": "center", "facing": "camera", "pose": "relaxed", "face": "sleep",
+         "changes": [{"at": 1.1, "action": "surprise_hop"}, {"at": 1.9, "pose": "point_up", "face": "shocked"}]}
+      ],
+      "fx": [{"type": "shake", "at": 1.1, "dur": 0.4}],
+      "emphasis": ["gravity"],
+      "transition": "whip"
+    },
+    {
+      "id": "s02",
+      "set": "kitchen",
+      "speaker": "narrator",
+      "text": "Breakfast first: a giant donut floats right past Dad.",
+      "camera": {"shot": "wide", "angle": "eye", "move": "static", "target": "Dad"},
+      "cast": [
+        {"name": "Dad", "mark": "stove", "facing": "camera", "pose": "hold", "face": "smile", "props": ["frying_pan"],
+         "changes": [{"at": 1.6, "face": "shocked"}, {"at": 2.4, "pose": "point", "face": "neutral"}]}
+      ],
+      "place": [
+        {"prop": "donut", "mark": "fridge", "id": "big_donut", "scale": 4, "rot": 20, "dx": 1.5, "z": 2.6, "pop_at": 0.8}
+      ],
+      "sfx": [{"at": 1.2, "name": "slide_up"}],
+      "emphasis": ["donut"],
+      "transition": "cut"
+    },
+    {
+      "id": "s03",
+      "set": "kitchen",
+      "speaker": "narrator",
+      "text": "Lily just swims across the kitchen and takes a bite.",
+      "camera": {"shot": "medium", "angle": "eye", "move": "static", "target": "Lily"},
+      "cast": [
+        {"name": "Lily", "mark": "couch", "facing": "camera", "pose": "arms_up", "face": "grin", "action": "float",
+         "changes": [{"at": 1.4, "pose": "hold", "props": ["cookie"], "face": "laugh"}]}
+      ],
+      "sfx": [{"at": 1.5, "name": "pop"}],
+      "emphasis": ["bite"],
+      "transition": "cut"
+    },
+    {
+      "id": "s04",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "Outside, literally everyone floats like balloons.",
+      "camera": {"shot": "extreme_wide", "angle": "high", "move": "static", "target": "Max"},
+      "cast": [
+        {"name": "Mom", "mark": "sidewalk_a", "facing": "camera", "pose": "arms_up", "face": "surprised", "action": "float"},
+        {"name": "Dad", "mark": "sidewalk_b", "facing": "camera", "pose": "relaxed", "face": "worried", "action": "float"},
+        {"name": "Max", "mark": "sidewalk_c", "facing": "camera", "pose": "celebrate", "face": "laugh", "action": "float"}
+      ],
+      "emphasis": ["floats"],
+      "transition": "cut"
+    },
+    {
+      "id": "s05",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "Even King floats by, shouting: NEW LAW! EVERYONE FLOATS!",
+      "camera": {"shot": "medium", "angle": "low", "move": "push_in", "target": "King"},
+      "cast": [
+        {"name": "King", "mark": "road", "facing": "camera", "pose": "hold", "face": "smirk", "action": "float",
+         "props": ["sign:NO FALLING"], "scale": 1.25}
+      ],
+      "fx": [{"type": "punch", "at": 2.4}],
+      "sfx": [{"at": 2.3, "name": "drum_hit"}],
+      "emphasis": ["floats"],
+      "transition": "whip"
+    },
+    {
+      "id": "s06",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "Nobody tells the Officer. His coffee floats away mid-yawn.",
+      "camera": {"shot": "medium", "angle": "eye", "move": "crash_zoom", "target": "Officer"},
+      "cast": [
+        {"name": "Officer", "mark": "sidewalk_c", "facing": "camera", "pose": "yawn", "face": "sleep", "props": ["coffee"],
+         "changes": [{"at": 1.2, "action": "surprise_hop", "props": [], "face": "shocked"}, {"at": 2.0, "pose": "hands_face", "face": "sad"}]}
+      ],
+      "sfx": [{"at": 1.2, "name": "record_scratch"}],
+      "emphasis": ["coffee"],
+      "transition": "cut"
+    },
+    {
+      "id": "s07",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "So he writes the town's first flying ticket.",
+      "camera": {"shot": "medium", "angle": "eye", "move": "static", "target": "Officer"},
+      "cast": [
+        {"name": "Officer", "mark": "sidewalk_c", "facing": "camera", "pose": "hold", "face": "angry", "action": "talk_still",
+         "props": ["paper:SLOW DOWN"]}
+      ],
+      "emphasis": ["ticket"],
+      "transition": "cut"
+    },
+    {
+      "id": "s08",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "Max grabs a whole pizza and just flies off with it.",
+      "camera": {"shot": "medium", "angle": "low", "move": "track", "target": "Max"},
+      "cast": [
+        {"name": "Max", "mark": "sidewalk_c", "facing": "camera", "pose": "shrug", "face": "smirk", "action": "float",
+         "changes": [{"at": 1.7, "face": "laugh"}, {"at": 2.2, "pose": "celebrate"}]}
+      ],
+      "place": [
+        {"prop": "pizza", "mark": "sidewalk_c", "id": "big_pizza", "scale": 6, "rot": 15, "z": 2.6, "poof_at": 2.6}
+      ],
+      "sfx": [{"at": 2.0, "name": "whoosh"}],
+      "emphasis": ["pizza"],
+      "transition": "whip"
+    },
+    {
+      "id": "s09",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "Meanwhile Noob is just here for his balloon.",
+      "camera": {"shot": "medium", "angle": "eye", "move": "static", "target": "Noob"},
+      "cast": [
+        {"name": "Noob", "mark": "sidewalk_c", "facing": "camera", "pose": "hold", "face": "neutral", "props": ["balloon"]}
+      ],
+      "emphasis": ["balloon"],
+      "transition": "cut"
+    },
+    {
+      "id": "s10",
+      "set": "street",
+      "speaker": "narrator",
+      "text": "By noon, thirty seven people are drifting around downtown.",
+      "camera": {"shot": "group", "angle": "high", "move": "orbit_right", "target": "Max"},
+      "cast": [
+        {"name": "Max", "mark": "sidewalk_a", "facing": "camera", "pose": "wave", "face": "laugh", "action": "float"},
+        {"name": "Mom", "mark": "sidewalk_b", "facing": "camera", "pose": "arms_up", "face": "nervous", "action": "float"},
+        {"name": "Dad", "mark": "sidewalk_c", "facing": "camera", "pose": "think", "face": "worried", "action": "float"},
+        {"name": "Lily", "mark": "lawn", "facing": "camera", "pose": "celebrate", "face": "laugh", "action": "float"},
+        {"name": "Noob", "mark": "sidewalk_b", "dx": 2, "facing": "camera", "pose": "relaxed", "face": "neutral", "action": "float"}
+      ],
+      "emphasis": ["drifting"],
+      "transition": "cut"
+    },
+    {
+      "id": "s11",
+      "set": "street",
+      "speaker": "Officer",
+      "text": "Okay... emergency meeting. WHY is everyone past the roof?",
+      "camera": {"shot": "medium", "angle": "low", "move": "push_in", "target": "Officer"},
+      "cast": [
+        {"name": "Officer", "mark": "road", "facing": "camera", "pose": "hand_up", "face": "angry", "action": "talk", "props": ["megaphone"]}
+      ],
+      "sfx": [{"at": 0.4, "name": "buzzer"}],
+      "emphasis": ["roof"],
+      "transition": "cut"
+    },
+    {
+      "id": "s12",
+      "set": "street",
+      "speaker": "Theo",
+      "text": "Gravity! Clock back in! I have school tomorrow!",
+      "camera": {"shot": "medium", "angle": "eye", "move": "static", "target": "Theo"},
+      "cast": [
+        {"name": "Theo", "mark": "road", "facing": "camera", "pose": "stop", "face": "angry", "action": "talk"},
+        {"name": "Max", "mark": "sidewalk_c", "facing": "Theo", "pose": "shrug", "face": "grin", "action": "float"},
+        {"name": "Lily", "mark": "sidewalk_b", "facing": "Theo", "pose": "arms_up", "face": "laugh", "action": "float"}
+      ],
+      "fx": [{"type": "punch", "at": 1.6}],
+      "emphasis": ["school"],
+      "transition": "cut"
+    },
+    {
+      "id": "s13",
+      "set": "street",
+      "dressing": "sunset",
+      "speaker": "narrator",
+      "text": "At five P M, gravity clocked back in. Everyone plopped down. Except one person.",
+      "camera": {"shot": "wide", "angle": "eye", "move": "static", "target": "Theo"},
+      "cast": [
+        {"name": "Theo", "mark": "road", "facing": "camera", "pose": "stand", "face": "confident"},
+        {"name": "Max", "mark": "sidewalk_c", "facing": "camera", "pose": "stand", "face": "nervous"},
+        {"name": "Lily", "mark": "sidewalk_b", "facing": "camera", "pose": "stand", "face": "surprised"},
+        {"name": "Mom", "mark": "sidewalk_a", "facing": "camera", "pose": "stand", "face": "worried"},
+        {"name": "Dad", "mark": "lawn", "facing": "camera", "pose": "stand", "face": "nervous"}
+      ],
+      "fx": [{"type": "shake", "at": 1.8, "dur": 0.6}],
+      "sfx": [{"at": 1.8, "name": "thud"}, {"at": 2.6, "name": "ding"}],
+      "emphasis": ["plopped", "except"],
+      "transition": "cut"
+    },
+    {
+      "id": "s14",
+      "set": "street",
+      "dressing": "sunset",
+      "speaker": "narrator",
+      "text": "The King stayed up there. The crown says he is still floating.",
+      "camera": {"shot": "medium_close", "angle": "eye", "move": "static", "target": "King"},
+      "cast": [
+        {"name": "King", "mark": "road", "facing": "camera", "pose": "arms_crossed", "face": "confident", "action": "float", "scale": 1.0},
+        {"name": "Theo", "mark": "sidewalk_b", "facing": "King", "pose": "point_up", "face": "shocked"}
+      ],
+      "sfx": [{"at": 0.6, "name": "riser"}],
+      "fx": [{"type": "punch", "at": 2.0}],
+      "emphasis": ["still", "floating"],
+      "transition": "flash"
+    },
+    {
+      "id": "s15",
+      "set": "street",
+      "dressing": "sunset",
+      "speaker": "Theo",
+      "text": "Dude, gravity is back! You can come down now!",
+      "camera": {"shot": "two_shot", "angle": "low", "move": "static", "target": "Theo"},
+      "cast": [
+        {"name": "Theo", "mark": "sidewalk_b", "facing": "King", "pose": "point", "face": "neutral", "action": "talk"},
+        {"name": "King", "mark": "road", "facing": "camera", "pose": "shrug", "face": "smirk", "action": "float", "scale": 1.0}
+      ],
+      "emphasis": ["down"],
+      "transition": "cut"
+    },
+    {
+      "id": "s16",
+      "set": "street",
+      "dressing": "sunset",
+      "speaker": "King",
+      "text": "No. A king never touches the ground on duty.",
+      "camera": {"shot": "close_up", "angle": "low", "move": "push_in", "target": "King"},
+      "cast": [
+        {"name": "King", "mark": "road", "facing": "camera", "pose": "hands_hips", "face": "smirk", "action": "talk_still", "scale": 1.4}
+      ],
+      "emphasis": ["never"],
+      "transition": "cut"
+    },
+    {
+      "id": "s17",
+      "set": "street",
+      "dressing": "sunset",
+      "speaker": "narrator",
+      "text": "So... does that giant donut ever come down? Comment below.",
+      "hold": 0.4,
+      "camera": {"shot": "medium", "angle": "eye", "move": "push_in", "target": "big_donut"},
+      "cast": [],
+      "place": [
+        {"prop": "donut", "mark": "road", "id": "big_donut", "scale": 5, "rot": 20, "z": 3.0}
+      ],
+      "emphasis": ["comment"],
+      "transition": "fade_black"
+    }
+  ],
+  "thumbnail": {"shot": "s08", "at": 1.6},
+  "publish": {
+    "tiktok_caption": "What if gravity took a day off? The King made it a law. Would you float? 🤯",
+    "youtube_title": "What If Gravity Took A Day Off? #shorts",
+    "youtube_description": "Gravity took a day off in Roblox. Pancakes flew, the Officer lost his coffee, Max stole a whole pizza, and the King refused to land. Would you float?",
+    "hashtags": ["#gravity"],
+    "tags": ["gravity", "day off"]
+  }
+}

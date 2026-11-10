@@ -1,0 +1,83 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|But there's one person in this town who has never turned blue. Not even once.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 4.488,
+ "words": [
+  [
+   "But",
+   0.078,
+   0.167
+  ],
+  [
+   "there's",
+   0.179,
+   0.346
+  ],
+  [
+   "one",
+   0.357,
+   0.603
+  ],
+  [
+   "person",
+   0.614,
+   1.016
+  ],
+  [
+   "in",
+   1.027,
+   1.161
+  ],
+  [
+   "this",
+   1.172,
+   1.339
+  ],
+  [
+   "town",
+   1.35,
+   1.685
+  ],
+  [
+   "who",
+   1.696,
+   1.83
+  ],
+  [
+   "has",
+   1.841,
+   1.975
+  ],
+  [
+   "never",
+   1.987,
+   2.232
+  ],
+  [
+   "turned",
+   2.243,
+   2.522
+  ],
+  [
+   "blue",
+   2.534,
+   2.88
+  ],
+  [
+   "Not",
+   3.203,
+   3.404
+  ],
+  [
+   "even",
+   3.415,
+   3.661
+  ],
+  [
+   "once",
+   3.672,
+   4.141
+  ]
+ ]
+}

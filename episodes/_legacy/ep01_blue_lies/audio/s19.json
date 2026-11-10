@@ -1,0 +1,33 @@
+{
+ "key": "en-GB-RyanNeural|-12%|-10Hz|It comes from feeling guilty.",
+ "voice": "en-GB-RyanNeural",
+ "speaker": "Grandpa",
+ "audio_len": 2.832,
+ "words": [
+  [
+   "It",
+   0.1,
+   0.285
+  ],
+  [
+   "comes",
+   0.299,
+   0.654
+  ],
+  [
+   "from",
+   0.668,
+   0.853
+  ],
+  [
+   "feeling",
+   0.867,
+   1.293
+  ],
+  [
+   "guilty",
+   1.307,
+   1.833
+  ]
+ ]
+}

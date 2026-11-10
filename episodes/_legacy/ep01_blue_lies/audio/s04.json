@@ -1,0 +1,43 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|Tell your mom you love her meatloaf?",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 2.184,
+ "words": [
+  [
+   "Tell",
+   0.067,
+   0.234
+  ],
+  [
+   "your",
+   0.246,
+   0.379
+  ],
+  [
+   "mom",
+   0.391,
+   0.714
+  ],
+  [
+   "you",
+   0.725,
+   0.882
+  ],
+  [
+   "love",
+   0.893,
+   1.127
+  ],
+  [
+   "her",
+   1.138,
+   1.272
+  ],
+  [
+   "meatloaf",
+   1.284,
+   1.853
+  ]
+ ]
+}

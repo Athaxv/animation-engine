@@ -1,0 +1,38 @@
+{
+ "key": "en-US-AndrewNeural|+10%|+4Hz|Yep! Already did the whole thing.",
+ "engine": "edge",
+ "speaker": "Theo",
+ "audio_len": 1.92,
+ "words": [
+  [
+   "Yep",
+   0.102,
+   0.295
+  ],
+  [
+   "Already",
+   0.67,
+   0.875
+  ],
+  [
+   "did",
+   0.886,
+   1.0
+  ],
+  [
+   "the",
+   1.011,
+   1.068
+  ],
+  [
+   "whole",
+   1.08,
+   1.25
+  ],
+  [
+   "thing",
+   1.261,
+   1.568
+  ]
+ ]
+}

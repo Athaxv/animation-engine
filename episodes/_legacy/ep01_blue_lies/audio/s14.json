@@ -1,0 +1,58 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|Because if he wasn't blue\u2026 it had to be true.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 3.048,
+ "words": [
+  [
+   "Because",
+   0.049,
+   0.294
+  ],
+  [
+   "if",
+   0.305,
+   0.406
+  ],
+  [
+   "he",
+   0.417,
+   0.517
+  ],
+  [
+   "wasn't",
+   0.529,
+   0.83
+  ],
+  [
+   "blue",
+   0.841,
+   1.243
+  ],
+  [
+   "it",
+   1.767,
+   1.879
+  ],
+  [
+   "had",
+   1.89,
+   2.069
+  ],
+  [
+   "to",
+   2.08,
+   2.147
+  ],
+  [
+   "be",
+   2.158,
+   2.27
+  ],
+  [
+   "true",
+   2.281,
+   2.705
+  ]
+ ]
+}

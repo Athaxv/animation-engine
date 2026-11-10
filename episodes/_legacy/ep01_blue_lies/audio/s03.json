@@ -1,0 +1,53 @@
+{
+ "key": "en-US-BrianNeural|+12%|+0Hz|Say you did your homework when you didn't? Blue.",
+ "voice": "en-US-BrianNeural",
+ "speaker": "narrator",
+ "audio_len": 2.904,
+ "words": [
+  [
+   "Say",
+   0.049,
+   0.238
+  ],
+  [
+   "you",
+   0.25,
+   0.361
+  ],
+  [
+   "did",
+   0.372,
+   0.54
+  ],
+  [
+   "your",
+   0.551,
+   0.674
+  ],
+  [
+   "homework",
+   0.685,
+   1.243
+  ],
+  [
+   "when",
+   1.265,
+   1.41
+  ],
+  [
+   "you",
+   1.421,
+   1.511
+  ],
+  [
+   "didn't",
+   1.522,
+   1.913
+  ],
+  [
+   "Blue",
+   2.266,
+   2.556
+  ]
+ ]
+}

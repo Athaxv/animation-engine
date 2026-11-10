@@ -1,0 +1,15 @@
+{
+  "_help": "ElevenLabs cast. voice = a voice name on your account or a voice id (python pipeline/eleven.py voices). stability lower = more expressive; style 0-1 = exaggeration; speed 0.7-1.2. Per-episode overrides: shots.json \"eleven_voices\" {Name: {...}}, custom characters: \"eleven_voice\" inside the character.",
+  "model": "eleven_multilingual_v2",
+  "voices": {
+    "narrator": {"voice": "Liam",    "stability": 0.40, "similarity_boost": 0.80, "style": 0.35, "speed": 1.08},
+    "Theo":     {"voice": "Liam",    "stability": 0.35, "similarity_boost": 0.80, "style": 0.45, "speed": 1.08},
+    "Max":      {"voice": "Will",    "stability": 0.35, "similarity_boost": 0.80, "style": 0.45, "speed": 1.08},
+    "Lily":     {"voice": "Jessica", "stability": 0.30, "similarity_boost": 0.80, "style": 0.55, "speed": 1.05},
+    "Mom":      {"voice": "Sarah",   "stability": 0.45, "similarity_boost": 0.80, "style": 0.35, "speed": 1.02},
+    "Dad":      {"voice": "Chris",   "stability": 0.45, "similarity_boost": 0.80, "style": 0.30, "speed": 1.00},
+    "King":     {"voice": "Daniel",  "stability": 0.50, "similarity_boost": 0.80, "style": 0.50, "speed": 0.95},
+    "Officer":  {"voice": "Bill",    "stability": 0.50, "similarity_boost": 0.80, "style": 0.30, "speed": 0.95},
+    "Noob":     {"voice": "Callum",  "stability": 0.30, "similarity_boost": 0.75, "style": 0.60, "speed": 1.10}
+  }
+}

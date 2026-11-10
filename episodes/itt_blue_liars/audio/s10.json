@@ -1,0 +1,38 @@
+{
+ "key": "en-US-AndrewNeural|+12%|+2Hz|Then Max asked the big question.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 1.824,
+ "words": [
+  [
+   "Then",
+   0.1,
+   0.223
+  ],
+  [
+   "Max",
+   0.234,
+   0.513
+  ],
+  [
+   "asked",
+   0.592,
+   0.815
+  ],
+  [
+   "the",
+   0.826,
+   0.893
+  ],
+  [
+   "big",
+   0.904,
+   1.049
+  ],
+  [
+   "question",
+   1.06,
+   1.495
+  ]
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|What if gravity turned off for ten seconds?",
+ "voice": "en-US-AndrewNeural",
+ "speaker": "narrator",
+ "audio_len": 2.616,
+ "words": [
+  [
+   "What",
+   0.093,
+   0.185
+  ],
+  [
+   "if",
+   0.197,
+   0.289
+  ],
+  [
+   "gravity",
+   0.301,
+   0.741
+  ],
+  [
+   "turned",
+   0.752,
+   1.007
+  ],
+  [
+   "off",
+   1.018,
+   1.296
+  ],
+  [
+   "for",
+   1.4,
+   1.528
+  ],
+  [
+   "ten",
+   1.539,
+   1.748
+  ],
+  [
+   "seconds",
+   1.759,
+   2.268
+  ]
+ ]
+}

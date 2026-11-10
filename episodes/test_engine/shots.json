@@ -1,0 +1,290 @@
+{
+  "episode": "test_engine",
+  "format": "what_if",
+  "title": "What if gravity turned off for 10 seconds?",
+  "hook_title": "WHAT IF GRAVITY TURNED OFF?",
+  "fps": 30,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "narrator": "Theo",
+  "characters": {
+    "Grandma": {
+      "base": "Mom",
+      "hair": [
+        0.85,
+        0.85,
+        0.88
+      ],
+      "hair_style": "short",
+      "extras": [
+        "glasses"
+      ],
+      "top": [
+        0.55,
+        0.75,
+        0.6
+      ],
+      "pants": [
+        0.4,
+        0.35,
+        0.5
+      ],
+      "voice": [
+        "en-US-JennyNeural",
+        "-10%",
+        "-6Hz"
+      ]
+    }
+  },
+  "shots": [
+    {
+      "id": "s01",
+      "set": "street",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "What if gravity turned off for ten seconds?",
+      "camera": {
+        "shot": "medium",
+        "angle": "low",
+        "move": "push_in",
+        "target": "Theo"
+      },
+      "cast": [
+        {
+          "name": "Theo",
+          "mark": "sidewalk_b",
+          "facing": "camera",
+          "pose": "shocked",
+          "face": "shocked",
+          "action": "float"
+        }
+      ],
+      "emphasis": [
+        "gravity"
+      ],
+      "transition": "whip"
+    },
+    {
+      "id": "s02",
+      "set": "kitchen",
+      "speaker": "narrator",
+      "text": "Dad's pizza would fly right off his plate.",
+      "camera": {
+        "shot": "medium_close",
+        "angle": "eye",
+        "move": "static",
+        "target": "Dad"
+      },
+      "cast": [
+        {
+          "name": "Dad",
+          "mark": "table_a",
+          "facing": "camera",
+          "pose": "sit",
+          "face": "smile",
+          "props": [
+            "pizza"
+          ],
+          "changes": [
+            {
+              "at": 1.0,
+              "face": "shocked",
+              "props": []
+            }
+          ]
+        }
+      ],
+      "sfx": [
+        {
+          "at": 1.0,
+          "name": "whoosh"
+        }
+      ],
+      "emphasis": [
+        "pizza"
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s03",
+      "set": "street",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "The king would finally feel like a giant.",
+      "camera": {
+        "shot": "wide",
+        "angle": "low",
+        "move": "pull_out",
+        "target": "King"
+      },
+      "cast": [
+        {
+          "name": "King",
+          "mark": "sidewalk_a",
+          "facing": "camera",
+          "pose": "hands_hips",
+          "face": "confident",
+          "changes": [
+            {
+              "at": 0.8,
+              "scale": 2.2,
+              "over": 0.5
+            },
+            {
+              "at": 0.8,
+              "action": "laugh"
+            }
+          ]
+        },
+        {
+          "name": "Noob",
+          "mark": "sidewalk_c",
+          "facing": "King",
+          "pose": "shocked",
+          "face": "shocked",
+          "tint": {
+            "color": [
+              0.3,
+              0.55,
+              1.0
+            ],
+            "amount": 0.0
+          }
+        }
+      ],
+      "fx": [
+        {
+          "type": "tint",
+          "target": "Noob",
+          "color": [
+            0.3,
+            0.55,
+            1.0
+          ],
+          "from": 0.0,
+          "amount": 0.7,
+          "at": 1.0,
+          "over": 0.5
+        },
+        {
+          "type": "shake",
+          "at": 0.8,
+          "dur": 0.5
+        }
+      ],
+      "emphasis": [
+        "giant"
+      ],
+      "transition": "flash"
+    },
+    {
+      "id": "s04",
+      "set": "street",
+      "dressing": "sunset",
+      "speaker": "Lily",
+      "text": "Max! Stop flying and come home!",
+      "camera": {
+        "shot": "two_shot",
+        "angle": "eye",
+        "move": "static",
+        "target": "Lily"
+      },
+      "cast": [
+        {
+          "name": "Lily",
+          "mark": "sidewalk_a",
+          "facing": "Max",
+          "pose": "angry",
+          "face": "angry",
+          "action": "talk_still"
+        },
+        {
+          "name": "Max",
+          "mark": "sidewalk_b",
+          "facing": "camera",
+          "pose": "celebrate",
+          "face": "laugh",
+          "action": "float"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s05",
+      "set": "bedroom",
+      "dressing": "night",
+      "speaker": "narrator",
+      "text": "Grandma would sleep right through it.",
+      "camera": {
+        "shot": "medium",
+        "angle": "high",
+        "move": "push_in",
+        "target": "Grandma"
+      },
+      "cast": [
+        {
+          "name": "Grandma",
+          "mark": "bed",
+          "facing": "camera",
+          "pose": "lie",
+          "face": "sleep",
+          "action": "sleep"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s06",
+      "set": "street",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "And the police would invent a brand new rule.",
+      "hold": 0.4,
+      "camera": {
+        "shot": "medium",
+        "angle": "eye",
+        "move": "static",
+        "target": "Officer"
+      },
+      "cast": [
+        {
+          "name": "Officer",
+          "mark": "sidewalk_b",
+          "facing": "camera",
+          "pose": "hold",
+          "face": "angry",
+          "props": [
+            "sign:NO FLYING"
+          ],
+          "action": "walk_in",
+          "from": "right"
+        }
+      ],
+      "emphasis": [
+        "rule"
+      ],
+      "transition": "cut",
+      "fx": [
+        {
+          "type": "punch",
+          "at": 1.6
+        }
+      ]
+    }
+  ],
+  "publish": {
+    "tiktok_caption": "What if gravity turned off for 10 seconds? 🤯",
+    "youtube_title": "What If Gravity Turned Off For 10 Seconds? #roblox",
+    "tags": [
+      "whatif",
+      "roblox",
+      "gravity"
+    ]
+  },
+  "thumbnail": {
+    "shot": "s04",
+    "at": 1.5
+  }
+}

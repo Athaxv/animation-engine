@@ -1,0 +1,53 @@
+{
+ "key": "en-US-AndrewNeural|+10%|+4Hz|Dude, gravity is back! You can come down now!",
+ "engine": "edge",
+ "speaker": "Theo",
+ "audio_len": 3.048,
+ "words": [
+  [
+   "Dude",
+   0.102,
+   0.375
+  ],
+  [
+   "gravity",
+   0.443,
+   0.875
+  ],
+  [
+   "is",
+   0.886,
+   0.989
+  ],
+  [
+   "back",
+   1.0,
+   1.42
+  ],
+  [
+   "You",
+   1.795,
+   1.864
+  ],
+  [
+   "can",
+   1.875,
+   1.989
+  ],
+  [
+   "come",
+   2.0,
+   2.148
+  ],
+  [
+   "down",
+   2.159,
+   2.409
+  ],
+  [
+   "now",
+   2.42,
+   2.705
+  ]
+ ]
+}

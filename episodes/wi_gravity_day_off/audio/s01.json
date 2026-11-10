@@ -1,0 +1,48 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|What if gravity took the whole day off?",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 2.064,
+ "words": [
+  [
+   "What",
+   0.093,
+   0.185
+  ],
+  [
+   "if",
+   0.197,
+   0.289
+  ],
+  [
+   "gravity",
+   0.301,
+   0.741
+  ],
+  [
+   "took",
+   0.752,
+   0.949
+  ],
+  [
+   "the",
+   0.961,
+   1.019
+  ],
+  [
+   "whole",
+   1.03,
+   1.192
+  ],
+  [
+   "day",
+   1.204,
+   1.389
+  ],
+  [
+   "off",
+   1.4,
+   1.713
+  ]
+ ]
+}

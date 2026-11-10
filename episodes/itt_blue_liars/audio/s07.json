@@ -1,0 +1,38 @@
+{
+ "key": "en-US-EmmaNeural|+6%|+0Hz|Theo. Did you finish your homework?",
+ "engine": "edge",
+ "speaker": "Mom",
+ "audio_len": 2.376,
+ "words": [
+  [
+   "Theo",
+   0.059,
+   0.354
+  ],
+  [
+   "Did",
+   0.719,
+   0.849
+  ],
+  [
+   "you",
+   0.861,
+   0.979
+  ],
+  [
+   "finish",
+   0.991,
+   1.321
+  ],
+  [
+   "your",
+   1.333,
+   1.45
+  ],
+  [
+   "homework",
+   1.462,
+   2.028
+  ]
+ ]
+}

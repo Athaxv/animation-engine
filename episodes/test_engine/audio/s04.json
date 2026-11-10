@@ -1,0 +1,38 @@
+{
+ "key": "en-US-AnaNeural|+6%|+0Hz|Max! Stop flying and come home!",
+ "voice": "en-US-AnaNeural",
+ "speaker": "Lily",
+ "audio_len": 4.128,
+ "words": [
+  [
+   "Max",
+   0.097,
+   0.699
+  ],
+  [
+   "Stop",
+   1.498,
+   1.922
+  ],
+  [
+   "flying",
+   1.934,
+   2.465
+  ],
+  [
+   "and",
+   2.476,
+   2.618
+  ],
+  [
+   "come",
+   2.63,
+   2.877
+  ],
+  [
+   "home",
+   2.889,
+   3.314
+  ]
+ ]
+}
