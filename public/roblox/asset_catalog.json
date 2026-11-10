@@ -1,0 +1,2741 @@
+{
+  "schema_version": "1.0",
+  "total_assets": 35,
+  "categories": {
+    "architecture": [
+      "arch_apartment_block",
+      "arch_arched_bridge",
+      "arch_castle_keep",
+      "arch_clock_tower",
+      "arch_house_suburban",
+      "arch_school_facade",
+      "arch_shop_bakery",
+      "arch_stone_wall",
+      "arch_town_gate"
+    ],
+    "environment": [
+      "env_bush_hedge",
+      "env_fence_picket",
+      "env_fountain_plaza",
+      "env_grass_patch",
+      "env_mountain_peak",
+      "env_park_bench",
+      "env_river_stream",
+      "env_road_segment",
+      "env_rock_cluster",
+      "env_sidewalk_tile",
+      "env_streetlight_classic",
+      "env_terrain_hill",
+      "env_tree_oak"
+    ],
+    "interiors": [
+      "int_bed_single",
+      "int_cabinet_counter",
+      "int_door_wooden",
+      "int_kitchen_stove_fridge",
+      "int_shelf_books",
+      "int_sofa_couch",
+      "int_table_dining",
+      "int_window_framed"
+    ],
+    "fantasy": [
+      "fan_ancient_ruins",
+      "fan_crystal_cluster",
+      "fan_floating_platform",
+      "fan_magical_obelisk",
+      "fan_portal_arcane"
+    ]
+  },
+  "assets": {
+    "arch_apartment_block": {
+      "id": "arch_apartment_block",
+      "category": "architecture",
+      "subcategory": "apartments",
+      "tags": [
+        "apartment",
+        "city",
+        "residential",
+        "building",
+        "multistory"
+      ],
+      "blender_ref": {
+        "collection": "Asset_arch_apartment_block",
+        "root_object": "arch_apartment_block",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        21.2,
+        17.1,
+        23.2
+      ],
+      "bounding_box": {
+        "min": [
+          -10.6,
+          -9.5,
+          0.0
+        ],
+        "max": [
+          10.6,
+          7.6,
+          23.2
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -10.6,
+          -9.5,
+          10.6,
+          7.6
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -10.6,
+          -9.5,
+          10.6,
+          7.6
+        ],
+        "height": 23.2
+      },
+      "allowed_surfaces": [
+        "ground",
+        "pavement"
+      ],
+      "scale_constraints": {
+        "min": 0.75,
+        "max": 1.5,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "entry": [
+          0.0,
+          -7.2,
+          0.0
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/arch_apartment_block.png"
+    },
+    "arch_arched_bridge": {
+      "id": "arch_arched_bridge",
+      "category": "architecture",
+      "subcategory": "bridges",
+      "tags": [
+        "bridge",
+        "crossing",
+        "river",
+        "pathway",
+        "wooden"
+      ],
+      "blender_ref": {
+        "collection": "Asset_arch_arched_bridge",
+        "root_object": "arch_arched_bridge",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        14.2,
+        5.2,
+        3.156
+      ],
+      "bounding_box": {
+        "min": [
+          -7.1,
+          -2.6,
+          0.419
+        ],
+        "max": [
+          7.1,
+          2.6,
+          3.575
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.419,
+        "grounded": true,
+        "footprint_2d": [
+          -7.1,
+          -2.6,
+          7.1,
+          2.6
+        ]
+      },
+      "collision_proxy": {
+        "type": "none",
+        "walkable": true,
+        "bounds_2d": [
+          -7.1,
+          -2.6,
+          7.1,
+          2.6
+        ],
+        "height": 3.156
+      },
+      "allowed_surfaces": [
+        "water",
+        "ground",
+        "river"
+      ],
+      "scale_constraints": {
+        "min": 0.75,
+        "max": 1.6,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "deck_center": [
+          0.0,
+          0.0,
+          1.85
+        ],
+        "approach_left": [
+          -7.0,
+          0.0,
+          0.0
+        ],
+        "approach_right": [
+          7.0,
+          0.0,
+          0.0
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/arch_arched_bridge.png"
+    },
+    "arch_castle_keep": {
+      "id": "arch_castle_keep",
+      "category": "architecture",
+      "subcategory": "castles",
+      "tags": [
+        "castle",
+        "keep",
+        "fortress",
+        "medieval",
+        "royal"
+      ],
+      "blender_ref": {
+        "collection": "Asset_arch_castle_keep",
+        "root_object": "arch_castle_keep",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        22.6,
+        20.6,
+        21.2
+      ],
+      "bounding_box": {
+        "min": [
+          -11.3,
+          -10.3,
+          0.0
+        ],
+        "max": [
+          11.3,
+          10.3,
+          21.2
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -11.3,
+          -10.3,
+          11.3,
+          10.3
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -11.3,
+          -10.3,
+          11.3,
+          10.3
+        ],
+        "height": 21.2
+      },
+      "allowed_surfaces": [
+        "ground",
+        "terrain",
+        "hill"
+      ],
+      "scale_constraints": {
+        "min": 0.7,
+        "max": 1.8,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "gate": [
+          0.0,
+          -7.2,
+          0.0
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/arch_castle_keep.png"
+    },
+    "arch_clock_tower": {
+      "id": "arch_clock_tower",
+      "category": "architecture",
+      "subcategory": "towers",
+      "tags": [
+        "tower",
+        "clock",
+        "landmark",
+        "civic",
+        "town_square"
+      ],
+      "blender_ref": {
+        "collection": "Asset_arch_clock_tower",
+        "root_object": "arch_clock_tower",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        9.2,
+        9.2,
+        32.4
+      ],
+      "bounding_box": {
+        "min": [
+          -4.6,
+          -4.6,
+          0.0
+        ],
+        "max": [
+          4.6,
+          4.6,
+          32.4
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -4.6,
+          -4.6,
+          4.6,
+          4.6
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -4.6,
+          -4.6,
+          4.6,
+          4.6
+        ],
+        "height": 32.4
+      },
+      "allowed_surfaces": [
+        "ground",
+        "pavement",
+        "plaza"
+      ],
+      "scale_constraints": {
+        "min": 0.7,
+        "max": 1.6,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "base_front": [
+          0.0,
+          -4.0,
+          0.0
+        ],
+        "spire_top": [
+          0.0,
+          0.0,
+          32.0
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/arch_clock_tower.png"
+    },
+    "arch_house_suburban": {
+      "id": "arch_house_suburban",
+      "category": "architecture",
+      "subcategory": "houses",
+      "tags": [
+        "house",
+        "suburban",
+        "residential",
+        "building",
+        "home"
+      ],
+      "blender_ref": {
+        "collection": "Asset_arch_house_suburban",
+        "root_object": "arch_house_suburban",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        20.0,
+        17.0,
+        15.0
+      ],
+      "bounding_box": {
+        "min": [
+          -10.0,
+          -9.0,
+          0.0
+        ],
+        "max": [
+          10.0,
+          8.0,
+          15.0
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -10.0,
+          -9.0,
+          10.0,
+          8.0
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -10.0,
+          -9.0,
+          10.0,
+          8.0
+        ],
+        "height": 15.0
+      },
+      "allowed_surfaces": [
+        "ground",
+        "grass",
+        "terrain"
+      ],
+      "scale_constraints": {
+        "min": 0.7,
+        "max": 1.6,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "front_door": [
+          0.0,
+          -7.2,
+          0.4
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/arch_house_suburban.png"
+    },
+    "arch_school_facade": {
+      "id": "arch_school_facade",
+      "category": "architecture",
+      "subcategory": "schools",
+      "tags": [
+        "school",
+        "education",
+        "civic",
+        "brick",
+        "building"
+      ],
+      "blender_ref": {
+        "collection": "Asset_arch_school_facade",
+        "root_object": "arch_school_facade",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        27.0,
+        16.4,
+        17.0
+      ],
+      "bounding_box": {
+        "min": [
+          -13.5,
+          -8.9,
+          0.0
+        ],
+        "max": [
+          13.5,
+          7.5,
+          17.0
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -13.5,
+          -8.9,
+          13.5,
+          7.5
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -13.5,
+          -8.9,
+          13.5,
+          7.5
+        ],
+        "height": 17.0
+      },
+      "allowed_surfaces": [
+        "ground",
+        "pavement"
+      ],
+      "scale_constraints": {
+        "min": 0.7,
+        "max": 1.4,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "main_entrance": [
+          0.0,
+          -8.0,
+          0.0
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/arch_school_facade.png"
+    },
+    "arch_shop_bakery": {
+      "id": "arch_shop_bakery",
+      "category": "architecture",
+      "subcategory": "shops",
+      "tags": [
+        "shop",
+        "bakery",
+        "storefront",
+        "commercial",
+        "town"
+      ],
+      "blender_ref": {
+        "collection": "Asset_arch_shop_bakery",
+        "root_object": "arch_shop_bakery",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        16.8,
+        15.093,
+        12.8
+      ],
+      "bounding_box": {
+        "min": [
+          -8.4,
+          -8.693,
+          0.0
+        ],
+        "max": [
+          8.4,
+          6.4,
+          12.8
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -8.4,
+          -8.693,
+          8.4,
+          6.4
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -8.4,
+          -8.693,
+          8.4,
+          6.4
+        ],
+        "height": 12.8
+      },
+      "allowed_surfaces": [
+        "ground",
+        "pavement"
+      ],
+      "scale_constraints": {
+        "min": 0.75,
+        "max": 1.5,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "shop_door": [
+          -4.2,
+          -6.2,
+          0.0
+        ],
+        "window_display": [
+          2.4,
+          -6.2,
+          1.5
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/arch_shop_bakery.png"
+    },
+    "arch_stone_wall": {
+      "id": "arch_stone_wall",
+      "category": "architecture",
+      "subcategory": "walls",
+      "tags": [
+        "wall",
+        "stone",
+        "boundary",
+        "perimeter",
+        "barrier"
+      ],
+      "blender_ref": {
+        "collection": "Asset_arch_stone_wall",
+        "root_object": "arch_stone_wall",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        14.1,
+        2.1,
+        5.425
+      ],
+      "bounding_box": {
+        "min": [
+          -7.05,
+          -1.05,
+          0.0
+        ],
+        "max": [
+          7.05,
+          1.05,
+          5.425
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -7.05,
+          -1.05,
+          7.05,
+          1.05
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -7.05,
+          -1.05,
+          7.05,
+          1.05
+        ],
+        "height": 5.425
+      },
+      "allowed_surfaces": [
+        "ground",
+        "grass",
+        "pavement",
+        "terrain"
+      ],
+      "scale_constraints": {
+        "min": 0.6,
+        "max": 2.0,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "end_left": [
+          -6.0,
+          0.0,
+          0.0
+        ],
+        "end_right": [
+          6.0,
+          0.0,
+          0.0
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/arch_stone_wall.png"
+    },
+    "arch_town_gate": {
+      "id": "arch_town_gate",
+      "category": "architecture",
+      "subcategory": "gates",
+      "tags": [
+        "gate",
+        "archway",
+        "entrance",
+        "town_square",
+        "landmark"
+      ],
+      "blender_ref": {
+        "collection": "Asset_arch_town_gate",
+        "root_object": "arch_town_gate",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        13.5,
+        3.3,
+        12.3
+      ],
+      "bounding_box": {
+        "min": [
+          -6.75,
+          -1.75,
+          0.0
+        ],
+        "max": [
+          6.75,
+          1.55,
+          12.3
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -6.75,
+          -1.75,
+          6.75,
+          1.55
+        ]
+      },
+      "collision_proxy": {
+        "type": "none",
+        "walkable": true,
+        "bounds_2d": [
+          -6.75,
+          -1.75,
+          6.75,
+          1.55
+        ],
+        "height": 12.3
+      },
+      "allowed_surfaces": [
+        "ground",
+        "pavement",
+        "grass"
+      ],
+      "scale_constraints": {
+        "min": 0.75,
+        "max": 1.6,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "passage_center": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/arch_town_gate.png"
+    },
+    "env_bush_hedge": {
+      "id": "env_bush_hedge",
+      "category": "environment",
+      "subcategory": "bushes",
+      "tags": [
+        "bush",
+        "hedge",
+        "shrub",
+        "foliage",
+        "nature"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_bush_hedge",
+        "root_object": "env_bush_hedge",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        4.182,
+        3.446,
+        2.693
+      ],
+      "bounding_box": {
+        "min": [
+          -1.917,
+          -1.644,
+          -0.19
+        ],
+        "max": [
+          2.265,
+          1.802,
+          2.503
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": -0.19,
+        "grounded": true,
+        "footprint_2d": [
+          -1.917,
+          -1.644,
+          2.265,
+          1.802
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -1.917,
+          -1.644,
+          2.265,
+          1.802
+        ],
+        "height": 2.693
+      },
+      "allowed_surfaces": [
+        "ground",
+        "grass",
+        "terrain"
+      ],
+      "scale_constraints": {
+        "min": 0.5,
+        "max": 2.5,
+        "default": 1.0
+      },
+      "attachment_points": {},
+      "preview_image": "public/roblox/assets/previews/env_bush_hedge.png"
+    },
+    "env_fence_picket": {
+      "id": "env_fence_picket",
+      "category": "environment",
+      "subcategory": "fences",
+      "tags": [
+        "fence",
+        "picket",
+        "boundary",
+        "yard"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_fence_picket",
+        "root_object": "env_fence_picket",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        8.5,
+        0.425,
+        2.8
+      ],
+      "bounding_box": {
+        "min": [
+          -4.25,
+          -0.125,
+          0.0
+        ],
+        "max": [
+          4.25,
+          0.3,
+          2.8
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -4.25,
+          -0.125,
+          4.25,
+          0.3
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -4.25,
+          -0.125,
+          4.25,
+          0.3
+        ],
+        "height": 2.8
+      },
+      "allowed_surfaces": [
+        "ground",
+        "grass",
+        "pavement"
+      ],
+      "scale_constraints": {
+        "min": 0.6,
+        "max": 2.0,
+        "default": 1.0
+      },
+      "attachment_points": {},
+      "preview_image": "public/roblox/assets/previews/env_fence_picket.png"
+    },
+    "env_fountain_plaza": {
+      "id": "env_fountain_plaza",
+      "category": "environment",
+      "subcategory": "street_furniture",
+      "tags": [
+        "fountain",
+        "plaza",
+        "landmark",
+        "water",
+        "town_square"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_fountain_plaza",
+        "root_object": "env_fountain_plaza",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        9.0,
+        9.0,
+        5.375
+      ],
+      "bounding_box": {
+        "min": [
+          -4.5,
+          -4.5,
+          0.0
+        ],
+        "max": [
+          4.5,
+          4.5,
+          5.375
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -4.5,
+          -4.5,
+          4.5,
+          4.5
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -4.5,
+          -4.5,
+          4.5,
+          4.5
+        ],
+        "height": 5.375
+      },
+      "allowed_surfaces": [
+        "ground",
+        "pavement",
+        "plaza"
+      ],
+      "scale_constraints": {
+        "min": 0.7,
+        "max": 1.8,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "fountain_rim": [
+          0.0,
+          -4.6,
+          0.0
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/env_fountain_plaza.png"
+    },
+    "env_grass_patch": {
+      "id": "env_grass_patch",
+      "category": "environment",
+      "subcategory": "grass",
+      "tags": [
+        "grass",
+        "lawn",
+        "turf",
+        "park",
+        "walkable"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_grass_patch",
+        "root_object": "env_grass_patch",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        20.0,
+        20.0,
+        1.43
+      ],
+      "bounding_box": {
+        "min": [
+          -10.0,
+          -10.0,
+          0.0
+        ],
+        "max": [
+          10.0,
+          10.0,
+          1.43
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -10.0,
+          -10.0,
+          10.0,
+          10.0
+        ]
+      },
+      "collision_proxy": {
+        "type": "none",
+        "walkable": true,
+        "bounds_2d": [
+          -10.0,
+          -10.0,
+          10.0,
+          10.0
+        ],
+        "height": 1.43
+      },
+      "allowed_surfaces": [
+        "ground",
+        "terrain"
+      ],
+      "scale_constraints": {
+        "min": 0.5,
+        "max": 4.0,
+        "default": 1.0
+      },
+      "attachment_points": {},
+      "preview_image": "public/roblox/assets/previews/env_grass_patch.png"
+    },
+    "env_mountain_peak": {
+      "id": "env_mountain_peak",
+      "category": "environment",
+      "subcategory": "mountains",
+      "tags": [
+        "mountain",
+        "peak",
+        "snow",
+        "vista",
+        "background"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_mountain_peak",
+        "root_object": "env_mountain_peak",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        27.298,
+        26.614,
+        24.0
+      ],
+      "bounding_box": {
+        "min": [
+          -13.649,
+          -12.614,
+          0.0
+        ],
+        "max": [
+          13.649,
+          14.0,
+          24.0
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -13.649,
+          -12.614,
+          13.649,
+          14.0
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -13.649,
+          -12.614,
+          13.649,
+          14.0
+        ],
+        "height": 24.0
+      },
+      "allowed_surfaces": [
+        "ground",
+        "terrain"
+      ],
+      "scale_constraints": {
+        "min": 0.8,
+        "max": 4.0,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "summit": [
+          0.0,
+          0.0,
+          24.0
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/env_mountain_peak.png"
+    },
+    "env_park_bench": {
+      "id": "env_park_bench",
+      "category": "environment",
+      "subcategory": "street_furniture",
+      "tags": [
+        "bench",
+        "seat",
+        "park",
+        "street_furniture",
+        "town_square"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_park_bench",
+        "root_object": "env_park_bench",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        4.6,
+        1.82,
+        3.8
+      ],
+      "bounding_box": {
+        "min": [
+          -2.3,
+          -0.9,
+          0.0
+        ],
+        "max": [
+          2.3,
+          0.92,
+          3.8
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -2.3,
+          -0.9,
+          2.3,
+          0.92
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -2.3,
+          -0.9,
+          2.3,
+          0.92
+        ],
+        "height": 3.8
+      },
+      "allowed_surfaces": [
+        "ground",
+        "pavement",
+        "sidewalk",
+        "grass"
+      ],
+      "scale_constraints": {
+        "min": 0.8,
+        "max": 1.4,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "seat_center": [
+          0.0,
+          0.0,
+          2.0
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/env_park_bench.png"
+    },
+    "env_river_stream": {
+      "id": "env_river_stream",
+      "category": "environment",
+      "subcategory": "rivers",
+      "tags": [
+        "river",
+        "stream",
+        "water",
+        "canal",
+        "nature"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_river_stream",
+        "root_object": "env_river_stream",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        32.0,
+        8.25,
+        0.55
+      ],
+      "bounding_box": {
+        "min": [
+          -16.0,
+          -4.125,
+          0.0
+        ],
+        "max": [
+          16.0,
+          4.125,
+          0.55
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -16.0,
+          -4.125,
+          16.0,
+          4.125
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -16.0,
+          -4.125,
+          16.0,
+          4.125
+        ],
+        "height": 0.55
+      },
+      "allowed_surfaces": [
+        "ground",
+        "terrain"
+      ],
+      "scale_constraints": {
+        "min": 0.6,
+        "max": 3.0,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "bridge_anchor": [
+          0.0,
+          0.0,
+          0.25
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/env_river_stream.png"
+    },
+    "env_road_segment": {
+      "id": "env_road_segment",
+      "category": "environment",
+      "subcategory": "roads",
+      "tags": [
+        "road",
+        "asphalt",
+        "street",
+        "highway",
+        "walkable"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_road_segment",
+        "root_object": "env_road_segment",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        24.0,
+        10.0,
+        0.35
+      ],
+      "bounding_box": {
+        "min": [
+          -12.0,
+          -5.0,
+          0.0
+        ],
+        "max": [
+          12.0,
+          5.0,
+          0.35
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -12.0,
+          -5.0,
+          12.0,
+          5.0
+        ]
+      },
+      "collision_proxy": {
+        "type": "none",
+        "walkable": true,
+        "bounds_2d": [
+          -12.0,
+          -5.0,
+          12.0,
+          5.0
+        ],
+        "height": 0.35
+      },
+      "allowed_surfaces": [
+        "ground",
+        "terrain"
+      ],
+      "scale_constraints": {
+        "min": 0.5,
+        "max": 3.0,
+        "default": 1.0
+      },
+      "attachment_points": {},
+      "preview_image": "public/roblox/assets/previews/env_road_segment.png"
+    },
+    "env_rock_cluster": {
+      "id": "env_rock_cluster",
+      "category": "environment",
+      "subcategory": "rocks",
+      "tags": [
+        "rock",
+        "boulder",
+        "stone",
+        "nature"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_rock_cluster",
+        "root_object": "env_rock_cluster",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        5.501,
+        3.95,
+        2.727
+      ],
+      "bounding_box": {
+        "min": [
+          -2.575,
+          -1.992,
+          -0.201
+        ],
+        "max": [
+          2.926,
+          1.958,
+          2.526
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": -0.201,
+        "grounded": true,
+        "footprint_2d": [
+          -2.575,
+          -1.992,
+          2.926,
+          1.958
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -2.575,
+          -1.992,
+          2.926,
+          1.958
+        ],
+        "height": 2.727
+      },
+      "allowed_surfaces": [
+        "ground",
+        "grass",
+        "terrain",
+        "river"
+      ],
+      "scale_constraints": {
+        "min": 0.5,
+        "max": 2.5,
+        "default": 1.0
+      },
+      "attachment_points": {},
+      "preview_image": "public/roblox/assets/previews/env_rock_cluster.png"
+    },
+    "env_sidewalk_tile": {
+      "id": "env_sidewalk_tile",
+      "category": "environment",
+      "subcategory": "sidewalks",
+      "tags": [
+        "sidewalk",
+        "pavement",
+        "plaza",
+        "walkway",
+        "walkable"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_sidewalk_tile",
+        "root_object": "env_sidewalk_tile",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        16.0,
+        6.0,
+        0.38
+      ],
+      "bounding_box": {
+        "min": [
+          -8.0,
+          -3.0,
+          0.0
+        ],
+        "max": [
+          8.0,
+          3.0,
+          0.38
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -8.0,
+          -3.0,
+          8.0,
+          3.0
+        ]
+      },
+      "collision_proxy": {
+        "type": "none",
+        "walkable": true,
+        "bounds_2d": [
+          -8.0,
+          -3.0,
+          8.0,
+          3.0
+        ],
+        "height": 0.38
+      },
+      "allowed_surfaces": [
+        "ground",
+        "terrain"
+      ],
+      "scale_constraints": {
+        "min": 0.5,
+        "max": 3.0,
+        "default": 1.0
+      },
+      "attachment_points": {},
+      "preview_image": "public/roblox/assets/previews/env_sidewalk_tile.png"
+    },
+    "env_streetlight_classic": {
+      "id": "env_streetlight_classic",
+      "category": "environment",
+      "subcategory": "streetlights",
+      "tags": [
+        "streetlight",
+        "lamp",
+        "light",
+        "street_furniture"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_streetlight_classic",
+        "root_object": "env_streetlight_classic",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        1.2,
+        2.9,
+        12.025
+      ],
+      "bounding_box": {
+        "min": [
+          -0.6,
+          -2.2,
+          0.0
+        ],
+        "max": [
+          0.6,
+          0.7,
+          12.025
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -0.6,
+          -2.2,
+          0.6,
+          0.7
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -0.6,
+          -2.2,
+          0.6,
+          0.7
+        ],
+        "height": 12.025
+      },
+      "allowed_surfaces": [
+        "ground",
+        "pavement",
+        "sidewalk",
+        "grass"
+      ],
+      "scale_constraints": {
+        "min": 0.75,
+        "max": 1.5,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "bulb": [
+          0.0,
+          -1.4,
+          11.6
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/env_streetlight_classic.png"
+    },
+    "env_terrain_hill": {
+      "id": "env_terrain_hill",
+      "category": "environment",
+      "subcategory": "terrain",
+      "tags": [
+        "terrain",
+        "hill",
+        "mound",
+        "landscape",
+        "background"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_terrain_hill",
+        "root_object": "env_terrain_hill",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        24.0,
+        24.0,
+        5.5
+      ],
+      "bounding_box": {
+        "min": [
+          -12.0,
+          -12.0,
+          0.0
+        ],
+        "max": [
+          12.0,
+          12.0,
+          5.5
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -12.0,
+          -12.0,
+          12.0,
+          12.0
+        ]
+      },
+      "collision_proxy": {
+        "type": "none",
+        "walkable": true,
+        "bounds_2d": [
+          -12.0,
+          -12.0,
+          12.0,
+          12.0
+        ],
+        "height": 5.5
+      },
+      "allowed_surfaces": [
+        "ground"
+      ],
+      "scale_constraints": {
+        "min": 0.6,
+        "max": 3.5,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "hill_crest": [
+          0.0,
+          0.0,
+          5.5
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/env_terrain_hill.png"
+    },
+    "env_tree_oak": {
+      "id": "env_tree_oak",
+      "category": "environment",
+      "subcategory": "trees",
+      "tags": [
+        "tree",
+        "oak",
+        "foliage",
+        "nature",
+        "park"
+      ],
+      "blender_ref": {
+        "collection": "Asset_env_tree_oak",
+        "root_object": "env_tree_oak",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        7.927,
+        8.139,
+        14.039
+      ],
+      "bounding_box": {
+        "min": [
+          -4.46,
+          -3.64,
+          0.0
+        ],
+        "max": [
+          3.467,
+          4.499,
+          14.039
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -4.46,
+          -3.64,
+          3.467,
+          4.499
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -4.46,
+          -3.64,
+          3.467,
+          4.499
+        ],
+        "height": 14.039
+      },
+      "allowed_surfaces": [
+        "ground",
+        "grass",
+        "terrain"
+      ],
+      "scale_constraints": {
+        "min": 0.6,
+        "max": 2.2,
+        "default": 1.0
+      },
+      "attachment_points": {},
+      "preview_image": "public/roblox/assets/previews/env_tree_oak.png"
+    },
+    "fan_ancient_ruins": {
+      "id": "fan_ancient_ruins",
+      "category": "fantasy",
+      "subcategory": "ancient_structures",
+      "tags": [
+        "ruins",
+        "temple",
+        "ancient",
+        "columns",
+        "altar",
+        "fantasy"
+      ],
+      "blender_ref": {
+        "collection": "Asset_fan_ancient_ruins",
+        "root_object": "fan_ancient_ruins",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        10.0,
+        6.5,
+        8.43
+      ],
+      "bounding_box": {
+        "min": [
+          -5.0,
+          -3.25,
+          0.0
+        ],
+        "max": [
+          5.0,
+          3.25,
+          8.43
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -5.0,
+          -3.25,
+          5.0,
+          3.25
+        ]
+      },
+      "collision_proxy": {
+        "type": "none",
+        "walkable": true,
+        "bounds_2d": [
+          -5.0,
+          -3.25,
+          5.0,
+          3.25
+        ],
+        "height": 8.43
+      },
+      "allowed_surfaces": [
+        "ground",
+        "grass",
+        "terrain"
+      ],
+      "scale_constraints": {
+        "min": 0.7,
+        "max": 2.0,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "altar_front": [
+          0.0,
+          -1.8,
+          0.6
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/fan_ancient_ruins.png"
+    },
+    "fan_crystal_cluster": {
+      "id": "fan_crystal_cluster",
+      "category": "fantasy",
+      "subcategory": "crystals",
+      "tags": [
+        "crystal",
+        "gem",
+        "glowing",
+        "magic",
+        "fantasy"
+      ],
+      "blender_ref": {
+        "collection": "Asset_fan_crystal_cluster",
+        "root_object": "fan_crystal_cluster",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        4.29,
+        4.182,
+        4.5
+      ],
+      "bounding_box": {
+        "min": [
+          -2.145,
+          -1.982,
+          0.0
+        ],
+        "max": [
+          2.145,
+          2.2,
+          4.5
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -2.145,
+          -1.982,
+          2.145,
+          2.2
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -2.145,
+          -1.982,
+          2.145,
+          2.2
+        ],
+        "height": 4.5
+      },
+      "allowed_surfaces": [
+        "ground",
+        "grass",
+        "terrain",
+        "rock"
+      ],
+      "scale_constraints": {
+        "min": 0.5,
+        "max": 2.5,
+        "default": 1.0
+      },
+      "attachment_points": {},
+      "preview_image": "public/roblox/assets/previews/fan_crystal_cluster.png"
+    },
+    "fan_floating_platform": {
+      "id": "fan_floating_platform",
+      "category": "fantasy",
+      "subcategory": "floating_platforms",
+      "tags": [
+        "floating",
+        "island",
+        "platform",
+        "sky",
+        "fantasy"
+      ],
+      "blender_ref": {
+        "collection": "Asset_fan_floating_platform",
+        "root_object": "fan_floating_platform",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        10.0,
+        10.0,
+        5.5
+      ],
+      "bounding_box": {
+        "min": [
+          -5.0,
+          -5.0,
+          0.5
+        ],
+        "max": [
+          5.0,
+          5.0,
+          6.0
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.5,
+        "grounded": true,
+        "footprint_2d": [
+          -5.0,
+          -5.0,
+          5.0,
+          5.0
+        ]
+      },
+      "collision_proxy": {
+        "type": "none",
+        "walkable": true,
+        "bounds_2d": [
+          -5.0,
+          -5.0,
+          5.0,
+          5.0
+        ],
+        "height": 5.5
+      },
+      "allowed_surfaces": [
+        "air",
+        "ground",
+        "water"
+      ],
+      "scale_constraints": {
+        "min": 0.6,
+        "max": 2.5,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "platform_top": [
+          0.0,
+          0.0,
+          6.0
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/fan_floating_platform.png"
+    },
+    "fan_magical_obelisk": {
+      "id": "fan_magical_obelisk",
+      "category": "fantasy",
+      "subcategory": "magical_structures",
+      "tags": [
+        "obelisk",
+        "monolith",
+        "magic",
+        "shrine",
+        "fantasy"
+      ],
+      "blender_ref": {
+        "collection": "Asset_fan_magical_obelisk",
+        "root_object": "fan_magical_obelisk",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        4.4,
+        4.4,
+        12.05
+      ],
+      "bounding_box": {
+        "min": [
+          -2.2,
+          -2.2,
+          0.0
+        ],
+        "max": [
+          2.2,
+          2.2,
+          12.05
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -2.2,
+          -2.2,
+          2.2,
+          2.2
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -2.2,
+          -2.2,
+          2.2,
+          2.2
+        ],
+        "height": 12.05
+      },
+      "allowed_surfaces": [
+        "ground",
+        "pavement",
+        "terrain",
+        "plaza"
+      ],
+      "scale_constraints": {
+        "min": 0.6,
+        "max": 2.2,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "apex": [
+          0.0,
+          0.0,
+          12.1
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/fan_magical_obelisk.png"
+    },
+    "fan_portal_arcane": {
+      "id": "fan_portal_arcane",
+      "category": "fantasy",
+      "subcategory": "portals",
+      "tags": [
+        "portal",
+        "magic",
+        "teleporter",
+        "arcane",
+        "fantasy"
+      ],
+      "blender_ref": {
+        "collection": "Asset_fan_portal_arcane",
+        "root_object": "fan_portal_arcane",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        8.2,
+        3.2,
+        10.4
+      ],
+      "bounding_box": {
+        "min": [
+          -4.1,
+          -1.6,
+          0.0
+        ],
+        "max": [
+          4.1,
+          1.6,
+          10.4
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -4.1,
+          -1.6,
+          4.1,
+          1.6
+        ]
+      },
+      "collision_proxy": {
+        "type": "none",
+        "walkable": true,
+        "bounds_2d": [
+          -4.1,
+          -1.6,
+          4.1,
+          1.6
+        ],
+        "height": 10.4
+      },
+      "allowed_surfaces": [
+        "ground",
+        "pavement",
+        "plaza",
+        "terrain"
+      ],
+      "scale_constraints": {
+        "min": 0.7,
+        "max": 2.0,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "portal_center": [
+          0.0,
+          0.0,
+          5.2
+        ],
+        "step_front": [
+          0.0,
+          -2.0,
+          0.0
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/fan_portal_arcane.png"
+    },
+    "int_bed_single": {
+      "id": "int_bed_single",
+      "category": "interiors",
+      "subcategory": "beds",
+      "tags": [
+        "bed",
+        "bedroom",
+        "sleep",
+        "furniture"
+      ],
+      "blender_ref": {
+        "collection": "Asset_int_bed_single",
+        "root_object": "int_bed_single",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        6.0,
+        8.55,
+        5.0
+      ],
+      "bounding_box": {
+        "min": [
+          -3.0,
+          -4.25,
+          0.0
+        ],
+        "max": [
+          3.0,
+          4.3,
+          5.0
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -3.0,
+          -4.25,
+          3.0,
+          4.3
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -3.0,
+          -4.25,
+          3.0,
+          4.3
+        ],
+        "height": 5.0
+      },
+      "allowed_surfaces": [
+        "floor"
+      ],
+      "scale_constraints": {
+        "min": 0.8,
+        "max": 1.3,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "mattress_top": [
+          0.0,
+          0.0,
+          3.0
+        ],
+        "sit_edge": [
+          2.4,
+          -1.0,
+          2.6
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/int_bed_single.png"
+    },
+    "int_cabinet_counter": {
+      "id": "int_cabinet_counter",
+      "category": "interiors",
+      "subcategory": "cabinets",
+      "tags": [
+        "cabinet",
+        "counter",
+        "storage",
+        "kitchen",
+        "furniture"
+      ],
+      "blender_ref": {
+        "collection": "Asset_int_cabinet_counter",
+        "root_object": "int_cabinet_counter",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        4.2,
+        3.3,
+        3.725
+      ],
+      "bounding_box": {
+        "min": [
+          -2.1,
+          -1.65,
+          0.0
+        ],
+        "max": [
+          2.1,
+          1.65,
+          3.725
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -2.1,
+          -1.65,
+          2.1,
+          1.65
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -2.1,
+          -1.65,
+          2.1,
+          1.65
+        ],
+        "height": 3.725
+      },
+      "allowed_surfaces": [
+        "floor"
+      ],
+      "scale_constraints": {
+        "min": 0.75,
+        "max": 1.5,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "counter_top": [
+          0.0,
+          0.0,
+          3.72
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/int_cabinet_counter.png"
+    },
+    "int_door_wooden": {
+      "id": "int_door_wooden",
+      "category": "interiors",
+      "subcategory": "doors",
+      "tags": [
+        "door",
+        "entry",
+        "interior",
+        "wooden"
+      ],
+      "blender_ref": {
+        "collection": "Asset_int_door_wooden",
+        "root_object": "int_door_wooden",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        4.0,
+        0.675,
+        7.6
+      ],
+      "bounding_box": {
+        "min": [
+          -2.0,
+          -0.5,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.175,
+          7.6
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -2.0,
+          -0.5,
+          2.0,
+          0.175
+        ]
+      },
+      "collision_proxy": {
+        "type": "none",
+        "walkable": true,
+        "bounds_2d": [
+          -2.0,
+          -0.5,
+          2.0,
+          0.175
+        ],
+        "height": 7.6
+      },
+      "allowed_surfaces": [
+        "wall",
+        "floor"
+      ],
+      "scale_constraints": {
+        "min": 0.8,
+        "max": 1.3,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "knob": [
+          1.45,
+          -0.3,
+          3.65
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/int_door_wooden.png"
+    },
+    "int_kitchen_stove_fridge": {
+      "id": "int_kitchen_stove_fridge",
+      "category": "interiors",
+      "subcategory": "kitchen_equipment",
+      "tags": [
+        "kitchen",
+        "stove",
+        "fridge",
+        "appliance",
+        "cooking"
+      ],
+      "blender_ref": {
+        "collection": "Asset_int_kitchen_stove_fridge",
+        "root_object": "int_kitchen_stove_fridge",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        8.7,
+        3.4,
+        9.2
+      ],
+      "bounding_box": {
+        "min": [
+          -4.5,
+          -1.7,
+          0.0
+        ],
+        "max": [
+          4.2,
+          1.7,
+          9.2
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -4.5,
+          -1.7,
+          4.2,
+          1.7
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -4.5,
+          -1.7,
+          4.2,
+          1.7
+        ],
+        "height": 9.2
+      },
+      "allowed_surfaces": [
+        "floor"
+      ],
+      "scale_constraints": {
+        "min": 0.8,
+        "max": 1.3,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "burner_front": [
+          2.2,
+          -0.6,
+          3.7
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/int_kitchen_stove_fridge.png"
+    },
+    "int_shelf_books": {
+      "id": "int_shelf_books",
+      "category": "interiors",
+      "subcategory": "shelves",
+      "tags": [
+        "shelf",
+        "bookshelf",
+        "books",
+        "wall",
+        "furniture"
+      ],
+      "blender_ref": {
+        "collection": "Asset_int_shelf_books",
+        "root_object": "int_shelf_books",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        6.0,
+        1.4,
+        4.45
+      ],
+      "bounding_box": {
+        "min": [
+          -3.0,
+          -0.7,
+          1.4
+        ],
+        "max": [
+          3.0,
+          0.7,
+          5.85
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 1.4,
+        "grounded": true,
+        "footprint_2d": [
+          -3.0,
+          -0.7,
+          3.0,
+          0.7
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -3.0,
+          -0.7,
+          3.0,
+          0.7
+        ],
+        "height": 4.45
+      },
+      "allowed_surfaces": [
+        "wall",
+        "floor"
+      ],
+      "scale_constraints": {
+        "min": 0.7,
+        "max": 1.5,
+        "default": 1.0
+      },
+      "attachment_points": {},
+      "preview_image": "public/roblox/assets/previews/int_shelf_books.png"
+    },
+    "int_sofa_couch": {
+      "id": "int_sofa_couch",
+      "category": "interiors",
+      "subcategory": "sofas",
+      "tags": [
+        "sofa",
+        "couch",
+        "living_room",
+        "seat",
+        "furniture"
+      ],
+      "blender_ref": {
+        "collection": "Asset_int_sofa_couch",
+        "root_object": "int_sofa_couch",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        9.0,
+        3.6,
+        3.6
+      ],
+      "bounding_box": {
+        "min": [
+          -4.5,
+          -1.8,
+          0.2
+        ],
+        "max": [
+          4.5,
+          1.8,
+          3.8
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.2,
+        "grounded": true,
+        "footprint_2d": [
+          -4.5,
+          -1.8,
+          4.5,
+          1.8
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -4.5,
+          -1.8,
+          4.5,
+          1.8
+        ],
+        "height": 3.6
+      },
+      "allowed_surfaces": [
+        "floor"
+      ],
+      "scale_constraints": {
+        "min": 0.75,
+        "max": 1.4,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "seat_center": [
+          0.0,
+          -0.3,
+          2.4
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/int_sofa_couch.png"
+    },
+    "int_table_dining": {
+      "id": "int_table_dining",
+      "category": "interiors",
+      "subcategory": "tables",
+      "tags": [
+        "table",
+        "dining",
+        "desk",
+        "furniture",
+        "kitchen"
+      ],
+      "blender_ref": {
+        "collection": "Asset_int_table_dining",
+        "root_object": "int_table_dining",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        8.0,
+        5.0,
+        3.375
+      ],
+      "bounding_box": {
+        "min": [
+          -4.0,
+          -2.5,
+          0.0
+        ],
+        "max": [
+          4.0,
+          2.5,
+          3.375
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.0,
+        "grounded": true,
+        "footprint_2d": [
+          -4.0,
+          -2.5,
+          4.0,
+          2.5
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -4.0,
+          -2.5,
+          4.0,
+          2.5
+        ],
+        "height": 3.375
+      },
+      "allowed_surfaces": [
+        "floor",
+        "pavement"
+      ],
+      "scale_constraints": {
+        "min": 0.7,
+        "max": 1.5,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "table_top": [
+          0.0,
+          0.0,
+          3.38
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/int_table_dining.png"
+    },
+    "int_window_framed": {
+      "id": "int_window_framed",
+      "category": "interiors",
+      "subcategory": "windows",
+      "tags": [
+        "window",
+        "glass",
+        "wall",
+        "interior"
+      ],
+      "blender_ref": {
+        "collection": "Asset_int_window_framed",
+        "root_object": "int_window_framed",
+        "blend_file": "public/roblox/assets/assets_library.blend"
+      },
+      "dimensions": [
+        5.8,
+        0.9,
+        5.125
+      ],
+      "bounding_box": {
+        "min": [
+          -2.9,
+          -0.45,
+          0.325
+        ],
+        "max": [
+          2.9,
+          0.45,
+          5.45
+        ]
+      },
+      "origin_pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_contact": {
+        "z_min": 0.325,
+        "grounded": true,
+        "footprint_2d": [
+          -2.9,
+          -0.45,
+          2.9,
+          0.45
+        ]
+      },
+      "collision_proxy": {
+        "type": "aabb",
+        "walkable": false,
+        "bounds_2d": [
+          -2.9,
+          -0.45,
+          2.9,
+          0.45
+        ],
+        "height": 5.125
+      },
+      "allowed_surfaces": [
+        "wall"
+      ],
+      "scale_constraints": {
+        "min": 0.6,
+        "max": 1.6,
+        "default": 1.0
+      },
+      "attachment_points": {
+        "sill": [
+          0.0,
+          0.0,
+          0.9
+        ]
+      },
+      "preview_image": "public/roblox/assets/previews/int_window_framed.png"
+    }
+  }
+}

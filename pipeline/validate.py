@@ -384,9 +384,20 @@ def validate_detailed(ep_dir):
                     )
             prev_char_scale[n] = sc_val
 
-        # Cinematic check 2: Character position overlap (R6 rig shoulder clearance)
+        # Cinematic check 2: Character position overlap (R6 rig shoulder clearance) + Set obstacle collision
+        set_obstacles = cat.get("sets", {}).get(st, {}).get("obstacles", []) if st in cat.get("sets", {}) else []
         for idx_a in range(len(char_coords)):
             n1, xy1, sc1, mk1 = char_coords[idx_a]
+            if set_obstacles and marks.get(mk1, {}).get("seat") is None:
+                for obs in set_obstacles:
+                    b2d = obs.get("bounds_2d")
+                    if b2d and len(b2d) == 4:
+                        if (b2d[0] - 0.7) < xy1[0] < (b2d[2] + 0.7) and (b2d[1] - 0.7) < xy1[1] < (b2d[3] + 0.7):
+                            add_warn(
+                                f"{P} {n1} at ({xy1[0]:.1f}, {xy1[1]:.1f}) overlaps set obstacle {obs.get('id')!r} ({obs.get('asset_id')})",
+                                sid,
+                                f"Adjust {n1}'s mark or dx/dy offset outside {b2d}."
+                            )
             for idx_b in range(idx_a + 1, len(char_coords)):
                 n2, xy2, sc2, mk2 = char_coords[idx_b]
                 dist = math.hypot(xy1[0] - xy2[0], xy1[1] - xy2[1])

@@ -362,6 +362,382 @@
      "facing": 0
     }
    }
+  },
+  "town_square": {
+   "dressings": [
+    "day",
+    "sunset",
+    "night"
+   ],
+   "marks": {
+    "bench_sit": {
+     "pos": [
+      -6.8,
+      8.0,
+      0.35
+     ],
+     "facing": 20,
+     "seat": 2.15
+    },
+    "bridge_top": {
+     "pos": [
+      24.0,
+      2.0,
+      2.05
+     ],
+     "facing": 0
+    },
+    "cam_aerial": {
+     "pos": [
+      0.0,
+      -58.0,
+      42.0
+     ],
+     "facing": 0
+    },
+    "cam_default": {
+     "pos": [
+      0.0,
+      -16.5,
+      5.2
+     ],
+     "facing": 0
+    },
+    "center": {
+     "pos": [
+      0.0,
+      0.5,
+      0.35
+     ],
+     "facing": 0
+    },
+    "fountain_front": {
+     "pos": [
+      0.0,
+      1.8,
+      0.35
+     ],
+     "facing": 0
+    },
+    "plaza_left": {
+     "pos": [
+      -4.2,
+      0.5,
+      0.35
+     ],
+     "facing": 0
+    },
+    "plaza_right": {
+     "pos": [
+      4.2,
+      0.5,
+      0.35
+     ],
+     "facing": 0
+    },
+    "portal_spot": {
+     "pos": [
+      10.2,
+      6.2,
+      0.35
+     ],
+     "facing": 0
+    },
+    "road": {
+     "pos": [
+      0.0,
+      -8.5,
+      0.3
+     ],
+     "facing": 0
+    },
+    "shop_front": {
+     "pos": [
+      -12.5,
+      4.5,
+      0.35
+     ],
+     "facing": 0
+    }
+   },
+   "obstacles": [
+    {
+     "id": "ts_river_east",
+     "asset_id": "env_river_stream",
+     "layer": "midground",
+     "bounds_2d": [
+      19.875,
+      -23.5,
+      28.125,
+      31.5
+     ],
+     "height": 0.55
+    },
+    {
+     "id": "ts_fountain",
+     "asset_id": "env_fountain_plaza",
+     "layer": "midground",
+     "bounds_2d": [
+      -4.275,
+      3.225,
+      4.275,
+      11.775
+     ],
+     "height": 5.106
+    },
+    {
+     "id": "ts_bench_west",
+     "asset_id": "env_park_bench",
+     "layer": "midground",
+     "bounds_2d": [
+      -9.666,
+      6.568,
+      -4.721,
+      9.851
+     ],
+     "height": 3.8
+    },
+    {
+     "id": "ts_lamp_west",
+     "asset_id": "env_streetlight_classic",
+     "layer": "foreground",
+     "bounds_2d": [
+      -16.1,
+      -4.7,
+      -14.9,
+      -1.8
+     ],
+     "height": 12.025
+    },
+    {
+     "id": "ts_lamp_east",
+     "asset_id": "env_streetlight_classic",
+     "layer": "foreground",
+     "bounds_2d": [
+      14.9,
+      -4.7,
+      16.1,
+      -1.8
+     ],
+     "height": 12.025
+    },
+    {
+     "id": "ts_fence_west",
+     "asset_id": "env_fence_picket",
+     "layer": "midground",
+     "bounds_2d": [
+      -21.75,
+      9.375,
+      -13.25,
+      9.8
+     ],
+     "height": 2.8
+    },
+    {
+     "id": "ts_clock_tower",
+     "asset_id": "arch_clock_tower",
+     "layer": "background",
+     "bounds_2d": [
+      -4.6,
+      16.4,
+      4.6,
+      25.6
+     ],
+     "height": 32.4
+    },
+    {
+     "id": "ts_bakery_shop",
+     "asset_id": "arch_shop_bakery",
+     "layer": "background",
+     "bounds_2d": [
+      -41.767,
+      9.5,
+      -22.673,
+      27.507
+     ],
+     "height": 12.8
+    },
+    {
+     "id": "ts_apartments",
+     "asset_id": "arch_apartment_block",
+     "layer": "background",
+     "bounds_2d": [
+      5.359,
+      12.576,
+      27.701,
+      30.859
+     ],
+     "height": 22.04
+    },
+    {
+     "id": "ts_cottage_west",
+     "asset_id": "arch_house_suburban",
+     "layer": "background",
+     "bounds_2d": [
+      -64.37,
+      8.156,
+      -42.53,
+      27.844
+     ],
+     "height": 13.5
+    },
+    {
+     "id": "ts_school_east",
+     "asset_id": "arch_school_facade",
+     "layer": "background",
+     "bounds_2d": [
+      28.886,
+      12.872,
+      54.354,
+      31.128
+     ],
+     "height": 14.45
+    },
+    {
+     "id": "ts_wall_nw",
+     "asset_id": "arch_stone_wall",
+     "layer": "background",
+     "bounds_2d": [
+      -20.05,
+      30.95,
+      -5.95,
+      33.05
+     ],
+     "height": 5.425
+    },
+    {
+     "id": "ts_wall_ne",
+     "asset_id": "arch_stone_wall",
+     "layer": "background",
+     "bounds_2d": [
+      -5.5,
+      30.95,
+      8.6,
+      33.05
+     ],
+     "height": 5.425
+    },
+    {
+     "id": "ts_tree_nw",
+     "asset_id": "env_tree_oak",
+     "layer": "midground",
+     "bounds_2d": [
+      -12.797,
+      8.042,
+      -5.266,
+      15.774
+     ],
+     "height": 13.337
+    },
+    {
+     "id": "ts_tree_ne",
+     "asset_id": "env_tree_oak",
+     "layer": "midground",
+     "bounds_2d": [
+      -2.617,
+      8.042,
+      4.914,
+      15.774
+     ],
+     "height": 13.337
+    },
+    {
+     "id": "ts_bush_w",
+     "asset_id": "env_bush_hedge",
+     "layer": "midground",
+     "bounds_2d": [
+      -7.247,
+      9.356,
+      -3.065,
+      12.802
+     ],
+     "height": 2.693
+    },
+    {
+     "id": "ts_bush_e",
+     "asset_id": "env_bush_hedge",
+     "layer": "midground",
+     "bounds_2d": [
+      5.363,
+      9.356,
+      9.545,
+      12.802
+     ],
+     "height": 2.693
+    },
+    {
+     "id": "ts_river_rocks",
+     "asset_id": "env_rock_cluster",
+     "layer": "midground",
+     "bounds_2d": [
+      16.545,
+      -6.492,
+      22.046,
+      -2.542
+     ],
+     "height": 2.727
+    },
+    {
+     "id": "ts_distant_castle",
+     "asset_id": "arch_castle_keep",
+     "layer": "background",
+     "bounds_2d": [
+      -37.605,
+      39.245,
+      -18.395,
+      56.755
+     ],
+     "height": 18.02
+    },
+    {
+     "id": "ts_mountain_l",
+     "asset_id": "env_mountain_peak",
+     "layer": "background",
+     "bounds_2d": [
+      -29.568,
+      45.296,
+      19.568,
+      93.2
+     ],
+     "height": 43.2
+    },
+    {
+     "id": "ts_mountain_r",
+     "asset_id": "env_mountain_peak",
+     "layer": "background",
+     "bounds_2d": [
+      6.162,
+      44.818,
+      49.838,
+      87.4
+     ],
+     "height": 38.4
+    },
+    {
+     "id": "ts_crystals",
+     "asset_id": "fan_crystal_cluster",
+     "layer": "midground",
+     "bounds_2d": [
+      24.57,
+      9.716,
+      28.43,
+      13.48
+     ],
+     "height": 4.05
+    },
+    {
+     "id": "ts_obelisk",
+     "asset_id": "fan_magical_obelisk",
+     "layer": "midground",
+     "bounds_2d": [
+      -22.22,
+      6.13,
+      -18.48,
+      9.87
+     ],
+     "height": 10.243
+    }
+   ]
   }
  },
  "characters": [
@@ -373,5 +749,55 @@
   "Noob",
   "Officer",
   "Theo"
- ]
+ ],
+ "asset_library": {
+  "catalog_file": "public/roblox/asset_catalog.json",
+  "blend_file": "public/roblox/assets/assets_library.blend",
+  "total_assets": 35,
+  "categories": {
+   "architecture": [
+    "arch_apartment_block",
+    "arch_arched_bridge",
+    "arch_castle_keep",
+    "arch_clock_tower",
+    "arch_house_suburban",
+    "arch_school_facade",
+    "arch_shop_bakery",
+    "arch_stone_wall",
+    "arch_town_gate"
+   ],
+   "environment": [
+    "env_bush_hedge",
+    "env_fence_picket",
+    "env_fountain_plaza",
+    "env_grass_patch",
+    "env_mountain_peak",
+    "env_park_bench",
+    "env_river_stream",
+    "env_road_segment",
+    "env_rock_cluster",
+    "env_sidewalk_tile",
+    "env_streetlight_classic",
+    "env_terrain_hill",
+    "env_tree_oak"
+   ],
+   "interiors": [
+    "int_bed_single",
+    "int_cabinet_counter",
+    "int_door_wooden",
+    "int_kitchen_stove_fridge",
+    "int_shelf_books",
+    "int_sofa_couch",
+    "int_table_dining",
+    "int_window_framed"
+   ],
+   "fantasy": [
+    "fan_ancient_ruins",
+    "fan_crystal_cluster",
+    "fan_floating_platform",
+    "fan_magical_obelisk",
+    "fan_portal_arcane"
+   ]
+  }
+ }
 }

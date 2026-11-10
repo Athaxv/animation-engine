@@ -19,12 +19,13 @@ Conventions (same as the old sets.py, so the episode builder keeps working)
 import bpy, bmesh, math, random
 from mathutils import Vector
 
-SET_NAMES = ["bedroom", "street", "kitchen", "classroom"]
+SET_NAMES = ["bedroom", "street", "kitchen", "classroom", "town_square"]
 DRESSINGS = {
     "bedroom": ["day", "night"],
     "street": ["day", "sunset"],
     "kitchen": ["day"],
     "classroom": ["day"],
+    "town_square": ["day", "sunset", "night"],
 }
 # sky seen by the camera (sRGB) and the light it gives, per dressing
 WORLDS = {
@@ -822,7 +823,23 @@ def build_street(coll):
     mark(coll, S, "cam_aerial", (0, -70.0, 55.0), 0)
 
 
-BUILDERS = {"bedroom": build_bedroom, "street": build_street, "kitchen": build_kitchen, "classroom": build_classroom}
+def build_town_square_set(coll):
+    import sys
+    from pathlib import Path
+    pipe_dir = str((Path(__file__).resolve().parent if "__file__" in globals() else Path.cwd() / "pipeline"))
+    if pipe_dir not in sys.path:
+        sys.path.insert(0, pipe_dir)
+    import environment_composer as EC
+    EC.build_town_square(globals(), coll)
+
+
+BUILDERS = {
+    "bedroom": build_bedroom,
+    "street": build_street,
+    "kitchen": build_kitchen,
+    "classroom": build_classroom,
+    "town_square": build_town_square_set,
+}
 
 
 # ---------------------------------------------------------------- public API

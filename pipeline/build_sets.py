@@ -10,8 +10,7 @@ Each file gets the set, its default dressing and a preview camera at mark cam_de
 import bpy, os, math
 from mathutils import Vector
 
-PROJECT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) if "__file__" in globals() else \
-    r"C:\Users\User\Desktop\blender roblox tiktoks"
+PROJECT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) if "__file__" in globals() else os.getcwd()
 OUT = os.path.join(PROJECT, "public", "roblox", "sets")
 
 
@@ -59,7 +58,9 @@ def build_one(name, save=True):
 
 
 if __name__ == "__main__" or "ONLY" in globals():
-    names = globals().get("ONLY") or ["bedroom", "kitchen", "classroom", "street"]
+    import sys
+    argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
+    names = globals().get("ONLY") or argv or ["bedroom", "kitchen", "classroom", "street", "town_square"]
     for n in names:
         build_one(n)
         print("built", n)
