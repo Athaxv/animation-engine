@@ -14,7 +14,7 @@ Usage inside Blender:
     ns["set_face"](rig, "worried", frame=10)
     ns["talk"](rig, 10, 60)
 """
-import bpy, bmesh, math, random, os
+import bpy, bmesh, math, random, os, sys
 import numpy as np
 from mathutils import Vector, Matrix
 
@@ -193,11 +193,13 @@ TEAR = (0.45, 0.78, 1.0)
 EX, EY = 0.385, 0.6      # eye centres (mirrored)
 
 
-def _oval_eyes(c, hl=True, ry=0.075, rx=0.042, dy=0.0):
+def _oval_eyes(c, hl=True, ry=0.075, rx=0.047, dy=0.0):
+    """Ink oval eyes with a specular catchlight -- the catchlight is what keeps the
+    eyes legible once the head is only ~120 px tall on a phone screen."""
     for x in (EX, 1 - EX):
         c.ellipse(x, EY + dy, rx, ry, INK)
         if hl:
-            c.ellipse(x + 0.012, EY + dy + 0.035, 0.013, 0.017, WHITE)
+            c.ellipse(x + 0.015, EY + dy + 0.036, 0.016, 0.021, WHITE)
 
 
 def _white_eyes(c, r=0.07, pupil=0.034, look=(0, 0), outline=0.011):
@@ -287,15 +289,16 @@ def draw_face(name):
         _brows(c, 0.05, -0.015, y=0.74)
         _open_mouth(c, cy=0.4, rx=0.1, ry=0.1, teeth=False)
     elif name == "nervous":
-        _white_eyes(c, r=0.066, pupil=0.028); _brows(c, 0.05, -0.01, y=0.75)
-        top = 0.47
-        pts = [(0.38, top), (0.62, top), (0.62, top - 0.08), (0.38, top - 0.08)]
+        _white_eyes(c, r=0.066, pupil=0.028, look=(0.004, -0.004)); _brows(c, 0.05, -0.01, y=0.75)
+        top = 0.475
+        pts = [(0.34, top), (0.66, top), (0.65, top - 0.095), (0.35, top - 0.095)]
         c.fill(pts, WHITE)
-        for x in (0.44, 0.5, 0.56):
-            c.line([(x, top), (x, top - 0.08)], 0.004, INK)
-        c.line([(0.38, top - 0.04), (0.62, top - 0.04)], 0.004, INK)
-        c.line(pts + [pts[0]], 0.011, INK)
-        c.ellipse(0.64, 0.66, 0.016, 0.026, TEAR)
+        for x in (0.445, 0.50, 0.555):
+            c.line([(x, top), (x, top - 0.095)], 0.007, INK)
+        c.line([(0.345, top - 0.048), (0.655, top - 0.048)], 0.006, INK)
+        c.line(pts + [pts[0]], 0.013, INK)
+        # sweat bead
+        c.ellipse(0.655, 0.665, 0.019, 0.030, TEAR)
     return c.rgba
 
 
@@ -435,17 +438,28 @@ def bind(ob, rig, bone):
 
 
 # ------------------------------------------------------------------ head
-def build_head(rig, coll, mat):
+def build_head(rig, coll, mat, style="round"):
+    """R6 head. ``round`` is the shipped cylinder; ``square`` is the classic block head."""
     n = rig.name
     me = bpy.data.meshes.new(f"{n}_Head")
     bm = bmesh.new()
-    bmesh.ops.create_cone(bm, cap_ends=True, cap_tris=False, segments=64,
-                          radius1=HEAD_R, radius2=HEAD_R, depth=HEAD_H)
+    if style == "square":
+        # classic block head: a hair taller than wide, decal still maps across FACE_SPAN
+        bmesh.ops.create_cube(bm, size=1.0)
+        for v in bm.verts:
+            v.co.x *= HEAD_R * (2 / math.sqrt(2)) * 0.86
+            v.co.y *= HEAD_R * (2 / math.sqrt(2)) * 0.86
+            v.co.z *= HEAD_H * 0.92
+    else:
+        bmesh.ops.create_cone(bm, cap_ends=True, cap_tris=False, segments=64,
+                              radius1=HEAD_R, radius2=HEAD_R, depth=HEAD_H)
     bm.to_mesh(me); bm.free()
     ob = _link(bpy.data.objects.new(f"{n}_Head", me), coll)
     ob.location = (0, 0, HEAD_CZ)
     me.materials.append(mat)
-    bv = ob.modifiers.new("Bevel", "BEVEL"); bv.width = 0.3; bv.segments = 8
+    bv = ob.modifiers.new("Bevel", "BEVEL")
+    bv.width = 0.18 if style == "square" else 0.3
+    bv.segments = 8
     bv.limit_method = 'ANGLE'; bv.angle_limit = math.radians(60); bv.profile = 0.6
     for p in me.polygons:
         p.use_smooth = True
@@ -491,15 +505,50 @@ def _hair_cap(rig, coll, mat, volume=1.0, cut_z=0.1, slope=0.42):
 HAIR_VOLUME = {"messy": 1.0, "short": 0.72, "under_cap": 0.7, "swept": 0.82, "long": 0.92, "pigtails": 0.88}
 
 
+def rig_helpers():
+    """
+    Geometry helper namespace handed to the Phase 2 character asset modules.
+
+    ``pipeline/characters/{hair,clothing,accessories}.py`` build their geometry
+    with these exact functions, so the whole character system shares one
+    implementation of strands, boxes, cylinders, spheres and flat shapes.
+    """
+    return {
+        "bpy": bpy, "bind": bind, "_link": _link, "new_mat": new_mat, "add_bump": add_bump,
+        "_bsdf": _bsdf, "srgb": srgb, "rbox": rbox,
+        "_strand": _strand, "_hair_cap": _hair_cap,
+        "_sphere_mesh": _sphere_mesh, "_cyl_mesh": _cyl_mesh, "_flat_shape": _flat_shape,
+        "_face_xyz": _face_xyz, "HEAD_CZ": HEAD_CZ, "HEAD_R": HEAD_R, "HEAD_H": HEAD_H,
+        "FACE_SPAN": FACE_SPAN, "HAIR_VOLUME": HAIR_VOLUME,
+    }
+
+
+def _character_module(mod):
+    """Import ``pipeline/characters/<mod>`` as a real package submodule."""
+    import importlib
+    here = os.path.dirname(os.path.abspath(__file__)) if "__file__" in dir() else os.path.join(os.getcwd(), "pipeline")
+    if here not in sys.path:
+        sys.path.insert(0, here)
+    return importlib.import_module(f"characters.{mod}")
+
+
+def _build_extra_hair(rig, coll, mat, style, seed, fringe_dir):
+    """Delegate a Phase 2 hair style to pipeline/characters/hair.py."""
+    return _character_module("hair").build_hair_extra(rig_helpers(), rig, coll, mat, style, seed, fringe_dir)
+
+
 def build_hair(rig, coll, mat, style="messy", seed=3, fringe_dir=1.0):
     if style in (None, "bald"):
         return None
+    if style not in HAIR_VOLUME:
+        return _build_extra_hair(rig, coll, mat, style, seed, fringe_dir)
     n, cz, R = rig.name, HEAD_CZ, HEAD_R
+
     rnd = random.Random(seed)
     j = lambda a: rnd.uniform(-a, a)
     s = fringe_dir
     # the cap always fully covers the skull; volume only changes how high the clumps sit
-    _hair_cap(rig, coll, mat, 1.0, cut_z=0.1 if style != "long" else -0.05)
+    _hair_cap(rig, coll, mat, 1.0, cut_z=0.1)
     top = cz + 0.2 + 0.62 * HAIR_VOLUME[style]
     cu = bpy.data.curves.new(f"{n}_Hair", 'CURVE')
     cu.dimensions = '3D'; cu.bevel_depth = 0.11; cu.bevel_resolution = 5; cu.use_fill_caps = True
@@ -517,9 +566,11 @@ def build_hair(rig, coll, mat, style="messy", seed=3, fringe_dir=1.0):
 
     if style == "messy":
         for x in (-0.46, -0.2, 0.06, 0.3, 0.52):
+            # Phase 2: fringe tips stop above the brow (was cz+0.30, which put tube
+            # geometry through the eye band). Silhouette is otherwise unchanged.
             _strand(cu, [(x * 0.7, 0.05, top + 0.02), (x + s * 0.05 + j(.04), -0.5, top - 0.02 + j(.04)),
-                         (x + s * 0.15 + j(.05), -0.75, cz + 0.5 + j(.05)), (x + s * 0.3 + j(.06), -0.72, cz + 0.3 + j(.06))],
-                    2.5 + j(.3), 0.05)
+                         (x + s * 0.15 + j(.05), -0.75, cz + 0.54 + j(.05)), (x + s * 0.3 + j(.06), -0.72, cz + 0.40 + j(.06))],
+                    2.2 + j(.3), 0.05)
         for x, y in ((-0.35, -0.05), (0.0, -0.15), (0.32, 0.0), (-0.15, 0.3), (0.2, 0.32)):
             _strand(cu, [(x + j(.05), y, top - 0.15), (x * 1.2 + j(.08), y + 0.15, top + 0.1 + j(.05)),
                          (x * 1.4 + j(.1), y + 0.4 + j(.08), top + 0.22 + j(.08))], 2.3 + j(.3), 0.05)
@@ -545,8 +596,10 @@ def build_hair(rig, coll, mat, style="messy", seed=3, fringe_dir=1.0):
         # center-parted curtain fringe + long hair down the back and over the shoulders
         for sx in (-1, 1):
             for k, x in enumerate((0.08, 0.28, 0.48)):
+                # Phase 2: tips raised from `cz+0.40-0.08k` (k=2 reached cz+0.24 and
+                # crossed the eye band) to a brow-safe stagger.
                 _strand(cu, [(sx * 0.04, -0.2, top + 0.03), (sx * x, -0.62, top - 0.1),
-                             (sx * (x + 0.12), -0.72, cz + 0.4 - 0.08 * k)], 1.9, 0.2)
+                             (sx * (x + 0.12), -0.72, cz + 0.50 - 0.02 * k)], 1.9, 0.2)
             # side locks: down past the cheeks, over the shoulder, onto the chest
             for k, y in enumerate((-0.25, 0.05)):
                 _strand(cu, [(sx * (R - 0.05), y, cz + 0.45), (sx * (R + 0.1), y - 0.05, cz - 0.2),
@@ -984,7 +1037,17 @@ PRESETS = {
 def build_character(name="Theo", location=(0, 0, 0), skin=TAN, hair=(0.47, 0.22, 0.10), hair_style="messy",
                     hair_seed=3, fringe_dir=1.0, top=(0.58, 0.76, 0.95), pants=(0.54, 0.71, 0.92),
                     details=(), accent=(0.95, 0.95, 0.95), sleeves="long", bottom="pants", shoes=None,
-                    emblem=(0.99, 0.80, 0.22), hat=None, hat_color=None, extras=(), fabric=True, face="smile"):
+                    emblem=(0.99, 0.80, 0.22), hat=None, hat_color=None, extras=(), fabric=True, face="smile",
+                    outfit="none", print_kind="none", print_color=None, accessories=(),
+                    body_scale=1.0, head_style="round"):
+    """
+    Build one R6 character.
+
+    Phase 2 additions are all optional and default to the shipped behaviour:
+    ``outfit`` / ``print_kind`` / ``accessories`` / ``head_style`` and
+    ``body_scale`` (recorded on the rig so the episode layer can fold it into the
+    existing per-shot ``scale`` state instead of fighting the scale animation).
+    """
     scene = bpy.context.scene
     old = bpy.data.collections.get(name)
     if old:
@@ -999,12 +1062,25 @@ def build_character(name="Theo", location=(0, 0, 0), skin=TAN, hair=(0.47, 0.22,
     rig = build_armature(name, coll)
     rig["is_roblox_rig"] = True
     add_prop(rig, "face", FACE_INDEX[face], 0, len(FACE_NAMES) - 1, "expression atlas cell: " + ", ".join(FACE_NAMES))
-    build_body(rig, coll, skin, top, pants, details, accent, sleeves, bottom, shoes, emblem, fabric)
-    build_head(rig, coll, head_material(rig, skin))
+    rig["body_scale"] = float(body_scale)
+    rig["identity_outfit"] = outfit or "none"
+    rig["identity_hair"] = hair_style or "bald"
+    mats = build_body(rig, coll, skin, top, pants, details, accent, sleeves, bottom, shoes, emblem, fabric)
+    build_head(rig, coll, head_material(rig, skin), head_style)
     hm = add_bump(new_mat(f"{name}_HairMat", hair, 0.38, 0.5, coat=0.3), 3, 0.02, 1, kind="noise", tint=0.15)
     build_hair(rig, coll, hm, hair_style, hair_seed, fringe_dir)
     build_hat(rig, coll, hat, hat_color)
     build_extras(rig, coll, extras, hair)
+    if outfit and outfit != "none":
+        _character_module("clothing").build_outfit(
+            rig_helpers(), rig, coll, mats, outfit, print_kind, bottom, accent, print_color)
+    elif print_kind and print_kind != "none":
+        _character_module("clothing").build_outfit(
+            rig_helpers(), rig, coll, mats, "tshirt", print_kind, bottom, accent, print_color)
+    if accessories:
+        _character_module("accessories").build_accessories(
+            rig_helpers(), rig, coll, tuple(accessories), None, hair)
+    rig.scale = (float(body_scale),) * 3
     rig.location = location
     bpy.context.view_layer.update()
     return rig

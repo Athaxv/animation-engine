@@ -82,9 +82,22 @@ def _sample_scene_telemetry(cam):
                         bone_rots[bname] = [round(math.degrees(a), 2) for a in pb.rotation_euler]
             f_idx = int(ob.get("face", 0))
             f_name = FACE_NAMES[f_idx] if 0 <= f_idx < len(FACE_NAMES) else f"face_{f_idx}"
+            hand_r_pb = ob.pose.bones.get("upper_arm.R") if ob.pose else None
+            hand_l_pb = ob.pose.bones.get("upper_arm.L") if ob.pose else None
+            foot_r_pb = ob.pose.bones.get("upper_leg.R") if ob.pose else None
+            foot_l_pb = ob.pose.bones.get("upper_leg.L") if ob.pose else None
+            hr_w = (ob.matrix_world @ hand_r_pb.tail) if hand_r_pb else rw
+            hl_w = (ob.matrix_world @ hand_l_pb.tail) if hand_l_pb else rw
+            fr_w = (ob.matrix_world @ foot_r_pb.tail) if foot_r_pb else rw
+            fl_w = (ob.matrix_world @ foot_l_pb.tail) if foot_l_pb else rw
+
             chars[ob.name] = {
                 "root": [round(rw.x, 3), round(rw.y, 3), round(rw.z, 3)],
                 "head": [round(hw.x, 3), round(hw.y, 3), round(hw.z, 3)],
+                "hand_r": [round(hr_w.x, 3), round(hr_w.y, 3), round(hr_w.z, 3)],
+                "hand_l": [round(hl_w.x, 3), round(hl_w.y, 3), round(hl_w.z, 3)],
+                "foot_r": [round(fr_w.x, 3), round(fr_w.y, 3), round(fr_w.z, 3)],
+                "foot_l": [round(fl_w.x, 3), round(fl_w.y, 3), round(fl_w.z, 3)],
                 "heading_deg": heading_deg,
                 "bone_rotations_deg": bone_rots,
                 "scale": round(float(ob.scale.x), 3),
@@ -116,10 +129,21 @@ def _sample_scene_telemetry(cam):
 
     c_pos = cam.matrix_world.translation if cam else None
     c_rot = [round(math.degrees(a), 2) for a in cam.rotation_euler] if cam else None
+
+    char_distances = {}
+    cnames = list(chars.keys())
+    for i in range(len(cnames)):
+        for j in range(i + 1, len(cnames)):
+            ca = chars[cnames[i]]["root"]
+            cb = chars[cnames[j]]["root"]
+            dist = math.sqrt((ca[0] - cb[0]) ** 2 + (ca[1] - cb[1]) ** 2 + (ca[2] - cb[2]) ** 2)
+            char_distances[f"{cnames[i]}_to_{cnames[j]}"] = round(dist, 3)
+
     return {
         "camera_loc": [round(c_pos.x, 3), round(c_pos.y, 3), round(c_pos.z, 3)] if c_pos else None,
         "camera_rot_deg": c_rot,
         "characters": chars,
+        "character_distances": char_distances,
         "visible_hand_props": visible_hand_props,
         "visible_world_props": visible_world_props,
     }

@@ -57,6 +57,13 @@ POSES = {
                      "upper_leg.R": (40, 0, 0), "spine": (12, 0, 0), "head": (-8, 0, 0)},
     "jump":         {"upper_arm.L": (-170, 0, 20), "upper_arm.R": (-170, 0, -20), "upper_leg.L": (-25, 0, 0),
                      "upper_leg.R": (10, 0, 0), "root_z": 1.2},
+    # Phase 03: Storytelling & interaction poses
+    "reach_forward": {"upper_arm.R": (-85, 0, 0), "head": (-4, 0, 0)},
+    "receive_prop":  {"upper_arm.L": (-55, 25, 0), "upper_arm.R": (-55, -25, 0), "head": (-6, 0, 0)},
+    "embrace":       {"upper_arm.L": (-75, 42, -10), "upper_arm.R": (-75, -42, 10), "spine": (6, 0, 0), "head": (12, -10, 0)},
+    "handshake":     {"upper_arm.R": (-65, -8, 0), "spine": (0, 0, 0), "head": (0, -4, 0)},
+    "push":          {"upper_arm.L": (-85, 12, 0), "upper_arm.R": (-85, -12, 0), "spine": (12, 0, 0)},
+    "pickup":        {"upper_arm.R": (-25, -10, 0), "spine": (22, 0, 0), "head": (14, 0, 0)},
 }
 SEAT_HEIGHT = 1.5   # sitting: the legs' underside is this far above the root
 
@@ -424,3 +431,70 @@ def sleep(rig, frame, end, rate=40):
         pbs["spine"].rotation_euler = (math.radians(-2 if i % 2 else 0), 0, 0)
         _key(pbs["spine"], f)
         f += rate // 2; i += 1
+
+
+# ---------------------------------------------------------------- Phase 03: Interactions & Choreography
+def pickup(rig, frame, dur=18):
+    """Bend waist, reach right arm down to prop/surface, lift up into hold pose."""
+    pose(rig, "relaxed", frame, keep_root=True)
+    pose(rig, "pickup", frame + max(4, dur // 3), keep_root=True)
+    pose(rig, "hold", frame + dur, keep_root=True)
+    return frame + dur
+
+
+def drop(rig, frame, dur=12):
+    """Release prop from hold pose down to relaxed."""
+    pose(rig, "hold", frame, keep_root=True)
+    pose(rig, "relaxed", frame + dur, keep_root=True)
+    return frame + dur
+
+
+def pass_prop(rig, frame, dur=22):
+    """Extend arm forward offering held prop, hold for contact, recover to relaxed."""
+    pose(rig, "hold", frame, keep_root=True)
+    pose(rig, "reach_forward", frame + 8, keep_root=True)
+    pose(rig, "relaxed", frame + dur, keep_root=True)
+    return frame + dur
+
+
+def catch_prop(rig, frame, dur=22):
+    """Extend arms forward in receiving pose, receive prop into hold pose."""
+    pose(rig, "relaxed", frame, keep_root=True)
+    pose(rig, "receive_prop", frame + 6, keep_root=True)
+    pose(rig, "hold", frame + 14, keep_root=True)
+    return frame + dur
+
+
+def handshake(rig, frame, dur=24):
+    """Reach right arm forward, perform 3-cycle shake rhythm, recover to relaxed."""
+    pose(rig, "relaxed", frame, keep_root=True)
+    pose(rig, "handshake", frame + 6, keep_root=True)
+    f = frame + 8
+    for i in range(3):
+        d = 4 if i % 2 == 0 else -4
+        bone(rig, "upper_arm.R", f, (-65 + d, -8, 0))
+        f += 4
+    pose(rig, "relaxed", frame + dur, keep_root=True)
+    return frame + dur
+
+
+def hug(rig, frame, dur=28):
+    """Open arms and wrap around partner in warm embrace, hold, then step back."""
+    pose(rig, "relaxed", frame, keep_root=True)
+    pose(rig, "embrace", frame + 8, keep_root=True)
+    pose(rig, "relaxed", frame + dur, keep_root=True)
+    return frame + dur
+
+
+def approach(rig, start, x, y, speed=6.0, fps=30):
+    """Walk to target with smooth deceleration and turn to face."""
+    return walk_to(rig, start, x, y, speed=speed, fps=fps, running=False)
+
+
+def push_prop(rig, frame, dur=24):
+    """Hands braced forward pushing an object, leaning forward with spine."""
+    pose(rig, "relaxed", frame, keep_root=True)
+    pose(rig, "push", frame + 6, keep_root=True)
+    pose(rig, "relaxed", frame + dur, keep_root=True)
+    return frame + dur
+

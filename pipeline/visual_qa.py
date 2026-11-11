@@ -308,6 +308,14 @@ def generate_visual_qa(ep_dir):
                 suggestions.append(f"Add purposeful character action or mid-shot pose/expression changes in {sid} instead of relying solely on camera movement.")
                 total_motion_warns += 1
 
+            # Phase 03: Multi-character interaction telemetry
+            interaction_contacts = {}
+            for pair_name, dist_val in t_mid.get("character_distances", {}).items():
+                interaction_contacts[pair_name] = {
+                    "mid_distance_studs": dist_val,
+                    "within_interaction_range": dist_val <= 4.2,
+                }
+
             motion_result = {
                 "sampled": True,
                 "frames": {
@@ -333,6 +341,7 @@ def generate_visual_qa(ep_dir):
                 "action_state_transitions": configured_actions,
                 "facial_expression_changes": face_changes_detail,
                 "prop_state_changes": prop_changes_detail,
+                "character_interactions": interaction_contacts,
                 "animation_summary": {
                     "camera_animated": cam_animated,
                     "character_animated": any_char_animated,

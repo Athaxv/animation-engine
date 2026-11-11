@@ -133,14 +133,17 @@ def mark_world(set_name, mark, order):
 def load_cast(names, custom):
     rigs = {}
     for n in names:
-        if n in custom:
+        spec = custom.get(n) or {}
+        if spec.get("identity"):
+            rig = build_identity_rig(n, spec)
+        elif n in custom:
             import inspect
             allowed = set(inspect.signature(build_character).parameters) - {"name", "location"}
-            spec = dict(PRESETS[custom[n].get("base", "Theo")])
+            spec_b = dict(PRESETS[custom[n].get("base", "Theo")])
             for k, v in custom[n].items():
                 if k in allowed:
-                    spec[k] = tuple(v) if isinstance(v, list) else v
-            rig = build_character(n, **spec)
+                    spec_b[k] = tuple(v) if isinstance(v, list) else v
+            rig = build_character(n, **spec_b)
         else:
             append_collection(RBX / "characters" / f"{n}.blend", n)
             rig = bpy.data.objects[n]
@@ -155,6 +158,40 @@ def load_cast(names, custom):
             fc.driver.type = fc.driver.type
     bpy.context.view_layer.update()
     return rigs
+
+
+def build_identity_rig(name, spec):
+    """
+    Build a cast member whose *appearance* comes from a persistent identity.
+
+    The identity owns skin / hair / outfit / accessories / body scale. Scene and
+    episode data only choose who is on screen, never how they look, so a character
+    stays identical from shot to shot and across episodes. Appearance overrides in
+    the cast entry are ignored on purpose (with a warning) rather than silently
+    forking the identity.
+    """
+    import inspect
+    import sys
+    if str(PIPE) not in sys.path:
+        sys.path.insert(0, str(PIPE))
+    import characters
+
+    cid = characters.resolve(spec["identity"])
+    if cid is None:
+        raise KeyError(f"cast {name!r}: unknown identity {spec['identity']!r}; "
+                       f"available: {sorted(characters.CHARACTER_IDENTITIES)}")
+    ident = characters.get(cid)
+    if ident.get("legacy_preset"):
+        kwargs = dict(PRESETS[ident["legacy_preset"]])
+        kwargs["face"] = ident["face_style"]
+    else:
+        kwargs = characters.identity_to_rig_kwargs(cid)
+
+    allowed = set(inspect.signature(build_character).parameters) - {"name", "location"}
+    ignored = sorted(set(spec) & allowed)
+    if ignored:
+        print(f"! cast {name}: appearance comes from identity {cid!r}; ignored {ignored}")
+    return build_character(name, **kwargs)
 
 
 # ------------------------------------------------------------------ dressing per shot
@@ -401,6 +438,26 @@ def run_action(rig, act, a, fs, fe, ctx):
     elif act == "pop_in":
         s = ctx["cur_scale"]
         key_scale(rig, fs, 0.001); key_scale(rig, fs + 4, s * 1.15); key_scale(rig, fs + 7, s)
+    elif act == "pickup":
+        return pickup(rig, fs, dur=max(8, min(fe - fs - 2, 22)))
+    elif act == "drop":
+        return drop(rig, fs, dur=max(6, min(fe - fs - 2, 16)))
+    elif act == "pass_prop":
+        return pass_prop(rig, fs, dur=max(10, min(fe - fs - 2, 24)))
+    elif act == "catch_prop":
+        return catch_prop(rig, fs, dur=max(10, min(fe - fs - 2, 24)))
+    elif act == "handshake":
+        return handshake(rig, fs, dur=max(12, min(fe - fs - 2, 28)))
+    elif act == "hug":
+        return hug(rig, fs, dur=max(14, min(fe - fs - 2, 32)))
+    elif act == "approach":
+        x, y = target_local()
+        h0 = rig.get("heading", 0.0)
+        end = approach(rig, fs, x, y, fps=fps)
+        ctx["dest"] = (x, y)
+        return arrive(end, h0 if a.get("face_after", True) else None)
+    elif act == "push_prop":
+        return push_prop(rig, fs, dur=max(10, min(fe - fs - 2, 24)))
     return fs
 
 
@@ -445,7 +502,7 @@ def animate_char(rig, c, shot, ts, fps, seed, order, f1, start_world, cam_words)
 
     # ---- actions
     acts = [(f0, c.get("action", "idle"), c)] + [(T(ch["at"]), ch["action"], ch) for ch in changes if "action" in ch]
-    cur_scale = float(c.get("scale", 1.0))
+    cur_scale = float(c.get("scale", 1.0)) * float(rig.get("body_scale", 1.0) or 1.0)
     ctx = {"seed": seed, "fps": fps, "set": set_name, "order": order, "start_world": start_world,
            "seat": seat, "cur_scale": cur_scale}
     dest = None
@@ -659,6 +716,10 @@ def shot_camera(shot, f0, frames, fps, idx, pos, yaw, order, dests, bodies=None,
         span = max(abs(p.x - mid.x) for p in pts) * 2 + 4.0
         hs = [bodies[n][1].z - pos[n].z for n in names if n in bodies]
         H = max(H, span * 16 / 9, (max(hs) + 1.5) if hs else 0)
+        # Phase 03: Social media vertical safe-area headroom (window y in [0.22, 0.85])
+        max_head_z = max([bodies[n][1].z for n in names if n in bodies] or [look.z + 1.2])
+        min_feet_z = min([bodies[n][0].z for n in names if n in bodies] or [look.z - 3.4])
+        H = max(H, (max_head_z - min_feet_z) / 0.63)
 
     d = Vector((0, -1, 0))
     f = fwd(tyaw)

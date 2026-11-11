@@ -13,6 +13,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import vocab as V  # noqa: E402
+import characters  # noqa: E402
 
 PROP_KINDS = set(V.PROP_KINDS)
 PLACE_KEYS = {"prop", "mark", "id", "dx", "dy", "z", "scale", "rot", "pop_at", "poof_at"}
@@ -129,9 +130,30 @@ def validate_detailed(ep_dir):
 
     custom = d.get("characters", {})
     for n, spec in custom.items():
-        if spec.get("base", "Theo") not in V.PRESETS:
+        if spec.get("identity"):
+            # an identity owns the appearance: no base/hair/hat overrides may accompany it
+            ref = characters.resolve(str(spec["identity"]))
+            if ref is None:
+                add_err(f"character {n}: identity {spec['identity']!r} not in "
+                        f"{sorted(characters.CHARACTER_IDENTITIES)}; identity ids, not display names, go here")
+                ref = None
+            else:
+                ident = characters.get(ref)
+                for key in ("base", "hair_style", "hat", "extras", "details", "sleeves", "bottom",
+                            "skin", "hair", "hair_seed", "top", "pants", "accent", "shoes",
+                            "outfit", "print", "accessories", "body_scale"):
+                    if key in spec:
+                        add_err(f"character {n}: identity {ref!r} owns the appearance; "
+                                f"'{key}' must not be overridden in shots.json")
+                whose = (ident.get("voice") or {}).get("eleven_voice")
+                if whose and "eleven_voice" not in spec:
+                    add_warn(f"character {n}: voice comes from identity {ref!r} ({whose}); "
+                             "add 'eleven_voice' to override it")
+        elif "identity" in spec:
+            add_err(f"character {n}: identity must be a string id, got {spec.get('identity')!r}")
+        if not spec.get("identity") and spec.get("base", "Theo") not in V.PRESETS:
             add_err(f"character {n}: base {spec.get('base')!r} not in {V.PRESETS}")
-        if spec.get("hair_style") and spec["hair_style"] not in V.HAIR_STYLES:
+        if not spec.get("identity") and spec.get("hair_style") and spec["hair_style"] not in V.HAIR_STYLES:
             add_err(f"character {n}: hair_style {spec['hair_style']!r} not in {V.HAIR_STYLES}")
         if spec.get("hat") not in V.HATS:
             add_err(f"character {n}: hat {spec.get('hat')!r} not in {V.HATS}")

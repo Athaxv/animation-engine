@@ -65,14 +65,51 @@ def pick_engine(data, fmt_json, forced):
     return eng
 
 
+def identity_voice(name):
+    """
+    ElevenLabs cast entry derived from a character identity's voice profile.
+
+    Identities carry ``voice.eleven_voice`` plus stability / similarity / style so a
+    character sounds the same in every episode that casts them by identity.
+    """
+    if not name:
+        return None
+    try:
+        if str(ROOT / "pipeline") not in sys.path:
+            sys.path.insert(0, str(ROOT / "pipeline"))
+        import characters as _ch
+        cid = _ch.resolve(name)
+        if not cid:
+            return None
+        prof = _ch.get(cid).get("voice") or {}
+    except Exception:
+        return None
+    voice = prof.get("eleven_voice")
+    if not voice:
+        return None
+    out = {"voice": voice}
+    for k in ("stability", "similarity_boost", "style", "speed"):
+        if k in prof:
+            out[k] = prof[k]
+    return out
+
+
 def eleven_cast(data):
     cfg = json.loads(ELEVEN_CFG.read_text(encoding="utf-8"))
     cast = dict(cfg["voices"])
     for name, spec in data.get("characters", {}).items():
-        if "eleven_voice" in spec:
-            cast[name] = spec["eleven_voice"]
-        elif name not in cast and spec.get("base") in cast:
-            cast[name] = cast[spec["base"]]
+        entry = spec.get("eleven_voice")
+        if isinstance(entry, str):
+            entry = {"voice": entry}
+        if isinstance(entry, dict):
+            # an explicit per-episode override always wins
+            cast[name] = entry
+        elif name not in cast:
+            by_identity = identity_voice(spec.get("identity"))
+            if by_identity:
+                cast[name] = by_identity
+            elif spec.get("base") in cast:
+                cast[name] = cast[spec["base"]]
     for k, v in data.get("eleven_voices", {}).items():
         cast[k] = {**cast.get(k, {}), **v}
     return data.get("eleven_model", cfg.get("model", "eleven_multilingual_v2")), cast
