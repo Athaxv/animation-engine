@@ -741,14 +741,24 @@
   }
  },
  "characters": [
+  "Aiko",
   "Dad",
+  "Dev",
   "King",
   "Lily",
   "Max",
+  "Mira",
   "Mom",
   "Noob",
+  "Nori",
   "Officer",
-  "Theo"
+  "Pip",
+  "Rowan",
+  "Sable",
+  "Tessa",
+  "Theo",
+  "Wren",
+  "Zephyr"
  ],
  "asset_library": {
   "catalog_file": "public/roblox/asset_catalog.json",

@@ -1,0 +1,58 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|She extends her arm and passes the crystal to Zephyr.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 3.288,
+ "words": [
+  [
+   "She",
+   0.093,
+   0.231
+  ],
+  [
+   "extends",
+   0.243,
+   0.637
+  ],
+  [
+   "her",
+   0.648,
+   0.775
+  ],
+  [
+   "arm",
+   0.787,
+   1.076
+  ],
+  [
+   "and",
+   1.296,
+   1.377
+  ],
+  [
+   "passes",
+   1.389,
+   1.863
+  ],
+  [
+   "the",
+   1.875,
+   1.956
+  ],
+  [
+   "crystal",
+   1.968,
+   2.373
+  ],
+  [
+   "to",
+   2.384,
+   2.454
+  ],
+  [
+   "Zephyr",
+   2.465,
+   2.94
+  ]
+ ]
+}

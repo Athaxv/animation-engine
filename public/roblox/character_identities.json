@@ -1,0 +1,1102 @@
+{
+  "schema_version": "2.0",
+  "total_identities": 18,
+  "skin_tones": {
+    "light": [
+      1.0,
+      0.82,
+      0.66
+    ],
+    "tan": [
+      0.97,
+      0.67,
+      0.4
+    ],
+    "brown": [
+      0.62,
+      0.4,
+      0.25
+    ],
+    "deep": [
+      0.42,
+      0.26,
+      0.17
+    ],
+    "noob": [
+      0.96,
+      0.8,
+      0.1
+    ]
+  },
+  "personalities": {
+    "curious": {
+      "default_pose": "relaxed",
+      "idle_action": "look_around",
+      "walk_speed": 1.0
+    },
+    "calm": {
+      "default_pose": "relaxed",
+      "idle_action": "idle",
+      "walk_speed": 0.9
+    },
+    "energetic": {
+      "default_pose": "relaxed",
+      "idle_action": "dance",
+      "walk_speed": 1.15
+    },
+    "shy": {
+      "default_pose": "relaxed",
+      "idle_action": "look_around",
+      "walk_speed": 0.85
+    },
+    "regal": {
+      "default_pose": "hands_hips",
+      "idle_action": "idle",
+      "walk_speed": 0.95
+    },
+    "sleepy": {
+      "default_pose": "relaxed",
+      "idle_action": "idle",
+      "walk_speed": 0.8
+    },
+    "goofy": {
+      "default_pose": "relaxed",
+      "idle_action": "dance",
+      "walk_speed": 1.1
+    },
+    "brave": {
+      "default_pose": "hands_hips",
+      "idle_action": "idle",
+      "walk_speed": 1.05
+    }
+  },
+  "identities": {
+    "aiko": {
+      "id": "aiko",
+      "name": "Aiko",
+      "legacy_preset": null,
+      "proportions": {
+        "body_scale": 1.0,
+        "head_scale": 1.0,
+        "arm_scale": 1.0,
+        "leg_scale": 1.0
+      },
+      "skin": [
+        1.0,
+        0.82,
+        0.66
+      ],
+      "head_style": "round",
+      "face_style": "neutral",
+      "hair": {
+        "style": "spiky",
+        "color": [
+          0.07,
+          0.06,
+          0.09
+        ],
+        "seed": 5,
+        "fringe_dir": -1.0
+      },
+      "clothing": {
+        "top": [
+          0.13,
+          0.24,
+          0.52
+        ],
+        "pants": [
+          0.24,
+          0.26,
+          0.36
+        ],
+        "accent": [
+          0.96,
+          0.96,
+          0.98
+        ],
+        "shoes": [
+          0.1,
+          0.1,
+          0.12
+        ],
+        "sleeves": "long",
+        "bottom": "skirt",
+        "outfit": "school_uniform",
+        "print": "none",
+        "fabric": true,
+        "details": []
+      },
+      "accessories": [
+        "satchel"
+      ],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.52,
+        "similarity_boost": 0.78,
+        "style": 0.5
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "look_around",
+        "walk_speed": 0.85,
+        "id": "shy"
+      },
+      "blender": {
+        "collection": "Aiko",
+        "blend_file": "public/roblox/characters/Aiko.blend"
+      }
+    },
+    "dad": {
+      "id": "dad",
+      "name": "Dad",
+      "legacy_preset": "Dad",
+      "proportions": {},
+      "skin": [
+        0.97,
+        0.67,
+        0.4
+      ],
+      "head_style": "round",
+      "face_style": "smile",
+      "hair": {},
+      "clothing": {},
+      "accessories": [],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.6,
+        "similarity_boost": 0.82,
+        "style": 0.3
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "idle",
+        "walk_speed": 0.9,
+        "id": "calm"
+      },
+      "blender": {
+        "collection": "Dad",
+        "blend_file": "public/roblox/characters/Dad.blend"
+      }
+    },
+    "dev": {
+      "id": "dev",
+      "name": "Dev",
+      "legacy_preset": null,
+      "proportions": {
+        "body_scale": 1.02,
+        "head_scale": 1.0,
+        "arm_scale": 1.0,
+        "leg_scale": 1.0
+      },
+      "skin": [
+        0.62,
+        0.4,
+        0.25
+      ],
+      "head_style": "round",
+      "face_style": "smirk",
+      "hair": {
+        "style": "curly",
+        "color": [
+          0.08,
+          0.06,
+          0.05
+        ],
+        "seed": 9,
+        "fringe_dir": 1.0
+      },
+      "clothing": {
+        "top": [
+          0.26,
+          0.7,
+          0.36
+        ],
+        "pants": [
+          0.36,
+          0.4,
+          0.48
+        ],
+        "accent": [
+          0.97,
+          0.97,
+          0.99
+        ],
+        "shoes": [
+          0.92,
+          0.92,
+          0.94
+        ],
+        "sleeves": "long",
+        "bottom": "pants",
+        "outfit": "hoodie",
+        "print": "none",
+        "fabric": true,
+        "details": [
+          "cuffs"
+        ]
+      },
+      "accessories": [
+        "headphones"
+      ],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.4,
+        "similarity_boost": 0.8,
+        "style": 0.55
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "dance",
+        "walk_speed": 1.1,
+        "id": "goofy"
+      },
+      "blender": {
+        "collection": "Dev",
+        "blend_file": "public/roblox/characters/Dev.blend"
+      }
+    },
+    "king": {
+      "id": "king",
+      "name": "King",
+      "legacy_preset": "King",
+      "proportions": {},
+      "skin": [
+        0.97,
+        0.67,
+        0.4
+      ],
+      "head_style": "round",
+      "face_style": "confident",
+      "hair": {},
+      "clothing": {},
+      "accessories": [],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.72,
+        "similarity_boost": 0.82,
+        "style": 0.15
+      },
+      "personality": {
+        "default_pose": "hands_hips",
+        "idle_action": "idle",
+        "walk_speed": 0.95,
+        "id": "regal"
+      },
+      "blender": {
+        "collection": "King",
+        "blend_file": "public/roblox/characters/King.blend"
+      }
+    },
+    "lily": {
+      "id": "lily",
+      "name": "Lily",
+      "legacy_preset": "Lily",
+      "proportions": {},
+      "skin": [
+        0.97,
+        0.67,
+        0.4
+      ],
+      "head_style": "round",
+      "face_style": "grin",
+      "hair": {},
+      "clothing": {},
+      "accessories": [],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.5,
+        "similarity_boost": 0.78,
+        "style": 0.5
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "dance",
+        "walk_speed": 1.15,
+        "id": "energetic"
+      },
+      "blender": {
+        "collection": "Lily",
+        "blend_file": "public/roblox/characters/Lily.blend"
+      }
+    },
+    "max": {
+      "id": "max",
+      "name": "Max",
+      "legacy_preset": "Max",
+      "proportions": {},
+      "skin": [
+        0.97,
+        0.67,
+        0.4
+      ],
+      "head_style": "round",
+      "face_style": "smile",
+      "hair": {},
+      "clothing": {},
+      "accessories": [],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.42,
+        "similarity_boost": 0.8,
+        "style": 0.45
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "dance",
+        "walk_speed": 1.1,
+        "id": "goofy"
+      },
+      "blender": {
+        "collection": "Max",
+        "blend_file": "public/roblox/characters/Max.blend"
+      }
+    },
+    "mira": {
+      "id": "mira",
+      "name": "Mira",
+      "legacy_preset": null,
+      "proportions": {
+        "body_scale": 1.0,
+        "head_scale": 1.0,
+        "arm_scale": 1.0,
+        "leg_scale": 1.0
+      },
+      "skin": [
+        0.97,
+        0.67,
+        0.4
+      ],
+      "head_style": "round",
+      "face_style": "smile",
+      "hair": {
+        "style": "bob",
+        "color": [
+          0.72,
+          0.42,
+          0.18
+        ],
+        "seed": 4,
+        "fringe_dir": 1.0
+      },
+      "clothing": {
+        "top": [
+          0.86,
+          0.44,
+          0.68
+        ],
+        "pants": [
+          0.72,
+          0.3,
+          0.54
+        ],
+        "accent": [
+          1.0,
+          0.86,
+          0.4
+        ],
+        "shoes": [
+          0.99,
+          0.96,
+          0.92
+        ],
+        "sleeves": "short",
+        "bottom": "pants",
+        "outfit": "dress",
+        "print": "heart",
+        "print_color": [
+          1.0,
+          0.86,
+          0.4
+        ],
+        "fabric": true,
+        "details": []
+      },
+      "accessories": [
+        "flower_crown"
+      ],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.55,
+        "similarity_boost": 0.78,
+        "style": 0.5
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "dance",
+        "walk_speed": 1.15,
+        "id": "energetic"
+      },
+      "blender": {
+        "collection": "Mira",
+        "blend_file": "public/roblox/characters/Mira.blend"
+      }
+    },
+    "mom": {
+      "id": "mom",
+      "name": "Mom",
+      "legacy_preset": "Mom",
+      "proportions": {},
+      "skin": [
+        0.97,
+        0.67,
+        0.4
+      ],
+      "head_style": "round",
+      "face_style": "smile",
+      "hair": {},
+      "clothing": {},
+      "accessories": [],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.58,
+        "similarity_boost": 0.8,
+        "style": 0.35
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "idle",
+        "walk_speed": 0.9,
+        "id": "calm"
+      },
+      "blender": {
+        "collection": "Mom",
+        "blend_file": "public/roblox/characters/Mom.blend"
+      }
+    },
+    "noob": {
+      "id": "noob",
+      "name": "Noob",
+      "legacy_preset": "Noob",
+      "proportions": {},
+      "skin": [
+        0.97,
+        0.67,
+        0.4
+      ],
+      "head_style": "round",
+      "face_style": "smile",
+      "hair": {},
+      "clothing": {},
+      "accessories": [],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.36,
+        "similarity_boost": 0.76,
+        "style": 0.62
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "dance",
+        "walk_speed": 1.1,
+        "id": "goofy"
+      },
+      "blender": {
+        "collection": "Noob",
+        "blend_file": "public/roblox/characters/Noob.blend"
+      }
+    },
+    "nori": {
+      "id": "nori",
+      "name": "Nori",
+      "legacy_preset": null,
+      "proportions": {
+        "body_scale": 0.98,
+        "head_scale": 1.02,
+        "arm_scale": 1.0,
+        "leg_scale": 0.98
+      },
+      "skin": [
+        0.97,
+        0.67,
+        0.4
+      ],
+      "head_style": "round",
+      "face_style": "laugh",
+      "hair": {
+        "style": "layered",
+        "color": [
+          0.34,
+          0.2,
+          0.12
+        ],
+        "seed": 13,
+        "fringe_dir": 1.0
+      },
+      "clothing": {
+        "top": [
+          0.92,
+          0.52,
+          0.22
+        ],
+        "pants": [
+          0.24,
+          0.28,
+          0.4
+        ],
+        "accent": [
+          0.98,
+          0.96,
+          0.9
+        ],
+        "shoes": [
+          0.9,
+          0.9,
+          0.92
+        ],
+        "sleeves": "long",
+        "bottom": "pants",
+        "outfit": "hoodie",
+        "print": "none",
+        "fabric": true,
+        "details": [
+          "kangaroo"
+        ]
+      },
+      "accessories": [
+        "beanie"
+      ],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.46,
+        "similarity_boost": 0.8,
+        "style": 0.45
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "dance",
+        "walk_speed": 1.1,
+        "id": "goofy"
+      },
+      "blender": {
+        "collection": "Nori",
+        "blend_file": "public/roblox/characters/Nori.blend"
+      }
+    },
+    "officer": {
+      "id": "officer",
+      "name": "Officer",
+      "legacy_preset": "Officer",
+      "proportions": {},
+      "skin": [
+        0.97,
+        0.67,
+        0.4
+      ],
+      "head_style": "round",
+      "face_style": "sleep",
+      "hair": {},
+      "clothing": {},
+      "accessories": [],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.68,
+        "similarity_boost": 0.82,
+        "style": 0.3
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "idle",
+        "walk_speed": 0.8,
+        "id": "sleepy"
+      },
+      "blender": {
+        "collection": "Officer",
+        "blend_file": "public/roblox/characters/Officer.blend"
+      }
+    },
+    "pip": {
+      "id": "pip",
+      "name": "Pip",
+      "legacy_preset": null,
+      "proportions": {
+        "body_scale": 0.94,
+        "head_scale": 1.04,
+        "arm_scale": 1.0,
+        "leg_scale": 0.96
+      },
+      "skin": [
+        0.97,
+        0.67,
+        0.4
+      ],
+      "head_style": "round",
+      "face_style": "grin",
+      "hair": {
+        "style": "buzz",
+        "color": [
+          0.52,
+          0.3,
+          0.12
+        ],
+        "seed": 6,
+        "fringe_dir": 1.0
+      },
+      "clothing": {
+        "top": [
+          0.99,
+          0.78,
+          0.22
+        ],
+        "pants": [
+          0.28,
+          0.44,
+          0.72
+        ],
+        "accent": [
+          0.16,
+          0.6,
+          0.94
+        ],
+        "shoes": [
+          0.94,
+          0.94,
+          0.96
+        ],
+        "sleeves": "short",
+        "bottom": "shorts",
+        "outfit": "tshirt",
+        "print": "bolt",
+        "print_color": [
+          0.14,
+          0.52,
+          0.92
+        ],
+        "fabric": true,
+        "details": []
+      },
+      "accessories": [
+        "backpack"
+      ],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.38,
+        "similarity_boost": 0.8,
+        "style": 0.6
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "look_around",
+        "walk_speed": 1.0,
+        "id": "curious"
+      },
+      "blender": {
+        "collection": "Pip",
+        "blend_file": "public/roblox/characters/Pip.blend"
+      }
+    },
+    "rowan": {
+      "id": "rowan",
+      "name": "Rowan",
+      "legacy_preset": null,
+      "proportions": {
+        "body_scale": 1.0,
+        "head_scale": 1.0,
+        "arm_scale": 1.0,
+        "leg_scale": 1.0
+      },
+      "skin": [
+        0.42,
+        0.26,
+        0.17
+      ],
+      "head_style": "round",
+      "face_style": "smile",
+      "hair": {
+        "style": "ponytail",
+        "color": [
+          0.16,
+          0.09,
+          0.05
+        ],
+        "seed": 8,
+        "fringe_dir": 1.0
+      },
+      "clothing": {
+        "top": [
+          0.36,
+          0.58,
+          0.3
+        ],
+        "pants": [
+          0.3,
+          0.32,
+          0.36
+        ],
+        "accent": [
+          0.9,
+          0.72,
+          0.3
+        ],
+        "shoes": [
+          0.32,
+          0.22,
+          0.14
+        ],
+        "sleeves": "long",
+        "bottom": "pants",
+        "outfit": "jacket",
+        "print": "none",
+        "fabric": true,
+        "details": []
+      },
+      "accessories": [
+        "scarf"
+      ],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.48,
+        "similarity_boost": 0.78,
+        "style": 0.5
+      },
+      "personality": {
+        "default_pose": "hands_hips",
+        "idle_action": "idle",
+        "walk_speed": 1.05,
+        "id": "brave"
+      },
+      "blender": {
+        "collection": "Rowan",
+        "blend_file": "public/roblox/characters/Rowan.blend"
+      }
+    },
+    "sable": {
+      "id": "sable",
+      "name": "Sable",
+      "legacy_preset": null,
+      "proportions": {
+        "body_scale": 1.06,
+        "head_scale": 1.0,
+        "arm_scale": 1.0,
+        "leg_scale": 1.02
+      },
+      "skin": [
+        1.0,
+        0.82,
+        0.66
+      ],
+      "head_style": "round",
+      "face_style": "confident",
+      "hair": {
+        "style": "side_swept",
+        "color": [
+          0.1,
+          0.08,
+          0.07
+        ],
+        "seed": 2,
+        "fringe_dir": -1.0
+      },
+      "clothing": {
+        "top": [
+          0.1,
+          0.11,
+          0.15
+        ],
+        "pants": [
+          0.1,
+          0.11,
+          0.15
+        ],
+        "accent": [
+          0.62,
+          0.1,
+          0.14
+        ],
+        "shoes": [
+          0.05,
+          0.05,
+          0.06
+        ],
+        "sleeves": "long",
+        "bottom": "pants",
+        "outfit": "suit",
+        "print": "none",
+        "fabric": true,
+        "details": [
+          "collar"
+        ]
+      },
+      "accessories": [
+        "sunglasses"
+      ],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.74,
+        "similarity_boost": 0.82,
+        "style": 0.12
+      },
+      "personality": {
+        "default_pose": "hands_hips",
+        "idle_action": "idle",
+        "walk_speed": 0.95,
+        "id": "regal"
+      },
+      "blender": {
+        "collection": "Sable",
+        "blend_file": "public/roblox/characters/Sable.blend"
+      }
+    },
+    "tessa": {
+      "id": "tessa",
+      "name": "Tessa",
+      "legacy_preset": null,
+      "proportions": {
+        "body_scale": 1.0,
+        "head_scale": 1.0,
+        "arm_scale": 1.0,
+        "leg_scale": 1.0
+      },
+      "skin": [
+        0.62,
+        0.4,
+        0.25
+      ],
+      "head_style": "round",
+      "face_style": "nervous",
+      "hair": {
+        "style": "braids",
+        "color": [
+          0.2,
+          0.1,
+          0.06
+        ],
+        "seed": 7,
+        "fringe_dir": 1.0
+      },
+      "clothing": {
+        "top": [
+          0.2,
+          0.32,
+          0.58
+        ],
+        "pants": [
+          0.22,
+          0.24,
+          0.34
+        ],
+        "accent": [
+          0.94,
+          0.94,
+          0.96
+        ],
+        "shoes": [
+          0.14,
+          0.14,
+          0.18
+        ],
+        "sleeves": "long",
+        "bottom": "pants",
+        "outfit": "school_uniform",
+        "print": "none",
+        "fabric": true,
+        "details": []
+      },
+      "accessories": [
+        "monocle"
+      ],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.58,
+        "similarity_boost": 0.78,
+        "style": 0.5
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "look_around",
+        "walk_speed": 0.85,
+        "id": "shy"
+      },
+      "blender": {
+        "collection": "Tessa",
+        "blend_file": "public/roblox/characters/Tessa.blend"
+      }
+    },
+    "theo": {
+      "id": "theo",
+      "name": "Theo",
+      "legacy_preset": "Theo",
+      "proportions": {},
+      "skin": [
+        0.97,
+        0.67,
+        0.4
+      ],
+      "head_style": "round",
+      "face_style": "smile",
+      "hair": {},
+      "clothing": {},
+      "accessories": [],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.45,
+        "similarity_boost": 0.8,
+        "style": 0.45
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "look_around",
+        "walk_speed": 1.0,
+        "id": "curious"
+      },
+      "blender": {
+        "collection": "Theo",
+        "blend_file": "public/roblox/characters/Theo.blend"
+      }
+    },
+    "wren": {
+      "id": "wren",
+      "name": "Wren",
+      "legacy_preset": null,
+      "proportions": {
+        "body_scale": 1.0,
+        "head_scale": 1.0,
+        "arm_scale": 1.0,
+        "leg_scale": 1.0
+      },
+      "skin": [
+        1.0,
+        0.82,
+        0.66
+      ],
+      "head_style": "round",
+      "face_style": "smile",
+      "hair": {
+        "style": "wavy_long",
+        "color": [
+          0.86,
+          0.62,
+          0.3
+        ],
+        "seed": 15,
+        "fringe_dir": -1.0
+      },
+      "clothing": {
+        "top": [
+          0.94,
+          0.94,
+          0.98
+        ],
+        "pants": [
+          0.36,
+          0.52,
+          0.78
+        ],
+        "accent": [
+          0.28,
+          0.82,
+          0.7
+        ],
+        "shoes": [
+          0.86,
+          0.8,
+          0.68
+        ],
+        "sleeves": "short",
+        "bottom": "pants",
+        "outfit": "tshirt",
+        "print": "star",
+        "print_color": [
+          0.28,
+          0.82,
+          0.7
+        ],
+        "fabric": true,
+        "details": []
+      },
+      "accessories": [
+        "amulet"
+      ],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.5,
+        "similarity_boost": 0.78,
+        "style": 0.5
+      },
+      "personality": {
+        "default_pose": "relaxed",
+        "idle_action": "look_around",
+        "walk_speed": 1.0,
+        "id": "curious"
+      },
+      "blender": {
+        "collection": "Wren",
+        "blend_file": "public/roblox/characters/Wren.blend"
+      }
+    },
+    "zephyr": {
+      "id": "zephyr",
+      "name": "Zephyr",
+      "legacy_preset": null,
+      "proportions": {
+        "body_scale": 1.04,
+        "head_scale": 1.0,
+        "arm_scale": 1.02,
+        "leg_scale": 1.0
+      },
+      "skin": [
+        1.0,
+        0.82,
+        0.66
+      ],
+      "head_style": "round",
+      "face_style": "smirk",
+      "hair": {
+        "style": "mohawk",
+        "color": [
+          0.14,
+          0.66,
+          0.88
+        ],
+        "seed": 11,
+        "fringe_dir": 1.0
+      },
+      "clothing": {
+        "top": [
+          0.16,
+          0.22,
+          0.38
+        ],
+        "pants": [
+          0.12,
+          0.14,
+          0.2
+        ],
+        "accent": [
+          0.3,
+          0.86,
+          0.92
+        ],
+        "shoes": [
+          0.08,
+          0.08,
+          0.1
+        ],
+        "sleeves": "long",
+        "bottom": "pants",
+        "outfit": "themed",
+        "print": "none",
+        "fabric": true,
+        "details": []
+      },
+      "accessories": [
+        "wings"
+      ],
+      "voice": {
+        "eleven_voice": "adam",
+        "stability": 0.44,
+        "similarity_boost": 0.8,
+        "style": 0.5
+      },
+      "personality": {
+        "default_pose": "hands_hips",
+        "idle_action": "idle",
+        "walk_speed": 1.05,
+        "id": "brave"
+      },
+      "blender": {
+        "collection": "Zephyr",
+        "blend_file": "public/roblox/characters/Zephyr.blend"
+      }
+    }
+  }
+}

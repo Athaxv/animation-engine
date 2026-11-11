@@ -1,0 +1,199 @@
+{
+  "episode": "phase_03_motion_showcase",
+  "format": "what_if",
+  "title": "Phase 03 Motion Showcase: Coordination & Contact Intelligence",
+  "hook_title": "R6 MOTION INTELLIGENCE BENCHMARK",
+  "fps": 30,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "narrator": "Theo",
+  "shots": [
+    {
+      "id": "s01",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "Aiko and Zephyr approach the town square plaza.",
+      "camera": {
+        "shot": "two_shot",
+        "angle": "low",
+        "move": "track",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "plaza_left",
+          "facing": "Zephyr",
+          "pose": "stand",
+          "face": "neutral",
+          "action": "approach",
+          "to": "center",
+          "to_dx": -1.2,
+          "to_dy": 0.0
+        },
+        {
+          "name": "Zephyr",
+          "mark": "plaza_right",
+          "facing": "Aiko",
+          "pose": "stand",
+          "face": "neutral",
+          "action": "approach",
+          "to": "center",
+          "to_dx": 1.2,
+          "to_dy": 0.0
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s02",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "Aiko spots an ancient glowing crystal and picks it up.",
+      "camera": {
+        "shot": "medium",
+        "angle": "eye",
+        "move": "push_in",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.2,
+          "facing": "camera",
+          "pose": "pickup",
+          "face": "surprised",
+          "action": "pickup",
+          "props": [
+            "gem"
+          ]
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 1.2,
+          "facing": "Aiko",
+          "pose": "stand",
+          "face": "surprised"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s03",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "She extends her arm and passes the crystal to Zephyr.",
+      "camera": {
+        "shot": "two_shot",
+        "angle": "eye",
+        "move": "static",
+        "target": "Zephyr"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.1,
+          "facing": "Zephyr",
+          "pose": "reach_forward",
+          "face": "smile",
+          "action": "pass_prop",
+          "props": [
+            "gem"
+          ]
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 1.1,
+          "facing": "Aiko",
+          "pose": "receive_prop",
+          "face": "smile",
+          "action": "catch_prop"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s04",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "Zephyr catches the crystal and celebrates with excitement.",
+      "camera": {
+        "shot": "medium",
+        "angle": "low",
+        "move": "static",
+        "target": "Zephyr"
+      },
+      "cast": [
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 1.1,
+          "facing": "camera",
+          "pose": "celebrate",
+          "face": "smile",
+          "action": "celebrate",
+          "props": [
+            "gem"
+          ]
+        },
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.1,
+          "facing": "Zephyr",
+          "pose": "stand",
+          "face": "smile",
+          "action": "laugh"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s05",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "United in friendship, they share a warm handshake.",
+      "camera": {
+        "shot": "medium",
+        "angle": "eye",
+        "move": "push_in",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.1,
+          "facing": "Zephyr",
+          "pose": "handshake",
+          "face": "smile",
+          "action": "handshake"
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 1.1,
+          "facing": "Aiko",
+          "pose": "handshake",
+          "face": "smile",
+          "action": "handshake",
+          "props": [
+            "gem"
+          ]
+        }
+      ],
+      "transition": "fade_black"
+    }
+  ]
+}

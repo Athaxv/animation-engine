@@ -1,0 +1,35 @@
+{
+  "name": "characters_accessory_sheet",
+  "rows_files": [
+    "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_accessory_sheet_r0.png",
+    "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_accessory_sheet_r1.png"
+  ],
+  "per_row": [
+    8,
+    8
+  ],
+  "raw": "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_accessory_sheet_r0.png",
+  "cols": 8,
+  "rows": 2,
+  "labels": [
+    "beanie",
+    "top_hat",
+    "wizard_hat",
+    "flower_crown",
+    "headband",
+    "headphones",
+    "sunglasses",
+    "mask",
+    "monocle",
+    "eyepatch",
+    "scarf",
+    "backpack",
+    "satchel",
+    "cape",
+    "wings",
+    "amulet"
+  ],
+  "title": "ACCESSORIES",
+  "subtitle": "16 pieces  \u00b7  3 zones (head_top, face, body)  \u00b7  clearance-verified",
+  "grid": false
+}

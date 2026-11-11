@@ -1,0 +1,37 @@
+{
+  "name": "characters_lineup",
+  "rows_files": [
+    "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_lineup_r0.png",
+    "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_lineup_r1.png"
+  ],
+  "per_row": [
+    9,
+    9
+  ],
+  "raw": "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_lineup_r0.png",
+  "cols": 9,
+  "rows": 2,
+  "labels": [
+    "Aiko",
+    "Dad",
+    "Dev",
+    "King",
+    "Lily",
+    "Max",
+    "Mira",
+    "Mom",
+    "Noob",
+    "Nori",
+    "Officer",
+    "Pip",
+    "Rowan",
+    "Sable",
+    "Tessa",
+    "Theo",
+    "Wren",
+    "Zephyr"
+  ],
+  "title": "CHARACTER IDENTITIES",
+  "subtitle": "18 persistent identities  \u00b7  appearance owned by the registry, not by shots",
+  "grid": false
+}

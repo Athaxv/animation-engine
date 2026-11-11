@@ -1,0 +1,646 @@
+{
+  "schema_version": "2.0",
+  "total": 18,
+  "characters": {
+    "aiko": {
+      "name": "Aiko",
+      "blend": "public/roblox/characters/Aiko.blend",
+      "legacy_preset": null,
+      "hair": "spiky",
+      "outfit": "school_uniform",
+      "accessories": [
+        "satchel"
+      ],
+      "face_style": "neutral",
+      "personality": "shy",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 44,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 4294,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {
+        "satchel": {
+          "zone": "body",
+          "vertices": 456,
+          "ok": true,
+          "interior_hits": 0,
+          "interior_samples": []
+        }
+      },
+      "accessory_ok": true,
+      "ok": true
+    },
+    "dad": {
+      "name": "Dad",
+      "blend": "public/roblox/characters/Dad.blend",
+      "legacy_preset": "Dad",
+      "hair": "short",
+      "outfit": "none",
+      "accessories": [],
+      "face_style": "smile",
+      "personality": "calm",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 17,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 5128,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {},
+      "accessory_ok": true,
+      "ok": true
+    },
+    "dev": {
+      "name": "Dev",
+      "blend": "public/roblox/characters/Dev.blend",
+      "legacy_preset": null,
+      "hair": "curly",
+      "outfit": "hoodie",
+      "accessories": [
+        "headphones"
+      ],
+      "face_style": "smirk",
+      "personality": "goofy",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 56,
+      "head_dims": [
+        1.306,
+        1.306,
+        1.265
+      ],
+      "torso_dims": [
+        2.04,
+        1.02,
+        2.04
+      ],
+      "hair_vertices": 4204,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {
+        "headphones": {
+          "zone": "head_top",
+          "vertices": 576,
+          "ok": true,
+          "eye_hits": 0,
+          "mouth_hits": 0
+        }
+      },
+      "accessory_ok": true,
+      "ok": true
+    },
+    "king": {
+      "name": "King",
+      "blend": "public/roblox/characters/King.blend",
+      "legacy_preset": "King",
+      "hair": "swept",
+      "outfit": "none",
+      "accessories": [],
+      "face_style": "confident",
+      "personality": "regal",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 45,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 7252,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {},
+      "accessory_ok": true,
+      "ok": true
+    },
+    "lily": {
+      "name": "Lily",
+      "blend": "public/roblox/characters/Lily.blend",
+      "legacy_preset": "Lily",
+      "hair": "pigtails",
+      "outfit": "none",
+      "accessories": [],
+      "face_style": "grin",
+      "personality": "energetic",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 18,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 8096,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {},
+      "accessory_ok": true,
+      "ok": true
+    },
+    "max": {
+      "name": "Max",
+      "blend": "public/roblox/characters/Max.blend",
+      "legacy_preset": "Max",
+      "hair": "messy",
+      "outfit": "none",
+      "accessories": [],
+      "face_style": "smile",
+      "personality": "goofy",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 19,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 6948,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {},
+      "accessory_ok": true,
+      "ok": true
+    },
+    "mira": {
+      "name": "Mira",
+      "blend": "public/roblox/characters/Mira.blend",
+      "legacy_preset": null,
+      "hair": "bob",
+      "outfit": "dress",
+      "accessories": [
+        "flower_crown"
+      ],
+      "face_style": "smile",
+      "personality": "energetic",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 41,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 10852,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {
+        "flower_crown": {
+          "zone": "head_top",
+          "vertices": 3960,
+          "ok": true,
+          "eye_hits": 0,
+          "mouth_hits": 0
+        }
+      },
+      "accessory_ok": true,
+      "ok": true
+    },
+    "mom": {
+      "name": "Mom",
+      "blend": "public/roblox/characters/Mom.blend",
+      "legacy_preset": "Mom",
+      "hair": "long",
+      "outfit": "none",
+      "accessories": [],
+      "face_style": "smile",
+      "personality": "calm",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 14,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 7872,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {},
+      "accessory_ok": true,
+      "ok": true
+    },
+    "noob": {
+      "name": "Noob",
+      "blend": "public/roblox/characters/Noob.blend",
+      "legacy_preset": "Noob",
+      "hair": "bald",
+      "outfit": "none",
+      "accessories": [],
+      "face_style": "smile",
+      "personality": "goofy",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 8,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 0,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {},
+      "accessory_ok": true,
+      "ok": true
+    },
+    "nori": {
+      "name": "Nori",
+      "blend": "public/roblox/characters/Nori.blend",
+      "legacy_preset": null,
+      "hair": "layered",
+      "outfit": "hoodie",
+      "accessories": [
+        "beanie"
+      ],
+      "face_style": "laugh",
+      "personality": "goofy",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 31,
+      "head_dims": [
+        1.254,
+        1.254,
+        1.215
+      ],
+      "torso_dims": [
+        1.96,
+        0.98,
+        1.96
+      ],
+      "hair_vertices": 9030,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {
+        "beanie": {
+          "zone": "head_top",
+          "vertices": 374,
+          "ok": true,
+          "eye_hits": 0,
+          "mouth_hits": 0
+        }
+      },
+      "accessory_ok": true,
+      "ok": true
+    },
+    "officer": {
+      "name": "Officer",
+      "blend": "public/roblox/characters/Officer.blend",
+      "legacy_preset": "Officer",
+      "hair": "under_cap",
+      "outfit": "none",
+      "accessories": [],
+      "face_style": "sleep",
+      "personality": "sleepy",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 22,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 4476,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {},
+      "accessory_ok": true,
+      "ok": true
+    },
+    "pip": {
+      "name": "Pip",
+      "blend": "public/roblox/characters/Pip.blend",
+      "legacy_preset": null,
+      "hair": "buzz",
+      "outfit": "tshirt",
+      "accessories": [
+        "backpack"
+      ],
+      "face_style": "grin",
+      "personality": "curious",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 25,
+      "head_dims": [
+        1.203,
+        1.203,
+        1.166
+      ],
+      "torso_dims": [
+        1.88,
+        0.94,
+        1.88
+      ],
+      "hair_vertices": 6328,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {
+        "backpack": {
+          "zone": "body",
+          "vertices": 760,
+          "ok": true,
+          "interior_hits": 0,
+          "interior_samples": []
+        }
+      },
+      "accessory_ok": true,
+      "ok": true
+    },
+    "rowan": {
+      "name": "Rowan",
+      "blend": "public/roblox/characters/Rowan.blend",
+      "legacy_preset": null,
+      "hair": "ponytail",
+      "outfit": "jacket",
+      "accessories": [
+        "scarf"
+      ],
+      "face_style": "smile",
+      "personality": "brave",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 29,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 6540,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {
+        "scarf": {
+          "zone": "body",
+          "vertices": 624,
+          "ok": true,
+          "interior_hits": 0,
+          "interior_samples": []
+        }
+      },
+      "accessory_ok": true,
+      "ok": true
+    },
+    "sable": {
+      "name": "Sable",
+      "blend": "public/roblox/characters/Sable.blend",
+      "legacy_preset": null,
+      "hair": "side_swept",
+      "outfit": "suit",
+      "accessories": [
+        "sunglasses"
+      ],
+      "face_style": "confident",
+      "personality": "regal",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 32,
+      "head_dims": [
+        1.357,
+        1.357,
+        1.314
+      ],
+      "torso_dims": [
+        2.12,
+        1.06,
+        2.12
+      ],
+      "hair_vertices": 5280,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {
+        "sunglasses": {
+          "zone": "face",
+          "vertices": 680,
+          "ok": true,
+          "front_vertices": 680,
+          "total": 680
+        }
+      },
+      "accessory_ok": true,
+      "ok": true
+    },
+    "tessa": {
+      "name": "Tessa",
+      "blend": "public/roblox/characters/Tessa.blend",
+      "legacy_preset": null,
+      "hair": "braids",
+      "outfit": "school_uniform",
+      "accessories": [
+        "monocle"
+      ],
+      "face_style": "nervous",
+      "personality": "shy",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 34,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 7234,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {
+        "monocle": {
+          "zone": "face",
+          "vertices": 658,
+          "ok": true,
+          "front_vertices": 450,
+          "total": 658
+        }
+      },
+      "accessory_ok": true,
+      "ok": true
+    },
+    "theo": {
+      "name": "Theo",
+      "blend": "public/roblox/characters/Theo.blend",
+      "legacy_preset": "Theo",
+      "hair": "messy",
+      "outfit": "none",
+      "accessories": [],
+      "face_style": "smile",
+      "personality": "curious",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 15,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 6948,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {},
+      "accessory_ok": true,
+      "ok": true
+    },
+    "wren": {
+      "name": "Wren",
+      "blend": "public/roblox/characters/Wren.blend",
+      "legacy_preset": null,
+      "hair": "wavy_long",
+      "outfit": "tshirt",
+      "accessories": [
+        "amulet"
+      ],
+      "face_style": "smile",
+      "personality": "curious",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 21,
+      "head_dims": [
+        1.28,
+        1.28,
+        1.24
+      ],
+      "torso_dims": [
+        2.0,
+        1.0,
+        2.0
+      ],
+      "hair_vertices": 7172,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {
+        "amulet": {
+          "zone": "body",
+          "vertices": 526,
+          "ok": true,
+          "interior_hits": 0,
+          "interior_samples": []
+        }
+      },
+      "accessory_ok": true,
+      "ok": true
+    },
+    "zephyr": {
+      "name": "Zephyr",
+      "blend": "public/roblox/characters/Zephyr.blend",
+      "legacy_preset": null,
+      "hair": "mohawk",
+      "outfit": "themed",
+      "accessories": [
+        "wings"
+      ],
+      "face_style": "smirk",
+      "personality": "brave",
+      "r6_bones_missing": [],
+      "is_roblox_rig": true,
+      "decal_material": true,
+      "mesh_objects": 27,
+      "head_dims": [
+        1.331,
+        1.331,
+        1.29
+      ],
+      "torso_dims": [
+        2.08,
+        1.04,
+        2.08
+      ],
+      "hair_vertices": 140,
+      "hair_eye_hits": 0,
+      "hair_mouth_hits": 0,
+      "accessory_checks": {
+        "wings": {
+          "zone": "body",
+          "vertices": 896,
+          "ok": true,
+          "interior_hits": 0,
+          "interior_samples": []
+        }
+      },
+      "accessory_ok": true,
+      "ok": true
+    }
+  }
+}

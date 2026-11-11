@@ -1,0 +1,48 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|United in friendship, they share a warm handshake.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 2.928,
+ "words": [
+  [
+   "United",
+   0.093,
+   0.451
+  ],
+  [
+   "in",
+   0.463,
+   0.532
+  ],
+  [
+   "friendship",
+   0.544,
+   1.007
+  ],
+  [
+   "they",
+   1.262,
+   1.366
+  ],
+  [
+   "share",
+   1.377,
+   1.644
+  ],
+  [
+   "a",
+   1.655,
+   1.725
+  ],
+  [
+   "warm",
+   1.736,
+   2.002
+  ],
+  [
+   "handshake",
+   2.014,
+   2.569
+  ]
+ ]
+}

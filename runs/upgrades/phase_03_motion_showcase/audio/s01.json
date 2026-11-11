@@ -1,0 +1,48 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Aiko and Zephyr approach the town square plaza.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 2.856,
+ "words": [
+  [
+   "Aiko",
+   0.093,
+   0.486
+  ],
+  [
+   "and",
+   0.498,
+   0.59
+  ],
+  [
+   "Zephyr",
+   0.602,
+   0.972
+  ],
+  [
+   "approach",
+   0.984,
+   1.4
+  ],
+  [
+   "the",
+   1.412,
+   1.505
+  ],
+  [
+   "town",
+   1.516,
+   1.794
+  ],
+  [
+   "square",
+   1.806,
+   2.06
+  ],
+  [
+   "plaza",
+   2.072,
+   2.5
+  ]
+ ]
+}

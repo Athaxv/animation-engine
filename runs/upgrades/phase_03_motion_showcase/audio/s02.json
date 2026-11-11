@@ -1,0 +1,58 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Aiko spots an ancient glowing crystal and picks it up.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 3.336,
+ "words": [
+  [
+   "Aiko",
+   0.093,
+   0.359
+  ],
+  [
+   "spots",
+   0.37,
+   0.706
+  ],
+  [
+   "an",
+   0.718,
+   0.833
+  ],
+  [
+   "ancient",
+   0.926,
+   1.319
+  ],
+  [
+   "glowing",
+   1.331,
+   1.667
+  ],
+  [
+   "crystal",
+   1.678,
+   2.153
+  ],
+  [
+   "and",
+   2.384,
+   2.442
+  ],
+  [
+   "picks",
+   2.454,
+   2.697
+  ],
+  [
+   "it",
+   2.708,
+   2.778
+  ],
+  [
+   "up",
+   2.789,
+   2.998
+  ]
+ ]
+}

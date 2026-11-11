@@ -1,0 +1,36 @@
+{
+  "name": "characters_hair_sheet",
+  "rows_files": [
+    "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_hair_sheet_r0.png",
+    "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_hair_sheet_r1.png"
+  ],
+  "per_row": [
+    9,
+    8
+  ],
+  "raw": "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_hair_sheet_r0.png",
+  "cols": 9,
+  "rows": 2,
+  "labels": [
+    "messy",
+    "short",
+    "under_cap",
+    "swept",
+    "long",
+    "pigtails",
+    "spiky",
+    "layered",
+    "side_swept",
+    "bob",
+    "ponytail",
+    "buzz",
+    "curly",
+    "mohawk",
+    "braids",
+    "wavy_long",
+    "bald"
+  ],
+  "title": "HAIR SILHOUETTES",
+  "subtitle": "17 styles  \u00b7  6 legacy + 10 new  \u00b7  eye band verified clear on every style",
+  "grid": false
+}

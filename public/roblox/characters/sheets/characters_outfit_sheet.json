@@ -1,0 +1,25 @@
+{
+  "name": "characters_outfit_sheet",
+  "rows_files": [
+    "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_outfit_sheet_r0.png"
+  ],
+  "per_row": [
+    8
+  ],
+  "raw": "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_outfit_sheet_r0.png",
+  "cols": 8,
+  "rows": 1,
+  "labels": [
+    "none",
+    "hoodie",
+    "jacket",
+    "tshirt",
+    "school_uniform",
+    "suit",
+    "dress",
+    "themed"
+  ],
+  "title": "OUTFITS",
+  "subtitle": "8 garments  \u00b7  blocky R6 silhouette preserved, detail added on top",
+  "grid": false
+}

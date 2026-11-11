@@ -1,0 +1,33 @@
+{
+  "name": "characters_face_sheet",
+  "rows_files": [
+    "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_face_sheet_r0.png"
+  ],
+  "per_row": [
+    16
+  ],
+  "raw": "D:\\ai-video\\ROBLOX ANIMATION\\public\\roblox\\characters\\sheets\\raw_characters_face_sheet_r0.png",
+  "cols": 4,
+  "rows": 4,
+  "labels": [
+    "smile",
+    "grin",
+    "worried",
+    "shocked",
+    "laugh",
+    "sleep",
+    "angry",
+    "sad",
+    "neutral",
+    "blink",
+    "talk",
+    "smirk",
+    "surprised",
+    "confident",
+    "cry",
+    "nervous"
+  ],
+  "title": "FACE ATLAS  \u00b7  16 EXPRESSIONS",
+  "subtitle": "4x4 painted atlas cells projected on the R6 head  \u00b7  no hair geometry in the eye band",
+  "grid": true
+}

@@ -6,7 +6,7 @@ The engine's vocabulary: every word a shots.json may use. Plain Python (no Blend
 Poses, faces and cast presets are parsed from the rig sources, sets and marks come from
 public/roblox/catalog.json (pipeline/catalog.py), so this never drifts from the assets.
 """
-import ast, json
+import ast, json, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -63,6 +63,15 @@ ACTIONS = {
     "float":        "rise into the air and bob (no gravity)",
     "poof":         "shrink to nothing (vanish)",
     "pop_in":       "appear from nothing",
+    # Phase 03: Interactive & choreography actions
+    "handshake":    "coordinated handshake gesture with arm reach and shake",
+    "hug":          "coordinated warm embrace with arm wrap and hold",
+    "pickup":       "bend waist, reach arm to prop, lift into hold",
+    "drop":         "release held prop to ground with gravity drop",
+    "pass_prop":    "extend arm with prop to pass to another character",
+    "catch_prop":   "reach arm forward to receive prop into hold",
+    "approach":     "smooth accelerated walk toward target character or mark",
+    "push_prop":    "pushing movement with hands braced forward",
 }
 # persistent per-character state a cast entry or a change may set
 STATE_KEYS = {"pose", "face", "scale", "tint", "props", "action"}
@@ -97,8 +106,34 @@ PLACE_KEYS = {
     "pop_at":  "seconds into the shot: appears with a pop (+ pop sfx). Omit = there from the start",
     "poof_at": "seconds into the shot: vanishes with a poof (+ poof sfx)",
 }
-# skin presets for custom characters
-HAIR_STYLES = ["messy", "short", "under_cap", "swept", "long", "pigtails", "bald"]
+# ---- Phase 2 character system: pulled from the registry so it cannot drift.
+# characters/ is bpy-free by design, so this import is safe outside Blender.
+CHARACTERS_NS = None
+try:
+    if str(PIPE) not in sys.path:
+        sys.path.insert(0, str(PIPE))
+    import characters as CHARACTERS_NS  # noqa: E402
+except Exception:                        # pragma: no cover - registry missing
+    CHARACTERS_NS = None
+
+if CHARACTERS_NS:
+    HAIR_STYLES = list(CHARACTERS_NS.HAIR_ALL_STYLES)
+    OUTFITS = list(CHARACTERS_NS.OUTFITS)
+    PRINTS = list(CHARACTERS_NS.PRINTS)
+    ACCESSORIES = sorted(CHARACTERS_NS.ACCESSORY_REGISTRY)
+    ACCESSORY_ZONES = list(CHARACTERS_NS.ACCESSORY_ZONES)
+    IDENTITIES = sorted(CHARACTERS_NS.CHARACTER_IDENTITIES)
+    IDENTITY_NAMES = sorted(v["name"] for v in CHARACTERS_NS.CHARACTER_IDENTITIES.values())
+    LEGACY_HAIR = [s for s in HAIR_STYLES if s in {"messy", "short", "under_cap", "swept", "long", "pigtails", "bald"}]
+else:                                    # pragma: no cover - graceful fallback
+    HAIR_STYLES = ["messy", "short", "under_cap", "swept", "long", "pigtails", "bald"]
+    OUTFITS = ["none"]
+    PRINTS = ["none"]
+    ACCESSORIES = []
+    ACCESSORY_ZONES = ["head_top", "face", "body"]
+    IDENTITIES = []
+    IDENTITY_NAMES = []
+    LEGACY_HAIR = HAIR_STYLES
 HATS = [None, "crown", "police", "cap"]
 EXTRAS = ["mustache", "glasses", "monster"]
 DETAILS = ["moon", "pocket", "cuffs", "robe", "badge", "belt", "buttons", "collar", "heart", "hood", "kangaroo", "stripes"]
@@ -146,9 +181,25 @@ def cheat_sheet():
     L.append("## Cast (prebuilt)")
     for n in c["characters"]:
         L.append(f"- **{n}**: {CAST_NOTES.get(n, '')}")
-    L.append("- custom characters: top-level `characters` {Name: {base: <preset>, ...overrides}} "
+    L.append("\n## Cast (Phase 2 identities: appearance + voice live in the identity, not per shot)")
+    for cid in IDENTITIES:
+        i = CHARACTERS_NS.get(cid)
+        if i.get("legacy_preset"):
+            continue
+        cloth = i.get("clothing") or {}
+        hair = i.get("hair") or {}
+        accs = ", ".join(i.get("accessories") or []) or "none"
+        voice = (i.get("voice") or {}).get("eleven_voice") or "-"
+        L.append(f"- **{i['name']}** (`identity: \"{cid}\"`): {i.get('face_style')} face · {hair.get('style')} hair · "
+                 f"{cloth.get('outfit', 'none')} outfit · accessories: {accs} · eleven voice: {voice}")
+    L.append("- identity rule: `characters: {Name: {\"identity\": \"<id>\"}}` builds whatever the identity says; "
+             "appearance overrides on that entry are ignored, so a character looks identical in every scene "
+             "(the old `base` + override path still works for one-off looks)")
+    L.append("- one-off custom characters: top-level `characters` {Name: {base: <preset>, ...overrides}} "
              f"(hair_style {HAIR_STYLES}, hat {HATS}, extras {EXTRAS}, details {DETAILS}, sleeves {SLEEVES}, "
              f"bottom {BOTTOMS}, colors sRGB 0-1 for skin/hair/top/pants/shoes/accent)")
+    L.append(f"- identity asset pool: hair {HAIR_STYLES} (legacy: {', '.join(LEGACY_HAIR)}), outfits {OUTFITS}, "
+             f"prints {PRINTS}, accessories {ACCESSORIES} (zones {ACCESSORY_ZONES})")
     L.append("")
     L.append("## Sets -> dressings -> marks  (pos x,y,z / default facing; seat = sit height)")
     for s, info in c["sets"].items():

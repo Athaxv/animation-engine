@@ -1,0 +1,2620 @@
+[
+  {
+    "id": "s01",
+    "start_frame": 1,
+    "end_frame": 84,
+    "samples": {
+      "start": {
+        "frame": 2,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s01_start.png",
+        "telemetry": {
+          "camera_loc": [
+            8.582,
+            -19.139,
+            1.15
+          ],
+          "camera_rot_deg": [
+            97.18,
+            -0.0,
+            23.61
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -4.2,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -4.189,
+                0.494,
+                5.559
+              ],
+              "hand_r": [
+                -4.878,
+                -0.852,
+                2.359
+              ],
+              "hand_l": [
+                -3.525,
+                1.853,
+                2.359
+              ],
+              "foot_r": [
+                -4.424,
+                0.053,
+                0.459
+              ],
+              "foot_l": [
+                -3.976,
+                0.947,
+                0.459
+              ],
+              "heading_deg": 63.42,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.31,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  -0.16,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -0.47
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  0.47
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 8,
+              "face_name": "neutral"
+            },
+            "Zephyr": {
+              "root": [
+                4.2,
+                0.5,
+                0.35
+              ],
+              "head": [
+                4.188,
+                0.494,
+                5.768
+              ],
+              "hand_r": [
+                3.498,
+                1.907,
+                2.44
+              ],
+              "hand_l": [
+                4.905,
+                -0.906,
+                2.44
+              ],
+              "foot_r": [
+                3.967,
+                0.965,
+                0.464
+              ],
+              "foot_l": [
+                4.433,
+                0.035,
+                0.464
+              ],
+              "heading_deg": -63.42,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.31,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  -0.16,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -0.47
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  0.47
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 8,
+              "face_name": "neutral"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 8.4
+          },
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 43,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s01_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            7.972,
+            -19.139,
+            1.15
+          ],
+          "camera_rot_deg": [
+            97.18,
+            -0.0,
+            23.61
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.2,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.2,
+                0.5,
+                5.55
+              ],
+              "hand_r": [
+                -2.025,
+                -0.846,
+                2.352
+              ],
+              "hand_l": [
+                -0.375,
+                1.846,
+                2.352
+              ],
+              "foot_r": [
+                -1.461,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -0.939,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 8,
+              "face_name": "neutral"
+            },
+            "Zephyr": {
+              "root": [
+                1.08,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.08,
+                0.5,
+                5.758
+              ],
+              "hand_r": [
+                0.222,
+                1.9,
+                2.432
+              ],
+              "hand_l": [
+                1.938,
+                -0.9,
+                2.432
+              ],
+              "foot_r": [
+                0.808,
+                0.943,
+                0.454
+              ],
+              "foot_l": [
+                1.352,
+                0.057,
+                0.454
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 8,
+              "face_name": "neutral"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.28
+          },
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 83,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s01_end.png",
+        "telemetry": {
+          "camera_loc": [
+            7.383,
+            -19.139,
+            1.15
+          ],
+          "camera_rot_deg": [
+            97.18,
+            -0.0,
+            23.61
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.2,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.2,
+                0.5,
+                5.55
+              ],
+              "hand_r": [
+                -2.025,
+                -0.846,
+                2.352
+              ],
+              "hand_l": [
+                -0.375,
+                1.846,
+                2.352
+              ],
+              "foot_r": [
+                -1.461,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -0.939,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 8,
+              "face_name": "neutral"
+            },
+            "Zephyr": {
+              "root": [
+                1.08,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.08,
+                0.5,
+                5.758
+              ],
+              "hand_r": [
+                0.222,
+                1.9,
+                2.432
+              ],
+              "hand_l": [
+                1.938,
+                -0.9,
+                2.432
+              ],
+              "foot_r": [
+                0.808,
+                0.943,
+                0.454
+              ],
+              "foot_l": [
+                1.352,
+                0.057,
+                0.454
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 8,
+              "face_name": "neutral"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.28
+          },
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "s02",
+    "start_frame": 85,
+    "end_frame": 183,
+    "samples": {
+      "start": {
+        "frame": 86,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s02_start.png",
+        "telemetry": {
+          "camera_loc": [
+            -2.593,
+            -7.398,
+            4.231
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            -10.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.2,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.213,
+                0.425,
+                5.549
+              ],
+              "hand_r": [
+                -2.753,
+                0.758,
+                2.352
+              ],
+              "hand_l": [
+                0.351,
+                0.233,
+                2.352
+              ],
+              "foot_r": [
+                -1.692,
+                0.587,
+                0.45
+              ],
+              "foot_l": [
+                -0.708,
+                0.413,
+                0.45
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  1.22,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.78,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -2.83
+                ],
+                "upper_arm.R": [
+                  -0.84,
+                  -0.34,
+                  2.83
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 12,
+              "face_name": "surprised"
+            },
+            "Zephyr": {
+              "root": [
+                1.248,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.288,
+                0.546,
+                5.757
+              ],
+              "hand_r": [
+                0.361,
+                1.858,
+                2.41
+              ],
+              "hand_l": [
+                2.129,
+                -0.872,
+                2.454
+              ],
+              "foot_r": [
+                0.976,
+                0.943,
+                0.454
+              ],
+              "foot_l": [
+                1.52,
+                0.057,
+                0.454
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -1.19,
+                  0.0,
+                  0.79
+                ],
+                "head": [
+                  0.22,
+                  -2.83,
+                  -1.19
+                ],
+                "upper_arm.L": [
+                  1.49,
+                  0.0,
+                  -2.42
+                ],
+                "upper_arm.R": [
+                  -1.49,
+                  0.0,
+                  2.42
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 12,
+              "face_name": "surprised"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.448
+          },
+          "visible_hand_props": {
+            "Aiko": [
+              "Aiko_gem_0"
+            ]
+          },
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 134,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s02_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            -2.437,
+            -6.514,
+            4.177
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            -10.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.2,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.2,
+                0.5,
+                5.55
+              ],
+              "hand_r": [
+                -2.478,
+                -0.371,
+                2.886
+              ],
+              "hand_l": [
+                -0.297,
+                -0.756,
+                2.886
+              ],
+              "foot_r": [
+                -1.692,
+                0.587,
+                0.45
+              ],
+              "foot_l": [
+                -0.708,
+                0.413,
+                0.45
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  -50.0,
+                  20.0,
+                  0.0
+                ],
+                "upper_arm.R": [
+                  -50.0,
+                  -20.0,
+                  0.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 12,
+              "face_name": "surprised"
+            },
+            "Zephyr": {
+              "root": [
+                1.248,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.268,
+                0.532,
+                5.757
+              ],
+              "hand_r": [
+                0.357,
+                1.864,
+                2.411
+              ],
+              "hand_l": [
+                2.132,
+                -0.878,
+                2.454
+              ],
+              "foot_r": [
+                0.976,
+                0.943,
+                0.454
+              ],
+              "foot_l": [
+                1.52,
+                0.057,
+                0.454
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -1.19,
+                  0.0,
+                  0.79
+                ],
+                "head": [
+                  1.47,
+                  2.32,
+                  -1.19
+                ],
+                "upper_arm.L": [
+                  1.49,
+                  0.0,
+                  -2.69
+                ],
+                "upper_arm.R": [
+                  -1.49,
+                  0.0,
+                  2.69
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 12,
+              "face_name": "surprised"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.448
+          },
+          "visible_hand_props": {
+            "Aiko": [
+              "Aiko_gem_0"
+            ]
+          },
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 182,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s02_end.png",
+        "telemetry": {
+          "camera_loc": [
+            -2.281,
+            -5.63,
+            4.123
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            -10.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.2,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.2,
+                0.5,
+                5.55
+              ],
+              "hand_r": [
+                -2.478,
+                -0.371,
+                2.886
+              ],
+              "hand_l": [
+                -0.297,
+                -0.756,
+                2.886
+              ],
+              "foot_r": [
+                -1.692,
+                0.587,
+                0.45
+              ],
+              "foot_l": [
+                -0.708,
+                0.413,
+                0.45
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  -50.0,
+                  20.0,
+                  0.0
+                ],
+                "upper_arm.R": [
+                  -50.0,
+                  -20.0,
+                  0.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 12,
+              "face_name": "surprised"
+            },
+            "Zephyr": {
+              "root": [
+                1.248,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.25,
+                0.48,
+                5.757
+              ],
+              "hand_r": [
+                0.467,
+                1.865,
+                2.453
+              ],
+              "hand_l": [
+                2.036,
+                -0.851,
+                2.408
+              ],
+              "foot_r": [
+                0.976,
+                0.943,
+                0.454
+              ],
+              "foot_l": [
+                1.52,
+                0.057,
+                0.454
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  1.2,
+                  0.0,
+                  -0.8
+                ],
+                "head": [
+                  -2.7,
+                  0.09,
+                  1.2
+                ],
+                "upper_arm.L": [
+                  -1.5,
+                  0.0,
+                  -0.3
+                ],
+                "upper_arm.R": [
+                  1.5,
+                  0.0,
+                  0.3
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 12,
+              "face_name": "surprised"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.448
+          },
+          "visible_hand_props": {
+            "Aiko": [
+              "Aiko_gem_0"
+            ]
+          },
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "s03",
+    "start_frame": 184,
+    "end_frame": 280,
+    "samples": {
+      "start": {
+        "frame": 185,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s03_start.png",
+        "telemetry": {
+          "camera_loc": [
+            -0.694,
+            -10.516,
+            4.512
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            -3.61
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.1,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.103,
+                0.502,
+                5.55
+              ],
+              "hand_r": [
+                -0.737,
+                -1.03,
+                2.916
+              ],
+              "hand_l": [
+                0.389,
+                0.919,
+                2.843
+              ],
+              "foot_r": [
+                -1.361,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -0.839,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  -0.17,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  -47.85,
+                  19.14,
+                  0.0
+                ],
+                "upper_arm.R": [
+                  -51.5,
+                  -19.14,
+                  0.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Zephyr": {
+              "root": [
+                1.144,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.152,
+                0.505,
+                5.758
+              ],
+              "hand_r": [
+                0.136,
+                1.793,
+                2.442
+              ],
+              "hand_l": [
+                1.902,
+                -0.949,
+                2.436
+              ],
+              "foot_r": [
+                0.872,
+                0.943,
+                0.454
+              ],
+              "foot_l": [
+                1.416,
+                0.057,
+                0.454
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  -0.44,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  -4.07,
+                  1.85,
+                  -2.78
+                ],
+                "upper_arm.R": [
+                  -6.78,
+                  -1.85,
+                  2.78
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 0,
+              "face_name": "smile"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.244
+          },
+          "visible_hand_props": {
+            "Aiko": [
+              "Aiko_gem_0"
+            ]
+          },
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 232,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s03_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            -0.684,
+            -10.355,
+            4.503
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            -3.61
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.1,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.1,
+                0.5,
+                5.55
+              ],
+              "hand_r": [
+                -1.925,
+                -0.846,
+                2.352
+              ],
+              "hand_l": [
+                -0.275,
+                1.846,
+                2.352
+              ],
+              "foot_r": [
+                -1.361,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -0.839,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Zephyr": {
+              "root": [
+                1.144,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.144,
+                0.5,
+                5.758
+              ],
+              "hand_r": [
+                -0.415,
+                0.895,
+                2.987
+              ],
+              "hand_l": [
+                0.788,
+                -1.068,
+                2.987
+              ],
+              "foot_r": [
+                0.872,
+                0.943,
+                0.454
+              ],
+              "foot_l": [
+                1.416,
+                0.057,
+                0.454
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  -50.0,
+                  20.0,
+                  0.0
+                ],
+                "upper_arm.R": [
+                  -50.0,
+                  -20.0,
+                  0.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 0,
+              "face_name": "smile"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.244
+          },
+          "visible_hand_props": {
+            "Aiko": [
+              "Aiko_gem_0"
+            ]
+          },
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 279,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s03_end.png",
+        "telemetry": {
+          "camera_loc": [
+            -0.674,
+            -10.195,
+            4.493
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            -3.61
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.1,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.1,
+                0.5,
+                5.55
+              ],
+              "hand_r": [
+                -1.925,
+                -0.846,
+                2.352
+              ],
+              "hand_l": [
+                -0.275,
+                1.846,
+                2.352
+              ],
+              "foot_r": [
+                -1.361,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -0.839,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Zephyr": {
+              "root": [
+                1.144,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.144,
+                0.5,
+                5.758
+              ],
+              "hand_r": [
+                -0.415,
+                0.895,
+                2.987
+              ],
+              "hand_l": [
+                0.788,
+                -1.068,
+                2.987
+              ],
+              "foot_r": [
+                0.872,
+                0.943,
+                0.454
+              ],
+              "foot_l": [
+                1.416,
+                0.057,
+                0.454
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  -50.0,
+                  20.0,
+                  0.0
+                ],
+                "upper_arm.R": [
+                  -50.0,
+                  -20.0,
+                  0.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 0,
+              "face_name": "smile"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.244
+          },
+          "visible_hand_props": {
+            "Aiko": [
+              "Aiko_gem_0"
+            ]
+          },
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "s04",
+    "start_frame": 281,
+    "end_frame": 380,
+    "samples": {
+      "start": {
+        "frame": 282,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s04_start.png",
+        "telemetry": {
+          "camera_loc": [
+            -0.048,
+            -6.009,
+            1.239
+          ],
+          "camera_rot_deg": [
+            110.81,
+            -0.0,
+            -10.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.1,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.985,
+                1.043,
+                5.308
+              ],
+              "hand_r": [
+                -1.151,
+                -0.581,
+                2.674
+              ],
+              "hand_l": [
+                -0.16,
+                1.036,
+                2.674
+              ],
+              "foot_r": [
+                -1.361,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -0.839,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -13.38,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  -21.06,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  -20.0,
+                  0.0,
+                  23.06
+                ],
+                "upper_arm.R": [
+                  -20.0,
+                  0.0,
+                  -23.06
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Zephyr": {
+              "root": [
+                1.144,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.144,
+                0.5,
+                5.758
+              ],
+              "hand_r": [
+                -0.524,
+                -0.308,
+                2.871
+              ],
+              "hand_l": [
+                2.435,
+                -0.829,
+                2.871
+              ],
+              "foot_r": [
+                0.647,
+                0.678,
+                0.456
+              ],
+              "foot_l": [
+                1.617,
+                0.19,
+                0.467
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  -44.07,
+                  0.0,
+                  2.96
+                ],
+                "upper_arm.R": [
+                  -44.07,
+                  0.0,
+                  -2.96
+                ],
+                "upper_leg.L": [
+                  -6.48,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  2.59,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 0,
+              "face_name": "smile"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.244
+          },
+          "visible_hand_props": {
+            "Zephyr": [
+              "Zephyr_gem_1"
+            ]
+          },
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 331,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s04_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            -0.031,
+            -5.913,
+            1.276
+          ],
+          "camera_rot_deg": [
+            110.81,
+            -0.0,
+            -10.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.1,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.902,
+                0.992,
+                5.354
+              ],
+              "hand_r": [
+                -1.171,
+                -0.623,
+                2.643
+              ],
+              "hand_l": [
+                -0.132,
+                1.073,
+                2.643
+              ],
+              "foot_r": [
+                -1.361,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -0.839,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -12.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  -19.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  -20.0,
+                  0.0,
+                  21.0
+                ],
+                "upper_arm.R": [
+                  -20.0,
+                  0.0,
+                  -21.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Zephyr": {
+              "root": [
+                1.144,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.144,
+                0.5,
+                5.758
+              ],
+              "hand_r": [
+                -0.473,
+                0.785,
+                2.432
+              ],
+              "hand_l": [
+                2.761,
+                0.215,
+                2.432
+              ],
+              "foot_r": [
+                0.632,
+                0.59,
+                0.454
+              ],
+              "foot_l": [
+                1.656,
+                0.41,
+                0.454
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 0,
+              "face_name": "smile"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.244
+          },
+          "visible_hand_props": {
+            "Zephyr": [
+              "Zephyr_gem_1"
+            ]
+          },
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 379,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s04_end.png",
+        "telemetry": {
+          "camera_loc": [
+            -0.014,
+            -5.819,
+            1.312
+          ],
+          "camera_rot_deg": [
+            110.81,
+            -0.0,
+            -10.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.1,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.778,
+                0.915,
+                5.411
+              ],
+              "hand_r": [
+                -1.205,
+                -0.684,
+                2.601
+              ],
+              "hand_l": [
+                -0.092,
+                1.131,
+                2.601
+              ],
+              "foot_r": [
+                -1.361,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -0.839,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -10.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  -16.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  -20.0,
+                  0.0,
+                  18.0
+                ],
+                "upper_arm.R": [
+                  -20.0,
+                  0.0,
+                  -18.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Zephyr": {
+              "root": [
+                1.144,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.144,
+                0.5,
+                5.758
+              ],
+              "hand_r": [
+                -0.473,
+                0.785,
+                2.432
+              ],
+              "hand_l": [
+                2.761,
+                0.215,
+                2.432
+              ],
+              "foot_r": [
+                0.632,
+                0.59,
+                0.454
+              ],
+              "foot_l": [
+                1.656,
+                0.41,
+                0.454
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 0,
+              "face_name": "smile"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.244
+          },
+          "visible_hand_props": {
+            "Zephyr": [
+              "Zephyr_gem_1"
+            ]
+          },
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "s05",
+    "start_frame": 381,
+    "end_frame": 475,
+    "samples": {
+      "start": {
+        "frame": 382,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s05_start.png",
+        "telemetry": {
+          "camera_loc": [
+            2.112,
+            -6.849,
+            4.231
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            23.61
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.1,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.1,
+                0.5,
+                5.55
+              ],
+              "hand_r": [
+                -1.814,
+                -0.905,
+                2.357
+              ],
+              "hand_l": [
+                -0.278,
+                1.841,
+                2.352
+              ],
+              "foot_r": [
+                -1.361,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -0.839,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  -0.3,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -2.78
+                ],
+                "upper_arm.R": [
+                  -4.81,
+                  -0.59,
+                  2.78
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Zephyr": {
+              "root": [
+                1.144,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.144,
+                0.5,
+                5.758
+              ],
+              "hand_r": [
+                0.179,
+                1.825,
+                2.437
+              ],
+              "hand_l": [
+                1.999,
+                -0.895,
+                2.432
+              ],
+              "foot_r": [
+                0.872,
+                0.943,
+                0.454
+              ],
+              "foot_l": [
+                1.416,
+                0.057,
+                0.454
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  -0.3,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -2.78
+                ],
+                "upper_arm.R": [
+                  -4.81,
+                  -0.59,
+                  2.78
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 0,
+              "face_name": "smile"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.244
+          },
+          "visible_hand_props": {
+            "Zephyr": [
+              "Zephyr_gem_1"
+            ]
+          },
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 428,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s05_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            1.752,
+            -6.026,
+            4.177
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            23.61
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.1,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.1,
+                0.5,
+                5.55
+              ],
+              "hand_r": [
+                -1.925,
+                -0.846,
+                2.352
+              ],
+              "hand_l": [
+                -0.275,
+                1.846,
+                2.352
+              ],
+              "foot_r": [
+                -1.361,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -0.839,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Zephyr": {
+              "root": [
+                1.144,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.144,
+                0.5,
+                5.758
+              ],
+              "hand_r": [
+                0.286,
+                1.9,
+                2.432
+              ],
+              "hand_l": [
+                2.002,
+                -0.9,
+                2.432
+              ],
+              "foot_r": [
+                0.872,
+                0.943,
+                0.454
+              ],
+              "foot_l": [
+                1.416,
+                0.057,
+                0.454
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 0,
+              "face_name": "smile"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.244
+          },
+          "visible_hand_props": {
+            "Zephyr": [
+              "Zephyr_gem_1"
+            ]
+          },
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 474,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_03_motion_showcase\\render\\motion_sheet\\s05_end.png",
+        "telemetry": {
+          "camera_loc": [
+            1.393,
+            -5.204,
+            4.123
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            23.61
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -1.1,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.1,
+                0.5,
+                5.55
+              ],
+              "hand_r": [
+                -1.925,
+                -0.846,
+                2.352
+              ],
+              "hand_l": [
+                -0.275,
+                1.846,
+                2.352
+              ],
+              "foot_r": [
+                -1.361,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -0.839,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Zephyr": {
+              "root": [
+                1.144,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.144,
+                0.5,
+                5.758
+              ],
+              "hand_r": [
+                0.286,
+                1.9,
+                2.432
+              ],
+              "hand_l": [
+                2.002,
+                -0.9,
+                2.432
+              ],
+              "foot_r": [
+                0.872,
+                0.943,
+                0.454
+              ],
+              "foot_l": [
+                1.416,
+                0.057,
+                0.454
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.04,
+              "face": 0,
+              "face_name": "smile"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Zephyr": 2.244
+          },
+          "visible_hand_props": {
+            "Zephyr": [
+              "Zephyr_gem_1"
+            ]
+          },
+          "visible_world_props": []
+        }
+      }
+    }
+  }
+]
