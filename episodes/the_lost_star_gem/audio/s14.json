@@ -1,0 +1,33 @@
+{
+ "key": "en-US-EmmaNeural|+8%|+3Hz|Then let's put it back!",
+ "engine": "edge",
+ "speaker": "Mira",
+ "audio_len": 1.872,
+ "words": [
+  [
+   "Then",
+   0.081,
+   0.231
+  ],
+  [
+   "let's",
+   0.243,
+   0.463
+  ],
+  [
+   "put",
+   0.475,
+   0.637
+  ],
+  [
+   "it",
+   0.648,
+   0.764
+  ],
+  [
+   "back",
+   0.775,
+   1.215
+  ]
+ ]
+}

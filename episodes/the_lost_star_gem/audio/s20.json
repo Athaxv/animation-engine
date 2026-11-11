@@ -1,0 +1,28 @@
+{
+ "key": "en-US-GuyNeural|+8%|+2Hz|Best team in town!",
+ "engine": "edge",
+ "speaker": "Zephyr",
+ "audio_len": 1.992,
+ "words": [
+  [
+   "Best",
+   0.096,
+   0.409
+  ],
+  [
+   "team",
+   0.42,
+   0.617
+  ],
+  [
+   "in",
+   0.629,
+   0.721
+  ],
+  [
+   "town",
+   0.744,
+   1.15
+  ]
+ ]
+}

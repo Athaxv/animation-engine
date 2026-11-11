@@ -1,0 +1,38 @@
+{
+ "key": "en-US-EmmaNeural|+8%|+3Hz|We make a pretty good team!",
+ "engine": "edge",
+ "speaker": "Mira",
+ "audio_len": 1.872,
+ "words": [
+  [
+   "We",
+   0.081,
+   0.174
+  ],
+  [
+   "make",
+   0.185,
+   0.382
+  ],
+  [
+   "a",
+   0.394,
+   0.463
+  ],
+  [
+   "pretty",
+   0.475,
+   0.729
+  ],
+  [
+   "good",
+   0.741,
+   0.961
+  ],
+  [
+   "team",
+   0.972,
+   1.424
+  ]
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "key": "en-US-GuyNeural|+8%|+2Hz|Aiko! What's wrong?",
+ "engine": "edge",
+ "speaker": "Zephyr",
+ "audio_len": 3.0,
+ "words": [
+  [
+   "Aiko",
+   0.096,
+   0.71
+  ],
+  [
+   "What's",
+   1.505,
+   1.782
+  ],
+  [
+   "wrong",
+   1.794,
+   2.199
+  ]
+ ]
+}

@@ -1,0 +1,4161 @@
+{
+  "episode": "the_lost_star_gem",
+  "qa_methodology": "rule_based_validation_and_3d_motion_telemetry (not AI vision inspection)",
+  "motion_sheet_image": "render\\motion_sheet.png",
+  "summary": {
+    "total_shots": 23,
+    "motion_sampled_shots": 23,
+    "static_errors": 0,
+    "static_warnings": 0,
+    "motion_warnings": 0
+  },
+  "shots": [
+    {
+      "shot_id": "s01",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 2,
+          "mid": 84,
+          "end": 166
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 24.157,
+          "mid_to_end": 22.497,
+          "start_to_end": 35.585
+        },
+        "camera_moved_studs": 1.8,
+        "camera_movement": {
+          "translation_studs": 1.8,
+          "rotation_delta_deg": 0.0,
+          "move_type": "push_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 3.64,
+              "mid_to_end": 0.0,
+              "start_to_end": 3.64,
+              "max_delta_deg": 3.64
+            },
+            "changed": false
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "look_around"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "neutral",
+              "mid": "neutral",
+              "end": "neutral"
+            },
+            "configured_faces": [
+              "neutral"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {},
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s02",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 169,
+          "mid": 221,
+          "end": 272
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 9.867,
+          "mid_to_end": 4.106,
+          "start_to_end": 12.465
+        },
+        "camera_moved_studs": 0.206,
+        "camera_movement": {
+          "translation_studs": 0.206,
+          "rotation_delta_deg": 0.38,
+          "move_type": "static",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.156
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.156,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.156,
+            "max_displacement": 0.156
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "point_up"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 128.9,
+              "mid_to_end": 0.0,
+              "start_to_end": 128.9,
+              "max_delta_deg": 128.9
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "surprise_hop"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "surprised",
+              "mid": "surprised",
+              "end": "surprised"
+            },
+            "configured_faces": [
+              "surprised"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {},
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s03",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 275,
+          "mid": 311,
+          "end": 347
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 29.066,
+          "mid_to_end": 28.392,
+          "start_to_end": 35.645
+        },
+        "camera_moved_studs": 4.378,
+        "camera_movement": {
+          "translation_studs": 4.378,
+          "rotation_delta_deg": 0.0,
+          "move_type": "track",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Zephyr": 11.648,
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Zephyr": {
+            "start_to_mid": 6.863,
+            "mid_to_end": 4.784,
+            "start_to_end": 11.648,
+            "max_displacement": 11.648
+          },
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Zephyr": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 116.88,
+              "mid_to_end": 112.29,
+              "start_to_end": 5.53,
+              "max_delta_deg": 116.88
+            },
+            "changed": true
+          },
+          "Aiko": {
+            "configured_poses": [
+              "hands_face"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 12.84,
+              "mid_to_end": 10.35,
+              "start_to_end": 6.85,
+              "max_delta_deg": 12.84
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "approach"
+            }
+          ],
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "surprised",
+              "mid": "surprised",
+              "end": "surprised"
+            },
+            "configured_faces": [
+              "surprised"
+            ],
+            "changed": false
+          },
+          "Aiko": {
+            "sampled_faces": {
+              "start": "worried",
+              "mid": "worried",
+              "end": "worried"
+            },
+            "configured_faces": [
+              "worried"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 6.715,
+            "within_interaction_range": false
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s04",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 350,
+          "mid": 379,
+          "end": 408
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 11.236,
+          "mid_to_end": 5.69,
+          "start_to_end": 14.494
+        },
+        "camera_moved_studs": 0.322,
+        "camera_movement": {
+          "translation_studs": 0.322,
+          "rotation_delta_deg": 0.0,
+          "move_type": "static",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0,
+          "Zephyr": 0.208
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Zephyr": {
+            "start_to_mid": 0.208,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.208,
+            "max_displacement": 0.208
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "explain"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 60.38,
+              "mid_to_end": 69.93,
+              "start_to_end": 72.73,
+              "max_delta_deg": 72.73
+            },
+            "changed": true
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 128.9,
+              "mid_to_end": 0.0,
+              "start_to_end": 128.9,
+              "max_delta_deg": 128.9
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "talk"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "surprise_hop"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "worried",
+              "mid": "talk",
+              "end": "worried"
+            },
+            "configured_faces": [
+              "worried"
+            ],
+            "changed": true
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "surprised",
+              "mid": "surprised",
+              "end": "surprised"
+            },
+            "configured_faces": [
+              "surprised"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.244,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s05",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 411,
+          "mid": 452,
+          "end": 492
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 29.67,
+          "mid_to_end": 23.396,
+          "start_to_end": 35.014
+        },
+        "camera_moved_studs": 2.998,
+        "camera_movement": {
+          "translation_studs": 2.998,
+          "rotation_delta_deg": 0.0,
+          "move_type": "pan_left",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 5.4,
+          "Zephyr": 8.944
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 5.4,
+            "mid_to_end": 0.0,
+            "start_to_end": 5.4,
+            "max_displacement": 5.4
+          },
+          "Zephyr": {
+            "start_to_mid": 7.904,
+            "mid_to_end": 1.04,
+            "start_to_end": 8.944,
+            "max_displacement": 8.944
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 6.38,
+              "mid_to_end": 0.0,
+              "start_to_end": 6.38,
+              "max_delta_deg": 6.38
+            },
+            "changed": false
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 55.31,
+              "mid_to_end": 51.57,
+              "start_to_end": 6.38,
+              "max_delta_deg": 55.31
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "approach"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "approach"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "neutral",
+              "mid": "neutral",
+              "end": "neutral"
+            },
+            "configured_faces": [
+              "neutral"
+            ],
+            "changed": false
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "neutral",
+              "mid": "neutral",
+              "end": "neutral"
+            },
+            "configured_faces": [
+              "neutral"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 1.461,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s06",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 495,
+          "mid": 528,
+          "end": 560
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 32.214,
+          "mid_to_end": 24.379,
+          "start_to_end": 48.795
+        },
+        "camera_moved_studs": 2.997,
+        "camera_movement": {
+          "translation_studs": 2.997,
+          "rotation_delta_deg": 3.16,
+          "move_type": "push_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0,
+          "Zephyr": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "point"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 15.52,
+              "mid_to_end": 17.98,
+              "start_to_end": 2.46,
+              "max_delta_deg": 17.98
+            },
+            "changed": true
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 21.03,
+              "mid_to_end": 14.78,
+              "start_to_end": 8.69,
+              "max_delta_deg": 21.03
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "surprised",
+              "mid": "surprised",
+              "end": "surprised"
+            },
+            "configured_faces": [
+              "surprised"
+            ],
+            "changed": false
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "neutral",
+              "mid": "neutral",
+              "end": "neutral"
+            },
+            "configured_faces": [
+              "neutral"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [
+              {
+                "id": "bench_gem",
+                "prop": "gem",
+                "pop_at": null,
+                "poof_at": null
+              }
+            ],
+            "sampled_visible_counts": {
+              "start": 1,
+              "mid": 1,
+              "end": 1
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.524,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s07",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 563,
+          "mid": 580,
+          "end": 597
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 8.202,
+          "mid_to_end": 8.494,
+          "start_to_end": 8.135
+        },
+        "camera_moved_studs": 0.321,
+        "camera_movement": {
+          "translation_studs": 0.321,
+          "rotation_delta_deg": 0.0,
+          "move_type": "static",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Zephyr": 0.0,
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Zephyr": {
+            "configured_poses": [
+              "celebrate"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 309.87,
+              "mid_to_end": 421.0,
+              "start_to_end": 111.13,
+              "max_delta_deg": 421.0
+            },
+            "changed": true
+          },
+          "Aiko": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 16.88,
+              "mid_to_end": 2.86,
+              "start_to_end": 19.74,
+              "max_delta_deg": 19.74
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "celebrate"
+            }
+          ],
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [
+              {
+                "id": "bench_gem",
+                "prop": "gem",
+                "pop_at": null,
+                "poof_at": null
+              }
+            ],
+            "sampled_visible_counts": {
+              "start": 1,
+              "mid": 1,
+              "end": 1
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.524,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s08",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 600,
+          "mid": 637,
+          "end": 674
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 31.248,
+          "mid_to_end": 23.696,
+          "start_to_end": 38.473
+        },
+        "camera_moved_studs": 1.81,
+        "camera_movement": {
+          "translation_studs": 1.81,
+          "rotation_delta_deg": 2.85,
+          "move_type": "push_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0,
+          "Zephyr": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "pickup"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 146.06,
+              "mid_to_end": 0.0,
+              "start_to_end": 146.06,
+              "max_delta_deg": 146.06
+            },
+            "changed": true
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 14.22,
+              "mid_to_end": 10.38,
+              "start_to_end": 8.9,
+              "max_delta_deg": 14.22
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "pickup"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                [
+                  "gem"
+                ]
+              ],
+              "sampled_visible": {
+                "start": [
+                  "Aiko_gem_0"
+                ],
+                "mid": [
+                  "Aiko_gem_0"
+                ],
+                "end": [
+                  "Aiko_gem_0"
+                ]
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.465,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s09",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 677,
+          "mid": 728,
+          "end": 778
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 10.117,
+          "mid_to_end": 4.249,
+          "start_to_end": 12.907
+        },
+        "camera_moved_studs": 0.323,
+        "camera_movement": {
+          "translation_studs": 0.323,
+          "rotation_delta_deg": 0.0,
+          "move_type": "static",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0,
+          "Zephyr": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "reach_forward"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 143.8,
+              "mid_to_end": 0.0,
+              "start_to_end": 143.8,
+              "max_delta_deg": 143.8
+            },
+            "changed": true
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "receive_prop"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 132.15,
+              "mid_to_end": 0.0,
+              "start_to_end": 132.15,
+              "max_delta_deg": 132.15
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "pass_prop"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "catch_prop"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                [
+                  "gem"
+                ]
+              ],
+              "sampled_visible": {
+                "start": [
+                  "Aiko_gem_0"
+                ],
+                "mid": [
+                  "Aiko_gem_0"
+                ],
+                "end": [
+                  "Aiko_gem_0"
+                ]
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.244,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s10",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 781,
+          "mid": 801,
+          "end": 820
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 30.3,
+          "mid_to_end": 31.96,
+          "start_to_end": 47.128
+        },
+        "camera_moved_studs": 2.989,
+        "camera_movement": {
+          "translation_studs": 2.989,
+          "rotation_delta_deg": 3.16,
+          "move_type": "push_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Zephyr": 0.0,
+          "Aiko": 0.2
+        },
+        "root_displacement_studs": {
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Aiko": {
+            "start_to_mid": 0.2,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.2,
+            "max_displacement": 0.2
+          }
+        },
+        "pose_changes": {
+          "Zephyr": {
+            "configured_poses": [
+              "hold"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 144.38,
+              "mid_to_end": 0.0,
+              "start_to_end": 144.38,
+              "max_delta_deg": 144.38
+            },
+            "changed": true
+          },
+          "Aiko": {
+            "configured_poses": [
+              "scared"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 128.9,
+              "mid_to_end": 0.0,
+              "start_to_end": 128.9,
+              "max_delta_deg": 128.9
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "drop"
+            }
+          ],
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "surprise_hop"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "shocked",
+              "mid": "shocked",
+              "end": "shocked"
+            },
+            "configured_faces": [
+              "shocked"
+            ],
+            "changed": false
+          },
+          "Aiko": {
+            "sampled_faces": {
+              "start": "worried",
+              "mid": "worried",
+              "end": "worried"
+            },
+            "configured_faces": [
+              "worried"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Zephyr": {
+              "configured_sequence": [
+                [
+                  "gem"
+                ],
+                []
+              ],
+              "sampled_visible": {
+                "start": [
+                  "Zephyr_gem_1"
+                ],
+                "mid": [],
+                "end": []
+              },
+              "changed": true
+            },
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [
+              {
+                "id": "dropped_gem",
+                "prop": "gem",
+                "pop_at": 0.4,
+                "poof_at": null
+              }
+            ],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 1,
+              "end": 1
+            },
+            "changed": true
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.244,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s11",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 823,
+          "mid": 869,
+          "end": 915
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 15.967,
+          "mid_to_end": 4.515,
+          "start_to_end": 18.273
+        },
+        "camera_moved_studs": 0.194,
+        "camera_movement": {
+          "translation_studs": 0.194,
+          "rotation_delta_deg": 0.0,
+          "move_type": "static",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Zephyr": 0.0,
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Zephyr": {
+            "configured_poses": [
+              "pickup"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 146.48,
+              "mid_to_end": 0.0,
+              "start_to_end": 146.48,
+              "max_delta_deg": 146.48
+            },
+            "changed": true
+          },
+          "Aiko": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 2.19,
+              "mid_to_end": 24.2,
+              "start_to_end": 22.51,
+              "max_delta_deg": 24.2
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "pickup"
+            }
+          ],
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "neutral",
+              "mid": "neutral",
+              "end": "neutral"
+            },
+            "configured_faces": [
+              "neutral"
+            ],
+            "changed": false
+          },
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Zephyr": {
+              "configured_sequence": [
+                [
+                  "gem"
+                ]
+              ],
+              "sampled_visible": {
+                "start": [
+                  "Zephyr_gem_1"
+                ],
+                "mid": [
+                  "Zephyr_gem_1"
+                ],
+                "end": [
+                  "Zephyr_gem_1"
+                ]
+              },
+              "changed": false
+            },
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.244,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s12",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 918,
+          "mid": 947,
+          "end": 976
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 42.377,
+          "mid_to_end": 20.18,
+          "start_to_end": 49.625
+        },
+        "camera_moved_studs": 0.999,
+        "camera_movement": {
+          "translation_studs": 0.999,
+          "rotation_delta_deg": 0.0,
+          "move_type": "track",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Mira": 7.0,
+          "Zephyr": 0.0,
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Mira": {
+            "start_to_mid": 5.2,
+            "mid_to_end": 1.8,
+            "start_to_end": 7.0,
+            "max_displacement": 7.0
+          },
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Mira": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 137.88,
+              "mid_to_end": 133.29,
+              "start_to_end": 5.53,
+              "max_delta_deg": 137.88
+            },
+            "changed": true
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "hold"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 18.45,
+              "mid_to_end": 24.3,
+              "start_to_end": 5.85,
+              "max_delta_deg": 24.3
+            },
+            "changed": true
+          },
+          "Aiko": {
+            "configured_poses": [
+              "wave"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 26.37,
+              "mid_to_end": 174.8,
+              "start_to_end": 179.15,
+              "max_delta_deg": 179.15
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Mira": [
+            {
+              "at": 0.0,
+              "action": "approach"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ],
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "wave"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Mira": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "talk",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": true
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Mira": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                [
+                  "gem"
+                ]
+              ],
+              "sampled_visible": {
+                "start": [
+                  "Zephyr_gem_1"
+                ],
+                "mid": [
+                  "Zephyr_gem_1"
+                ],
+                "end": [
+                  "Zephyr_gem_1"
+                ]
+              },
+              "changed": false
+            },
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Mira": {
+            "mid_distance_studs": 3.956,
+            "within_interaction_range": true
+          },
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.244,
+            "within_interaction_range": true
+          },
+          "Mira_to_Zephyr": {
+            "mid_distance_studs": 3.969,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s13",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 979,
+          "mid": 1007,
+          "end": 1035
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 30.394,
+          "mid_to_end": 25.481,
+          "start_to_end": 43.322
+        },
+        "camera_moved_studs": 3.001,
+        "camera_movement": {
+          "translation_studs": 3.001,
+          "rotation_delta_deg": 0.0,
+          "move_type": "push_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Zephyr": 0.0,
+          "Mira": 0.0,
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Mira": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Zephyr": {
+            "configured_poses": [
+              "hold"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 23.81,
+              "mid_to_end": 22.59,
+              "start_to_end": 4.1,
+              "max_delta_deg": 23.81
+            },
+            "changed": true
+          },
+          "Mira": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 23.45,
+              "mid_to_end": 21.88,
+              "start_to_end": 3.75,
+              "max_delta_deg": 23.45
+            },
+            "changed": true
+          },
+          "Aiko": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 22.81,
+              "mid_to_end": 24.78,
+              "start_to_end": 1.97,
+              "max_delta_deg": 24.78
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "talk"
+            }
+          ],
+          "Mira": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ],
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "talk",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": true
+          },
+          "Mira": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Zephyr": {
+              "configured_sequence": [
+                [
+                  "gem"
+                ]
+              ],
+              "sampled_visible": {
+                "start": [
+                  "Zephyr_gem_1"
+                ],
+                "mid": [
+                  "Zephyr_gem_1"
+                ],
+                "end": [
+                  "Zephyr_gem_1"
+                ]
+              },
+              "changed": false
+            },
+            "Mira": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Mira": {
+            "mid_distance_studs": 2.283,
+            "within_interaction_range": true
+          },
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.244,
+            "within_interaction_range": true
+          },
+          "Mira_to_Zephyr": {
+            "mid_distance_studs": 2.304,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s14",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1038,
+          "mid": 1059,
+          "end": 1080
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 20.068,
+          "mid_to_end": 20.888,
+          "start_to_end": 11.203
+        },
+        "camera_moved_studs": 0.321,
+        "camera_movement": {
+          "translation_studs": 0.321,
+          "rotation_delta_deg": 0.39,
+          "move_type": "static",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Mira": 1.12,
+          "Zephyr": 0.0,
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Mira": {
+            "start_to_mid": 1.12,
+            "mid_to_end": 1.12,
+            "start_to_end": 0.0,
+            "max_displacement": 1.12
+          },
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Mira": {
+            "configured_poses": [
+              "point_up"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 51.69,
+              "mid_to_end": 73.96,
+              "start_to_end": 111.13,
+              "max_delta_deg": 111.13
+            },
+            "changed": true
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "hold"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 22.06,
+              "mid_to_end": 0.72,
+              "start_to_end": 22.78,
+              "max_delta_deg": 22.78
+            },
+            "changed": true
+          },
+          "Aiko": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 1.46,
+              "mid_to_end": 0.0,
+              "start_to_end": 1.46,
+              "max_delta_deg": 1.46
+            },
+            "changed": false
+          }
+        },
+        "action_state_transitions": {
+          "Mira": [
+            {
+              "at": 0.0,
+              "action": "celebrate"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ],
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "nod"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Mira": {
+            "sampled_faces": {
+              "start": "grin",
+              "mid": "talk",
+              "end": "grin"
+            },
+            "configured_faces": [
+              "grin"
+            ],
+            "changed": true
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Mira": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                [
+                  "gem"
+                ]
+              ],
+              "sampled_visible": {
+                "start": [
+                  "Zephyr_gem_1"
+                ],
+                "mid": [
+                  "Zephyr_gem_1"
+                ],
+                "end": [
+                  "Zephyr_gem_1"
+                ]
+              },
+              "changed": false
+            },
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Mira": {
+            "mid_distance_studs": 2.543,
+            "within_interaction_range": true
+          },
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.244,
+            "within_interaction_range": true
+          },
+          "Mira_to_Zephyr": {
+            "mid_distance_studs": 2.562,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s15",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1083,
+          "mid": 1121,
+          "end": 1158
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 30.907,
+          "mid_to_end": 33.637,
+          "start_to_end": 47.53
+        },
+        "camera_moved_studs": 2.997,
+        "camera_movement": {
+          "translation_studs": 2.997,
+          "rotation_delta_deg": 0.0,
+          "move_type": "pan_right",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 1.4,
+          "Zephyr": 1.456,
+          "Mira": 1.6
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 1.4,
+            "mid_to_end": 0.0,
+            "start_to_end": 1.4,
+            "max_displacement": 1.4
+          },
+          "Zephyr": {
+            "start_to_mid": 1.456,
+            "mid_to_end": 0.0,
+            "start_to_end": 1.456,
+            "max_displacement": 1.456
+          },
+          "Mira": {
+            "start_to_mid": 1.6,
+            "mid_to_end": 0.0,
+            "start_to_end": 1.6,
+            "max_displacement": 1.6
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 5.53,
+              "mid_to_end": 0.0,
+              "start_to_end": 5.53,
+              "max_delta_deg": 5.53
+            },
+            "changed": false
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "hold"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 23.1,
+              "mid_to_end": 0.0,
+              "start_to_end": 23.1,
+              "max_delta_deg": 23.1
+            },
+            "changed": true
+          },
+          "Mira": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 5.53,
+              "mid_to_end": 0.0,
+              "start_to_end": 5.53,
+              "max_delta_deg": 5.53
+            },
+            "changed": false
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "approach"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "approach"
+            }
+          ],
+          "Mira": [
+            {
+              "at": 0.0,
+              "action": "approach"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Mira": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                [
+                  "gem"
+                ]
+              ],
+              "sampled_visible": {
+                "start": [
+                  "Zephyr_gem_1"
+                ],
+                "mid": [
+                  "Zephyr_gem_1"
+                ],
+                "end": [
+                  "Zephyr_gem_1"
+                ]
+              },
+              "changed": false
+            },
+            "Mira": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Mira": {
+            "mid_distance_studs": 2.164,
+            "within_interaction_range": true
+          },
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.464,
+            "within_interaction_range": true
+          },
+          "Mira_to_Zephyr": {
+            "mid_distance_studs": 2.238,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s16",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1161,
+          "mid": 1235,
+          "end": 1308
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 21.738,
+          "mid_to_end": 28.645,
+          "start_to_end": 40.892
+        },
+        "camera_moved_studs": 2.999,
+        "camera_movement": {
+          "translation_studs": 2.999,
+          "rotation_delta_deg": 3.16,
+          "move_type": "push_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0,
+          "Zephyr": 0.0,
+          "Mira": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Mira": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "hold"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 25.43,
+              "mid_to_end": 1.5,
+              "start_to_end": 23.93,
+              "max_delta_deg": 25.43
+            },
+            "changed": true
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 27.4,
+              "mid_to_end": 3.72,
+              "start_to_end": 24.36,
+              "max_delta_deg": 27.4
+            },
+            "changed": true
+          },
+          "Mira": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 24.63,
+              "mid_to_end": 7.79,
+              "start_to_end": 23.32,
+              "max_delta_deg": 24.63
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ],
+          "Mira": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Mira": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                [
+                  "gem"
+                ]
+              ],
+              "sampled_visible": {
+                "start": [
+                  "Aiko_gem_0"
+                ],
+                "mid": [
+                  "Aiko_gem_0"
+                ],
+                "end": [
+                  "Aiko_gem_0"
+                ]
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Mira": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Mira": {
+            "mid_distance_studs": 2.11,
+            "within_interaction_range": true
+          },
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.244,
+            "within_interaction_range": true
+          },
+          "Mira_to_Zephyr": {
+            "mid_distance_studs": 2.133,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s17",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1311,
+          "mid": 1352,
+          "end": 1392
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 4.248,
+          "mid_to_end": 4.076,
+          "start_to_end": 7.682
+        },
+        "camera_moved_studs": 0.323,
+        "camera_movement": {
+          "translation_studs": 0.323,
+          "rotation_delta_deg": 0.0,
+          "move_type": "static",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0,
+          "Zephyr": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "handshake"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 7.53,
+              "mid_to_end": 0.0,
+              "start_to_end": 7.53,
+              "max_delta_deg": 7.53
+            },
+            "changed": false
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "handshake"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 9.78,
+              "mid_to_end": 0.0,
+              "start_to_end": 9.78,
+              "max_delta_deg": 9.78
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "handshake"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "handshake"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 2.244,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s18",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1395,
+          "mid": 1436,
+          "end": 1476
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 24.586,
+          "mid_to_end": 27.473,
+          "start_to_end": 40.994
+        },
+        "camera_moved_studs": 3.003,
+        "camera_movement": {
+          "translation_studs": 3.003,
+          "rotation_delta_deg": 0.0,
+          "move_type": "push_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0,
+          "Mira": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Mira": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "embrace"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 11.85,
+              "mid_to_end": 0.0,
+              "start_to_end": 11.85,
+              "max_delta_deg": 11.85
+            },
+            "changed": true
+          },
+          "Mira": {
+            "configured_poses": [
+              "embrace"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 17.31,
+              "mid_to_end": 0.0,
+              "start_to_end": 17.31,
+              "max_delta_deg": 17.31
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "hug"
+            }
+          ],
+          "Mira": [
+            {
+              "at": 0.0,
+              "action": "hug"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Mira": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Mira": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Mira": {
+            "mid_distance_studs": 2.2,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s19",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1479,
+          "mid": 1504,
+          "end": 1528
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 17.466,
+          "mid_to_end": 18.0,
+          "start_to_end": 9.012
+        },
+        "camera_moved_studs": 0.424,
+        "camera_movement": {
+          "translation_studs": 0.424,
+          "rotation_delta_deg": 0.31,
+          "move_type": "static",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Mira": 0.56,
+          "Zephyr": 0.582,
+          "Aiko": 0.56
+        },
+        "root_displacement_studs": {
+          "Mira": {
+            "start_to_mid": 0.56,
+            "mid_to_end": 0.56,
+            "start_to_end": 0.0,
+            "max_displacement": 0.56
+          },
+          "Zephyr": {
+            "start_to_mid": 0.582,
+            "mid_to_end": 0.582,
+            "start_to_end": 0.0,
+            "max_displacement": 0.582
+          },
+          "Aiko": {
+            "start_to_mid": 0.56,
+            "mid_to_end": 0.56,
+            "start_to_end": 0.0,
+            "max_displacement": 0.56
+          }
+        },
+        "pose_changes": {
+          "Mira": {
+            "configured_poses": [
+              "celebrate"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 192.3,
+              "mid_to_end": 283.29,
+              "start_to_end": 109.13,
+              "max_delta_deg": 283.29
+            },
+            "changed": true
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "celebrate"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 192.3,
+              "mid_to_end": 283.29,
+              "start_to_end": 109.13,
+              "max_delta_deg": 283.29
+            },
+            "changed": true
+          },
+          "Aiko": {
+            "configured_poses": [
+              "celebrate"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 192.3,
+              "mid_to_end": 283.29,
+              "start_to_end": 109.13,
+              "max_delta_deg": 283.29
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Mira": [
+            {
+              "at": 0.0,
+              "action": "celebrate"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "celebrate"
+            }
+          ],
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "celebrate"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Mira": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "talk",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": true
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Mira": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Mira": {
+            "mid_distance_studs": 2.184,
+            "within_interaction_range": true
+          },
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 4.284,
+            "within_interaction_range": false
+          },
+          "Mira_to_Zephyr": {
+            "mid_distance_studs": 2.265,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s20",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1531,
+          "mid": 1552,
+          "end": 1572
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 24.105,
+          "mid_to_end": 19.531,
+          "start_to_end": 35.632
+        },
+        "camera_moved_studs": 1.795,
+        "camera_movement": {
+          "translation_studs": 1.795,
+          "rotation_delta_deg": 0.0,
+          "move_type": "push_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Zephyr": 0.0,
+          "Mira": 0.0,
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Mira": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Zephyr": {
+            "configured_poses": [
+              "arms_up"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 18.82,
+              "mid_to_end": 0.39,
+              "start_to_end": 19.21,
+              "max_delta_deg": 19.21
+            },
+            "changed": true
+          },
+          "Mira": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 21.55,
+              "mid_to_end": 0.92,
+              "start_to_end": 22.47,
+              "max_delta_deg": 22.47
+            },
+            "changed": true
+          },
+          "Aiko": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 23.22,
+              "mid_to_end": 0.99,
+              "start_to_end": 24.21,
+              "max_delta_deg": 24.21
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "talk"
+            }
+          ],
+          "Mira": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ],
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "grin",
+              "mid": "talk",
+              "end": "grin"
+            },
+            "configured_faces": [
+              "grin"
+            ],
+            "changed": true
+          },
+          "Mira": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Mira": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Mira": {
+            "mid_distance_studs": 2.184,
+            "within_interaction_range": true
+          },
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 4.284,
+            "within_interaction_range": false
+          },
+          "Mira_to_Zephyr": {
+            "mid_distance_studs": 2.265,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s21",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1575,
+          "mid": 1625,
+          "end": 1675
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 6.227,
+          "mid_to_end": 5.731,
+          "start_to_end": 10.319
+        },
+        "camera_moved_studs": 0.426,
+        "camera_movement": {
+          "translation_studs": 0.426,
+          "rotation_delta_deg": 0.0,
+          "move_type": "static",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0,
+          "Zephyr": 0.0,
+          "Mira": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Mira": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "explain"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 127.37,
+              "mid_to_end": 35.94,
+              "start_to_end": 106.29,
+              "max_delta_deg": 127.37
+            },
+            "changed": true
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 15.12,
+              "mid_to_end": 3.44,
+              "start_to_end": 18.56,
+              "max_delta_deg": 18.56
+            },
+            "changed": true
+          },
+          "Mira": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 3.13,
+              "mid_to_end": 0.0,
+              "start_to_end": 3.13,
+              "max_delta_deg": 3.13
+            },
+            "changed": false
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "talk"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "laugh"
+            }
+          ],
+          "Mira": [
+            {
+              "at": 0.0,
+              "action": "nod"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "talk",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": true
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Mira": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Mira": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Mira": {
+            "mid_distance_studs": 2.184,
+            "within_interaction_range": true
+          },
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 4.284,
+            "within_interaction_range": false
+          },
+          "Mira_to_Zephyr": {
+            "mid_distance_studs": 2.265,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s22",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1678,
+          "mid": 1731,
+          "end": 1783
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 23.528,
+          "mid_to_end": 30.066,
+          "start_to_end": 45.101
+        },
+        "camera_moved_studs": 3.974,
+        "camera_movement": {
+          "translation_studs": 3.974,
+          "rotation_delta_deg": 0.0,
+          "move_type": "push_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0,
+          "Mira": 0.0,
+          "Zephyr": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Mira": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 8.06,
+              "mid_to_end": 10.64,
+              "start_to_end": 7.78,
+              "max_delta_deg": 10.64
+            },
+            "changed": true
+          },
+          "Mira": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 8.03,
+              "mid_to_end": 4.2,
+              "start_to_end": 3.97,
+              "max_delta_deg": 8.03
+            },
+            "changed": true
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 1.78,
+              "mid_to_end": 5.93,
+              "start_to_end": 5.89,
+              "max_delta_deg": 5.93
+            },
+            "changed": false
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ],
+          "Mira": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Mira": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Mira": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Mira": {
+            "mid_distance_studs": 2.184,
+            "within_interaction_range": true
+          },
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 4.284,
+            "within_interaction_range": false
+          },
+          "Mira_to_Zephyr": {
+            "mid_distance_studs": 2.265,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "s23",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1786,
+          "mid": 1833,
+          "end": 1880
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 25.571,
+          "mid_to_end": 19.532,
+          "start_to_end": 32.164
+        },
+        "camera_moved_studs": 5.538,
+        "camera_movement": {
+          "translation_studs": 5.538,
+          "rotation_delta_deg": 3.39,
+          "move_type": "pull_out",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0,
+          "Mira": 0.0,
+          "Zephyr": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Mira": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Zephyr": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "wave"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 179.15,
+              "mid_to_end": 0.0,
+              "start_to_end": 179.15,
+              "max_delta_deg": 179.15
+            },
+            "changed": true
+          },
+          "Mira": {
+            "configured_poses": [
+              "celebrate"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 116.39,
+              "mid_to_end": 0.0,
+              "start_to_end": 116.39,
+              "max_delta_deg": 116.39
+            },
+            "changed": true
+          },
+          "Zephyr": {
+            "configured_poses": [
+              "wave"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 179.15,
+              "mid_to_end": 0.0,
+              "start_to_end": 179.15,
+              "max_delta_deg": 179.15
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "wave"
+            }
+          ],
+          "Mira": [
+            {
+              "at": 0.0,
+              "action": "celebrate"
+            }
+          ],
+          "Zephyr": [
+            {
+              "at": 0.0,
+              "action": "wave"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Mira": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          },
+          "Zephyr": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Mira": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Zephyr": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Mira": {
+            "mid_distance_studs": 2.184,
+            "within_interaction_range": true
+          },
+          "Aiko_to_Zephyr": {
+            "mid_distance_studs": 4.284,
+            "within_interaction_range": false
+          },
+          "Mira_to_Zephyr": {
+            "mid_distance_studs": 2.265,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    }
+  ]
+}

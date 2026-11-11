@@ -1,0 +1,48 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|It's the friends who help you find it.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 1.872,
+ "words": [
+  [
+   "It's",
+   0.093,
+   0.197
+  ],
+  [
+   "the",
+   0.208,
+   0.289
+  ],
+  [
+   "friends",
+   0.301,
+   0.648
+  ],
+  [
+   "who",
+   0.66,
+   0.741
+  ],
+  [
+   "help",
+   0.752,
+   0.926
+  ],
+  [
+   "you",
+   0.938,
+   1.018
+  ],
+  [
+   "find",
+   1.03,
+   1.308
+  ],
+  [
+   "it",
+   1.319,
+   1.458
+  ]
+ ]
+}

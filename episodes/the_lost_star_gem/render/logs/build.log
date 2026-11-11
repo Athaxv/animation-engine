@@ -1,0 +1,8 @@
+D:\ai-video\ROBLOX ANIMATION\pipeline\episode.py:199: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w = bpy.data.worlds.new("EP_World"); w.use_nodes = True
+<string>:36: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+Info: Saved as "the_lost_star_gem.blend"
+BUILT D:\ai-video\ROBLOX ANIMATION\episodes\the_lost_star_gem\the_lost_star_gem.blend 1881 frames
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

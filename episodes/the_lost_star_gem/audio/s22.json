@@ -1,0 +1,53 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Because sometimes, the greatest treasure isn't something you find...",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 3.648,
+ "words": [
+  [
+   "Because",
+   0.104,
+   0.336
+  ],
+  [
+   "sometimes",
+   0.347,
+   0.972
+  ],
+  [
+   "the",
+   1.134,
+   1.227
+  ],
+  [
+   "greatest",
+   1.238,
+   1.667
+  ],
+  [
+   "treasure",
+   1.678,
+   2.095
+  ],
+  [
+   "isn't",
+   2.199,
+   2.442
+  ],
+  [
+   "something",
+   2.454,
+   2.766
+  ],
+  [
+   "you",
+   2.778,
+   2.87
+  ],
+  [
+   "find",
+   2.882,
+   3.287
+  ]
+ ]
+}

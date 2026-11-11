@@ -1,0 +1,38 @@
+{
+ "key": "en-US-EmmaNeural|+8%|+3Hz|Hey! What are you two doing?",
+ "engine": "edge",
+ "speaker": "Mira",
+ "audio_len": 2.088,
+ "words": [
+  [
+   "Hey",
+   0.081,
+   0.405
+  ],
+  [
+   "What",
+   0.764,
+   0.868
+  ],
+  [
+   "are",
+   0.88,
+   0.949
+  ],
+  [
+   "you",
+   0.961,
+   1.088
+  ],
+  [
+   "two",
+   1.1,
+   1.296
+  ],
+  [
+   "doing",
+   1.308,
+   1.748
+  ]
+ ]
+}

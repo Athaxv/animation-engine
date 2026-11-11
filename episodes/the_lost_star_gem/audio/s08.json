@@ -1,0 +1,43 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Luckily, their search didn't last very long.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 2.616,
+ "words": [
+  [
+   "Luckily",
+   0.093,
+   0.509
+  ],
+  [
+   "their",
+   0.764,
+   0.891
+  ],
+  [
+   "search",
+   0.903,
+   1.204
+  ],
+  [
+   "didn't",
+   1.215,
+   1.435
+  ],
+  [
+   "last",
+   1.447,
+   1.736
+  ],
+  [
+   "very",
+   1.748,
+   1.956
+  ],
+  [
+   "long",
+   1.968,
+   2.268
+  ]
+ ]
+}

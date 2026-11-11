@@ -1,0 +1,38 @@
+{
+ "key": "en-US-GuyNeural|+8%|+2Hz|We found the missing star gem!",
+ "engine": "edge",
+ "speaker": "Zephyr",
+ "audio_len": 2.496,
+ "words": [
+  [
+   "We",
+   0.096,
+   0.27
+  ],
+  [
+   "found",
+   0.293,
+   0.559
+  ],
+  [
+   "the",
+   0.571,
+   0.64
+  ],
+  [
+   "missing",
+   0.652,
+   0.964
+  ],
+  [
+   "star",
+   0.988,
+   1.254
+  ],
+  [
+   "gem",
+   1.265,
+   1.659
+  ]
+ ]
+}

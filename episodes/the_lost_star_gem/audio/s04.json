@@ -1,0 +1,33 @@
+{
+ "key": "en-US-AnaNeural|+6%|+2Hz|The star gem is missing!",
+ "engine": "edge",
+ "speaker": "Aiko",
+ "audio_len": 2.568,
+ "words": [
+  [
+   "The",
+   0.097,
+   0.25
+  ],
+  [
+   "star",
+   0.262,
+   0.687
+  ],
+  [
+   "gem",
+   0.699,
+   1.017
+  ],
+  [
+   "is",
+   1.029,
+   1.182
+  ],
+  [
+   "missing",
+   1.194,
+   1.736
+  ]
+ ]
+}

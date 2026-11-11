@@ -1,0 +1,33 @@
+{
+ "key": "en-US-AnaNeural|+6%|+2Hz|Here, Zephyr. Take it carefully!",
+ "engine": "edge",
+ "speaker": "Aiko",
+ "audio_len": 4.008,
+ "words": [
+  [
+   "Here",
+   0.097,
+   0.451
+  ],
+  [
+   "Zephyr",
+   0.71,
+   1.241
+  ],
+  [
+   "Take",
+   2.052,
+   2.335
+  ],
+  [
+   "it",
+   2.347,
+   2.5
+  ],
+  [
+   "carefully",
+   2.512,
+   3.184
+  ]
+ ]
+}

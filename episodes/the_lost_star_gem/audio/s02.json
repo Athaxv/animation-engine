@@ -1,0 +1,58 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|The little star gem that decorated the fountain had disappeared!",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 3.6,
+ "words": [
+  [
+   "The",
+   0.104,
+   0.162
+  ],
+  [
+   "little",
+   0.174,
+   0.394
+  ],
+  [
+   "star",
+   0.405,
+   0.683
+  ],
+  [
+   "gem",
+   0.694,
+   0.995
+  ],
+  [
+   "that",
+   1.007,
+   1.181
+  ],
+  [
+   "decorated",
+   1.192,
+   1.667
+  ],
+  [
+   "the",
+   1.678,
+   1.748
+  ],
+  [
+   "fountain",
+   1.759,
+   2.199
+  ],
+  [
+   "had",
+   2.384,
+   2.569
+  ],
+  [
+   "disappeared",
+   2.581,
+   3.241
+  ]
+ ]
+}

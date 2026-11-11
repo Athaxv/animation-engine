@@ -1,0 +1,23 @@
+{
+ "key": "en-US-GuyNeural|+8%|+2Hz|We found it!",
+ "engine": "edge",
+ "speaker": "Zephyr",
+ "audio_len": 1.872,
+ "words": [
+  [
+   "We",
+   0.096,
+   0.316
+  ],
+  [
+   "found",
+   0.339,
+   0.687
+  ],
+  [
+   "it",
+   0.71,
+   0.93
+  ]
+ ]
+}

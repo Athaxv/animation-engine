@@ -1,0 +1,23 @@
+{
+ "key": "en-US-AnaNeural|+6%|+2Hz|Wait! Is that...?",
+ "engine": "edge",
+ "speaker": "Aiko",
+ "audio_len": 2.784,
+ "words": [
+  [
+   "Wait",
+   0.097,
+   0.545
+  ],
+  [
+   "Is",
+   1.345,
+   1.569
+  ],
+  [
+   "that",
+   1.581,
+   1.958
+  ]
+ ]
+}

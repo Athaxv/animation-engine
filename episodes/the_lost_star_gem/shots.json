@@ -1,0 +1,1048 @@
+{
+  "episode": "the_lost_star_gem",
+  "format": "what_if",
+  "title": "The Lost Star Gem",
+  "logline": "When the town square fountain's precious star gem disappears, Aiko, Zephyr, and Mira embark on a search and learn that true friendship is the greatest treasure.",
+  "hook_title": "THE LOST STAR GEM",
+  "fps": 30,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "narrator": "narrator",
+  "music": "emotional",
+  "tts": "edge",
+  "voices": {
+    "narrator": [
+      "en-US-AndrewNeural",
+      "+8%",
+      "+0Hz"
+    ],
+    "Aiko": [
+      "en-US-AnaNeural",
+      "+6%",
+      "+2Hz"
+    ],
+    "Zephyr": [
+      "en-US-GuyNeural",
+      "+8%",
+      "+2Hz"
+    ],
+    "Mira": [
+      "en-US-EmmaNeural",
+      "+8%",
+      "+3Hz"
+    ]
+  },
+  "shots": [
+    {
+      "id": "s01",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "Every afternoon, Aiko and her friends met at the town square. But today, something felt different.",
+      "camera": {
+        "shot": "medium",
+        "angle": "eye",
+        "move": "push_in",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": 0.0,
+          "dy": 0.0,
+          "facing": "camera",
+          "pose": "relaxed",
+          "face": "neutral",
+          "action": "look_around"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s02",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "The little star gem that decorated the fountain had disappeared!",
+      "camera": {
+        "shot": "medium",
+        "angle": "low",
+        "move": "static",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "fountain_front",
+          "dx": 0.0,
+          "dy": 0.0,
+          "facing": "fountain_front",
+          "pose": "point_up",
+          "face": "surprised",
+          "action": "surprise_hop"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s03",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "Zephyr",
+      "text": "Aiko! What's wrong?",
+      "camera": {
+        "shot": "wide",
+        "angle": "eye",
+        "move": "track",
+        "target": "Zephyr"
+      },
+      "cast": [
+        {
+          "name": "Zephyr",
+          "mark": "portal_spot",
+          "dx": 2.0,
+          "dy": -4.0,
+          "facing": "plaza_left",
+          "pose": "stand",
+          "face": "surprised",
+          "action": "approach",
+          "to": "center",
+          "to_dx": 1.2,
+          "to_dy": 0.0
+        },
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.2,
+          "dy": 0.0,
+          "facing": "Zephyr",
+          "pose": "hands_face",
+          "face": "worried"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s04",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "Aiko",
+      "text": "The star gem is missing!",
+      "camera": {
+        "shot": "two_shot",
+        "angle": "eye",
+        "move": "static",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.1,
+          "dy": 0.0,
+          "facing": "Zephyr",
+          "pose": "explain",
+          "face": "worried",
+          "action": "talk"
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 1.1,
+          "dy": 0.0,
+          "facing": "Aiko",
+          "pose": "stand",
+          "face": "surprised",
+          "action": "surprise_hop"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s05",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "",
+      "duration": 2.8,
+      "camera": {
+        "shot": "wide",
+        "angle": "low",
+        "move": "pan_left",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "plaza_left",
+          "dx": 0.0,
+          "dy": 0.0,
+          "facing": "shop_front",
+          "pose": "stand",
+          "face": "neutral",
+          "action": "approach",
+          "to": "shop_front",
+          "to_dx": 5.5,
+          "to_dy": 0.5
+        },
+        {
+          "name": "Zephyr",
+          "mark": "plaza_left",
+          "dx": 1.8,
+          "dy": -1.0,
+          "facing": "shop_front",
+          "pose": "stand",
+          "face": "neutral",
+          "action": "approach",
+          "to": "shop_front",
+          "to_dx": 3.5,
+          "to_dy": 0.5
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s06",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "Aiko",
+      "text": "Wait! Is that...?",
+      "camera": {
+        "shot": "two_shot",
+        "angle": "low",
+        "move": "push_in",
+        "target": "Aiko"
+      },
+      "place": [
+        {
+          "prop": "gem",
+          "mark": "center",
+          "dx": -7.0,
+          "dy": 4.5,
+          "z": 0.1,
+          "id": "bench_gem"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -5.8,
+          "dy": 3.5,
+          "facing": "bench_sit",
+          "pose": "point",
+          "face": "surprised"
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": -8.0,
+          "dy": 3.5,
+          "facing": "bench_sit",
+          "pose": "stand",
+          "face": "neutral"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s07",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "Zephyr",
+      "text": "We found it!",
+      "camera": {
+        "shot": "two_shot",
+        "angle": "eye",
+        "move": "static",
+        "target": "Zephyr"
+      },
+      "place": [
+        {
+          "prop": "gem",
+          "mark": "center",
+          "dx": -7.0,
+          "dy": 4.5,
+          "z": 0.1,
+          "id": "bench_gem"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": -8.0,
+          "dy": 3.5,
+          "facing": "Aiko",
+          "pose": "celebrate",
+          "face": "smile",
+          "action": "celebrate"
+        },
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -5.8,
+          "dy": 3.5,
+          "facing": "Zephyr",
+          "pose": "stand",
+          "face": "smile"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s08",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "Luckily, their search didn't last very long.",
+      "camera": {
+        "shot": "medium",
+        "angle": "low",
+        "move": "push_in",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -6.9,
+          "dy": 4.0,
+          "facing": "camera",
+          "pose": "pickup",
+          "face": "smile",
+          "action": "pickup",
+          "props": [
+            "gem"
+          ]
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": -9.0,
+          "dy": 4.0,
+          "facing": "Aiko",
+          "pose": "stand",
+          "face": "smile"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s09",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "Aiko",
+      "text": "Here, Zephyr. Take it carefully!",
+      "camera": {
+        "shot": "two_shot",
+        "angle": "eye",
+        "move": "static",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.1,
+          "dy": 0.0,
+          "facing": "Zephyr",
+          "pose": "reach_forward",
+          "face": "smile",
+          "action": "pass_prop",
+          "props": [
+            "gem"
+          ]
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 1.1,
+          "dy": 0.0,
+          "facing": "Aiko",
+          "pose": "receive_prop",
+          "face": "smile",
+          "action": "catch_prop"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s10",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "Zephyr",
+      "text": "Oops!",
+      "hold": 0.5,
+      "camera": {
+        "shot": "two_shot",
+        "angle": "low",
+        "move": "push_in",
+        "target": "Zephyr"
+      },
+      "place": [
+        {
+          "prop": "gem",
+          "mark": "center",
+          "dx": 1.1,
+          "dy": -0.6,
+          "z": 0.0,
+          "pop_at": 0.4,
+          "id": "dropped_gem"
+        }
+      ],
+      "cast": [
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 1.1,
+          "dy": 0.0,
+          "facing": "Aiko",
+          "pose": "hold",
+          "face": "shocked",
+          "action": "drop",
+          "props": [
+            "gem"
+          ],
+          "changes": [
+            {
+              "at": 0.4,
+              "props": []
+            }
+          ]
+        },
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.1,
+          "dy": 0.0,
+          "facing": "Zephyr",
+          "pose": "scared",
+          "face": "worried",
+          "action": "surprise_hop"
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.45,
+          "name": "bonk"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s11",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "For one second, they thought they had lost it all over again.",
+      "camera": {
+        "shot": "medium",
+        "angle": "eye",
+        "move": "static",
+        "target": "Zephyr"
+      },
+      "cast": [
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 1.1,
+          "dy": 0.0,
+          "facing": "camera",
+          "pose": "pickup",
+          "face": "neutral",
+          "action": "pickup",
+          "props": [
+            "gem"
+          ]
+        },
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.1,
+          "dy": 0.0,
+          "facing": "Zephyr",
+          "pose": "relaxed",
+          "face": "smile"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s12",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "Mira",
+      "text": "Hey! What are you two doing?",
+      "camera": {
+        "shot": "group",
+        "angle": "eye",
+        "move": "track",
+        "target": "Mira"
+      },
+      "cast": [
+        {
+          "name": "Mira",
+          "mark": "road",
+          "dx": 0.0,
+          "dy": 0.0,
+          "facing": "center",
+          "pose": "stand",
+          "face": "smile",
+          "action": "approach",
+          "to": "center",
+          "to_dx": 0.0,
+          "to_dy": -2.0
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 1.1,
+          "dy": 0.0,
+          "facing": "Mira",
+          "pose": "hold",
+          "face": "smile",
+          "props": [
+            "gem"
+          ]
+        },
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.1,
+          "dy": 0.0,
+          "facing": "Mira",
+          "pose": "wave",
+          "face": "smile",
+          "action": "wave"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s13",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "Zephyr",
+      "text": "We found the missing star gem!",
+      "camera": {
+        "shot": "two_shot",
+        "angle": "eye",
+        "move": "push_in",
+        "target": "Zephyr"
+      },
+      "cast": [
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 1.1,
+          "dy": 0.0,
+          "facing": "Mira",
+          "pose": "hold",
+          "face": "smile",
+          "action": "talk",
+          "props": [
+            "gem"
+          ]
+        },
+        {
+          "name": "Mira",
+          "mark": "center",
+          "dx": 0.0,
+          "dy": -2.0,
+          "facing": "Zephyr",
+          "pose": "stand",
+          "face": "smile"
+        },
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.1,
+          "dy": 0.0,
+          "facing": "Mira",
+          "pose": "relaxed",
+          "face": "smile"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s14",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "Mira",
+      "text": "Then let's put it back!",
+      "camera": {
+        "shot": "group",
+        "angle": "low",
+        "move": "static",
+        "target": "Mira"
+      },
+      "cast": [
+        {
+          "name": "Mira",
+          "mark": "center",
+          "dx": 0.0,
+          "dy": -2.0,
+          "facing": "fountain_front",
+          "pose": "point_up",
+          "face": "grin",
+          "action": "celebrate"
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 1.1,
+          "dy": 0.0,
+          "facing": "fountain_front",
+          "pose": "hold",
+          "face": "smile",
+          "props": [
+            "gem"
+          ]
+        },
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.1,
+          "dy": 0.0,
+          "facing": "fountain_front",
+          "pose": "relaxed",
+          "face": "smile",
+          "action": "nod"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s15",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "",
+      "duration": 2.6,
+      "camera": {
+        "shot": "wide",
+        "angle": "eye",
+        "move": "pan_right",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -1.1,
+          "dy": 0.0,
+          "facing": "fountain_front",
+          "pose": "stand",
+          "face": "smile",
+          "action": "approach",
+          "to": "fountain_front",
+          "to_dx": -1.2,
+          "to_dy": 0.0
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 1.1,
+          "dy": 0.0,
+          "facing": "fountain_front",
+          "pose": "hold",
+          "face": "smile",
+          "action": "approach",
+          "to": "fountain_front",
+          "to_dx": 1.2,
+          "to_dy": 0.0,
+          "props": [
+            "gem"
+          ]
+        },
+        {
+          "name": "Mira",
+          "mark": "center",
+          "dx": 0.0,
+          "dy": -2.0,
+          "facing": "fountain_front",
+          "pose": "stand",
+          "face": "smile",
+          "action": "approach",
+          "to": "fountain_front",
+          "to_dx": 0.0,
+          "to_dy": -1.6
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s16",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "They had searched together, helped each other, and finally brought back what their town had lost.",
+      "camera": {
+        "shot": "group",
+        "angle": "low",
+        "move": "push_in",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "fountain_front",
+          "dx": -1.1,
+          "dy": 0.0,
+          "facing": "fountain_front",
+          "pose": "hold",
+          "face": "smile",
+          "props": [
+            "gem"
+          ]
+        },
+        {
+          "name": "Zephyr",
+          "mark": "fountain_front",
+          "dx": 1.1,
+          "dy": 0.0,
+          "facing": "fountain_front",
+          "pose": "relaxed",
+          "face": "smile"
+        },
+        {
+          "name": "Mira",
+          "mark": "fountain_front",
+          "dx": 0.0,
+          "dy": -1.8,
+          "facing": "fountain_front",
+          "pose": "relaxed",
+          "face": "smile"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s17",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "",
+      "duration": 2.8,
+      "camera": {
+        "shot": "two_shot",
+        "angle": "eye",
+        "move": "static",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "fountain_front",
+          "dx": -1.1,
+          "dy": 0.0,
+          "facing": "Zephyr",
+          "pose": "handshake",
+          "face": "smile",
+          "action": "handshake"
+        },
+        {
+          "name": "Zephyr",
+          "mark": "fountain_front",
+          "dx": 1.1,
+          "dy": 0.0,
+          "facing": "Aiko",
+          "pose": "handshake",
+          "face": "smile",
+          "action": "handshake"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s18",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "",
+      "duration": 2.8,
+      "camera": {
+        "shot": "two_shot",
+        "angle": "eye",
+        "move": "push_in",
+        "target": "Mira"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "fountain_front",
+          "dx": -1.1,
+          "dy": 0.0,
+          "facing": "Mira",
+          "pose": "embrace",
+          "face": "smile",
+          "action": "hug"
+        },
+        {
+          "name": "Mira",
+          "mark": "fountain_front",
+          "dx": 1.1,
+          "dy": 0.0,
+          "facing": "Aiko",
+          "pose": "embrace",
+          "face": "smile",
+          "action": "hug"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s19",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "Mira",
+      "text": "We make a pretty good team!",
+      "camera": {
+        "shot": "group",
+        "angle": "low",
+        "move": "static",
+        "target": "Mira"
+      },
+      "cast": [
+        {
+          "name": "Mira",
+          "mark": "center",
+          "dx": 0.0,
+          "dy": -0.6,
+          "facing": "camera",
+          "pose": "celebrate",
+          "face": "smile",
+          "action": "celebrate"
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 2.1,
+          "dy": 0.0,
+          "facing": "camera",
+          "pose": "celebrate",
+          "face": "smile",
+          "action": "celebrate"
+        },
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -2.1,
+          "dy": 0.0,
+          "facing": "camera",
+          "pose": "celebrate",
+          "face": "smile",
+          "action": "celebrate"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s20",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "Zephyr",
+      "text": "Best team in town!",
+      "camera": {
+        "shot": "medium",
+        "angle": "eye",
+        "move": "push_in",
+        "target": "Zephyr"
+      },
+      "cast": [
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 2.1,
+          "dy": 0.0,
+          "facing": "camera",
+          "pose": "arms_up",
+          "face": "grin",
+          "action": "talk"
+        },
+        {
+          "name": "Mira",
+          "mark": "center",
+          "dx": 0.0,
+          "dy": -0.6,
+          "facing": "camera",
+          "pose": "relaxed",
+          "face": "smile"
+        },
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -2.1,
+          "dy": 0.0,
+          "facing": "camera",
+          "pose": "relaxed",
+          "face": "smile"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s21",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "Aiko",
+      "text": "And next time, we're keeping a better eye on the gem!",
+      "camera": {
+        "shot": "group",
+        "angle": "eye",
+        "move": "static",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -2.1,
+          "dy": 0.0,
+          "facing": "camera",
+          "pose": "explain",
+          "face": "smile",
+          "action": "talk"
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 2.1,
+          "dy": 0.0,
+          "facing": "camera",
+          "pose": "relaxed",
+          "face": "smile",
+          "action": "laugh"
+        },
+        {
+          "name": "Mira",
+          "mark": "center",
+          "dx": 0.0,
+          "dy": -0.6,
+          "facing": "camera",
+          "pose": "relaxed",
+          "face": "smile",
+          "action": "nod"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s22",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "Because sometimes, the greatest treasure isn't something you find...",
+      "camera": {
+        "shot": "two_shot",
+        "angle": "eye",
+        "move": "push_in",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -2.1,
+          "dy": 0.0,
+          "facing": "Zephyr",
+          "pose": "relaxed",
+          "face": "smile"
+        },
+        {
+          "name": "Mira",
+          "mark": "center",
+          "dx": 0.0,
+          "dy": -0.6,
+          "facing": "Aiko",
+          "pose": "relaxed",
+          "face": "smile"
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 2.1,
+          "dy": 0.0,
+          "facing": "Aiko",
+          "pose": "relaxed",
+          "face": "smile"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "s23",
+      "set": "town_square",
+      "dressing": "day",
+      "speaker": "narrator",
+      "text": "It's the friends who help you find it.",
+      "hold": 1.2,
+      "camera": {
+        "shot": "wide",
+        "angle": "low",
+        "move": "pull_out",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "dx": -2.1,
+          "dy": 0.0,
+          "facing": "camera",
+          "pose": "wave",
+          "face": "smile",
+          "action": "wave"
+        },
+        {
+          "name": "Mira",
+          "mark": "center",
+          "dx": 0.0,
+          "dy": -0.6,
+          "facing": "camera",
+          "pose": "celebrate",
+          "face": "smile",
+          "action": "celebrate"
+        },
+        {
+          "name": "Zephyr",
+          "mark": "center",
+          "dx": 2.1,
+          "dy": 0.0,
+          "facing": "camera",
+          "pose": "wave",
+          "face": "smile",
+          "action": "wave"
+        }
+      ],
+      "transition": "fade_black"
+    }
+  ],
+  "thumbnail": {
+    "shot": "s19",
+    "at": 1.0
+  },
+  "publish": {
+    "tiktok_caption": "The Lost Star Gem ✨ Can Aiko, Zephyr and Mira find what was lost? #roblox #robloxanimation #story #wholesome",
+    "youtube_title": "The Lost Star Gem | Wholesome Roblox Story #Shorts",
+    "youtube_description": "Every afternoon, Aiko and her friends meet at the town square. But today, the little star gem that decorated the fountain has disappeared! Join Aiko, Zephyr, and Mira in this wholesome Roblox R6 adventure.",
+    "hashtags": [
+      "#roblox",
+      "#robloxanimation",
+      "#wholesome",
+      "#friends"
+    ],
+    "tags": [
+      "roblox",
+      "roblox animation",
+      "lost star gem",
+      "wholesome",
+      "r6 animation"
+    ]
+  }
+}

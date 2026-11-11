@@ -1,0 +1,68 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|For one second, they thought they had lost it all over again.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 3.216,
+ "words": [
+  [
+   "For",
+   0.127,
+   0.197
+  ],
+  [
+   "one",
+   0.208,
+   0.37
+  ],
+  [
+   "second",
+   0.382,
+   0.81
+  ],
+  [
+   "they",
+   1.146,
+   1.238
+  ],
+  [
+   "thought",
+   1.25,
+   1.47
+  ],
+  [
+   "they",
+   1.482,
+   1.574
+  ],
+  [
+   "had",
+   1.586,
+   1.713
+  ],
+  [
+   "lost",
+   1.725,
+   2.037
+  ],
+  [
+   "it",
+   2.049,
+   2.118
+  ],
+  [
+   "all",
+   2.13,
+   2.315
+  ],
+  [
+   "over",
+   2.326,
+   2.535
+  ],
+  [
+   "again",
+   2.546,
+   2.87
+  ]
+ ]
+}
