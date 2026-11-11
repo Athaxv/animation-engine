@@ -1,0 +1,78 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Dev greets Aiko near the fountain, maintaining strict conversational eye lines across the axis.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 6.144,
+ "words": [
+  [
+   "Dev",
+   0.093,
+   0.405
+  ],
+  [
+   "greets",
+   0.417,
+   0.775
+  ],
+  [
+   "Aiko",
+   0.903,
+   1.319
+  ],
+  [
+   "near",
+   1.331,
+   1.574
+  ],
+  [
+   "the",
+   1.586,
+   1.667
+  ],
+  [
+   "fountain",
+   1.678,
+   2.13
+  ],
+  [
+   "maintaining",
+   2.431,
+   2.893
+  ],
+  [
+   "strict",
+   2.905,
+   3.264
+  ],
+  [
+   "conversational",
+   3.275,
+   4.109
+  ],
+  [
+   "eye",
+   4.259,
+   4.352
+  ],
+  [
+   "lines",
+   4.363,
+   4.757
+  ],
+  [
+   "across",
+   4.769,
+   5.116
+  ],
+  [
+   "the",
+   5.127,
+   5.208
+  ],
+  [
+   "axis",
+   5.22,
+   5.787
+  ]
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Dev freezes in astonishment as three point key and rim lights illuminate his face.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 5.424,
+ "words": [
+  [
+   "Dev",
+   0.093,
+   0.347
+  ],
+  [
+   "freezes",
+   0.359,
+   0.833
+  ],
+  [
+   "in",
+   0.845,
+   0.937
+  ],
+  [
+   "astonishment",
+   0.949,
+   1.562
+  ],
+  [
+   "as",
+   1.84,
+   1.979
+  ],
+  [
+   "three",
+   1.991,
+   2.245
+  ],
+  [
+   "point",
+   2.257,
+   2.546
+  ],
+  [
+   "key",
+   2.558,
+   2.951
+  ],
+  [
+   "and",
+   3.044,
+   3.229
+  ],
+  [
+   "rim",
+   3.241,
+   3.472
+  ],
+  [
+   "lights",
+   3.484,
+   3.819
+  ],
+  [
+   "illuminate",
+   3.877,
+   4.41
+  ],
+  [
+   "his",
+   4.421,
+   4.572
+  ],
+  [
+   "face",
+   4.583,
+   5.069
+  ]
+ ]
+}

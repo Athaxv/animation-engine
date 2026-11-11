@@ -39,6 +39,12 @@ ACTION_CUES = [
     ({"warn", "warned", "told", "explain", "explained", "asked", "said", "say"}, "gestures"),
     ({"wave", "waves", "waved"}, "wave"),
     ({"nod", "nods", "nodded", "agreed"}, "nod"),
+    ({"pick", "picks", "picked", "pickup", "grab", "grabs", "grabbed", "lift", "lifts"}, "pickup"),
+    ({"pass", "passes", "passed", "hand", "hands", "handed", "give", "gives", "gave"}, "pass_prop"),
+    ({"catch", "catches", "caught", "receive", "receives", "received"}, "catch_prop"),
+    ({"handshake", "shake", "shakes", "shook"}, "handshake"),
+    ({"hug", "hugs", "hugged", "embrace", "embraced"}, "hug"),
+    ({"approach", "approaches", "approached", "meet", "meets", "met"}, "approach"),
 ]
 
 WORLD_RULE_CUES = {"world", "town", "everyone", "people", "born", "nobody", "rule", "law", "every"}
@@ -412,6 +418,9 @@ def _build_director_prompt(sb_data, timing_map):
         "camera_framing": V.CAMERA_SHOTS,
         "camera_angle": V.CAMERA_ANGLES,
         "camera_movement": V.CAMERA_MOVES,
+        "lighting_moods": V.LIGHTING_MOODS,
+        "weather_types": V.WEATHER_TYPES,
+        "vfx_types": V.VFX_TYPES,
         "transitions": V.TRANSITIONS,
         "fx": ["shake", "tint", "punch", "flash", "freeze"],
         "props": V.PROP_KINDS,

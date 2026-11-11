@@ -25,17 +25,19 @@ RBX = ROOT / "public" / "roblox"
 for _f in ("roblox_rig.py", "roblox_motions.py", "roblox_sets.py", "props.py"):
     exec(open(PIPE / _f, encoding="utf-8").read(), globals())
 
+if str(PIPE) not in sys.path:
+    sys.path.insert(0, str(PIPE))
+import cinematography
+
 CATALOG = json.loads((RBX / "catalog.json").read_text(encoding="utf-8"))
 SET_SPACING = 600.0
 PARK = Vector((0, 0, -500))
 
 LENS = 35.0
 TAN_HALF = 18.0 / LENS            # vertical half-FOV tangent (portrait: sensor fits the long side)
-FRAME_H = {"extreme_close_up": 1.9, "close_up": 3.1, "medium_close": 4.4, "medium": 6.6, "two_shot": 7.2,
-           "group": 7.2, "over_shoulder": 6.0, "insert": 2.4, "wide": 15.0, "extreme_wide": 40.0}
-LOOK_Z = {"extreme_close_up": 4.62, "close_up": 4.45, "medium_close": 4.0, "medium": 3.4, "two_shot": 3.5,
-          "group": 3.5, "over_shoulder": 4.3, "insert": 3.0, "wide": 3.6, "extreme_wide": 5.0}
-FSTOP = {"extreme_close_up": 2.4, "close_up": 2.8, "medium_close": 3.5, "insert": 2.4, "over_shoulder": 3.5}
+FRAME_H = dict(cinematography.FRAME_H)
+LOOK_Z = dict(cinematography.LOOK_Z)
+FSTOP = dict(cinematography.FSTOP)
 
 BLINKABLE = {"smile", "grin", "worried", "shocked", "angry", "sad", "neutral", "smirk", "surprised",
              "confident", "nervous"}
@@ -213,7 +215,7 @@ def make_world():
     return w
 
 
-def key_dressing(set_name, dressing, frame, world):
+def key_dressing(set_name, dressing, frame, world, mood=None):
     for o in [x for x in bpy.data.objects if x is not None]:
         if o.type == 'LIGHT' and "set" in o:
             on = o["set"] == set_name
@@ -247,14 +249,19 @@ def key_dressing(set_name, dressing, frame, world):
         b.inputs["Emission Strength"].default_value = em
         b.inputs["Emission Color"].keyframe_insert("default_value", frame=frame)
         b.inputs["Emission Strength"].keyframe_insert("default_value", frame=frame)
-    sky, lightc, strength = WORLDS[dressing]
-    N = world.node_tree.nodes
-    cam_bg, light_bg = N["CamBG"], N["LightBG"]
-    cam_bg.inputs[0].default_value = (*srgb(sky), 1)
-    light_bg.inputs[0].default_value = (*srgb(lightc), 1)
-    light_bg.inputs[1].default_value = strength
-    for inp in (cam_bg.inputs[0], light_bg.inputs[0], light_bg.inputs[1]):
-        inp.keyframe_insert("default_value", frame=frame)
+    if mood:
+        cinematography.apply_world_lighting(bpy, world, mood, frame)
+    elif dressing in WORLDS:
+        sky, lightc, strength = WORLDS[dressing]
+        N = world.node_tree.nodes
+        cam_bg, light_bg = N["CamBG"], N["LightBG"]
+        cam_bg.inputs[0].default_value = (*srgb(sky), 1)
+        light_bg.inputs[0].default_value = (*srgb(lightc), 1)
+        light_bg.inputs[1].default_value = strength
+        for inp in (cam_bg.inputs[0], light_bg.inputs[0], light_bg.inputs[1]):
+            inp.keyframe_insert("default_value", frame=frame)
+    else:
+        cinematography.apply_world_lighting(bpy, world, dressing, frame)
 
 
 # ------------------------------------------------------------------ character state
@@ -588,20 +595,8 @@ def animate_char(rig, c, shot, ts, fps, seed, order, f1, start_world, cam_words)
 
 
 # ------------------------------------------------------------------ camera
-def key_light_follow(cam_pos, look, frame, interior):
-    kl = bpy.data.objects.get("EP_KeyLight")
-    if kl is None:
-        ld = bpy.data.lights.new("EP_KeyLight", 'AREA'); ld.size = 5.0; ld.color = (1.0, 0.94, 0.86)
-        kl = bpy.data.objects.new("EP_KeyLight", ld); bpy.context.scene.collection.objects.link(kl)
-    d = look - cam_pos
-    right = Vector((d.y, -d.x, 0)).normalized() if d.length > 0.01 else Vector((1, 0, 0))
-    p = cam_pos + right * min(3.0, 0.3 * d.length) + Vector((0, 0, min(3.0, 0.25 * d.length + 1.0)))
-    kl.location = p
-    kl.rotation_euler = (look - p).to_track_quat('-Z', 'Y').to_euler()
-    kl.data.energy = (110 if interior else 160) * max(1.0, d.length / 8.0) ** 2 * 0.5
-    kl.keyframe_insert("location", frame=frame)
-    kl.keyframe_insert("rotation_euler", frame=frame)
-    kl.data.keyframe_insert("energy", frame=frame)
+def key_light_follow(cam_pos, look, frame, interior, mood="bright_day"):
+    cinematography.apply_three_point_rig(bpy, cam_pos, look, frame, mood, interior)
 
 
 HEAD_Z = 4.62
@@ -678,9 +673,10 @@ def unblock(p, L):
 
 
 def shot_camera(shot, f0, frames, fps, idx, pos, yaw, order, dests, bodies=None, floaters=()):
-    c = shot["camera"]
-    typ = c.get("shot", "medium"); ang = c.get("angle", "eye"); move = c.get("move", "static")
-    target = c.get("target") or (shot["cast"][0]["name"] if shot["cast"] else "center")
+    cin = cinematography.resolve_shot_cinematography(shot)
+    typ = cin["shot"]; ang = cin["angle"]; move = cin["move"]
+    mood = cin["mood"]
+    target = shot.get("camera", {}).get("target") or (shot["cast"][0]["name"] if shot["cast"] else "center")
     set_name = shot["set"]
     marks = CATALOG["sets"][set_name]["marks"]
     H, lz = FRAME_H.get(typ, 6.6), LOOK_Z.get(typ, 3.4)
@@ -733,7 +729,7 @@ def shot_camera(shot, f0, frames, fps, idx, pos, yaw, order, dests, bodies=None,
     d = Vector((d.x * math.cos(var) - d.y * math.sin(var), d.x * math.sin(var) + d.y * math.cos(var), 0))
     dist = H / (2 * TAN_HALF)
 
-    def place_cam(dist_mul=1.0, orbit=0.0, truck=0.0, look_override=None):
+    def place_cam(dist_mul=1.0, orbit=0.0, truck=0.0, look_override=None, lift=0.0):
         dd = Vector((d.x * math.cos(orbit) - d.y * math.sin(orbit), d.x * math.sin(orbit) + d.y * math.cos(orbit), 0))
         L = (look_override or look).copy()
         L += Vector((-dd.y, dd.x, 0)) * truck
@@ -743,19 +739,32 @@ def shot_camera(shot, f0, frames, fps, idx, pos, yaw, order, dests, bodies=None,
             p.z = max(base.z + 0.8, L.z - 0.38 * dm)
         elif ang == "high":
             p.z = L.z + 0.55 * dm
-        elif ang == "top":
-            p.z = L.z + 1.3 * dm
+        elif ang in ("top", "birds_eye"):
+            p.z = L.z + 1.35 * dm
         else:
             p.z = L.z + 0.06 * dm
+        p.z += lift
         return p, L
 
     if typ == "over_shoulder" and len(names) > 0:
         ch = pos[names[0]]; fy = fwd(yaw[names[0]])
-        side = -Vector((-fy.y, fy.x, 0))
+        other_name = names[1] if len(names) > 1 else (target if target in pos else names[0])
+        side_mult = cinematography.AXIS_TRACKER.get_or_set_axis_side(names[0], other_name, pos[names[0]], pos.get(other_name, pos[names[0]]))
+        side = -Vector((-fy.y, fy.x, 0)) * side_mult
 
-        def place_cam(dist_mul=1.0, orbit=0.0, truck=0.0, look_override=None):  # noqa: F811
-            p = ch - fy * (4.5 * dist_mul) + side * 2.6 + Vector((0, 0, 5.6))
-            L = ch + fy * 3.3 + side * 1.2 + Vector((0, 0, 4.2))
+        def place_cam(dist_mul=1.0, orbit=0.0, truck=0.0, look_override=None, lift=0.0):  # noqa: F811
+            p = ch - fy * (4.2 * dist_mul) + side * 2.4 + Vector((0, 0, 5.2 + lift))
+            tgt_pos = pos.get(other_name, ch + fy * 5.0)
+            L = (look_override or (tgt_pos + Vector((0, 0, 4.2)))) + side * (0.8 * truck)
+            return p, L
+
+    elif typ == "pov" and len(names) > 0:
+        p_actor = pos[names[0]]
+        fy = fwd(yaw[names[0]])
+        def place_cam(dist_mul=1.0, orbit=0.0, truck=0.0, look_override=None, lift=0.0):  # noqa: F811
+            p = p_actor + Vector((0, 0, 4.3 + lift)) + fy * (0.6 * dist_mul)
+            other_name = names[1] if len(names) > 1 else (target if target in pos else None)
+            L = (look_override or (pos[other_name] + Vector((0, 0, 3.8)) if other_name else p + fy * 12.0))
             return p, L
 
     if isinstance(target, str) and target.startswith("cam_") and target in marks:
@@ -763,21 +772,28 @@ def shot_camera(shot, f0, frames, fps, idx, pos, yaw, order, dests, bodies=None,
         focus = marks.get("center") or marks.get("sidewalk_b")
         L0 = (Vector(focus["pos"]) + set_origin(set_name, order) if focus else set_origin(set_name, order)) + Vector((0, 0, 3))
 
-        def place_cam(dist_mul=1.0, orbit=0.0, truck=0.0, look_override=None):  # noqa: F811
-            return L0 + (p0 - L0) * dist_mul, L0
+        def place_cam(dist_mul=1.0, orbit=0.0, truck=0.0, look_override=None, lift=0.0):  # noqa: F811
+            return L0 + (p0 - L0) * dist_mul + Vector((0, 0, lift)), L0
 
     roll = math.radians(10) if ang == "dutch" else 0.0
-    if move == "push_in":
+    if move in ("push_in", "dolly_in"):
         keys = [(0, *place_cam(1.25)), (dur, *place_cam(0.97))]
-    elif move == "pull_out":
+    elif move in ("pull_out", "dolly_out"):
         keys = [(0, *place_cam(0.92)), (dur, *place_cam(1.3))]
-    elif move in ("pan_left", "pan_right"):
-        s = 1 if move == "pan_left" else -1
-        keys = [(0, *place_cam(1.0, truck=s * 1.5)), (dur, *place_cam(1.0, truck=-s * 1.5))]
+    elif move in ("pan_left", "truck_left"):
+        keys = [(0, *place_cam(1.0, truck=1.5)), (dur, *place_cam(1.0, truck=-1.5))]
+    elif move in ("pan_right", "truck_right"):
+        keys = [(0, *place_cam(1.0, truck=-1.5)), (dur, *place_cam(1.0, truck=1.5))]
+    elif move in ("tilt_up", "crane_up"):
+        keys = [(0, *place_cam(1.0, lift=-1.2)), (dur, *place_cam(1.0, lift=1.8))]
+    elif move in ("tilt_down", "crane_down"):
+        keys = [(0, *place_cam(1.0, lift=1.8)), (dur, *place_cam(1.0, lift=-1.2))]
     elif move in ("orbit_left", "orbit_right"):
         s = 1 if move == "orbit_left" else -1
         keys = [(0, *place_cam(1.05, orbit=-s * math.radians(16))), (dur, *place_cam(1.05, orbit=s * math.radians(16)))]
-    elif move == "track" and target in dests and dests[target] is not None:
+    elif move == "establishing_pan":
+        keys = [(0, *place_cam(1.0, truck=-2.5)), (dur, *place_cam(1.0, truck=2.5))]
+    elif move in ("track", "follow") and target in dests and dests[target] is not None:
         L1 = dests[target] + Vector((0, 0, lz))
         keys = [(0, *place_cam(1.0, look_override=look)), (dur, *place_cam(1.0, look_override=L1))]
     elif move == "whip_in":
@@ -791,7 +807,7 @@ def shot_camera(shot, f0, frames, fps, idx, pos, yaw, order, dests, bodies=None,
         k = FRAME_H["close_up"] / H
         keys = [(0, *place_cam(1.0)), (min(0.35, dur * 0.4), *place_cam(1.0)),
                 (min(0.5, dur * 0.55), *place_cam(k * 1.05, look_override=face)), (dur, *place_cam(k, look_override=face))]
-    else:   # static / shake: tiny drift so it never feels frozen
+    else:   # static / shake / handheld: tiny drift so it never feels frozen
         keys = [(0, *place_cam(1.03)), (dur, *place_cam(1.0))]
 
     cd = bpy.data.cameras.new(f"CAM_{shot['id']}")
@@ -823,14 +839,15 @@ def shot_camera(shot, f0, frames, fps, idx, pos, yaw, order, dests, bodies=None,
         cam.rotation_euler = e
         cam.keyframe_insert("location", frame=fr)
         cam.keyframe_insert("rotation_euler", frame=fr)
-        key_light_follow(p, L, fr, interior)
+        key_light_follow(p, L, fr, interior, mood)
         if cd.dof.use_dof:
             cd.dof.focus_distance = (L - p).length
             cd.dof.keyframe_insert("focus_distance", frame=fr)
-    # camera shake: whole shot (move=shake) or fx windows
+    # camera shake: whole shot (move=shake/handheld) or fx windows
     shakes = []
-    if move == "shake":
-        shakes.append((f0, f0 + frames - 1, 1.0))
+    if move in ("shake", "handheld"):
+        strength = 0.35 if move == "handheld" else 1.0
+        shakes.append((f0, f0 + frames - 1, strength))
     for fx in shot.get("fx", []):
         if fx.get("type") == "shake":
             a = f0 + int(round(fx.get("at", 0) * fps))
@@ -904,7 +921,30 @@ def build(episode_dir, save=True):
         f0, f1 = starts[idx], starts[idx + 1] - 1
         frames = f1 - f0 + 1
         st = shot["set"]
-        key_dressing(st, shot.get("dressing") or CATALOG["sets"][st]["dressings"][0], f0, world)
+        cin = cinematography.resolve_shot_cinematography(shot)
+        mood = cin["mood"]
+        key_dressing(st, shot.get("dressing") or CATALOG["sets"][st]["dressings"][0], f0, world, mood=mood)
+        cinematography.apply_color_grading(bpy, sc, mood)
+
+        # Procedural atmospheric, weather, and story VFX
+        vfx_list = cin["vfx"]
+        weather = cin["weather"]
+        bounds = ((order[st] * SET_SPACING - 30.0, -30.0, 0.0), (order[st] * SET_SPACING + 30.0, 30.0, 15.0))
+
+        if "fog" in vfx_list or "haze" in vfx_list:
+            cinematography.setup_volumetric_fog(bpy, sc, mood, bounds, f0, f1)
+
+        if weather in ("rain", "snow", "falling_leaves"):
+            cinematography.build_weather_system(bpy, sc, weather, bounds, f0, f1, fps, seed=idx * 101 + 17)
+
+        for v in vfx_list:
+            if v in ("portal", "sparks", "energy_burst", "smoke_puff"):
+                focus_pos = (order[st] * SET_SPACING, 0.0, 0.0)
+                if shot.get("cast"):
+                    c0 = shot["cast"][0]
+                    p, _ = mark_world(st, c0["mark"], order)
+                    focus_pos = (p.x + c0.get("dx", 0.0), p.y + c0.get("dy", 0.0), p.z)
+                cinematography.build_story_vfx(bpy, sc, v, focus_pos, f0, f1, fps)
 
         # hold everyone's last state one frame before the cut
         if f0 > 1:

@@ -1,0 +1,78 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|The camera dollies forward rapidly as Aiko points toward an anomaly across the square.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 5.088,
+ "words": [
+  [
+   "The",
+   0.116,
+   0.174
+  ],
+  [
+   "camera",
+   0.185,
+   0.567
+  ],
+  [
+   "dollies",
+   0.579,
+   0.961
+  ],
+  [
+   "forward",
+   0.972,
+   1.377
+  ],
+  [
+   "rapidly",
+   1.389,
+   1.944
+  ],
+  [
+   "as",
+   2.072,
+   2.257
+  ],
+  [
+   "Aiko",
+   2.268,
+   2.581
+  ],
+  [
+   "points",
+   2.593,
+   2.986
+  ],
+  [
+   "toward",
+   2.998,
+   3.229
+  ],
+  [
+   "an",
+   3.241,
+   3.31
+  ],
+  [
+   "anomaly",
+   3.322,
+   3.831
+  ],
+  [
+   "across",
+   3.843,
+   4.19
+  ],
+  [
+   "the",
+   4.201,
+   4.271
+  ],
+  [
+   "square",
+   4.282,
+   4.745
+  ]
+ ]
+}

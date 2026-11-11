@@ -1,0 +1,310 @@
+{
+  "episode": "phase_04_cinematics_showcase",
+  "format": "what_if",
+  "title": "Phase 04 Cinematics Showcase: Camera, Lighting & VFX Intelligence",
+  "hook_title": "ROBLOX CINEMATIC CAMERA, LIGHTING & VFX",
+  "fps": 30,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "narrator": "Theo",
+  "shots": [
+    {
+      "id": "sh01",
+      "set": "town_square",
+      "dressing": "sunset",
+      "lighting": {
+        "mood": "golden_hour"
+      },
+      "weather": "clear",
+      "vfx": [
+        "fog"
+      ],
+      "speaker": "narrator",
+      "text": "At golden hour, the town square plaza rests under an atmospheric amber sunset haze.",
+      "camera": {
+        "shot": "wide",
+        "angle": "eye",
+        "move": "pan_left",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "facing": "camera",
+          "pose": "relaxed",
+          "face": "neutral"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh02",
+      "set": "town_square",
+      "dressing": "sunset",
+      "lighting": {
+        "mood": "golden_hour"
+      },
+      "weather": "falling_leaves",
+      "speaker": "narrator",
+      "text": "Aiko strolls across the plaza as autumn leaves drift through the evening breeze.",
+      "camera": {
+        "shot": "medium",
+        "angle": "eye",
+        "move": "pan_right",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "plaza_left",
+          "facing": "right",
+          "pose": "relaxed",
+          "face": "smile",
+          "action": "walk_to",
+          "to": "center"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh03",
+      "set": "town_square",
+      "dressing": "sunset",
+      "lighting": {
+        "mood": "golden_hour"
+      },
+      "weather": "clear",
+      "speaker": "narrator",
+      "text": "Dev greets Aiko near the fountain, maintaining strict conversational eye lines across the axis.",
+      "camera": {
+        "shot": "two_shot",
+        "angle": "eye",
+        "move": "static",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "plaza_left",
+          "dx": 2.2,
+          "facing": "Dev",
+          "pose": "stand",
+          "action": "talk",
+          "face": "smile"
+        },
+        {
+          "name": "Dev",
+          "mark": "plaza_right",
+          "dx": -2.2,
+          "facing": "Aiko",
+          "pose": "stand",
+          "action": "gestures",
+          "face": "smirk"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh04",
+      "set": "town_square",
+      "dressing": "sunset",
+      "lighting": {
+        "mood": "golden_hour"
+      },
+      "speaker": "narrator",
+      "text": "Framed over Aiko's shoulder, shallow depth of field isolates Dev's expression.",
+      "camera": {
+        "shot": "over_shoulder",
+        "angle": "eye",
+        "move": "dolly_in",
+        "target": "Dev"
+      },
+      "cast": [
+        {
+          "name": "Dev",
+          "mark": "plaza_right",
+          "dx": -2.2,
+          "facing": "Aiko",
+          "pose": "stand",
+          "face": "smirk"
+        },
+        {
+          "name": "Aiko",
+          "mark": "plaza_left",
+          "dx": 2.2,
+          "facing": "Dev",
+          "pose": "stand",
+          "face": "smile"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh05",
+      "set": "town_square",
+      "dressing": "sunset",
+      "lighting": {
+        "mood": "golden_hour"
+      },
+      "speaker": "narrator",
+      "text": "Dev freezes in astonishment as three point key and rim lights illuminate his face.",
+      "camera": {
+        "shot": "close_up",
+        "angle": "eye",
+        "move": "push_in",
+        "target": "Dev"
+      },
+      "cast": [
+        {
+          "name": "Dev",
+          "mark": "center",
+          "dx": 0.5,
+          "facing": "camera",
+          "pose": "stand",
+          "face": "shocked"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh06",
+      "set": "town_square",
+      "dressing": "sunset",
+      "lighting": {
+        "mood": "sunset"
+      },
+      "speaker": "narrator",
+      "text": "A heroic low angle view showcases Aiko standing proud against the dramatic twilight sky.",
+      "camera": {
+        "shot": "full_body",
+        "angle": "low",
+        "move": "tilt_up",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "facing": "camera",
+          "pose": "hands_hips",
+          "face": "confident"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh07",
+      "set": "town_square",
+      "dressing": "sunset",
+      "lighting": {
+        "mood": "golden_hour"
+      },
+      "speaker": "narrator",
+      "text": "The camera dollies forward rapidly as Aiko points toward an anomaly across the square.",
+      "camera": {
+        "shot": "medium",
+        "angle": "eye",
+        "move": "dolly_in",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "center",
+          "facing": "portal_spot",
+          "pose": "point",
+          "face": "neutral"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh08",
+      "set": "town_square",
+      "dressing": "night",
+      "lighting": {
+        "mood": "moonlit_night"
+      },
+      "weather": "rain",
+      "speaker": "narrator",
+      "text": "Night falls as torrential rain pours down under the pale moonlit sky.",
+      "camera": {
+        "shot": "full_body",
+        "angle": "eye",
+        "move": "dolly_in",
+        "target": "Dev"
+      },
+      "cast": [
+        {
+          "name": "Dev",
+          "mark": "center",
+          "facing": "camera",
+          "pose": "scared",
+          "action": "shiver",
+          "face": "sad"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh09",
+      "set": "town_square",
+      "dressing": "night",
+      "lighting": {
+        "mood": "fantasy_magical"
+      },
+      "vfx": [
+        "portal",
+        "sparks"
+      ],
+      "speaker": "narrator",
+      "text": "A mystical cosmic portal swirls into existence, radiating violet light and glowing sparks.",
+      "camera": {
+        "shot": "medium",
+        "angle": "eye",
+        "move": "orbit_left",
+        "target": "Aiko"
+      },
+      "cast": [
+        {
+          "name": "Aiko",
+          "mark": "portal_spot",
+          "facing": "camera",
+          "pose": "stand",
+          "face": "shocked"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh10",
+      "set": "town_square",
+      "dressing": "night",
+      "lighting": {
+        "mood": "horror"
+      },
+      "speaker": "narrator",
+      "text": "An ominous sickly green presence looms with a disorienting Dutch tilt and tense handheld camera drift.",
+      "camera": {
+        "shot": "close_up",
+        "angle": "dutch",
+        "move": "handheld",
+        "target": "Dev"
+      },
+      "cast": [
+        {
+          "name": "Dev",
+          "mark": "portal_spot",
+          "dx": -1.5,
+          "facing": "camera",
+          "pose": "scared",
+          "face": "worried"
+        }
+      ],
+      "transition": "cut"
+    }
+  ]
+}

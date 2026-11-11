@@ -1,0 +1,63 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Framed over Aiko's shoulder, shallow depth of field isolates Dev's expression.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 5.016,
+ "words": [
+  [
+   "Framed",
+   0.15,
+   0.475
+  ],
+  [
+   "over",
+   0.486,
+   0.775
+  ],
+  [
+   "Aiko's",
+   0.787,
+   1.146
+  ],
+  [
+   "shoulder",
+   1.157,
+   1.609
+  ],
+  [
+   "shallow",
+   1.944,
+   2.28
+  ],
+  [
+   "depth",
+   2.292,
+   2.627
+  ],
+  [
+   "of",
+   2.639,
+   2.72
+  ],
+  [
+   "field",
+   2.732,
+   3.148
+  ],
+  [
+   "isolates",
+   3.264,
+   3.854
+  ],
+  [
+   "Dev's",
+   3.866,
+   4.132
+  ],
+  [
+   "expression",
+   4.144,
+   4.664
+  ]
+ ]
+}

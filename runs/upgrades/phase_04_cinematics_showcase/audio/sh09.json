@@ -1,0 +1,73 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|A mystical cosmic portal swirls into existence, radiating violet light and glowing sparks.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 6.216,
+ "words": [
+  [
+   "A",
+   0.081,
+   0.116
+  ],
+  [
+   "mystical",
+   0.127,
+   0.59
+  ],
+  [
+   "cosmic",
+   0.602,
+   1.123
+  ],
+  [
+   "portal",
+   1.134,
+   1.493
+  ],
+  [
+   "swirls",
+   1.505,
+   2.025
+  ],
+  [
+   "into",
+   2.037,
+   2.338
+  ],
+  [
+   "existence",
+   2.35,
+   3.021
+  ],
+  [
+   "radiating",
+   3.31,
+   3.843
+  ],
+  [
+   "violet",
+   3.854,
+   4.306
+  ],
+  [
+   "light",
+   4.317,
+   4.606
+  ],
+  [
+   "and",
+   4.826,
+   4.907
+  ],
+  [
+   "glowing",
+   4.919,
+   5.278
+  ],
+  [
+   "sparks",
+   5.289,
+   5.88
+  ]
+ ]
+}

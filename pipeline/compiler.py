@@ -327,6 +327,12 @@ def compile_storyboard(sb_data, base_shots_data=None):
             shot_out["fx"] = list(sb["fx"])
         if sb.get("sfx"):
             shot_out["sfx"] = list(sb["sfx"])
+        if sb.get("lighting"):
+            shot_out["lighting"] = sb["lighting"]
+        if sb.get("weather"):
+            shot_out["weather"] = sb["weather"]
+        if sb.get("vfx"):
+            shot_out["vfx"] = list(sb["vfx"]) if isinstance(sb["vfx"], (list, tuple)) else [sb["vfx"]]
 
         # Validate emphasis words against text
         low_words = set(re.sub(r"[^\w' ]", "", text.lower()).split())

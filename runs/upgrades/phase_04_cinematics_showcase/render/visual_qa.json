@@ -1,0 +1,1168 @@
+{
+  "episode": "phase_04_cinematics_showcase",
+  "qa_methodology": "rule_based_validation_and_3d_motion_telemetry (not AI vision inspection)",
+  "motion_sheet_image": "render\\motion_sheet.png",
+  "summary": {
+    "total_shots": 10,
+    "motion_sampled_shots": 10,
+    "static_errors": 0,
+    "static_warnings": 0,
+    "motion_warnings": 0
+  },
+  "shots": [
+    {
+      "shot_id": "sh01",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 2,
+          "mid": 79,
+          "end": 156
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 2.133,
+          "mid_to_end": 2.4,
+          "start_to_end": 0.362
+        },
+        "camera_moved_studs": 2.999,
+        "camera_movement": {
+          "translation_studs": 2.999,
+          "rotation_delta_deg": 0.0,
+          "move_type": "pan_left",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 23.93,
+              "mid_to_end": 22.34,
+              "start_to_end": 1.73,
+              "max_delta_deg": 23.93
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "neutral",
+              "mid": "neutral",
+              "end": "neutral"
+            },
+            "configured_faces": [
+              "neutral"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {},
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "sh02",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 159,
+          "mid": 225,
+          "end": 291
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 33.569,
+          "mid_to_end": 19.679,
+          "start_to_end": 40.762
+        },
+        "camera_moved_studs": 2.999,
+        "camera_movement": {
+          "translation_studs": 2.999,
+          "rotation_delta_deg": 0.0,
+          "move_type": "pan_right",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 4.2
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 4.2,
+            "mid_to_end": 0.0,
+            "start_to_end": 4.2,
+            "max_displacement": 4.2
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "relaxed"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 1.74,
+              "mid_to_end": 0.0,
+              "start_to_end": 1.74,
+              "max_delta_deg": 1.74
+            },
+            "changed": false
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "walk_to"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {},
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "sh03",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 294,
+          "mid": 384,
+          "end": 474
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 6.913,
+          "mid_to_end": 5.768,
+          "start_to_end": 9.311
+        },
+        "camera_moved_studs": 0.416,
+        "camera_movement": {
+          "translation_studs": 0.416,
+          "rotation_delta_deg": 0.0,
+          "move_type": "static",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0,
+          "Dev": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Dev": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 153.18,
+              "mid_to_end": 26.64,
+              "start_to_end": 135.62,
+              "max_delta_deg": 153.18
+            },
+            "changed": true
+          },
+          "Dev": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 55.59,
+              "mid_to_end": 40.15,
+              "start_to_end": 48.08,
+              "max_delta_deg": 55.59
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "talk"
+            }
+          ],
+          "Dev": [
+            {
+              "at": 0.0,
+              "action": "gestures"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "talk",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": true
+          },
+          "Dev": {
+            "sampled_faces": {
+              "start": "smirk",
+              "mid": "smirk",
+              "end": "smirk"
+            },
+            "configured_faces": [
+              "smirk"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Dev": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Dev": {
+            "mid_distance_studs": 3.956,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "sh04",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 477,
+          "mid": 550,
+          "end": 623
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 10.999,
+          "mid_to_end": 10.412,
+          "start_to_end": 18.037
+        },
+        "camera_moved_studs": 1.176,
+        "camera_movement": {
+          "translation_studs": 1.176,
+          "rotation_delta_deg": 1.34,
+          "move_type": "dolly_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Dev": 0.0,
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Dev": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          },
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Dev": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 24.99,
+              "mid_to_end": 1.33,
+              "start_to_end": 24.06,
+              "max_delta_deg": 24.99
+            },
+            "changed": true
+          },
+          "Aiko": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 20.56,
+              "mid_to_end": 7.03,
+              "start_to_end": 21.51,
+              "max_delta_deg": 21.51
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Dev": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ],
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Dev": {
+            "sampled_faces": {
+              "start": "smirk",
+              "mid": "smirk",
+              "end": "smirk"
+            },
+            "configured_faces": [
+              "smirk"
+            ],
+            "changed": false
+          },
+          "Aiko": {
+            "sampled_faces": {
+              "start": "smile",
+              "mid": "smile",
+              "end": "smile"
+            },
+            "configured_faces": [
+              "smile"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Dev": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            },
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {
+          "Aiko_to_Dev": {
+            "mid_distance_studs": 3.956,
+            "within_interaction_range": true
+          }
+        },
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "sh05",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 626,
+          "mid": 705,
+          "end": 784
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 19.198,
+          "mid_to_end": 22.987,
+          "start_to_end": 27.949
+        },
+        "camera_moved_studs": 0.845,
+        "camera_movement": {
+          "translation_studs": 0.845,
+          "rotation_delta_deg": 0.0,
+          "move_type": "push_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Dev": 0.0
+        },
+        "root_displacement_studs": {
+          "Dev": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Dev": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 24.13,
+              "mid_to_end": 19.03,
+              "start_to_end": 5.32,
+              "max_delta_deg": 24.13
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Dev": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Dev": {
+            "sampled_faces": {
+              "start": "shocked",
+              "mid": "shocked",
+              "end": "shocked"
+            },
+            "configured_faces": [
+              "shocked"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Dev": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {},
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "sh06",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 787,
+          "mid": 870,
+          "end": 953
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 20.055,
+          "mid_to_end": 18.341,
+          "start_to_end": 26.89
+        },
+        "camera_moved_studs": 1.5,
+        "camera_movement": {
+          "translation_studs": 1.5,
+          "rotation_delta_deg": 8.48,
+          "move_type": "tilt_up",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "hands_hips"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 14.29,
+              "mid_to_end": 19.05,
+              "start_to_end": 7.4,
+              "max_delta_deg": 19.05
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "confident",
+              "mid": "confident",
+              "end": "confident"
+            },
+            "configured_faces": [
+              "confident"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {},
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "sh07",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 956,
+          "mid": 1031,
+          "end": 1105
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 20.559,
+          "mid_to_end": 20.686,
+          "start_to_end": 30.269
+        },
+        "camera_moved_studs": 1.8,
+        "camera_movement": {
+          "translation_studs": 1.8,
+          "rotation_delta_deg": 0.0,
+          "move_type": "dolly_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "point"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 19.27,
+              "mid_to_end": 4.57,
+              "start_to_end": 19.32,
+              "max_delta_deg": 19.32
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "neutral",
+              "mid": "neutral",
+              "end": "neutral"
+            },
+            "configured_faces": [
+              "neutral"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {},
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "sh08",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1108,
+          "mid": 1170,
+          "end": 1231
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 9.556,
+          "mid_to_end": 10.608,
+          "start_to_end": 15.705
+        },
+        "camera_moved_studs": 2.726,
+        "camera_movement": {
+          "translation_studs": 2.726,
+          "rotation_delta_deg": 0.0,
+          "move_type": "dolly_in",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Dev": 0.0
+        },
+        "root_displacement_studs": {
+          "Dev": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Dev": {
+            "configured_poses": [
+              "scared"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 17.13,
+              "mid_to_end": 23.63,
+              "start_to_end": 22.28,
+              "max_delta_deg": 23.63
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Dev": [
+            {
+              "at": 0.0,
+              "action": "shiver"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Dev": {
+            "sampled_faces": {
+              "start": "sad",
+              "mid": "sad",
+              "end": "sad"
+            },
+            "configured_faces": [
+              "sad"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Dev": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {},
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "sh09",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1234,
+          "mid": 1326,
+          "end": 1417
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 22.121,
+          "mid_to_end": 25.303,
+          "start_to_end": 28.42
+        },
+        "camera_moved_studs": 3.714,
+        "camera_movement": {
+          "translation_studs": 3.714,
+          "rotation_delta_deg": 32.0,
+          "move_type": "orbit_left",
+          "animated": true
+        },
+        "character_displacement_studs": {
+          "Aiko": 0.0
+        },
+        "root_displacement_studs": {
+          "Aiko": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Aiko": {
+            "configured_poses": [
+              "stand"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 5.72,
+              "mid_to_end": 15.5,
+              "start_to_end": 20.94,
+              "max_delta_deg": 20.94
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Aiko": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Aiko": {
+            "sampled_faces": {
+              "start": "shocked",
+              "mid": "shocked",
+              "end": "shocked"
+            },
+            "configured_faces": [
+              "shocked"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Aiko": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {},
+        "animation_summary": {
+          "camera_animated": true,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    },
+    {
+      "shot_id": "sh10",
+      "static_validation": {
+        "errors": [],
+        "warnings": []
+      },
+      "motion_sampling": {
+        "sampled": true,
+        "frames": {
+          "start": 1420,
+          "mid": 1513,
+          "end": 1606
+        },
+        "pixel_diff_mad": {
+          "start_to_mid": 7.388,
+          "mid_to_end": 12.335,
+          "start_to_end": 11.82
+        },
+        "camera_moved_studs": 0.128,
+        "camera_movement": {
+          "translation_studs": 0.128,
+          "rotation_delta_deg": 0.1,
+          "move_type": "handheld",
+          "animated": false
+        },
+        "character_displacement_studs": {
+          "Dev": 0.0
+        },
+        "root_displacement_studs": {
+          "Dev": {
+            "start_to_mid": 0.0,
+            "mid_to_end": 0.0,
+            "start_to_end": 0.0,
+            "max_displacement": 0.0
+          }
+        },
+        "pose_changes": {
+          "Dev": {
+            "configured_poses": [
+              "scared"
+            ],
+            "bone_rotation_delta_deg": {
+              "start_to_mid": 3.53,
+              "mid_to_end": 19.8,
+              "start_to_end": 19.39,
+              "max_delta_deg": 19.8
+            },
+            "changed": true
+          }
+        },
+        "action_state_transitions": {
+          "Dev": [
+            {
+              "at": 0.0,
+              "action": "idle"
+            }
+          ]
+        },
+        "facial_expression_changes": {
+          "Dev": {
+            "sampled_faces": {
+              "start": "worried",
+              "mid": "worried",
+              "end": "worried"
+            },
+            "configured_faces": [
+              "worried"
+            ],
+            "changed": false
+          }
+        },
+        "prop_state_changes": {
+          "hand_props": {
+            "Dev": {
+              "configured_sequence": [
+                []
+              ],
+              "sampled_visible": {
+                "start": [],
+                "mid": [],
+                "end": []
+              },
+              "changed": false
+            }
+          },
+          "world_placed_props": {
+            "configured": [],
+            "sampled_visible_counts": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            },
+            "changed": false
+          }
+        },
+        "character_interactions": {},
+        "animation_summary": {
+          "camera_animated": false,
+          "character_animated": true,
+          "camera_only_motion": false
+        }
+      },
+      "warnings": [],
+      "suggested_corrections": []
+    }
+  ]
+}

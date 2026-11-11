@@ -1,0 +1,3342 @@
+[
+  {
+    "id": "sh01",
+    "start_frame": 1,
+    "end_frame": 157,
+    "samples": {
+      "start": {
+        "frame": 2,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh01_start.png",
+        "telemetry": {
+          "camera_loc": [
+            4.009,
+            -13.601,
+            4.825
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            10.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -0.018,
+                0.507,
+                5.549
+              ],
+              "hand_r": [
+                -1.569,
+                0.007,
+                2.336
+              ],
+              "hand_l": [
+                1.581,
+                0.984,
+                2.38
+              ],
+              "foot_r": [
+                -0.481,
+                0.363,
+                0.45
+              ],
+              "foot_l": [
+                0.481,
+                0.637,
+                0.45
+              ],
+              "heading_deg": 15.87,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -1.19,
+                  0.0,
+                  0.79
+                ],
+                "head": [
+                  2.51,
+                  2.56,
+                  -1.19
+                ],
+                "upper_arm.L": [
+                  1.49,
+                  0.0,
+                  -5.69
+                ],
+                "upper_arm.R": [
+                  -1.49,
+                  0.0,
+                  5.69
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 8,
+              "face_name": "neutral"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 79,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh01_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            2.532,
+            -13.862,
+            4.825
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            10.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.028,
+                0.461,
+                5.549
+              ],
+              "hand_r": [
+                -1.543,
+                0.105,
+                2.374
+              ],
+              "hand_l": [
+                1.533,
+                0.904,
+                2.332
+              ],
+              "foot_r": [
+                -0.481,
+                0.363,
+                0.45
+              ],
+              "foot_l": [
+                0.481,
+                0.637,
+                0.45
+              ],
+              "heading_deg": 15.87,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  1.1,
+                  0.0,
+                  -0.74
+                ],
+                "head": [
+                  -0.57,
+                  -1.86,
+                  1.1
+                ],
+                "upper_arm.L": [
+                  -1.38,
+                  0.0,
+                  -3.4
+                ],
+                "upper_arm.R": [
+                  1.38,
+                  0.0,
+                  3.4
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 8,
+              "face_name": "neutral"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 156,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh01_end.png",
+        "telemetry": {
+          "camera_loc": [
+            1.056,
+            -14.122,
+            4.825
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            10.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -0.028,
+                0.538,
+                5.549
+              ],
+              "hand_r": [
+                -1.57,
+                0.007,
+                2.336
+              ],
+              "hand_l": [
+                1.581,
+                0.984,
+                2.38
+              ],
+              "foot_r": [
+                -0.481,
+                0.363,
+                0.45
+              ],
+              "foot_l": [
+                0.481,
+                0.637,
+                0.45
+              ],
+              "heading_deg": 15.87,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -1.2,
+                  0.0,
+                  0.8
+                ],
+                "head": [
+                  0.85,
+                  2.56,
+                  -1.2
+                ],
+                "upper_arm.L": [
+                  1.5,
+                  0.0,
+                  -5.7
+                ],
+                "upper_arm.R": [
+                  -1.5,
+                  0.0,
+                  5.7
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 8,
+              "face_name": "neutral"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "sh02",
+    "start_frame": 158,
+    "end_frame": 292,
+    "samples": {
+      "start": {
+        "frame": 159,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh02_start.png",
+        "telemetry": {
+          "camera_loc": [
+            -4.742,
+            -6.067,
+            4.135
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            8.43
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -4.2,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -4.153,
+                0.5,
+                5.559
+              ],
+              "hand_r": [
+                -4.206,
+                -1.079,
+                2.361
+              ],
+              "hand_l": [
+                -4.206,
+                2.079,
+                2.361
+              ],
+              "foot_r": [
+                -4.2,
+                0.0,
+                0.459
+              ],
+              "foot_l": [
+                -4.2,
+                1.0,
+                0.459
+              ],
+              "heading_deg": 90.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  1.16,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  -0.58,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 225,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh02_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            -3.259,
+            -5.847,
+            4.135
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            8.43
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.0,
+                0.5,
+                5.55
+              ],
+              "hand_r": [
+                0.0,
+                -1.079,
+                2.352
+              ],
+              "hand_l": [
+                0.0,
+                2.079,
+                2.352
+              ],
+              "foot_r": [
+                0.0,
+                0.0,
+                0.45
+              ],
+              "foot_l": [
+                0.0,
+                1.0,
+                0.45
+              ],
+              "heading_deg": 90.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 291,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh02_end.png",
+        "telemetry": {
+          "camera_loc": [
+            -1.775,
+            -5.627,
+            4.135
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            8.43
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.0,
+                0.5,
+                5.55
+              ],
+              "hand_r": [
+                0.0,
+                -1.079,
+                2.352
+              ],
+              "hand_l": [
+                0.0,
+                2.079,
+                2.352
+              ],
+              "foot_r": [
+                0.0,
+                0.0,
+                0.45
+              ],
+              "foot_l": [
+                0.0,
+                1.0,
+                0.45
+              ],
+              "heading_deg": 90.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "head": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_arm.L": [
+                  0.0,
+                  0.0,
+                  -3.0
+                ],
+                "upper_arm.R": [
+                  0.0,
+                  0.0,
+                  3.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "sh03",
+    "start_frame": 293,
+    "end_frame": 475,
+    "samples": {
+      "start": {
+        "frame": 294,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh03_start.png",
+        "telemetry": {
+          "camera_loc": [
+            5.703,
+            -12.55,
+            4.705
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            23.61
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -2.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -2.06,
+                0.634,
+                5.544
+              ],
+              "hand_r": [
+                -2.937,
+                -0.803,
+                2.355
+              ],
+              "hand_l": [
+                0.045,
+                1.123,
+                3.109
+              ],
+              "foot_r": [
+                -2.261,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -1.739,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -1.65,
+                  -5.85,
+                  0.0
+                ],
+                "head": [
+                  -2.38,
+                  4.11,
+                  -3.84
+                ],
+                "upper_arm.L": [
+                  -57.2,
+                  0.0,
+                  -16.9
+                ],
+                "upper_arm.R": [
+                  -1.42,
+                  0.0,
+                  4.0
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Dev": {
+              "root": [
+                1.956,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.854,
+                0.336,
+                5.644
+              ],
+              "hand_r": [
+                -0.111,
+                1.507,
+                3.147
+              ],
+              "hand_l": [
+                2.475,
+                -1.209,
+                2.442
+              ],
+              "foot_r": [
+                1.69,
+                0.935,
+                0.452
+              ],
+              "foot_l": [
+                2.222,
+                0.065,
+                0.452
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  2.08,
+                  -2.4,
+                  0.0
+                ],
+                "head": [
+                  3.16,
+                  -2.75,
+                  -4.94
+                ],
+                "upper_arm.L": [
+                  -14.63,
+                  0.0,
+                  -8.38
+                ],
+                "upper_arm.R": [
+                  -58.14,
+                  0.0,
+                  26.07
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 11,
+              "face_name": "smirk"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Dev": 3.956
+          },
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 384,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh03_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            5.62,
+            -12.36,
+            4.692
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            23.61
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -2.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -2.035,
+                0.458,
+                5.547
+              ],
+              "hand_r": [
+                -1.818,
+                -1.615,
+                3.06
+              ],
+              "hand_l": [
+                -1.071,
+                1.815,
+                2.363
+              ],
+              "foot_r": [
+                -2.261,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -1.739,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -1.51,
+                  1.28,
+                  0.0
+                ],
+                "head": [
+                  3.49,
+                  1.66,
+                  2.9
+                ],
+                "upper_arm.L": [
+                  -5.1,
+                  0.0,
+                  -4.0
+                ],
+                "upper_arm.R": [
+                  -55.23,
+                  0.0,
+                  16.04
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 10,
+              "face_name": "talk"
+            },
+            "Dev": {
+              "root": [
+                1.956,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.978,
+                0.585,
+                5.651
+              ],
+              "hand_r": [
+                0.143,
+                1.725,
+                2.86
+              ],
+              "hand_l": [
+                2.679,
+                -0.971,
+                2.399
+              ],
+              "foot_r": [
+                1.69,
+                0.935,
+                0.452
+              ],
+              "foot_l": [
+                2.222,
+                0.065,
+                0.452
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -1.94,
+                  -2.01,
+                  0.0
+                ],
+                "head": [
+                  2.02,
+                  -6.07,
+                  3.0
+                ],
+                "upper_arm.L": [
+                  -3.17,
+                  0.0,
+                  -4.0
+                ],
+                "upper_arm.R": [
+                  -39.86,
+                  0.0,
+                  21.41
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 11,
+              "face_name": "smirk"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Dev": 3.956
+          },
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 474,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh03_end.png",
+        "telemetry": {
+          "camera_loc": [
+            5.537,
+            -12.17,
+            4.68
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            23.61
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -2.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.884,
+                0.424,
+                5.543
+              ],
+              "hand_r": [
+                -2.045,
+                -1.534,
+                2.826
+              ],
+              "hand_l": [
+                -0.973,
+                1.744,
+                2.362
+              ],
+              "foot_r": [
+                -2.261,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -1.739,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.45,
+                  -1.92,
+                  0.0
+                ],
+                "head": [
+                  6.07,
+                  3.66,
+                  0.37
+                ],
+                "upper_arm.L": [
+                  -6.69,
+                  0.0,
+                  -4.0
+                ],
+                "upper_arm.R": [
+                  -46.12,
+                  0.0,
+                  12.37
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Dev": {
+              "root": [
+                1.956,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.942,
+                0.531,
+                5.652
+              ],
+              "hand_r": [
+                -0.146,
+                1.216,
+                3.173
+              ],
+              "hand_l": [
+                2.838,
+                -0.879,
+                2.394
+              ],
+              "foot_r": [
+                1.69,
+                0.935,
+                0.452
+              ],
+              "foot_l": [
+                2.222,
+                0.065,
+                0.452
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  1.18,
+                  2.62,
+                  0.0
+                ],
+                "head": [
+                  -3.41,
+                  -4.65,
+                  1.99
+                ],
+                "upper_arm.L": [
+                  -1.86,
+                  0.0,
+                  -4.0
+                ],
+                "upper_arm.R": [
+                  -60.24,
+                  0.0,
+                  18.56
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 11,
+              "face_name": "smirk"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Dev": 3.956
+          },
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "sh04",
+    "start_frame": 476,
+    "end_frame": 624,
+    "samples": {
+      "start": {
+        "frame": 477,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh04_start.png",
+        "telemetry": {
+          "camera_loc": [
+            5.222,
+            5.289,
+            5.55
+          ],
+          "camera_rot_deg": [
+            83.42,
+            0.0,
+            123.55
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -2.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -2.041,
+                0.503,
+                5.549
+              ],
+              "hand_r": [
+                -2.784,
+                -0.848,
+                2.331
+              ],
+              "hand_l": [
+                -1.209,
+                1.854,
+                2.373
+              ],
+              "foot_r": [
+                -2.261,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -1.739,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -1.19,
+                  0.0,
+                  0.79
+                ],
+                "head": [
+                  1.2,
+                  -3.75,
+                  -1.19
+                ],
+                "upper_arm.L": [
+                  1.49,
+                  0.0,
+                  -2.42
+                ],
+                "upper_arm.R": [
+                  -1.15,
+                  0.0,
+                  2.42
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Dev": {
+              "root": [
+                1.956,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.954,
+                0.519,
+                5.653
+              ],
+              "hand_r": [
+                1.093,
+                1.837,
+                2.37
+              ],
+              "hand_l": [
+                2.82,
+                -0.846,
+                2.413
+              ],
+              "foot_r": [
+                1.69,
+                0.935,
+                0.452
+              ],
+              "foot_l": [
+                2.222,
+                0.065,
+                0.452
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -1.19,
+                  0.0,
+                  0.79
+                ],
+                "head": [
+                  2.72,
+                  -0.06,
+                  -1.19
+                ],
+                "upper_arm.L": [
+                  1.49,
+                  0.0,
+                  -2.42
+                ],
+                "upper_arm.R": [
+                  -1.15,
+                  0.0,
+                  2.42
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 11,
+              "face_name": "smirk"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Dev": 3.956
+          },
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 550,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh04_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            4.721,
+            4.982,
+            5.55
+          ],
+          "camera_rot_deg": [
+            82.91,
+            0.0,
+            123.71
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -2.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.942,
+                0.485,
+                5.549
+              ],
+              "hand_r": [
+                -2.829,
+                -0.766,
+                2.372
+              ],
+              "hand_l": [
+                -1.186,
+                1.765,
+                2.329
+              ],
+              "foot_r": [
+                -2.261,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -1.739,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  1.19,
+                  0.0,
+                  -0.79
+                ],
+                "head": [
+                  -0.14,
+                  -0.71,
+                  1.19
+                ],
+                "upper_arm.L": [
+                  -1.49,
+                  0.0,
+                  -0.31
+                ],
+                "upper_arm.R": [
+                  1.49,
+                  0.0,
+                  0.31
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Dev": {
+              "root": [
+                1.956,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.956,
+                0.475,
+                5.653
+              ],
+              "hand_r": [
+                1.189,
+                1.839,
+                2.413
+              ],
+              "hand_l": [
+                2.729,
+                -0.825,
+                2.369
+              ],
+              "foot_r": [
+                1.69,
+                0.935,
+                0.452
+              ],
+              "foot_l": [
+                2.222,
+                0.065,
+                0.452
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  1.19,
+                  0.0,
+                  -0.79
+                ],
+                "head": [
+                  -2.47,
+                  -3.68,
+                  1.19
+                ],
+                "upper_arm.L": [
+                  -1.49,
+                  0.0,
+                  -0.31
+                ],
+                "upper_arm.R": [
+                  1.49,
+                  0.0,
+                  0.31
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 11,
+              "face_name": "smirk"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Dev": 3.956
+          },
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 623,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh04_end.png",
+        "telemetry": {
+          "camera_loc": [
+            4.22,
+            4.675,
+            5.55
+          ],
+          "camera_rot_deg": [
+            82.4,
+            0.0,
+            123.87
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                -2.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -1.985,
+                0.517,
+                5.549
+              ],
+              "hand_r": [
+                -2.829,
+                -0.765,
+                2.373
+              ],
+              "hand_l": [
+                -1.186,
+                1.765,
+                2.329
+              ],
+              "foot_r": [
+                -2.261,
+                0.074,
+                0.45
+              ],
+              "foot_l": [
+                -1.739,
+                0.926,
+                0.45
+              ],
+              "heading_deg": 58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  1.2,
+                  0.0,
+                  -0.8
+                ],
+                "head": [
+                  -2.94,
+                  -4.87,
+                  1.2
+                ],
+                "upper_arm.L": [
+                  -1.5,
+                  0.0,
+                  -0.3
+                ],
+                "upper_arm.R": [
+                  1.5,
+                  0.0,
+                  0.3
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 0,
+              "face_name": "smile"
+            },
+            "Dev": {
+              "root": [
+                1.956,
+                0.5,
+                0.35
+              ],
+              "head": [
+                1.936,
+                0.465,
+                5.653
+              ],
+              "hand_r": [
+                1.19,
+                1.839,
+                2.413
+              ],
+              "hand_l": [
+                2.729,
+                -0.825,
+                2.368
+              ],
+              "foot_r": [
+                1.69,
+                0.935,
+                0.452
+              ],
+              "foot_l": [
+                2.222,
+                0.065,
+                0.452
+              ],
+              "heading_deg": -58.5,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  1.2,
+                  0.0,
+                  -0.8
+                ],
+                "head": [
+                  -1.34,
+                  -3.81,
+                  1.2
+                ],
+                "upper_arm.L": [
+                  -1.5,
+                  0.0,
+                  -0.3
+                ],
+                "upper_arm.R": [
+                  1.5,
+                  0.0,
+                  0.3
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 11,
+              "face_name": "smirk"
+            }
+          },
+          "character_distances": {
+            "Aiko_to_Dev": 3.956
+          },
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "sh05",
+    "start_frame": 625,
+    "end_frame": 785,
+    "samples": {
+      "start": {
+        "frame": 626,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh05_start.png",
+        "telemetry": {
+          "camera_loc": [
+            1.154,
+            -3.21,
+            5.026
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            10.0
+          ],
+          "characters": {
+            "Dev": {
+              "root": [
+                0.51,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.493,
+                0.502,
+                5.653
+              ],
+              "hand_r": [
+                -1.055,
+                0.177,
+                2.371
+              ],
+              "hand_l": [
+                2.086,
+                0.812,
+                2.414
+              ],
+              "foot_r": [
+                0.008,
+                0.411,
+                0.452
+              ],
+              "foot_l": [
+                1.012,
+                0.589,
+                0.452
+              ],
+              "heading_deg": 10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -1.19,
+                  0.0,
+                  0.79
+                ],
+                "head": [
+                  2.86,
+                  0.96,
+                  -1.19
+                ],
+                "upper_arm.L": [
+                  1.49,
+                  0.0,
+                  -2.69
+                ],
+                "upper_arm.R": [
+                  -1.49,
+                  0.0,
+                  2.69
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 3,
+              "face_name": "shocked"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 705,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh05_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            1.081,
+            -2.795,
+            5.001
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            10.0
+          ],
+          "characters": {
+            "Dev": {
+              "root": [
+                0.51,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.527,
+                0.499,
+                5.653
+              ],
+              "hand_r": [
+                -1.021,
+                0.267,
+                2.408
+              ],
+              "hand_l": [
+                2.032,
+                0.741,
+                2.373
+              ],
+              "foot_r": [
+                0.008,
+                0.411,
+                0.452
+              ],
+              "foot_l": [
+                1.012,
+                0.589,
+                0.452
+              ],
+              "heading_deg": 10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  0.95,
+                  0.0,
+                  -0.63
+                ],
+                "head": [
+                  -2.3,
+                  -2.67,
+                  0.95
+                ],
+                "upper_arm.L": [
+                  -1.19,
+                  0.0,
+                  -0.55
+                ],
+                "upper_arm.R": [
+                  1.19,
+                  0.0,
+                  0.55
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 3,
+              "face_name": "shocked"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 784,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh05_end.png",
+        "telemetry": {
+          "camera_loc": [
+            1.008,
+            -2.379,
+            4.975
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            10.0
+          ],
+          "characters": {
+            "Dev": {
+              "root": [
+                0.51,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.485,
+                0.533,
+                5.653
+              ],
+              "hand_r": [
+                -1.055,
+                0.177,
+                2.371
+              ],
+              "hand_l": [
+                2.086,
+                0.812,
+                2.414
+              ],
+              "foot_r": [
+                0.008,
+                0.411,
+                0.452
+              ],
+              "foot_l": [
+                1.012,
+                0.589,
+                0.452
+              ],
+              "heading_deg": 10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -1.2,
+                  0.0,
+                  0.8
+                ],
+                "head": [
+                  1.28,
+                  -2.71,
+                  -1.2
+                ],
+                "upper_arm.L": [
+                  1.5,
+                  0.0,
+                  -2.7
+                ],
+                "upper_arm.R": [
+                  -1.5,
+                  0.0,
+                  2.7
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 3,
+              "face_name": "shocked"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "sh06",
+    "start_frame": 786,
+    "end_frame": 954,
+    "samples": {
+      "start": {
+        "frame": 787,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh06_start.png",
+        "telemetry": {
+          "camera_loc": [
+            -1.688,
+            -9.075,
+            1.45
+          ],
+          "camera_rot_deg": [
+            105.52,
+            -0.0,
+            -10.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.039,
+                0.827,
+                5.53
+              ],
+              "hand_r": [
+                -2.168,
+                1.162,
+                2.527
+              ],
+              "hand_l": [
+                2.271,
+                0.448,
+                2.595
+              ],
+              "foot_r": [
+                -0.492,
+                0.587,
+                0.45
+              ],
+              "foot_l": [
+                0.492,
+                0.413,
+                0.45
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -5.19,
+                  0.0,
+                  0.79
+                ],
+                "head": [
+                  -3.49,
+                  0.91,
+                  -1.19
+                ],
+                "upper_arm.L": [
+                  13.49,
+                  0.0,
+                  -30.69
+                ],
+                "upper_arm.R": [
+                  10.85,
+                  0.0,
+                  30.69
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 13,
+              "face_name": "confident"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 870,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh06_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            -1.688,
+            -9.075,
+            2.2
+          ],
+          "camera_rot_deg": [
+            101.28,
+            -0.0,
+            -10.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.053,
+                0.777,
+                5.533
+              ],
+              "hand_r": [
+                -2.121,
+                1.201,
+                2.563
+              ],
+              "hand_l": [
+                2.229,
+                0.402,
+                2.533
+              ],
+              "foot_r": [
+                -0.492,
+                0.587,
+                0.45
+              ],
+              "foot_l": [
+                0.492,
+                0.413,
+                0.45
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -3.51,
+                  0.0,
+                  -0.33
+                ],
+                "head": [
+                  -5.47,
+                  1.52,
+                  0.49
+                ],
+                "upper_arm.L": [
+                  11.39,
+                  0.0,
+                  -29.01
+                ],
+                "upper_arm.R": [
+                  12.61,
+                  0.0,
+                  29.01
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 13,
+              "face_name": "confident"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 953,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh06_end.png",
+        "telemetry": {
+          "camera_loc": [
+            -1.688,
+            -9.075,
+            2.95
+          ],
+          "camera_rot_deg": [
+            97.04,
+            -0.0,
+            -10.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.052,
+                0.85,
+                5.526
+              ],
+              "hand_r": [
+                -2.171,
+                1.153,
+                2.526
+              ],
+              "hand_l": [
+                2.271,
+                0.449,
+                2.596
+              ],
+              "foot_r": [
+                -0.492,
+                0.587,
+                0.45
+              ],
+              "foot_l": [
+                0.492,
+                0.413,
+                0.45
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -5.2,
+                  0.0,
+                  0.8
+                ],
+                "head": [
+                  -4.81,
+                  -4.76,
+                  -1.2
+                ],
+                "upper_arm.L": [
+                  13.5,
+                  0.0,
+                  -30.7
+                ],
+                "upper_arm.R": [
+                  10.5,
+                  0.0,
+                  30.7
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 13,
+              "face_name": "confident"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "sh07",
+    "start_frame": 955,
+    "end_frame": 1106,
+    "samples": {
+      "start": {
+        "frame": 956,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh07_start.png",
+        "telemetry": {
+          "camera_loc": [
+            7.429,
+            3.523,
+            4.231
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            112.14
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                -0.013,
+                0.474,
+                5.55
+              ],
+              "hand_r": [
+                1.929,
+                -0.377,
+                3.889
+              ],
+              "hand_l": [
+                -0.591,
+                1.952,
+                2.373
+              ],
+              "foot_r": [
+                0.244,
+                0.064,
+                0.45
+              ],
+              "foot_l": [
+                -0.244,
+                0.936,
+                0.45
+              ],
+              "heading_deg": 119.2,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -0.92,
+                  -8.0,
+                  0.79
+                ],
+                "head": [
+                  1.02,
+                  -6.85,
+                  -1.19
+                ],
+                "upper_arm.L": [
+                  1.15,
+                  0.0,
+                  -2.42
+                ],
+                "upper_arm.R": [
+                  -91.49,
+                  0.0,
+                  2.42
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 8,
+              "face_name": "neutral"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 1031,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh07_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            6.589,
+            3.181,
+            4.177
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            112.14
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.043,
+                0.535,
+                5.549
+              ],
+              "hand_r": [
+                1.955,
+                -0.334,
+                3.803
+              ],
+              "hand_l": [
+                -0.513,
+                1.914,
+                2.329
+              ],
+              "foot_r": [
+                0.244,
+                0.064,
+                0.45
+              ],
+              "foot_l": [
+                -0.244,
+                0.936,
+                0.45
+              ],
+              "heading_deg": 119.2,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  1.19,
+                  -8.0,
+                  -0.79
+                ],
+                "head": [
+                  -0.08,
+                  -9.11,
+                  1.19
+                ],
+                "upper_arm.L": [
+                  -1.49,
+                  0.0,
+                  -0.31
+                ],
+                "upper_arm.R": [
+                  -88.51,
+                  0.0,
+                  0.31
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 8,
+              "face_name": "neutral"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 1105,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh07_end.png",
+        "telemetry": {
+          "camera_loc": [
+            5.765,
+            2.846,
+            4.123
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            112.14
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.009,
+                0.526,
+                5.549
+              ],
+              "hand_r": [
+                1.955,
+                -0.334,
+                3.803
+              ],
+              "hand_l": [
+                -0.512,
+                1.914,
+                2.329
+              ],
+              "foot_r": [
+                0.244,
+                0.064,
+                0.45
+              ],
+              "foot_l": [
+                -0.244,
+                0.936,
+                0.45
+              ],
+              "heading_deg": 119.2,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  1.2,
+                  -8.0,
+                  -0.8
+                ],
+                "head": [
+                  -1.95,
+                  -6.48,
+                  1.2
+                ],
+                "upper_arm.L": [
+                  -1.5,
+                  0.0,
+                  -0.3
+                ],
+                "upper_arm.R": [
+                  -88.5,
+                  0.0,
+                  0.3
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 8,
+              "face_name": "neutral"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "sh08",
+    "start_frame": 1107,
+    "end_frame": 1232,
+    "samples": {
+      "start": {
+        "frame": 1108,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh08_start.png",
+        "telemetry": {
+          "camera_loc": [
+            -2.11,
+            -11.468,
+            4.879
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            -10.0
+          ],
+          "characters": {
+            "Dev": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.156,
+                1.004,
+                5.605
+              ],
+              "hand_r": [
+                -1.976,
+                -0.388,
+                3.597
+              ],
+              "hand_l": [
+                1.617,
+                -1.003,
+                3.467
+              ],
+              "foot_r": [
+                -0.612,
+                0.745,
+                0.461
+              ],
+              "foot_l": [
+                0.599,
+                0.189,
+                0.467
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -11.71,
+                  0.11,
+                  -1.46
+                ],
+                "head": [
+                  3.99,
+                  0.18,
+                  0.38
+                ],
+                "upper_arm.L": [
+                  -61.43,
+                  -0.48,
+                  -23.35
+                ],
+                "upper_arm.R": [
+                  -63.04,
+                  2.11,
+                  20.23
+                ],
+                "upper_leg.L": [
+                  -6.0,
+                  0.0,
+                  -4.0
+                ],
+                "upper_leg.R": [
+                  4.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 7,
+              "face_name": "sad"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 1170,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh08_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            -1.871,
+            -10.112,
+            4.797
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            -10.0
+          ],
+          "characters": {
+            "Dev": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.031,
+                0.927,
+                5.619
+              ],
+              "hand_r": [
+                -2.032,
+                -0.327,
+                3.451
+              ],
+              "hand_l": [
+                1.534,
+                -1.064,
+                3.511
+              ],
+              "foot_r": [
+                -0.612,
+                0.745,
+                0.461
+              ],
+              "foot_l": [
+                0.599,
+                0.189,
+                0.467
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -10.44,
+                  -1.66,
+                  0.71
+                ],
+                "head": [
+                  5.71,
+                  0.36,
+                  1.06
+                ],
+                "upper_arm.L": [
+                  -61.56,
+                  -1.26,
+                  -21.84
+                ],
+                "upper_arm.R": [
+                  -61.21,
+                  -0.2,
+                  23.01
+                ],
+                "upper_leg.L": [
+                  -6.0,
+                  0.0,
+                  -4.0
+                ],
+                "upper_leg.R": [
+                  4.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 7,
+              "face_name": "sad"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 1231,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh08_end.png",
+        "telemetry": {
+          "camera_loc": [
+            -1.638,
+            -8.788,
+            4.716
+          ],
+          "camera_rot_deg": [
+            86.57,
+            0.0,
+            -10.0
+          ],
+          "characters": {
+            "Dev": {
+              "root": [
+                0.0,
+                0.5,
+                0.35
+              ],
+              "head": [
+                0.175,
+                0.968,
+                5.605
+              ],
+              "hand_r": [
+                -1.987,
+                -0.299,
+                3.608
+              ],
+              "hand_l": [
+                1.501,
+                -1.076,
+                3.576
+              ],
+              "foot_r": [
+                -0.612,
+                0.745,
+                0.461
+              ],
+              "foot_l": [
+                0.599,
+                0.189,
+                0.467
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -12.54,
+                  -2.59,
+                  -0.65
+                ],
+                "head": [
+                  7.68,
+                  -2.12,
+                  -2.13
+                ],
+                "upper_arm.L": [
+                  -64.27,
+                  -1.48,
+                  -20.7
+                ],
+                "upper_arm.R": [
+                  -64.27,
+                  0.94,
+                  19.68
+                ],
+                "upper_leg.L": [
+                  -6.0,
+                  0.0,
+                  -4.0
+                ],
+                "upper_leg.R": [
+                  4.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 7,
+              "face_name": "sad"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "sh09",
+    "start_frame": 1233,
+    "end_frame": 1418,
+    "samples": {
+      "start": {
+        "frame": 1234,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh09_start.png",
+        "telemetry": {
+          "camera_loc": [
+            9.496,
+            -0.501,
+            4.154
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            -6.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                10.2,
+                6.2,
+                0.35
+              ],
+              "head": [
+                10.186,
+                6.214,
+                5.549
+              ],
+              "hand_r": [
+                8.639,
+                6.328,
+                2.331
+              ],
+              "hand_l": [
+                11.769,
+                6.068,
+                2.373
+              ],
+              "foot_r": [
+                9.703,
+                6.252,
+                0.45
+              ],
+              "foot_l": [
+                10.697,
+                6.148,
+                0.45
+              ],
+              "heading_deg": -6.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -1.19,
+                  0.0,
+                  0.79
+                ],
+                "head": [
+                  2.5,
+                  2.24,
+                  -1.19
+                ],
+                "upper_arm.L": [
+                  1.49,
+                  0.0,
+                  -2.69
+                ],
+                "upper_arm.R": [
+                  -1.15,
+                  0.0,
+                  2.69
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 3,
+              "face_name": "shocked"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 1326,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh09_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            11.339,
+            -0.175,
+            4.154
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            10.13
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                10.2,
+                6.2,
+                0.35
+              ],
+              "head": [
+                10.191,
+                6.214,
+                5.55
+              ],
+              "hand_r": [
+                8.65,
+                6.335,
+                2.338
+              ],
+              "hand_l": [
+                11.755,
+                6.057,
+                2.365
+              ],
+              "foot_r": [
+                9.703,
+                6.252,
+                0.45
+              ],
+              "foot_l": [
+                10.697,
+                6.148,
+                0.45
+              ],
+              "heading_deg": -6.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -0.74,
+                  0.0,
+                  0.49
+                ],
+                "head": [
+                  1.29,
+                  0.61,
+                  -0.74
+                ],
+                "upper_arm.L": [
+                  0.93,
+                  0.0,
+                  -2.24
+                ],
+                "upper_arm.R": [
+                  -0.93,
+                  0.0,
+                  2.24
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 3,
+              "face_name": "shocked"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 1417,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh09_end.png",
+        "telemetry": {
+          "camera_loc": [
+            13.153,
+            0.144,
+            4.154
+          ],
+          "camera_rot_deg": [
+            86.57,
+            -0.0,
+            26.0
+          ],
+          "characters": {
+            "Aiko": {
+              "root": [
+                10.2,
+                6.2,
+                0.35
+              ],
+              "head": [
+                10.211,
+                6.141,
+                5.549
+              ],
+              "hand_r": [
+                8.701,
+                6.403,
+                2.373
+              ],
+              "hand_l": [
+                11.692,
+                6.01,
+                2.329
+              ],
+              "foot_r": [
+                9.703,
+                6.252,
+                0.45
+              ],
+              "foot_l": [
+                10.697,
+                6.148,
+                0.45
+              ],
+              "heading_deg": -6.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  1.2,
+                  0.0,
+                  -0.8
+                ],
+                "head": [
+                  -0.16,
+                  0.75,
+                  1.2
+                ],
+                "upper_arm.L": [
+                  -1.5,
+                  0.0,
+                  -0.3
+                ],
+                "upper_arm.R": [
+                  1.5,
+                  0.0,
+                  0.3
+                ],
+                "upper_leg.L": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "upper_leg.R": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "scale": 1.0,
+              "face": 3,
+              "face_name": "shocked"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      }
+    }
+  },
+  {
+    "id": "sh10",
+    "start_frame": 1419,
+    "end_frame": 1607,
+    "samples": {
+      "start": {
+        "frame": 1420,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh10_start.png",
+        "telemetry": {
+          "camera_loc": [
+            8.153,
+            3.141,
+            4.979
+          ],
+          "camera_rot_deg": [
+            86.47,
+            -9.99,
+            -9.44
+          ],
+          "characters": {
+            "Dev": {
+              "root": [
+                8.67,
+                6.2,
+                0.35
+              ],
+              "head": [
+                8.729,
+                6.626,
+                5.618
+              ],
+              "hand_r": [
+                6.655,
+                5.309,
+                3.515
+              ],
+              "hand_l": [
+                10.266,
+                4.695,
+                3.504
+              ],
+              "foot_r": [
+                8.058,
+                6.445,
+                0.461
+              ],
+              "foot_l": [
+                9.269,
+                5.889,
+                0.467
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -10.92,
+                  0.0,
+                  0.79
+                ],
+                "head": [
+                  6.76,
+                  2.85,
+                  -0.92
+                ],
+                "upper_arm.L": [
+                  -60.51,
+                  0.0,
+                  -24.69
+                ],
+                "upper_arm.R": [
+                  -63.15,
+                  0.0,
+                  24.69
+                ],
+                "upper_leg.L": [
+                  -6.0,
+                  0.0,
+                  -4.0
+                ],
+                "upper_leg.R": [
+                  4.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 2,
+              "face_name": "worried"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "mid": {
+        "frame": 1513,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh10_mid.png",
+        "telemetry": {
+          "camera_loc": [
+            8.193,
+            3.212,
+            4.999
+          ],
+          "camera_rot_deg": [
+            86.65,
+            -9.85,
+            -9.31
+          ],
+          "characters": {
+            "Dev": {
+              "root": [
+                8.67,
+                6.2,
+                0.35
+              ],
+              "head": [
+                8.733,
+                6.589,
+                5.62
+              ],
+              "hand_r": [
+                6.66,
+                5.307,
+                3.517
+              ],
+              "hand_l": [
+                10.261,
+                4.69,
+                3.503
+              ],
+              "foot_r": [
+                8.058,
+                6.445,
+                0.461
+              ],
+              "foot_l": [
+                9.269,
+                5.889,
+                0.467
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -10.85,
+                  0.0,
+                  0.57
+                ],
+                "head": [
+                  8.37,
+                  2.49,
+                  -0.85
+                ],
+                "upper_arm.L": [
+                  -60.94,
+                  0.0,
+                  -24.35
+                ],
+                "upper_arm.R": [
+                  -63.06,
+                  0.0,
+                  24.35
+                ],
+                "upper_leg.L": [
+                  -6.0,
+                  0.0,
+                  -4.0
+                ],
+                "upper_leg.R": [
+                  4.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 2,
+              "face_name": "worried"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      },
+      "end": {
+        "frame": 1606,
+        "png": "D:\\ai-video\\ROBLOX ANIMATION\\runs\\upgrades\\phase_04_cinematics_showcase\\render\\motion_sheet\\sh10_end.png",
+        "telemetry": {
+          "camera_loc": [
+            8.162,
+            3.224,
+            4.97
+          ],
+          "camera_rot_deg": [
+            86.43,
+            -10.03,
+            -9.46
+          ],
+          "characters": {
+            "Dev": {
+              "root": [
+                8.67,
+                6.2,
+                0.35
+              ],
+              "head": [
+                8.756,
+                6.543,
+                5.63
+              ],
+              "hand_r": [
+                6.677,
+                5.297,
+                3.446
+              ],
+              "hand_l": [
+                10.223,
+                4.644,
+                3.466
+              ],
+              "foot_r": [
+                8.058,
+                6.445,
+                0.461
+              ],
+              "foot_l": [
+                9.269,
+                5.889,
+                0.467
+              ],
+              "heading_deg": -10.0,
+              "bone_rotations_deg": {
+                "hips": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "spine": [
+                  -8.8,
+                  0.0,
+                  -0.8
+                ],
+                "head": [
+                  5.15,
+                  4.38,
+                  1.2
+                ],
+                "upper_arm.L": [
+                  -63.5,
+                  0.0,
+                  -22.3
+                ],
+                "upper_arm.R": [
+                  -60.5,
+                  0.0,
+                  22.3
+                ],
+                "upper_leg.L": [
+                  -6.0,
+                  0.0,
+                  -4.0
+                ],
+                "upper_leg.R": [
+                  4.0,
+                  0.0,
+                  4.0
+                ]
+              },
+              "scale": 1.02,
+              "face": 2,
+              "face_name": "worried"
+            }
+          },
+          "character_distances": {},
+          "visible_hand_props": {},
+          "visible_world_props": []
+        }
+      }
+    }
+  }
+]

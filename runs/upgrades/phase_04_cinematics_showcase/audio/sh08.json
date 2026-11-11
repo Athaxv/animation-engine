@@ -1,0 +1,68 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Night falls as torrential rain pours down under the pale moonlit sky.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 4.272,
+ "words": [
+  [
+   "Night",
+   0.093,
+   0.301
+  ],
+  [
+   "falls",
+   0.312,
+   0.648
+  ],
+  [
+   "as",
+   0.66,
+   0.775
+  ],
+  [
+   "torrential",
+   0.787,
+   1.308
+  ],
+  [
+   "rain",
+   1.319,
+   1.539
+  ],
+  [
+   "pours",
+   1.551,
+   1.863
+  ],
+  [
+   "down",
+   1.875,
+   2.303
+  ],
+  [
+   "under",
+   2.407,
+   2.581
+  ],
+  [
+   "the",
+   2.593,
+   2.662
+  ],
+  [
+   "pale",
+   2.674,
+   3.021
+  ],
+  [
+   "moonlit",
+   3.032,
+   3.461
+  ],
+  [
+   "sky",
+   3.472,
+   3.924
+  ]
+ ]
+}

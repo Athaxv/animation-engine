@@ -1,0 +1,78 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|At golden hour, the town square plaza rests under an atmospheric amber sunset haze.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 5.28,
+ "words": [
+  [
+   "At",
+   0.093,
+   0.231
+  ],
+  [
+   "golden",
+   0.243,
+   0.579
+  ],
+  [
+   "hour",
+   0.59,
+   0.88
+  ],
+  [
+   "the",
+   1.1,
+   1.181
+  ],
+  [
+   "town",
+   1.192,
+   1.458
+  ],
+  [
+   "square",
+   1.47,
+   1.782
+  ],
+  [
+   "plaza",
+   1.794,
+   2.118
+  ],
+  [
+   "rests",
+   2.13,
+   2.593
+  ],
+  [
+   "under",
+   2.604,
+   2.836
+  ],
+  [
+   "an",
+   2.847,
+   2.963
+  ],
+  [
+   "atmospheric",
+   3.032,
+   3.75
+  ],
+  [
+   "amber",
+   3.819,
+   4.074
+  ],
+  [
+   "sunset",
+   4.086,
+   4.491
+  ],
+  [
+   "haze",
+   4.502,
+   4.942
+  ]
+ ]
+}

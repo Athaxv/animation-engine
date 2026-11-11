@@ -1,0 +1,78 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|A heroic low angle view showcases Aiko standing proud against the dramatic twilight sky.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 5.688,
+ "words": [
+  [
+   "A",
+   0.081,
+   0.127
+  ],
+  [
+   "heroic",
+   0.139,
+   0.637
+  ],
+  [
+   "low",
+   0.648,
+   0.961
+  ],
+  [
+   "angle",
+   1.018,
+   1.331
+  ],
+  [
+   "view",
+   1.343,
+   1.597
+  ],
+  [
+   "showcases",
+   1.609,
+   2.315
+  ],
+  [
+   "Aiko",
+   2.326,
+   2.72
+  ],
+  [
+   "standing",
+   2.732,
+   3.183
+  ],
+  [
+   "proud",
+   3.194,
+   3.588
+  ],
+  [
+   "against",
+   3.669,
+   3.935
+  ],
+  [
+   "the",
+   3.947,
+   4.028
+  ],
+  [
+   "dramatic",
+   4.039,
+   4.468
+  ],
+  [
+   "twilight",
+   4.479,
+   4.942
+  ],
+  [
+   "sky",
+   4.954,
+   5.347
+  ]
+ ]
+}

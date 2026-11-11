@@ -195,6 +195,24 @@ def validate_detailed(ep_dir):
         if s.get("dressing") and s["dressing"] not in cat["sets"][st]["dressings"]:
             add_err(f"{P} dressing {s['dressing']!r} not in {cat['sets'][st]['dressings']}", sid)
 
+        # Phase 04: Cinematic lighting, weather, and VFX validation
+        lighting = s.get("lighting")
+        if lighting:
+            lmood = lighting.get("mood") if isinstance(lighting, dict) else lighting
+            if lmood not in V.LIGHTING_MOODS:
+                add_err(f"{P} lighting.mood {lmood!r} not in {V.LIGHTING_MOODS}", sid)
+
+        weather = s.get("weather")
+        if weather and weather not in V.WEATHER_TYPES:
+            add_err(f"{P} weather {weather!r} not in {V.WEATHER_TYPES}", sid)
+
+        vfx = s.get("vfx", [])
+        if isinstance(vfx, str):
+            vfx = [vfx]
+        for v in vfx:
+            if v not in V.VFX_TYPES:
+                add_err(f"{P} vfx {v!r} not in {V.VFX_TYPES}", sid)
+
         text = (s.get("text") or "").strip()
         spk = s.get("speaker", "narrator")
         if spk not in speakers:

@@ -1,0 +1,73 @@
+{
+ "key": "en-US-AndrewNeural|+8%|+0Hz|Aiko strolls across the plaza as autumn leaves drift through the evening breeze.",
+ "engine": "edge",
+ "speaker": "narrator",
+ "audio_len": 4.56,
+ "words": [
+  [
+   "Aiko",
+   0.093,
+   0.382
+  ],
+  [
+   "strolls",
+   0.394,
+   0.799
+  ],
+  [
+   "across",
+   0.81,
+   1.157
+  ],
+  [
+   "the",
+   1.169,
+   1.25
+  ],
+  [
+   "plaza",
+   1.262,
+   1.725
+  ],
+  [
+   "as",
+   1.736,
+   1.875
+  ],
+  [
+   "autumn",
+   1.887,
+   2.245
+  ],
+  [
+   "leaves",
+   2.257,
+   2.546
+  ],
+  [
+   "drift",
+   2.558,
+   2.975
+  ],
+  [
+   "through",
+   3.09,
+   3.252
+  ],
+  [
+   "the",
+   3.264,
+   3.322
+  ],
+  [
+   "evening",
+   3.333,
+   3.681
+  ],
+  [
+   "breeze",
+   3.692,
+   4.201
+  ]
+ ]
+}

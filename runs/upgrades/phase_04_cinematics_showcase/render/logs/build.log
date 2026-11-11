@@ -1,0 +1,7 @@
+D:\ai-video\ROBLOX ANIMATION\pipeline\episode.py:201: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w = bpy.data.worlds.new("EP_World"); w.use_nodes = True
+Info: Saved as "phase_04_cinematics_showcase.blend"
+BUILT D:\ai-video\ROBLOX ANIMATION\runs\upgrades\phase_04_cinematics_showcase\phase_04_cinematics_showcase.blend 1607 frames
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

@@ -76,11 +76,18 @@ ACTIONS = {
 # persistent per-character state a cast entry or a change may set
 STATE_KEYS = {"pose", "face", "scale", "tint", "props", "action"}
 
-CAMERA_SHOTS = ["extreme_wide", "wide", "medium", "medium_close", "close_up", "extreme_close_up",
-                "two_shot", "group", "over_shoulder", "insert"]
-CAMERA_ANGLES = ["eye", "low", "high", "top", "dutch"]
-CAMERA_MOVES = ["static", "push_in", "pull_out", "pan_left", "pan_right", "orbit_left", "orbit_right",
-                "track", "whip_in", "crash_zoom", "shake"]
+CAMERA_SHOTS = ["extreme_wide", "wide", "establishing", "full_body", "medium", "medium_close", "close_up", "extreme_close_up",
+                "two_shot", "group", "over_shoulder", "pov", "insert"]
+CAMERA_ANGLES = ["eye", "low", "high", "top", "birds_eye", "dutch"]
+CAMERA_MOVES = ["static", "push_in", "pull_out", "dolly_in", "dolly_out", "pan_left", "pan_right",
+                "truck_left", "truck_right", "tilt_up", "tilt_down", "crane_up", "crane_down",
+                "orbit_left", "orbit_right", "track", "follow", "establishing_pan", "whip_in", "crash_zoom", "shake", "handheld"]
+LIGHTING_MOODS = [
+    "bright_day", "soft_afternoon", "golden_hour", "sunset", "blue_hour", "nighttime",
+    "moonlit_night", "indoor_daylight", "warm_bedroom", "school_office", "horror", "fantasy_magical"
+]
+WEATHER_TYPES = ["clear", "rain", "snow", "falling_leaves", "windy"]
+VFX_TYPES = ["fog", "haze", "sparks", "portal", "energy_burst", "smoke_puff", "light_beams"]
 FACINGS = ["camera", "left", "right", "away", "<character name>", "<mark name>"]
 TRANSITIONS = ["cut", "whip", "flash", "fade_black", "glitch"]
 FX = {
@@ -218,6 +225,9 @@ def cheat_sheet():
         L.append(f"- `{k}`: {v}")
     L.append(f"\n## Camera\n- shot: {', '.join(CAMERA_SHOTS)}\n- angle: {', '.join(CAMERA_ANGLES)}"
              f"\n- move: {', '.join(CAMERA_MOVES)}\n- target: a cast name, a mark, or a placed prop id")
+    L.append(f"\n## Lighting Moods (Phase 4 Cinematic Engine)\n{', '.join(LIGHTING_MOODS)}")
+    L.append(f"\n## Weather Types\n{', '.join(WEATHER_TYPES)}")
+    L.append(f"\n## VFX Types\n{', '.join(VFX_TYPES)}")
     L.append(f"\n## Facing\n{', '.join(FACINGS)}")
     L.append(f"\n## Transitions (into the NEXT shot)\n{', '.join(TRANSITIONS)}")
     L.append("\n## FX")
